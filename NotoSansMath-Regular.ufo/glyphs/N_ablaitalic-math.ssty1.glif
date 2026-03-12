@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nablaitalic-math.ssty1" format="2">
+  <advance width="709"/>
+  <anchor x="455" y="357" name="center"/>
+  <anchor x="382" y="0" name="math.ta"/>
+  <anchor x="756" y="0" name="math.ic"/>
+  <outline>
+    <component base="Deltaitalic-math.ssty1" xScale="-1.0" yScale="-1.0" xOffset="709" yOffset="714"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="product.s01" format="2">
+  <advance width="1243"/>
+  <anchor x="622" y="237" name="center"/>
+  <outline>
+    <component base="coproduct.s01" yScale="-1" yOffset="474"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

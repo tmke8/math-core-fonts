@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squareRightOpenBoxOperator" format="2">
+  <advance width="1055"/>
+  <unicode hex="2ACE"/>
+  <anchor x="527" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="533" y="4" type="line"/>
+      <point x="1004" y="4" type="line"/>
+      <point x="1004" y="546" type="line"/>
+      <point x="51" y="546" type="line"/>
+      <point x="51" y="475" type="line"/>
+      <point x="933" y="475" type="line"/>
+      <point x="933" y="75" type="line"/>
+      <point x="533" y="75" type="line"/>
+    </contour>
+  </outline>
+</glyph>

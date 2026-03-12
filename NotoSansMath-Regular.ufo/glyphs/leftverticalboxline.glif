@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftverticalboxline" format="2">
+  <advance width="866"/>
+  <unicode hex="23B8"/>
+  <outline>
+    <component base="rightverticalboxline" xOffset="-456"/>
+  </outline>
+</glyph>

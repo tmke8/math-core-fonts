@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronitalic-math.ssty1" format="2">
+  <advance width="621"/>
+  <anchor x="370" y="272" name="center"/>
+  <anchor x="355" y="0" name="math.ta"/>
+  <outline>
+    <component base="osansitalic-math.ssty1"/>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger.ssty1" format="2">
+  <advance width="515"/>
+  <anchor x="258" y="380" name="center"/>
+  <outline>
+    <contour>
+      <point x="190" y="0" type="line"/>
+      <point x="315" y="0" type="line"/>
+      <point x="289" y="478" type="line"/>
+      <point x="454" y="463" type="line"/>
+      <point x="454" y="571" type="line"/>
+      <point x="289" y="556" type="line"/>
+      <point x="315" y="760" type="line"/>
+      <point x="190" y="760" type="line"/>
+      <point x="216" y="556" type="line"/>
+      <point x="62" y="571" type="line"/>
+      <point x="62" y="463" type="line"/>
+      <point x="216" y="478" type="line"/>
+    </contour>
+  </outline>
+</glyph>

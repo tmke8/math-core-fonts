@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam.ssty2" format="2">
+  <advance width="281"/>
+  <anchor x="140" y="350" name="center"/>
+  <outline>
+    <contour>
+      <point x="91" y="226" type="line"/>
+      <point x="191" y="226" type="line"/>
+      <point x="216" y="714" type="line"/>
+      <point x="66" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="-13" type="curve" smooth="yes"/>
+      <point x="182" y="-13"/>
+      <point x="218" y="9"/>
+      <point x="218" y="65" type="curve" smooth="yes"/>
+      <point x="218" y="122"/>
+      <point x="182" y="143"/>
+      <point x="140" y="143" type="curve" smooth="yes"/>
+      <point x="96" y="143"/>
+      <point x="62" y="122"/>
+      <point x="62" y="65" type="curve" smooth="yes"/>
+      <point x="62" y="9"/>
+      <point x="96" y="-13"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ydoubleStruck.ssty2" format="2">
+  <advance width="736"/>
+  <anchor x="368" y="148" name="center"/>
+  <anchor x="362" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="220" y="-240" type="curve" smooth="yes"/>
+      <point x="298" y="-240"/>
+      <point x="371" y="-205"/>
+      <point x="424" y="-96" type="curve" smooth="yes"/>
+      <point x="731" y="536" type="line"/>
+      <point x="648" y="536" type="line"/>
+      <point x="435" y="98" type="line"/>
+      <point x="227" y="536" type="line"/>
+      <point x="5" y="536" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="388" y="0" type="line"/>
+      <point x="354" y="-70" type="line" smooth="yes"/>
+      <point x="321" y="-138"/>
+      <point x="272" y="-167"/>
+      <point x="220" y="-167" type="curve" smooth="yes"/>
+      <point x="183" y="-167"/>
+      <point x="154" y="-161"/>
+      <point x="130" y="-154" type="curve"/>
+      <point x="124" y="-226" type="line"/>
+      <point x="140" y="-233"/>
+      <point x="183" y="-240"/>
+    </contour>
+    <contour>
+      <point x="312" y="73" type="line"/>
+      <point x="124" y="463" type="line"/>
+      <point x="180" y="463" type="line"/>
+      <point x="369" y="73" type="line"/>
+    </contour>
+  </outline>
+</glyph>

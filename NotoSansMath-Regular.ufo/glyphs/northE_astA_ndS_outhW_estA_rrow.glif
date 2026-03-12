@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northEastAndSouthWestArrow" format="2">
+  <advance width="849"/>
+  <unicode hex="2922"/>
+  <anchor x="424" y="278" name="center"/>
+  <outline>
+    <component base="leftRightArrow" xScale="0.7071067811865476" xyScale="0.7071067811865475" yxScale="-0.7071067811865475" yScale="0.7071067811865476" xOffset="222" yOffset="-319"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zetasansbold-math" format="2">
+  <advance width="601"/>
+  <unicode hex="1D75B"/>
+  <unicode hex="1D6AD"/>
+  <anchor x="303" y="359" name="center"/>
+  <anchor x="312" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="18" y="0" type="line"/>
+      <point x="580" y="0" type="line"/>
+      <point x="580" y="130" type="line"/>
+      <point x="197" y="130" type="line"/>
+      <point x="589" y="594" type="line"/>
+      <point x="589" y="719" type="line"/>
+      <point x="26" y="719" type="line"/>
+      <point x="26" y="589" type="line"/>
+      <point x="409" y="589" type="line"/>
+      <point x="18" y="125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

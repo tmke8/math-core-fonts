@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="volumeintegral.rtlm" format="2">
+  <advance width="1514"/>
+  <anchor x="779" y="0" name="#exit"/>
+  <anchor x="440" y="0" name="#entry"/>
+  <anchor x="757" y="328" name="center"/>
+  <anchor x="1708" y="0" name="math.ic"/>
+  <outline>
+    <component base="volumeintegral" xScale="-1" xOffset="1514"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>volumeintegral.rtlm</string>
+          <string>volumeintegral.rtlm.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>volumeintegral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

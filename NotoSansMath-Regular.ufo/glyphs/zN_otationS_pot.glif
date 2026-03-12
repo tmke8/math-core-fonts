@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zNotationSpot" format="2">
+  <advance width="406"/>
+  <unicode hex="2981"/>
+  <anchor x="203" y="278" name="_center"/>
+  <anchor x="203" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="203" y="126" type="curve" smooth="yes"/>
+      <point x="288" y="126"/>
+      <point x="355" y="194"/>
+      <point x="355" y="278" type="curve" smooth="yes"/>
+      <point x="355" y="362"/>
+      <point x="287" y="430"/>
+      <point x="203" y="430" type="curve" smooth="yes"/>
+      <point x="121" y="430"/>
+      <point x="51" y="363"/>
+      <point x="51" y="278" type="curve" smooth="yes"/>
+      <point x="51" y="194"/>
+      <point x="120" y="126"/>
+    </contour>
+  </outline>
+</glyph>

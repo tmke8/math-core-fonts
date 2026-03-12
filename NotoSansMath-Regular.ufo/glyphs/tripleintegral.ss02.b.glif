@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleintegral.ss02.b" format="2">
+  <advance width="990"/>
+  <anchor x="518" y="0" name="#entry"/>
+  <anchor x="777" y="0" name="#exit"/>
+  <anchor x="422" y="681" name="center"/>
+  <outline>
+    <component base="integral.ss02.b"/>
+    <component base="integral.ss02.b" xOffset="259"/>
+    <component base="integral.ss02.b" xOffset="518"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.ss02.b</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

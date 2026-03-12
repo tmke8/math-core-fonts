@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftpointingcurvedanglebracket" format="2">
+  <advance width="456"/>
+  <unicode hex="29FC"/>
+  <anchor x="228" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="329" y="-158" type="curve"/>
+      <point x="404" y="-158" type="line"/>
+      <point x="380" y="-22"/>
+      <point x="263" y="208"/>
+      <point x="161" y="311" type="curve"/>
+      <point x="161" y="315" type="line"/>
+      <point x="264" y="418"/>
+      <point x="381" y="649"/>
+      <point x="405" y="784" type="curve"/>
+      <point x="330" y="784" type="line"/>
+      <point x="291" y="631"/>
+      <point x="162" y="407"/>
+      <point x="51" y="336" type="curve"/>
+      <point x="51" y="290" type="line"/>
+      <point x="166" y="215"/>
+      <point x="291" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>leftpointingcurvedanglebracket</string>
+          <string>leftpointingcurvedanglebracket.s01</string>
+          <string>leftpointingcurvedanglebracket.s02</string>
+          <string>leftpointingcurvedanglebracket.s03</string>
+          <string>leftpointingcurvedanglebracket.s04</string>
+          <string>leftpointingcurvedanglebracket.s05</string>
+          <string>leftpointingcurvedanglebracket.s06</string>
+          <string>leftpointingcurvedanglebracket.s07</string>
+          <string>leftpointingcurvedanglebracket.s08</string>
+          <string>leftpointingcurvedanglebracket.s09</string>
+          <string>leftpointingcurvedanglebracket.s10</string>
+          <string>leftpointingcurvedanglebracket.s11</string>
+          <string>leftpointingcurvedanglebracket.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

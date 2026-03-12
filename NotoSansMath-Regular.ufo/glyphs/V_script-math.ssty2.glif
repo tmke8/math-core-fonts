@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Vscript-math.ssty2" format="2">
+  <advance width="825"/>
+  <anchor x="425" y="356" name="center"/>
+  <anchor x="860" y="0" name="math.ic"/>
+  <anchor x="654" y="0" name="math.ta"/>
+  <outline>
+    <component base="Vboldscript-math"/>
+  </outline>
+</glyph>

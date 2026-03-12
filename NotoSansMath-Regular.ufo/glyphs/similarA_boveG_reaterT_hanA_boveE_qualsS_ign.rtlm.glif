@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="similarAboveGreaterThanAboveEqualsSign.rtlm" format="2">
+  <advance width="572"/>
+  <anchor x="286" y="274" name="center"/>
+  <outline>
+    <component base="similarAboveGreaterThanAboveEqualsSign" xScale="-1" xOffset="572"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>similarAboveGreaterThanAboveEqualsSign</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

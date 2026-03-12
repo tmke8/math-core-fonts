@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta.ssty1" format="2">
+  <advance width="804"/>
+  <anchor x="401" y="357" name="center"/>
+  <anchor x="401" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="265" y="308" type="line"/>
+      <point x="534" y="308" type="line"/>
+      <point x="534" y="418" type="line"/>
+      <point x="265" y="418" type="line"/>
+    </contour>
+    <component base="O.ssty1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

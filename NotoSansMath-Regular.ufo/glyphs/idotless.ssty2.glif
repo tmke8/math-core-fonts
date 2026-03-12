@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.ssty2" format="2">
+  <advance width="350"/>
+  <anchor x="192" y="272" name="center"/>
+  <anchor x="175" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="119" y="0" type="line"/>
+      <point x="265" y="0" type="line"/>
+      <point x="265" y="545" type="line"/>
+      <point x="119" y="545" type="line"/>
+    </contour>
+  </outline>
+</glyph>

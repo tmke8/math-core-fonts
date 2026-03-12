@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical" format="2">
+  <advance width="679"/>
+  <unicode hex="221A"/>
+  <anchor x="380" y="528" name="center"/>
+  <outline>
+    <contour>
+      <point x="274" y="0" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="710" y="1057" type="line"/>
+      <point x="639" y="1057" type="line"/>
+      <point x="307" y="121" type="line"/>
+      <point x="194" y="450" type="line"/>
+      <point x="51" y="450" type="line"/>
+      <point x="51" y="380" type="line"/>
+      <point x="139" y="380" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>radical.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1333</integer>
+          </array>
+          <array>
+            <string>radical.x</string>
+            <integer>1</integer>
+            <integer>1070</integer>
+            <integer>1070</integer>
+          </array>
+          <array>
+            <string>radical.t</string>
+            <integer>0</integer>
+            <integer>998</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>radical</string>
+          <string>radical.s01</string>
+          <string>radical.s02</string>
+          <string>radical.s03</string>
+          <string>radical.s04</string>
+          <string>radical.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

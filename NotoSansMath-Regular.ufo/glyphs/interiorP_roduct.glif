@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="interiorProduct" format="2">
+  <advance width="572"/>
+  <unicode hex="2A3C"/>
+  <anchor x="286" y="258" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="128" type="line"/>
+      <point x="521" y="128" type="line"/>
+      <point x="521" y="388" type="line"/>
+      <point x="450" y="388" type="line"/>
+      <point x="450" y="199" type="line"/>
+      <point x="51" y="199" type="line"/>
+    </contour>
+  </outline>
+</glyph>

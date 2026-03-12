@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightFloor" format="2">
+  <advance width="429"/>
+  <unicode hex="230B"/>
+  <anchor x="181" y="314" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="line"/>
+      <point x="349" y="-158" type="line"/>
+      <point x="349" y="784" type="line"/>
+      <point x="263" y="784" type="line"/>
+      <point x="263" y="-72" type="line"/>
+      <point x="25" y="-72" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>bracketright.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>947</integer>
+          </array>
+          <array>
+            <string>bracketright.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rightFloor</string>
+          <string>rightFloor.s01</string>
+          <string>rightFloor.s02</string>
+          <string>rightFloor.s03</string>
+          <string>rightFloor.s04</string>
+          <string>rightFloor.s05</string>
+          <string>rightFloor.s06</string>
+          <string>rightFloor.s07</string>
+          <string>rightFloor.s08</string>
+          <string>rightFloor.s09</string>
+          <string>rightFloor.s10</string>
+          <string>rightFloor.s11</string>
+          <string>rightFloor.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

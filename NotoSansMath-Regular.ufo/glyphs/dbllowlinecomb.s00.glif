@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dbllowlinecomb.s00" format="2">
+  <advance width="417"/>
+  <anchor x="209" y="0" name="_bottom"/>
+  <anchor x="209" y="-302" name="bottom"/>
+  <outline>
+    <component base="lowlinecomb.s00"/>
+    <component base="lowlinecomb.s00" yOffset="-151"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lowlinecomb.s00</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

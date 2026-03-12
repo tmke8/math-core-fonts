@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bowtieWithRightHalfBlack" format="2">
+  <advance width="739"/>
+  <unicode hex="29D2"/>
+  <anchor x="369" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-51" type="line"/>
+      <point x="370" y="237" type="line"/>
+      <point x="688" y="-51" type="line"/>
+      <point x="688" y="609" type="line"/>
+      <point x="370" y="320" type="line"/>
+      <point x="51" y="609" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="110" type="line"/>
+      <point x="122" y="448" type="line"/>
+      <point x="307" y="279" type="line"/>
+    </contour>
+  </outline>
+</glyph>

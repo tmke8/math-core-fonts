@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightlefttortoiseshellbracketornament" format="2">
+  <advance width="274"/>
+  <unicode hex="2772"/>
+  <outline>
+    <contour>
+      <point x="175" y="-158" type="line"/>
+      <point x="249" y="-158" type="line"/>
+      <point x="166" y="17" type="line"/>
+      <point x="166" y="609" type="line"/>
+      <point x="249" y="784" type="line"/>
+      <point x="175" y="784" type="line"/>
+      <point x="80" y="583" type="line"/>
+      <point x="80" y="43" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>lightlefttortoiseshellbracketornament.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>843</integer>
+          </array>
+          <array>
+            <string>lightlefttortoiseshellbracketornament.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>lightlefttortoiseshellbracketornament.t</string>
+            <integer>0</integer>
+            <integer>843</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>lightlefttortoiseshellbracketornament</string>
+          <string>lightlefttortoiseshellbracketornament.s01</string>
+          <string>lightlefttortoiseshellbracketornament.s02</string>
+          <string>lightlefttortoiseshellbracketornament.s03</string>
+          <string>lightlefttortoiseshellbracketornament.s04</string>
+          <string>lightlefttortoiseshellbracketornament.s05</string>
+          <string>lightlefttortoiseshellbracketornament.s06</string>
+          <string>lightlefttortoiseshellbracketornament.s07</string>
+          <string>lightlefttortoiseshellbracketornament.s08</string>
+          <string>lightlefttortoiseshellbracketornament.s09</string>
+          <string>lightlefttortoiseshellbracketornament.s10</string>
+          <string>lightlefttortoiseshellbracketornament.s11</string>
+          <string>lightlefttortoiseshellbracketornament.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

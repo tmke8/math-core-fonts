@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jmono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D693"/>
+  <anchor x="272" y="257" name="center"/>
+  <anchor x="380" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="382" y="633" type="curve" smooth="yes"/>
+      <point x="415" y="633"/>
+      <point x="445" y="653"/>
+      <point x="445" y="697" type="curve" smooth="yes"/>
+      <point x="445" y="740"/>
+      <point x="416" y="760"/>
+      <point x="382" y="760" type="curve" smooth="yes"/>
+      <point x="346" y="760"/>
+      <point x="320" y="739"/>
+      <point x="320" y="697" type="curve" smooth="yes"/>
+      <point x="320" y="654"/>
+      <point x="347" y="633"/>
+    </contour>
+    <component base="jmono-math.dtls"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

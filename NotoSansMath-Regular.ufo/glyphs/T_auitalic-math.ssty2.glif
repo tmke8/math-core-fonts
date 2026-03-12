@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tauitalic-math.ssty2" format="2">
+  <advance width="530"/>
+  <anchor x="305" y="357" name="center"/>
+  <anchor x="621" y="0" name="math.ic"/>
+  <anchor x="398" y="0" name="math.ta"/>
+  <outline>
+    <component base="Tsansitalic-math.ssty2"/>
+  </outline>
+</glyph>

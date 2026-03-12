@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightDoubleArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21D2"/>
+  <anchor x="393" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="619" y="-33" type="curve"/>
+      <point x="677" y="-33" type="line"/>
+      <point x="748" y="49"/>
+      <point x="840" y="149"/>
+      <point x="961" y="266" type="curve"/>
+      <point x="961" y="292" type="line"/>
+      <point x="840" y="409"/>
+      <point x="748" y="509"/>
+      <point x="677" y="591" type="curve"/>
+      <point x="619" y="591" type="line"/>
+      <point x="676" y="480"/>
+      <point x="761" y="353"/>
+      <point x="847" y="258" type="curve"/>
+      <point x="847" y="300" type="line"/>
+      <point x="761" y="205"/>
+      <point x="676" y="78"/>
+    </contour>
+    <contour>
+      <point x="51" y="150" type="line"/>
+      <point x="810" y="150" type="line"/>
+      <point x="810" y="221" type="line"/>
+      <point x="51" y="221" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="337" type="line"/>
+      <point x="810" y="337" type="line"/>
+      <point x="810" y="408" type="line"/>
+      <point x="51" y="408" type="line"/>
+    </contour>
+  </outline>
+</glyph>

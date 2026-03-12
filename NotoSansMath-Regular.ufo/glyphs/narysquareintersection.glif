@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narysquareintersection" format="2">
+  <advance width="770"/>
+  <unicode hex="2A05"/>
+  <anchor x="385" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-240" type="line"/>
+      <point x="122" y="-240" type="line"/>
+      <point x="122" y="643" type="line"/>
+      <point x="648" y="643" type="line"/>
+      <point x="648" y="-240" type="line"/>
+      <point x="719" y="-240" type="line"/>
+      <point x="719" y="714" type="line"/>
+      <point x="51" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>narysquareintersection</string>
+          <string>narysquareintersection.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

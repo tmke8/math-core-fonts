@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="B.ssty2" format="2">
+  <advance width="760"/>
+  <anchor x="410" y="357" name="center"/>
+  <anchor x="376" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="408" y="0" type="line" smooth="yes"/>
+      <point x="576" y="0"/>
+      <point x="684" y="73"/>
+      <point x="684" y="207" type="curve" smooth="yes"/>
+      <point x="684" y="320"/>
+      <point x="617" y="360"/>
+      <point x="543" y="374" type="curve"/>
+      <point x="543" y="379" type="line"/>
+      <point x="613" y="392"/>
+      <point x="665" y="449"/>
+      <point x="665" y="535" type="curve" smooth="yes"/>
+      <point x="665" y="660"/>
+      <point x="574" y="714"/>
+      <point x="371" y="714" type="curve" smooth="yes"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="283" y="118" type="line"/>
+      <point x="283" y="315" type="line"/>
+      <point x="388" y="315" type="line" smooth="yes"/>
+      <point x="493" y="315"/>
+      <point x="530" y="277"/>
+      <point x="530" y="220" type="curve" smooth="yes"/>
+      <point x="530" y="158"/>
+      <point x="493" y="118"/>
+      <point x="394" y="118" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="283" y="427" type="line"/>
+      <point x="283" y="598" type="line"/>
+      <point x="375" y="598" type="line" smooth="yes"/>
+      <point x="471" y="598"/>
+      <point x="514" y="573"/>
+      <point x="514" y="515" type="curve" smooth="yes"/>
+      <point x="514" y="461"/>
+      <point x="480" y="427"/>
+      <point x="384" y="427" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

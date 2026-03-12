@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="surfaceintegral" format="2">
+  <advance width="1175"/>
+  <unicode hex="222F"/>
+  <anchor x="396" y="0" name="#entry"/>
+  <anchor x="735" y="0" name="#exit"/>
+  <anchor x="588" y="328" name="center"/>
+  <anchor x="1409" y="0" name="math.ic"/>
+  <outline>
+    <component base="dblintegral"/>
+    <component base="_contour2.integral" xOffset="223" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>surfaceintegral</string>
+          <string>surfaceintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dblintegral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

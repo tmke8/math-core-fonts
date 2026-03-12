@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftpointingcurvedanglebracket.s01" format="2">
+  <advance width="480"/>
+  <anchor x="240" y="309" name="center"/>
+  <outline>
+    <contour>
+      <point x="352.66666666666663" y="-279.5833333333333" type="curve"/>
+      <point x="427.66666666666663" y="-279.5833333333333" type="line"/>
+      <point x="401.3333333333333" y="-108.41666666666666"/>
+      <point x="275" y="182.5"/>
+      <point x="160.99999999999997" y="310.66666666666663" type="curve"/>
+      <point x="160.99999999999997" y="315.3333333333333" type="line"/>
+      <point x="275.9166666666667" y="443.49999999999994"/>
+      <point x="402.25" y="730.9166666666666"/>
+      <point x="428.5833333333333" y="898.8333333333333" type="curve"/>
+      <point x="353.5833333333333" y="898.8333333333333" type="line"/>
+      <point x="311.25" y="707.3333333333333"/>
+      <point x="171.33333333333334" y="426.8333333333333"/>
+      <point x="51" y="337.9166666666667" type="curve"/>
+      <point x="51" y="288.0833333333333" type="line"/>
+      <point x="175.75" y="193.08333333333331"/>
+      <point x="311.4166666666667" y="-89.49999999999999"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vscript-math.ssty2" format="2">
+  <advance width="472"/>
+  <anchor x="253" y="151" name="center"/>
+  <anchor x="416" y="0" name="math.ta"/>
+  <outline>
+    <component base="vboldscript-math"/>
+  </outline>
+</glyph>

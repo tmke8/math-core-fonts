@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="unionintegral.ss02" format="2">
+  <advance width="566"/>
+  <anchor x="47" y="0" name="#entry"/>
+  <anchor x="306" y="0" name="#exit"/>
+  <anchor x="283" y="322" name="center"/>
+  <anchor x="656" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.ss02" xOffset="47"/>
+    <component base="_intersection.integral" yScale="-1" yOffset="644"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>unionintegral.ss02</string>
+          <string>unionintegral.ss02.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

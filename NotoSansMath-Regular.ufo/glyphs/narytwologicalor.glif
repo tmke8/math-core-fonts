@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narytwologicalor" format="2">
+  <advance width="1102"/>
+  <unicode hex="2A08"/>
+  <anchor x="551" y="237" name="center"/>
+  <outline>
+    <component base="narytwologicaland" yScale="-1" yOffset="474"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>narytwologicalor</string>
+          <string>narytwologicalor.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash.s03" format="2">
+  <advance width="729"/>
+  <anchor x="498" y="582" name="center"/>
+  <outline>
+    <contour>
+      <point x="624.5" y="-520" type="line"/>
+      <point x="719" y="-520" type="line"/>
+      <point x="104.5" y="1128.5" type="line"/>
+      <point x="10" y="1128.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>3</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

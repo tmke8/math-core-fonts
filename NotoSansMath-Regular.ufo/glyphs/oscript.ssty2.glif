@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oscript.ssty2" format="2">
+  <advance width="447"/>
+  <anchor x="214" y="150" name="center"/>
+  <anchor x="287" y="0" name="math.ta"/>
+  <outline>
+    <component base="oboldscript-math"/>
+  </outline>
+</glyph>

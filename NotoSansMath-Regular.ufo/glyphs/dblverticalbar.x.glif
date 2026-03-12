@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblverticalbar.x" format="2">
+  <advance width="672"/>
+  <outline>
+    <component base="bar.x"/>
+    <component base="bar.x" xOffset="220"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict/>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

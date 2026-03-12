@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="assertion" format="2">
+  <advance width="465"/>
+  <unicode hex="22A6"/>
+  <anchor x="232" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="122" y="0" type="line"/>
+      <point x="122" y="292" type="line"/>
+      <point x="414" y="292" type="line"/>
+      <point x="414" y="363" type="line"/>
+      <point x="122" y="363" type="line"/>
+      <point x="122" y="654" type="line"/>
+      <point x="51" y="654" type="line"/>
+    </contour>
+  </outline>
+</glyph>

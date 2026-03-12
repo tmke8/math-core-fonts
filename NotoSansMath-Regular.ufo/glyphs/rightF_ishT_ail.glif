@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightFishTail" format="2">
+  <advance width="891"/>
+  <unicode hex="297D"/>
+  <anchor x="446" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="553" y="-20" type="line"/>
+      <point x="651" y="-20" type="line" smooth="yes"/>
+      <point x="773" y="-20"/>
+      <point x="840" y="38"/>
+      <point x="840" y="142" type="curve" smooth="yes"/>
+      <point x="840" y="209"/>
+      <point x="818" y="255"/>
+      <point x="772" y="279" type="curve"/>
+      <point x="818" y="302"/>
+      <point x="840" y="348"/>
+      <point x="840" y="415" type="curve" smooth="yes"/>
+      <point x="840" y="519"/>
+      <point x="773" y="577"/>
+      <point x="651" y="577" type="curve" smooth="yes"/>
+      <point x="553" y="577" type="line"/>
+      <point x="553" y="506" type="line"/>
+      <point x="651" y="506" type="line" smooth="yes"/>
+      <point x="728" y="506"/>
+      <point x="768" y="475"/>
+      <point x="768" y="413" type="curve" smooth="yes"/>
+      <point x="768" y="348"/>
+      <point x="731" y="314"/>
+      <point x="653" y="314" type="curve" smooth="yes"/>
+      <point x="51" y="314" type="line"/>
+      <point x="51" y="243" type="line"/>
+      <point x="653" y="243" type="line" smooth="yes"/>
+      <point x="731" y="243"/>
+      <point x="768" y="209"/>
+      <point x="768" y="145" type="curve" smooth="yes"/>
+      <point x="768" y="83"/>
+      <point x="728" y="51"/>
+      <point x="651" y="51" type="curve" smooth="yes"/>
+      <point x="553" y="51" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

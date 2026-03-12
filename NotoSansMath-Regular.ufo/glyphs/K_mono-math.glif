@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kmono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D67A"/>
+  <anchor x="350" y="357" name="center"/>
+  <anchor x="340" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="284" y="0" type="line"/>
+      <point x="284" y="52" type="line"/>
+      <point x="200" y="71" type="line"/>
+      <point x="200" y="237" type="line"/>
+      <point x="281" y="330" type="line"/>
+      <point x="443" y="71" type="line"/>
+      <point x="378" y="52" type="line"/>
+      <point x="378" y="0" type="line"/>
+      <point x="624" y="0" type="line"/>
+      <point x="624" y="55" type="line"/>
+      <point x="543" y="75" type="line"/>
+      <point x="342" y="391" type="line"/>
+      <point x="526" y="639" type="line"/>
+      <point x="615" y="659" type="line"/>
+      <point x="615" y="714" type="line"/>
+      <point x="360" y="714" type="line"/>
+      <point x="360" y="662" type="line"/>
+      <point x="425" y="643" type="line"/>
+      <point x="274" y="441" type="line" smooth="yes"/>
+      <point x="246" y="403"/>
+      <point x="223" y="366"/>
+      <point x="200" y="330" type="curve"/>
+      <point x="200" y="643" type="line"/>
+      <point x="284" y="662" type="line"/>
+      <point x="284" y="714" type="line"/>
+      <point x="26" y="714" type="line"/>
+      <point x="26" y="662" type="line"/>
+      <point x="110" y="643" type="line"/>
+      <point x="110" y="71" type="line"/>
+      <point x="26" y="52" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

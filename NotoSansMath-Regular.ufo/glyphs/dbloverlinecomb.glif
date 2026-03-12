@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dbloverlinecomb" format="2">
+  <unicode hex="033F"/>
+  <anchor x="209" y="0" name="math.ta"/>
+  <outline>
+    <component base="dbloverlinecomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>dbloverlinecomb.s00</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>417</integer>
+          </array>
+          <array>
+            <string>dbloverlinecomb.s00</string>
+            <integer>1</integer>
+            <integer>417</integer>
+            <integer>417</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>dbloverlinecomb.s00</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dbloverlinecomb.s00</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>417</integer>
+    </dict>
+  </lib>
+</glyph>

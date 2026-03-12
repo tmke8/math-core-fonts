@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boldEightSpokedAsterisk" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7BD"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="273" y="57" type="line"/>
+      <point x="427" y="57" type="line"/>
+      <point x="372" y="304" type="line"/>
+      <point x="507" y="90" type="line"/>
+      <point x="617" y="200" type="line"/>
+      <point x="403" y="335" type="line"/>
+      <point x="650" y="280" type="line"/>
+      <point x="650" y="434" type="line"/>
+      <point x="403" y="379" type="line"/>
+      <point x="617" y="514" type="line"/>
+      <point x="507" y="624" type="line"/>
+      <point x="372" y="410" type="line"/>
+      <point x="427" y="657" type="line"/>
+      <point x="273" y="657" type="line"/>
+      <point x="328" y="410" type="line"/>
+      <point x="193" y="624" type="line"/>
+      <point x="83" y="514" type="line"/>
+      <point x="297" y="379" type="line"/>
+      <point x="50" y="434" type="line"/>
+      <point x="50" y="280" type="line"/>
+      <point x="297" y="335" type="line"/>
+      <point x="83" y="200" type="line"/>
+      <point x="193" y="90" type="line"/>
+      <point x="328" y="304" type="line"/>
+    </contour>
+  </outline>
+</glyph>

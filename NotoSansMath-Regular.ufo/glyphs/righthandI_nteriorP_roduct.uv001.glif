@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="righthandInteriorProduct.uv001" format="2">
+  <advance width="450"/>
+  <anchor x="225" y="290" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-134" type="line"/>
+      <point x="399" y="-134" type="line"/>
+      <point x="399" y="-63" type="line"/>
+      <point x="122" y="-63" type="line"/>
+      <point x="122" y="714" type="line"/>
+      <point x="51" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

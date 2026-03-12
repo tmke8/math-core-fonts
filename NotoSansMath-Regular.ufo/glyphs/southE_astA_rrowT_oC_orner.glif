@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="southEastArrowToCorner" format="2">
+  <advance width="973"/>
+  <unicode hex="21F2"/>
+  <anchor x="456" y="279" name="center"/>
+  <outline>
+    <component base="northWestArrowToCorner" xScale="-1.0" yScale="-1.0" xOffset="973" yOffset="602"/>
+  </outline>
+</glyph>

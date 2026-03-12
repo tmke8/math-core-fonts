@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="postalmark" format="2">
+  <advance width="756"/>
+  <unicode hex="3012"/>
+  <outline>
+    <contour>
+      <point x="705" y="394" type="line"/>
+      <point x="705" y="465" type="line"/>
+      <point x="51" y="465" type="line"/>
+      <point x="51" y="394" type="line"/>
+      <point x="341" y="394" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="394" type="line"/>
+    </contour>
+    <contour>
+      <point x="705" y="584" type="line"/>
+      <point x="705" y="655" type="line"/>
+      <point x="51" y="655" type="line"/>
+      <point x="51" y="584" type="line"/>
+    </contour>
+  </outline>
+</glyph>

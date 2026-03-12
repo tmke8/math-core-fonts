@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="turnedAngle" format="2">
+  <advance width="652"/>
+  <unicode hex="29A2"/>
+  <anchor x="326" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="191" y="-20" type="line"/>
+      <point x="601" y="445" type="line"/>
+      <point x="601" y="495" type="line"/>
+      <point x="51" y="495" type="line"/>
+      <point x="51" y="424" type="line"/>
+      <point x="486" y="424" type="line"/>
+      <point x="141" y="31" type="line"/>
+    </contour>
+  </outline>
+</glyph>

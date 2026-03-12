@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonitalic-math.ssty2" format="2">
+  <advance width="562"/>
+  <anchor x="372" y="357" name="center"/>
+  <anchor x="674" y="0" name="math.ic"/>
+  <anchor x="386" y="0" name="math.ta"/>
+  <outline>
+    <component base="Ysansitalic-math.ssty2"/>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circleSmallCircleRight.rtlm" format="2">
+  <advance width="1084"/>
+  <anchor x="542" y="278" name="center"/>
+  <outline>
+    <component base="circleSmallCircleRight" xScale="-1" xOffset="1084"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>circleSmallCircleRight</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

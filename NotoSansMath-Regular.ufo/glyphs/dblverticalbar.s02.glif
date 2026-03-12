@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblverticalbar.s02" format="2">
+  <advance width="656"/>
+  <anchor x="326" y="325" name="center"/>
+  <outline>
+    <contour>
+      <point x="180" y="-399.3333333333333" type="line"/>
+      <point x="256.1666666666667" y="-399.3333333333333" type="line"/>
+      <point x="256.1666666666667" y="1013.6666666666667" type="line"/>
+      <point x="180" y="1013.6666666666667" type="line"/>
+    </contour>
+    <contour>
+      <point x="400.0" y="-399.3333333333333" type="line"/>
+      <point x="476.1666666666667" y="-399.3333333333333" type="line"/>
+      <point x="476.1666666666667" y="1013.6666666666667" type="line"/>
+      <point x="400.0" y="1013.6666666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>2</integer>
+        </dict>
+        <dict>
+          <key>Size</key>
+          <integer>2</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

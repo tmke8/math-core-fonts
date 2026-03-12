@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackParallelogram" format="2">
+  <advance width="938"/>
+  <unicode hex="25B0"/>
+  <anchor x="469" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="179" type="line"/>
+      <point x="739" y="179" type="line"/>
+      <point x="887" y="536" type="line"/>
+      <point x="199" y="536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

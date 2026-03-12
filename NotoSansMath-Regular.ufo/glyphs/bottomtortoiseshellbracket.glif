@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bottomtortoiseshellbracket" format="2">
+  <advance width="662"/>
+  <unicode hex="23E1"/>
+  <anchor x="331" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="119" y="-261" type="line"/>
+      <point x="543" y="-261" type="line"/>
+      <point x="662" y="-60" type="line"/>
+      <point x="588" y="-60" type="line"/>
+      <point x="509" y="-190" type="line"/>
+      <point x="153" y="-190" type="line"/>
+      <point x="74" y="-60" type="line"/>
+      <point x="0" y="-60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>bottomtortoiseshellbracket.l</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>647</integer>
+          </array>
+          <array>
+            <string>bottomtortoiseshellbracket.x</string>
+            <integer>1</integer>
+            <integer>800</integer>
+            <integer>800</integer>
+          </array>
+          <array>
+            <string>bottomtortoiseshellbracket.r</string>
+            <integer>0</integer>
+            <integer>647</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>bottomtortoiseshellbracket</string>
+          <string>bottomtortoiseshellbracket.s01</string>
+          <string>bottomtortoiseshellbracket.s02</string>
+          <string>bottomtortoiseshellbracket.s03</string>
+          <string>bottomtortoiseshellbracket.s04</string>
+          <string>bottomtortoiseshellbracket.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

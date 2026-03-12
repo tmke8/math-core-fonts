@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationintegral" format="2">
+  <advance width="868"/>
+  <unicode hex="2A0B"/>
+  <anchor x="68.21" y="-91.0" name="#entry"/>
+  <anchor x="417.9775" y="-91.0" name="#exit"/>
+  <anchor x="401" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="51.0" y="-387.6975" type="line"/>
+      <point x="91.47500000000001" y="-405.8775"/>
+      <point x="131.95000000000002" y="-416.4675"/>
+      <point x="170.425" y="-416.4675" type="curve" smooth="yes"/>
+      <point x="262.145" y="-416.4675"/>
+      <point x="342.4225" y="-357.71500000000003"/>
+      <point x="388.1925" y="-223.13" type="curve" smooth="yes"/>
+      <point x="426.6675" y="-107.3475"/>
+      <point x="450.52" y="59.10500000000002"/>
+      <point x="475.11" y="224.70499999999998" type="curve" smooth="yes"/>
+      <point x="500.5525" y="393.42"/>
+      <point x="524.5525" y="563.38"/>
+      <point x="562.3225" y="672.7525" type="curve" smooth="yes"/>
+      <point x="596.3875" y="774.9775"/>
+      <point x="641.0425" y="807.255"/>
+      <point x="701.4350000000001" y="807.255" type="curve" smooth="yes"/>
+      <point x="726.615" y="807.255"/>
+      <point x="754.9425" y="801.6650000000001"/>
+      <point x="786.27" y="792.78" type="curve"/>
+      <point x="816.8599999999999" y="860.6975" type="line"/>
+      <point x="776.385" y="878.8775"/>
+      <point x="735.91" y="889.4675"/>
+      <point x="697.4350000000001" y="889.4675" type="curve" smooth="yes"/>
+      <point x="605.715" y="889.4675"/>
+      <point x="525.4375" y="831.5675"/>
+      <point x="479.6675" y="696.9825" type="curve" smooth="yes"/>
+      <point x="439.19250000000005" y="578.0525"/>
+      <point x="414.4875" y="407.33750000000003"/>
+      <point x="388.89750000000004" y="235.96749999999997" type="curve" smooth="yes"/>
+      <point x="364.3075" y="70.22"/>
+      <point x="341.3075" y="-93.675"/>
+      <point x="305.5375" y="-200.605" type="curve" smooth="yes"/>
+      <point x="271.47249999999997" y="-301.97749999999996"/>
+      <point x="226.81750000000002" y="-334.255"/>
+      <point x="166.425" y="-334.255" type="curve" smooth="yes"/>
+      <point x="141.245" y="-334.255"/>
+      <point x="112.91749999999999" y="-328.66499999999996"/>
+      <point x="81.59" y="-319.78" type="curve"/>
+    </contour>
+    <component base="summation" xOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>summationintegral</string>
+          <string>summationintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.integral</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>summation</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <real>1.77</real>
+        </dict>
+        <dict/>
+      </array>
+    </dict>
+  </lib>
+</glyph>

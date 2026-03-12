@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftLongArrow" format="2">
+  <advance width="1558"/>
+  <unicode hex="27F5"/>
+  <anchor x="729" y="279" name="center"/>
+  <outline>
+    <component base="leftArrow"/>
+    <component base="leftArrow.x" xOffset="849"/>
+  </outline>
+</glyph>

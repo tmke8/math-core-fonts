@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ksansitalic-math.ssty1" format="2">
+  <advance width="626"/>
+  <anchor x="385" y="357" name="center"/>
+  <anchor x="743" y="0" name="math.ic"/>
+  <anchor x="448" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="57" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="242" y="264" type="line"/>
+      <point x="310" y="306" type="line"/>
+      <point x="424" y="0" type="line"/>
+      <point x="569" y="0" type="line"/>
+      <point x="419" y="380" type="line"/>
+      <point x="715" y="714" type="line"/>
+      <point x="560" y="714" type="line"/>
+      <point x="336" y="459" type="line"/>
+      <point x="264" y="368" type="line"/>
+      <point x="338" y="714" type="line"/>
+      <point x="208" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

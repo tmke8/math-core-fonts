@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semidirectProductWithBottomClosed" format="2">
+  <advance width="572"/>
+  <unicode hex="2A32"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="47" type="line"/>
+      <point x="521" y="47" type="line"/>
+      <point x="521" y="118" type="line"/>
+      <point x="507" y="118" type="line"/>
+      <point x="337" y="288" type="line"/>
+      <point x="507" y="459" type="line"/>
+      <point x="457" y="509" type="line"/>
+      <point x="286" y="339" type="line"/>
+      <point x="116" y="509" type="line"/>
+      <point x="66" y="459" type="line"/>
+      <point x="236" y="288" type="line"/>
+      <point x="66" y="118" type="line"/>
+      <point x="51" y="118" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="118" type="line"/>
+      <point x="286" y="238" type="line"/>
+      <point x="406" y="118" type="line"/>
+    </contour>
+  </outline>
+</glyph>

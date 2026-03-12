@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="elementOfOpeningUp" format="2">
+  <advance width="684"/>
+  <unicode hex="27D2"/>
+  <anchor x="342" y="279" name="center"/>
+  <outline>
+    <component base="element" xScale="0.0" xyScale="1.0" yxScale="-1.0" yScale="0.0" xOffset="619" yOffset="-71"/>
+  </outline>
+</glyph>

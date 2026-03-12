@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uptack" format="2">
+  <advance width="756"/>
+  <unicode hex="22A5"/>
+  <anchor x="378" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="705" y="0" type="line"/>
+      <point x="705" y="71" type="line"/>
+      <point x="414" y="71" type="line"/>
+      <point x="414" y="654" type="line"/>
+      <point x="343" y="654" type="line"/>
+      <point x="343" y="71" type="line"/>
+      <point x="51" y="71" type="line"/>
+    </contour>
+  </outline>
+</glyph>

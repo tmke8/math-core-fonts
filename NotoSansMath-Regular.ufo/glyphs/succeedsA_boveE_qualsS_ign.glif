@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="succeedsAboveEqualsSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2AB4"/>
+  <anchor x="286" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="81" y="155" type="line"/>
+      <point x="195" y="262"/>
+      <point x="377" y="359"/>
+      <point x="521" y="392" type="curve"/>
+      <point x="521" y="438" type="line"/>
+      <point x="384" y="469"/>
+      <point x="194" y="569"/>
+      <point x="81" y="675" type="curve"/>
+      <point x="81" y="589" type="line"/>
+      <point x="136" y="537"/>
+      <point x="284" y="448"/>
+      <point x="380" y="417" type="curve"/>
+      <point x="380" y="413" type="line"/>
+      <point x="282" y="382"/>
+      <point x="136" y="293"/>
+      <point x="81" y="241" type="curve"/>
+    </contour>
+    <contour>
+      <point x="51" y="-124" type="line"/>
+      <point x="521" y="-124" type="line"/>
+      <point x="521" y="-53" type="line"/>
+      <point x="51" y="-53" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="36" type="line"/>
+      <point x="521" y="36" type="line"/>
+      <point x="521" y="107" type="line"/>
+      <point x="51" y="107" type="line"/>
+    </contour>
+  </outline>
+</glyph>

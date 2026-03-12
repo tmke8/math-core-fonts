@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yscript-math.ssty2" format="2">
+  <advance width="577"/>
+  <anchor x="252" y="3" name="center"/>
+  <anchor x="524" y="0" name="math.ta"/>
+  <outline>
+    <component base="yboldscript-math"/>
+  </outline>
+</glyph>

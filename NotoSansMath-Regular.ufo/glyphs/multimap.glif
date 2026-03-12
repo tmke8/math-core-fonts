@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multimap" format="2">
+  <advance width="796"/>
+  <unicode hex="22B8"/>
+  <anchor x="398" y="276" name="center"/>
+  <outline>
+    <contour>
+      <point x="608" y="139" type="curve" smooth="yes"/>
+      <point x="684" y="139"/>
+      <point x="745" y="200"/>
+      <point x="745" y="276" type="curve" smooth="yes"/>
+      <point x="745" y="352"/>
+      <point x="682" y="413"/>
+      <point x="608" y="413" type="curve" smooth="yes"/>
+      <point x="546" y="413"/>
+      <point x="490" y="369"/>
+      <point x="475" y="306" type="curve"/>
+      <point x="51" y="306" type="line"/>
+      <point x="51" y="246" type="line"/>
+      <point x="475" y="246" type="line"/>
+      <point x="490" y="183"/>
+      <point x="546" y="139"/>
+    </contour>
+    <contour>
+      <point x="608" y="202" type="curve" smooth="yes"/>
+      <point x="567" y="202"/>
+      <point x="534" y="235"/>
+      <point x="534" y="276" type="curve" smooth="yes"/>
+      <point x="534" y="317"/>
+      <point x="567" y="350"/>
+      <point x="608" y="350" type="curve" smooth="yes"/>
+      <point x="649" y="350"/>
+      <point x="682" y="317"/>
+      <point x="682" y="276" type="curve" smooth="yes"/>
+      <point x="682" y="235"/>
+      <point x="649" y="202"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="succeedsAboveSingleLineNotEqualTo" format="2">
+  <advance width="572"/>
+  <unicode hex="2AB2"/>
+  <anchor x="286" y="288" name="center"/>
+  <outline>
+    <contour>
+      <point x="248" y="-151" type="line"/>
+      <point x="373" y="112" type="line"/>
+      <point x="316" y="142" type="line"/>
+      <point x="190" y="-123" type="line"/>
+    </contour>
+    <component base="succeedsAboveSingleLineEqualsSign"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

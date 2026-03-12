@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightTwoHeadedArrowFromBar" format="2">
+  <advance width="1012"/>
+  <unicode hex="2905"/>
+  <anchor x="440" y="277" name="center"/>
+  <outline>
+    <component base="leftTwoHeadedArrowFromBar" xScale="-1" xOffset="1012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftTwoHeadedArrowFromBar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

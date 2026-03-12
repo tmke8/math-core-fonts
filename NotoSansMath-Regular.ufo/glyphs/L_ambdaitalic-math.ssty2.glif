@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lambdaitalic-math.ssty2" format="2">
+  <advance width="686"/>
+  <anchor x="327" y="358" name="center"/>
+  <anchor x="482" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="27" y="0" type="line"/>
+      <point x="181" y="0" type="line"/>
+      <point x="391" y="431" type="line" smooth="yes"/>
+      <point x="407" y="462"/>
+      <point x="433" y="524"/>
+      <point x="448" y="575" type="curve"/>
+      <point x="450" y="575" type="line"/>
+      <point x="449" y="521"/>
+      <point x="451" y="451"/>
+      <point x="454" y="410" type="curve" smooth="yes"/>
+      <point x="484" y="0" type="line"/>
+      <point x="626" y="0" type="line"/>
+      <point x="557" y="717" type="line"/>
+      <point x="393" y="717" type="line"/>
+    </contour>
+  </outline>
+</glyph>

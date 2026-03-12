@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleverticalbar.s09" format="2">
+  <advance width="887"/>
+  <anchor x="436" y="325" name="center"/>
+  <outline>
+    <contour>
+      <point x="180" y="-1244" type="line"/>
+      <point x="267.25" y="-1244" type="line"/>
+      <point x="267.25" y="1817.5" type="line"/>
+      <point x="180" y="1817.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="-1244" type="line"/>
+      <point x="487.25" y="-1244.0" type="line"/>
+      <point x="487.25" y="1817.5" type="line"/>
+      <point x="400.0" y="1817.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="620" y="-1244" type="line"/>
+      <point x="707.25" y="-1244.0" type="line"/>
+      <point x="707.25" y="1817.5" type="line"/>
+      <point x="620.0" y="1817.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

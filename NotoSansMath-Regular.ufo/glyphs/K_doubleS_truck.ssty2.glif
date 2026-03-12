@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="KdoubleStruck.ssty2" format="2">
+  <advance width="770"/>
+  <anchor x="425" y="357" name="center"/>
+  <anchor x="373" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="108" y="0" type="line"/>
+      <point x="307" y="0" type="line"/>
+      <point x="307" y="312" type="line"/>
+      <point x="510" y="0" type="line"/>
+      <point x="743" y="0" type="line"/>
+      <point x="438" y="463" type="line"/>
+      <point x="714" y="714" type="line"/>
+      <point x="605" y="714" type="line"/>
+      <point x="307" y="444" type="line"/>
+      <point x="307" y="714" type="line"/>
+      <point x="108" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="181" y="74" type="line"/>
+      <point x="181" y="640" type="line"/>
+      <point x="234" y="640" type="line"/>
+      <point x="234" y="74" type="line"/>
+    </contour>
+    <contour>
+      <point x="547" y="74" type="line"/>
+      <point x="347" y="381" type="line"/>
+      <point x="384" y="414" type="line"/>
+      <point x="607" y="74" type="line"/>
+    </contour>
+  </outline>
+</glyph>

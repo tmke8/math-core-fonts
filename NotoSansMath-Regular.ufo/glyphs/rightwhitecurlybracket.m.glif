@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitecurlybracket.m" format="2">
+  <advance width="631"/>
+  <anchor x="380" y="840" name="center"/>
+  <outline>
+    <component base="leftwhitecurlybracket.m" xScale="-1" xOffset="631"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftwhitecurlybracket.m</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

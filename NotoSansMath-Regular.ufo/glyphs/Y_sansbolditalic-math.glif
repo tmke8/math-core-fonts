@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ysansbolditalic-math" format="2">
+  <advance width="564"/>
+  <unicode hex="1D654"/>
+  <unicode hex="1D480"/>
+  <anchor x="373" y="357" name="center"/>
+  <anchor x="676" y="0" name="math.ic"/>
+  <anchor x="366" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="148" y="0" type="line"/>
+      <point x="296" y="0" type="line"/>
+      <point x="354" y="273" type="line"/>
+      <point x="656" y="714" type="line"/>
+      <point x="489" y="714" type="line"/>
+      <point x="306" y="425" type="line"/>
+      <point x="243" y="714" type="line"/>
+      <point x="91" y="714" type="line"/>
+      <point x="206" y="273" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

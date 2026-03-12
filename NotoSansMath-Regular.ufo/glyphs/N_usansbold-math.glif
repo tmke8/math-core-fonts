@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nusansbold-math" format="2">
+  <advance width="741"/>
+  <unicode hex="1D762"/>
+  <unicode hex="1D6B4"/>
+  <anchor x="370" y="359" name="center"/>
+  <anchor x="336" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="74" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="220" y="494" type="line"/>
+      <point x="514" y="0" type="line"/>
+      <point x="667" y="0" type="line"/>
+      <point x="667" y="719" type="line"/>
+      <point x="521" y="719" type="line"/>
+      <point x="521" y="225" type="line"/>
+      <point x="229" y="719" type="line"/>
+      <point x="74" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

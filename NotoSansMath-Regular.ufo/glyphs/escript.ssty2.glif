@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="escript.ssty2" format="2">
+  <advance width="411"/>
+  <anchor x="187" y="150" name="center"/>
+  <anchor x="281" y="0" name="math.ta"/>
+  <outline>
+    <component base="eboldscript-math"/>
+  </outline>
+</glyph>

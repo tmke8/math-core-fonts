@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northEastDoubleArrow" format="2">
+  <advance width="856"/>
+  <unicode hex="21D7"/>
+  <anchor x="392" y="278" name="center"/>
+  <outline>
+    <component base="rightDoubleArrow" xScale="0.7071067811865476" xyScale="0.7071067811865475" yxScale="-0.7071067811865475" yScale="0.7071067811865476" xOffset="303" yOffset="-241"/>
+  </outline>
+</glyph>

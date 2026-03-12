@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nuitalic-math.ssty2" format="2">
+  <advance width="753"/>
+  <anchor x="392" y="357" name="center"/>
+  <anchor x="778" y="0" name="math.ic"/>
+  <anchor x="484" y="0" name="math.ta"/>
+  <outline>
+    <component base="Nsansitalic-math.ssty2"/>
+  </outline>
+</glyph>

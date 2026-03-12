@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threePointedBlackStar" format="2">
+  <advance width="800"/>
+  <unicode hex="1F7C2"/>
+  <anchor x="400" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="50" y="54" type="line"/>
+      <point x="400" y="131" type="line"/>
+      <point x="750" y="54" type="line"/>
+      <point x="511" y="323" type="line"/>
+      <point x="400" y="660" type="line"/>
+      <point x="289" y="323" type="line"/>
+    </contour>
+  </outline>
+</glyph>

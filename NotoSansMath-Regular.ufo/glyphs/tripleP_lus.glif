@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="triplePlus" format="2">
+  <advance width="916"/>
+  <unicode hex="29FB"/>
+  <anchor x="458" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="250" y="37" type="line"/>
+      <point x="322" y="37" type="line"/>
+      <point x="322" y="243" type="line"/>
+      <point x="422" y="243" type="line"/>
+      <point x="422" y="37" type="line"/>
+      <point x="494" y="37" type="line"/>
+      <point x="494" y="243" type="line"/>
+      <point x="594" y="243" type="line"/>
+      <point x="594" y="37" type="line"/>
+      <point x="666" y="37" type="line"/>
+      <point x="666" y="243" type="line"/>
+      <point x="865" y="243" type="line"/>
+      <point x="865" y="314" type="line"/>
+      <point x="666" y="314" type="line"/>
+      <point x="666" y="521" type="line"/>
+      <point x="594" y="521" type="line"/>
+      <point x="594" y="314" type="line"/>
+      <point x="494" y="314" type="line"/>
+      <point x="494" y="521" type="line"/>
+      <point x="422" y="521" type="line"/>
+      <point x="422" y="314" type="line"/>
+      <point x="322" y="314" type="line"/>
+      <point x="322" y="521" type="line"/>
+      <point x="250" y="521" type="line"/>
+      <point x="250" y="314" type="line"/>
+      <point x="51" y="314" type="line"/>
+      <point x="51" y="243" type="line"/>
+      <point x="250" y="243" type="line"/>
+    </contour>
+  </outline>
+</glyph>

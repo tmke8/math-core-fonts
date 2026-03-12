@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilon.ssty1" format="2">
+  <advance width="573"/>
+  <anchor x="305" y="357" name="center"/>
+  <anchor x="314" y="0" name="math.ta"/>
+  <outline>
+    <component base="E.ssty1"/>
+  </outline>
+</glyph>

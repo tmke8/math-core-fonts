@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notnormalsubgroupoforequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="22EC"/>
+  <anchor x="286" y="262" name="center"/>
+  <outline>
+    <contour>
+      <point x="244" y="-152" type="line"/>
+      <point x="290" y="24" type="line"/>
+      <point x="521" y="24" type="line"/>
+      <point x="521" y="95" type="line"/>
+      <point x="308" y="95" type="line"/>
+      <point x="338" y="209" type="line"/>
+      <point x="521" y="143" type="line"/>
+      <point x="521" y="520" type="line"/>
+      <point x="409" y="479" type="line"/>
+      <point x="456" y="659" type="line"/>
+      <point x="394" y="677" type="line"/>
+      <point x="335" y="452" type="line"/>
+      <point x="51" y="348" type="line"/>
+      <point x="51" y="314" type="line"/>
+      <point x="277" y="231" type="line"/>
+      <point x="242" y="95" type="line"/>
+      <point x="51" y="95" type="line"/>
+      <point x="51" y="24" type="line"/>
+      <point x="223" y="24" type="line"/>
+      <point x="182" y="-134" type="line"/>
+    </contour>
+    <contour>
+      <point x="292" y="289" type="line"/>
+      <point x="169" y="330" type="line"/>
+      <point x="316" y="381" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="235" type="line"/>
+      <point x="354" y="268" type="line"/>
+      <point x="390" y="406" type="line"/>
+      <point x="454" y="428" type="line"/>
+    </contour>
+  </outline>
+</glyph>

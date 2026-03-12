@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narysquareunion" format="2">
+  <advance width="770"/>
+  <unicode hex="2A06"/>
+  <anchor x="385" y="237" name="center"/>
+  <outline>
+    <component base="narysquareintersection" yScale="-1" yOffset="474"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>narysquareunion</string>
+          <string>narysquareunion.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

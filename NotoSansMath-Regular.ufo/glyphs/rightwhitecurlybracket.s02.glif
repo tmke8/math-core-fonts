@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitecurlybracket.s02" format="2">
+  <advance width="537"/>
+  <anchor x="289" y="307" name="center"/>
+  <outline>
+    <contour>
+      <point x="180.66666666666666" y="-399.3333333333333" type="line"/>
+      <point x="305.6666666666667" y="-399.3333333333333"/>
+      <point x="387" y="-348.16666666666663"/>
+      <point x="387" y="-240.33333333333331" type="curve" smooth="yes"/>
+      <point x="387" y="181.33333333333334" type="line" smooth="yes"/>
+      <point x="387" y="249.33333333333334"/>
+      <point x="430" y="275.33333333333337"/>
+      <point x="509" y="275.33333333333337" type="curve"/>
+      <point x="509" y="351.6666666666667" type="line"/>
+      <point x="430" y="353.6666666666667"/>
+      <point x="387" y="376.8333333333333"/>
+      <point x="387" y="444.6666666666667" type="curve" smooth="yes"/>
+      <point x="387" y="855.6666666666667" type="line" smooth="yes"/>
+      <point x="387" y="963.5"/>
+      <point x="305.6666666666667" y="1013.6666666666667"/>
+      <point x="180.66666666666666" y="1013.6666666666667" type="curve"/>
+      <point x="180.66666666666666" y="938" type="line"/>
+      <point x="256.5" y="938"/>
+      <point x="299.1666666666667" y="909"/>
+      <point x="299.1666666666667" y="844" type="curve" smooth="yes"/>
+      <point x="299.1666666666667" y="439" type="line" smooth="yes"/>
+      <point x="299.1666666666667" y="371"/>
+      <point x="334.3333333333333" y="330"/>
+      <point x="405.6666666666667" y="317" type="curve"/>
+      <point x="405.6666666666667" y="311" type="line"/>
+      <point x="333.33333333333337" y="298"/>
+      <point x="299.1666666666667" y="257"/>
+      <point x="299.1666666666667" y="189" type="curve" smooth="yes"/>
+      <point x="299.1666666666667" y="-230.66666666666666" type="line" smooth="yes"/>
+      <point x="299.1666666666667" y="-295.66666666666663"/>
+      <point x="256.5" y="-323.6666666666667"/>
+      <point x="180.66666666666666" y="-323.6666666666667" type="curve"/>
+    </contour>
+    <contour>
+      <point x="194.66666666666669" y="-397.3333333333333" type="line"/>
+      <point x="194.66666666666669" y="1011.6666666666667" type="line"/>
+      <point x="181.66666666666669" y="1013.6666666666667" type="line"/>
+      <point x="32" y="1013.6666666666667" type="line"/>
+      <point x="32" y="938" type="line"/>
+      <point x="116.33333333333334" y="938" type="line"/>
+      <point x="116.33333333333334" y="-323.6666666666667" type="line"/>
+      <point x="32" y="-323.6666666666667" type="line"/>
+      <point x="32" y="-399.3333333333333" type="line"/>
+      <point x="181.66666666666669" y="-399.3333333333333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>2</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

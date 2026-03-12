@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftFloor.s04" format="2">
+  <advance width="433"/>
+  <anchor x="238" y="301" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-640.6666666666666" type="line"/>
+      <point x="408" y="-640.6666666666666" type="line"/>
+      <point x="408" y="-552.6666666666666" type="line"/>
+      <point x="168" y="-552.6666666666666" type="line"/>
+      <point x="168" y="1243.3333333333335" type="line"/>
+      <point x="80" y="1243.3333333333335" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>4</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightDoublePairedArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21C9"/>
+  <anchor x="506" y="278" name="center"/>
+  <outline>
+    <component base="rightArrow" yOffset="-196"/>
+    <component base="rightArrow" yOffset="194"/>
+  </outline>
+</glyph>

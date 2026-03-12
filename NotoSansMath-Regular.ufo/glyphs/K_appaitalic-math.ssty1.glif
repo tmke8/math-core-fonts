@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappaitalic-math.ssty1" format="2">
+  <advance width="626"/>
+  <anchor x="385" y="357" name="center"/>
+  <anchor x="743" y="0" name="math.ic"/>
+  <anchor x="448" y="0" name="math.ta"/>
+  <outline>
+    <component base="Ksansitalic-math.ssty1"/>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright.s02" format="2">
+  <advance width="333"/>
+  <anchor x="148.5" y="307" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-399.3333333333333" type="line"/>
+      <point x="252.66666666666666" y="-399.3333333333333" type="line"/>
+      <point x="252.66666666666666" y="1013.6666666666667" type="line"/>
+      <point x="25" y="1013.6666666666667" type="line"/>
+      <point x="25" y="938.3333333333334" type="line"/>
+      <point x="165.66666666666669" y="938.3333333333334" type="line"/>
+      <point x="165.66666666666669" y="-324" type="line"/>
+      <point x="25" y="-324" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>2</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

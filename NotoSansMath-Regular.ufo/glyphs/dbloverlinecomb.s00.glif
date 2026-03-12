@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dbloverlinecomb.s00" format="2">
+  <advance width="417"/>
+  <anchor x="209" y="0" name="math.ta"/>
+  <outline>
+    <component base="overlinecomb.s00"/>
+    <component base="overlinecomb.s00" yOffset="151"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

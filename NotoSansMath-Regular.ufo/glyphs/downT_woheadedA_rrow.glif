@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downTwoheadedArrow" format="2">
+  <advance width="530"/>
+  <unicode hex="21A1"/>
+  <anchor x="266" y="279" name="center"/>
+  <outline>
+    <component base="leftTwoheadedArrow" xScale="0" xyScale="1" yxScale="1" yScale="0" xOffset="-13" yOffset="-227"/>
+  </outline>
+</glyph>

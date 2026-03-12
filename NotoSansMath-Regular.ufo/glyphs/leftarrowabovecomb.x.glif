@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftarrowabovecomb.x" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="0" y="670" type="line"/>
+      <point x="600" y="670" type="line"/>
+      <point x="600" y="730" type="line"/>
+      <point x="0" y="730" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

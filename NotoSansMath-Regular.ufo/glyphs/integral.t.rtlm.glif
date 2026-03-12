@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral.t.rtlm" format="2">
+  <advance width="472"/>
+  <anchor x="472" y="0" name="#exit"/>
+  <anchor x="213" y="0" name="#entry"/>
+  <anchor x="163" y="681" name="center"/>
+  <anchor x="-90" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.t" xScale="-1" xOffset="472"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.t</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

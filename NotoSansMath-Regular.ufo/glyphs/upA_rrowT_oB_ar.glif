@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upArrowToBar" format="2">
+  <advance width="530"/>
+  <unicode hex="2912"/>
+  <anchor x="265" y="278" name="center"/>
+  <outline>
+    <component base="rightTabArrow" xScale="0.0" xyScale="1.0" yxScale="-1.0" yScale="0.0" xOffset="543" yOffset="-178"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

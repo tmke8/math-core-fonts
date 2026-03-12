@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationintegral.rtlm" format="2">
+  <advance width="868"/>
+  <anchor x="799.79" y="-91.0" name="#exit"/>
+  <anchor x="450.0225" y="-91.0" name="#entry"/>
+  <anchor x="338" y="232" name="center"/>
+  <outline>
+    <component base="summationintegral" xScale="-1" xOffset="868"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>summationintegral.rtlm</string>
+          <string>summationintegral.rtlm.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>summationintegral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

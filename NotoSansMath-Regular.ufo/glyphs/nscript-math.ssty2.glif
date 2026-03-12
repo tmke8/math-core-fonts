@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nscript-math.ssty2" format="2">
+  <advance width="577"/>
+  <anchor x="259" y="150" name="center"/>
+  <anchor x="420" y="0" name="math.ta"/>
+  <outline>
+    <component base="nboldscript-math"/>
+  </outline>
+</glyph>

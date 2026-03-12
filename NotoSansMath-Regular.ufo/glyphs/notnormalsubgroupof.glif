@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notnormalsubgroupof" format="2">
+  <advance width="572"/>
+  <unicode hex="22EA"/>
+  <anchor x="286" y="301" name="center"/>
+  <outline>
+    <contour>
+      <point x="277" y="-12" type="line"/>
+      <point x="339" y="152" type="line"/>
+      <point x="521" y="86" type="line"/>
+      <point x="521" y="463" type="line"/>
+      <point x="449" y="437" type="line"/>
+      <point x="507" y="588" type="line"/>
+      <point x="446" y="614" type="line"/>
+      <point x="366" y="406" type="line"/>
+      <point x="51" y="291" type="line"/>
+      <point x="51" y="257" type="line"/>
+      <point x="277" y="174" type="line"/>
+      <point x="216" y="14" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="230" type="line"/>
+      <point x="169" y="273" type="line"/>
+      <point x="337" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="178" type="line"/>
+      <point x="361" y="209" type="line"/>
+      <point x="419" y="359" type="line"/>
+      <point x="454" y="371" type="line"/>
+    </contour>
+  </outline>
+</glyph>

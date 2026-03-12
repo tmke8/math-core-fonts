@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="normalsubgroupof" format="2">
+  <advance width="572"/>
+  <unicode hex="22B2"/>
+  <anchor x="286" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="521" y="91" type="line"/>
+      <point x="521" y="468" type="line"/>
+      <point x="51" y="296" type="line"/>
+      <point x="51" y="262" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="183" type="line"/>
+      <point x="169" y="278" type="line"/>
+      <point x="454" y="376" type="line"/>
+    </contour>
+  </outline>
+</glyph>

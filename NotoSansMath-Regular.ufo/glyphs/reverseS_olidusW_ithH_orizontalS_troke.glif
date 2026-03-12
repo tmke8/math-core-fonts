@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reverseSolidusWithHorizontalStroke" format="2">
+  <advance width="539"/>
+  <unicode hex="29F7"/>
+  <anchor x="269" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="349" y="-163" type="line"/>
+      <point x="420" y="-163" type="line"/>
+      <point x="190" y="718" type="line"/>
+      <point x="119" y="718" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="244" type="line"/>
+      <point x="488" y="244" type="line"/>
+      <point x="488" y="311" type="line"/>
+      <point x="51" y="311" type="line"/>
+    </contour>
+  </outline>
+</glyph>

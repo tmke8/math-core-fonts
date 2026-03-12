@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleDownTack" format="2">
+  <advance width="756"/>
+  <unicode hex="2AEA"/>
+  <anchor x="378" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="226" y="0" type="line"/>
+      <point x="297" y="0" type="line"/>
+      <point x="297" y="583" type="line"/>
+      <point x="459" y="583" type="line"/>
+      <point x="459" y="0" type="line"/>
+      <point x="530" y="0" type="line"/>
+      <point x="530" y="583" type="line"/>
+      <point x="705" y="583" type="line"/>
+      <point x="705" y="654" type="line"/>
+      <point x="51" y="654" type="line"/>
+      <point x="51" y="583" type="line"/>
+      <point x="226" y="583" type="line"/>
+    </contour>
+  </outline>
+</glyph>

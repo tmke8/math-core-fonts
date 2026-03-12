@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="258"/>
+  <unicode hex="0069"/>
+  <unicode hex="1D5C2"/>
+  <anchor x="131" y="0" name="bottom"/>
+  <anchor x="129" y="368" name="center"/>
+  <anchor x="129" y="0" name="math.ta"/>
+  <anchor x="129" y="737" name="top"/>
+  <anchor x="238" y="737" name="topright"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="78"/>
+  </outline>
+</glyph>

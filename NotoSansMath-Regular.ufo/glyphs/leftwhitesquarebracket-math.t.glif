@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftwhitesquarebracket-math.t" format="2">
+  <advance width="624"/>
+  <anchor x="352" y="496" name="center"/>
+  <outline>
+    <contour>
+      <point x="322" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="977" type="line"/>
+      <point x="592" y="977" type="line"/>
+      <point x="592" y="1069" type="line"/>
+      <point x="112" y="1069" type="line"/>
+      <point x="112" y="0" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="202" y="977" type="line"/>
+      <point x="322" y="977" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

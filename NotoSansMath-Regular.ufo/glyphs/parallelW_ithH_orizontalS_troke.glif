@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parallelWithHorizontalStroke" format="2">
+  <advance width="572"/>
+  <unicode hex="2AF2"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <component base="parallel" xOffset="106"/>
+    <component base="minus" yOffset="1"/>
+  </outline>
+</glyph>

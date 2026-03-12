@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublePrecedes" format="2">
+  <advance width="841"/>
+  <unicode hex="2ABB"/>
+  <anchor x="420" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="790" y="18" type="curve"/>
+      <point x="790" y="104" type="line"/>
+      <point x="726" y="162"/>
+      <point x="584" y="246"/>
+      <point x="491" y="276" type="curve"/>
+      <point x="491" y="280" type="line"/>
+      <point x="592" y="313"/>
+      <point x="740" y="404"/>
+      <point x="790" y="452" type="curve"/>
+      <point x="790" y="538" type="line"/>
+      <point x="678" y="432"/>
+      <point x="487" y="332"/>
+      <point x="350" y="301" type="curve"/>
+      <point x="350" y="255" type="line"/>
+      <point x="493" y="221"/>
+      <point x="676" y="125"/>
+    </contour>
+    <contour>
+      <point x="491" y="18" type="curve"/>
+      <point x="491" y="104" type="line"/>
+      <point x="425" y="163"/>
+      <point x="286" y="246"/>
+      <point x="192" y="276" type="curve"/>
+      <point x="192" y="280" type="line"/>
+      <point x="296" y="313"/>
+      <point x="442" y="405"/>
+      <point x="491" y="452" type="curve"/>
+      <point x="491" y="538" type="line"/>
+      <point x="376" y="430"/>
+      <point x="187" y="332"/>
+      <point x="51" y="301" type="curve"/>
+      <point x="51" y="255" type="line"/>
+      <point x="193" y="222"/>
+      <point x="376" y="125"/>
+    </contour>
+  </outline>
+</glyph>

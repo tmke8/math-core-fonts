@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Mu.ssty1" format="2">
+  <advance width="955"/>
+  <anchor x="477" y="357" name="center"/>
+  <anchor x="478" y="0" name="math.ta"/>
+  <outline>
+    <component base="M.ssty1"/>
+  </outline>
+</glyph>

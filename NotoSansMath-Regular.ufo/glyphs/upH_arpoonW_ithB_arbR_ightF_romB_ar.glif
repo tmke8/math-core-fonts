@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upHarpoonWithBarbRightFromBar" format="2">
+  <advance width="529"/>
+  <unicode hex="295C"/>
+  <anchor x="265" y="280" name="center"/>
+  <outline>
+    <contour>
+      <point x="459" y="458" type="curve"/>
+      <point x="459" y="515" type="line"/>
+      <point x="378" y="585"/>
+      <point x="317" y="659"/>
+      <point x="279" y="735" type="curve"/>
+      <point x="229" y="735" type="line"/>
+      <point x="229" y="563" type="line"/>
+      <point x="291" y="563" type="line"/>
+      <point x="325" y="529"/>
+      <point x="383" y="493"/>
+    </contour>
+    <contour>
+      <point x="70" y="-175" type="line"/>
+      <point x="459" y="-175" type="line"/>
+      <point x="459" y="-104" type="line"/>
+      <point x="70" y="-104" type="line"/>
+    </contour>
+    <contour>
+      <point x="229" y="-175" type="line"/>
+      <point x="300" y="-175" type="line"/>
+      <point x="300" y="602" type="line"/>
+      <point x="229" y="602" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

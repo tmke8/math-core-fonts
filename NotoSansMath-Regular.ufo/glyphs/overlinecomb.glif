@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overlinecomb" format="2">
+  <unicode hex="0305"/>
+  <anchor x="209" y="0" name="math.ta"/>
+  <outline>
+    <component base="overlinecomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>overlinecomb.s00</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>417</integer>
+          </array>
+          <array>
+            <string>overlinecomb.s00</string>
+            <integer>1</integer>
+            <integer>417</integer>
+            <integer>417</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>overlinecomb.s00</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>417</integer>
+    </dict>
+  </lib>
+</glyph>

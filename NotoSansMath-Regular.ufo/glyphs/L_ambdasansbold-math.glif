@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lambdasansbold-math" format="2">
+  <advance width="655"/>
+  <unicode hex="1D760"/>
+  <unicode hex="1D6B2"/>
+  <anchor x="317" y="359" name="center"/>
+  <anchor x="316" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="160" y="0" type="line"/>
+      <point x="317" y="537" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="635" y="0" type="line"/>
+      <point x="388" y="719" type="line"/>
+      <point x="246" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="partialdiffsansbolditalic-math.rtlm" format="2">
+  <advance width="564"/>
+  <anchor x="295" y="359" name="center"/>
+  <anchor x="239" y="0" name="math.ta"/>
+  <outline>
+    <component base="partialdiffsansbolditalic-math" xScale="-1" xOffset="564"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
+</glyph>

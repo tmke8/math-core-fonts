@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zetaitalic-math.ssty1" format="2">
+  <advance width="584"/>
+  <anchor x="323" y="357" name="center"/>
+  <anchor x="654" y="0" name="math.ic"/>
+  <anchor x="400" y="0" name="math.ta"/>
+  <outline>
+    <component base="Zsansitalic-math.ssty1"/>
+  </outline>
+</glyph>

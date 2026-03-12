@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gammaitalic-math" format="2">
+  <advance width="477"/>
+  <unicode hex="1D6E4"/>
+  <anchor x="297" y="357" name="center"/>
+  <anchor x="574" y="0" name="math.ic"/>
+  <anchor x="387" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="41" y="0" type="line"/>
+      <point x="130" y="0" type="line"/>
+      <point x="264" y="635" type="line"/>
+      <point x="538" y="635" type="line"/>
+      <point x="554" y="714" type="line"/>
+      <point x="192" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

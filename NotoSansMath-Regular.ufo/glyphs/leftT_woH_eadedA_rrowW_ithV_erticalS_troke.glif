@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftTwoHeadedArrowWithVerticalStroke" format="2">
+  <advance width="1044"/>
+  <unicode hex="2B34"/>
+  <anchor x="572" y="278" name="center"/>
+  <outline>
+    <component base="leftTwoheadedArrow"/>
+    <component base="_bar.arrow" xOffset="669"/>
+    <component base="minus" xOffset="472" yOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

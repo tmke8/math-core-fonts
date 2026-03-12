@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <unicode hex="0308"/>
+  <anchor x="140" y="536" name="_top"/>
+  <anchor x="140" y="0" name="math.ta"/>
+  <anchor x="140" y="725" name="top"/>
+  <outline>
+    <contour>
+      <point x="47" y="631" type="curve" smooth="yes"/>
+      <point x="72" y="631"/>
+      <point x="94" y="647"/>
+      <point x="94" y="681" type="curve" smooth="yes"/>
+      <point x="94" y="716"/>
+      <point x="72" y="730"/>
+      <point x="47" y="730" type="curve" smooth="yes"/>
+      <point x="21" y="730"/>
+      <point x="0" y="716"/>
+      <point x="0" y="681" type="curve" smooth="yes"/>
+      <point x="0" y="647"/>
+      <point x="21" y="631"/>
+    </contour>
+    <contour>
+      <point x="234" y="631" type="curve" smooth="yes"/>
+      <point x="259" y="631"/>
+      <point x="281" y="647"/>
+      <point x="281" y="681" type="curve" smooth="yes"/>
+      <point x="281" y="716"/>
+      <point x="259" y="730"/>
+      <point x="234" y="730" type="curve" smooth="yes"/>
+      <point x="209" y="730"/>
+      <point x="188" y="716"/>
+      <point x="188" y="681" type="curve" smooth="yes"/>
+      <point x="188" y="647"/>
+      <point x="209" y="631"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>281</integer>
+    </dict>
+  </lib>
+</glyph>

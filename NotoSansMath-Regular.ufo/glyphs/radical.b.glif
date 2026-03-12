@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical.b" format="2">
+  <advance width="866"/>
+  <unicode hex="23B7"/>
+  <outline>
+    <contour>
+      <point x="211" y="1438" type="line"/>
+      <point x="51" y="1438" type="line"/>
+      <point x="51" y="1358" type="line"/>
+      <point x="139" y="1358" type="line"/>
+      <point x="619" y="0" type="line"/>
+      <point x="696" y="0" type="line"/>
+      <point x="696" y="1538" type="line"/>
+      <point x="625" y="1538" type="line"/>
+      <point x="625" y="205" type="line"/>
+      <point x="641" y="221" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+    </dict>
+  </lib>
+</glyph>

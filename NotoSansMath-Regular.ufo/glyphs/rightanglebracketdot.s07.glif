@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracketdot.s07" format="2">
+  <advance width="581"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-994.5" type="line"/>
+      <point x="133.5" y="-994.5" type="line"/>
+      <point x="530.3" y="333" type="line"/>
+      <point x="151.15" y="1596" type="line"/>
+      <point x="68.65" y="1596" type="line"/>
+      <point x="443.79999999999995" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="315.29999999999995" y="273" type="curve" smooth="yes"/>
+      <point x="347.3" y="273"/>
+      <point x="375.29999999999995" y="299"/>
+      <point x="375.29999999999995" y="333" type="curve" smooth="yes"/>
+      <point x="375.29999999999995" y="366"/>
+      <point x="348.3" y="393"/>
+      <point x="315.29999999999995" y="393" type="curve" smooth="yes"/>
+      <point x="280.29999999999995" y="393"/>
+      <point x="255.29999999999998" y="364"/>
+      <point x="255.29999999999998" y="333" type="curve" smooth="yes"/>
+      <point x="255.29999999999998" y="300"/>
+      <point x="282.3" y="273"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>7</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

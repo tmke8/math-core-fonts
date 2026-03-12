@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doesnotcontainasnormalsubgroup" format="2">
+  <advance width="572"/>
+  <unicode hex="22EB"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="157" y="-35" type="line"/>
+      <point x="387" y="565" type="line"/>
+      <point x="326" y="591" type="line"/>
+      <point x="96" y="-9" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="90" type="line"/>
+      <point x="521" y="261" type="line"/>
+      <point x="521" y="295" type="line"/>
+      <point x="51" y="467" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="182" type="line"/>
+      <point x="118" y="375" type="line"/>
+      <point x="403" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

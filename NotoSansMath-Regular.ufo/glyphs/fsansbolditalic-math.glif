@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fsansbolditalic-math" format="2">
+  <advance width="500"/>
+  <unicode hex="1D65B"/>
+  <unicode hex="1D487"/>
+  <anchor x="314" y="262" name="center"/>
+  <anchor x="629" y="0" name="math.ic"/>
+  <anchor x="491" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="105" y="-240" type="curve" smooth="yes"/>
+      <point x="228" y="-240"/>
+      <point x="281" y="-159"/>
+      <point x="302" y="-59" type="curve" smooth="yes"/>
+      <point x="407" y="434" type="line"/>
+      <point x="514" y="434" type="line"/>
+      <point x="538" y="546" type="line"/>
+      <point x="431" y="546" type="line"/>
+      <point x="437" y="576" type="line" smooth="yes"/>
+      <point x="445" y="618"/>
+      <point x="468" y="647"/>
+      <point x="505" y="647" type="curve" smooth="yes"/>
+      <point x="531" y="647"/>
+      <point x="551" y="640"/>
+      <point x="570" y="632" type="curve"/>
+      <point x="609" y="741" type="line"/>
+      <point x="577" y="756"/>
+      <point x="539" y="765"/>
+      <point x="494" y="765" type="curve" smooth="yes"/>
+      <point x="387" y="765"/>
+      <point x="322" y="719"/>
+      <point x="293" y="587" type="curve" smooth="yes"/>
+      <point x="284" y="546" type="line"/>
+      <point x="195" y="505" type="line"/>
+      <point x="180" y="434" type="line"/>
+      <point x="260" y="434" type="line"/>
+      <point x="160" y="-37" type="line" smooth="yes"/>
+      <point x="148" y="-95"/>
+      <point x="116" y="-120"/>
+      <point x="76" y="-120" type="curve" smooth="yes"/>
+      <point x="57" y="-120"/>
+      <point x="41" y="-117"/>
+      <point x="20" y="-110" type="curve"/>
+      <point x="20" y="-228" type="line"/>
+      <point x="40" y="-235"/>
+      <point x="74" y="-240"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

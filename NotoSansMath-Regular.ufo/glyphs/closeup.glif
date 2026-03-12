@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="closeup" format="2">
+  <advance width="855"/>
+  <unicode hex="2050"/>
+  <outline>
+    <component base="charactertie" yOffset="-100"/>
+    <component base="charactertie" yScale="-1" yOffset="783"/>
+  </outline>
+</glyph>

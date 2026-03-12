@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackVerySmallLozenge" format="2">
+  <advance width="380"/>
+  <unicode hex="1F79E"/>
+  <anchor x="190" y="360" name="_center"/>
+  <anchor x="190" y="360" name="center"/>
+  <outline>
+    <contour>
+      <point x="190" y="132" type="line"/>
+      <point x="329" y="360" type="line"/>
+      <point x="190" y="588" type="line"/>
+      <point x="51" y="360" type="line"/>
+    </contour>
+  </outline>
+</glyph>

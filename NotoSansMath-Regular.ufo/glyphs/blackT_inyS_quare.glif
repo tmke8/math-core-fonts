@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackTinySquare" format="2">
+  <advance width="282"/>
+  <unicode hex="1F78C"/>
+  <anchor x="141" y="357" name="_center"/>
+  <anchor x="141" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="267" type="line"/>
+      <point x="231" y="267" type="line"/>
+      <point x="231" y="447" type="line"/>
+      <point x="51" y="447" type="line"/>
+    </contour>
+  </outline>
+</glyph>

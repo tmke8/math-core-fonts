@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="widebridgeabovecomb" format="2">
+  <unicode hex="20E9"/>
+  <anchor x="3" y="536" name="_top"/>
+  <anchor x="3" y="0" name="math.ta"/>
+  <anchor x="3" y="486" name="top"/>
+  <outline>
+    <contour>
+      <point x="-223" y="606" type="line"/>
+      <point x="-167" y="606" type="line"/>
+      <point x="-167" y="705" type="line"/>
+      <point x="166" y="705" type="line"/>
+      <point x="166" y="606" type="line"/>
+      <point x="223" y="606" type="line"/>
+      <point x="223" y="771" type="line"/>
+      <point x="-223" y="771" type="line"/>
+    </contour>
+  </outline>
+</glyph>

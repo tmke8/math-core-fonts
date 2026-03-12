@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nsansitalic-math.ssty1" format="2">
+  <advance width="765"/>
+  <anchor x="413" y="357" name="center"/>
+  <anchor x="798" y="0" name="math.ic"/>
+  <anchor x="491" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="174" y="0" type="line"/>
+      <point x="248" y="352" type="line" smooth="yes"/>
+      <point x="263" y="421"/>
+      <point x="279" y="533"/>
+      <point x="282" y="556" type="curve"/>
+      <point x="286" y="556" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="619" y="0" type="line"/>
+      <point x="770" y="714" type="line"/>
+      <point x="651" y="714" type="line"/>
+      <point x="576" y="360" type="line" smooth="yes"/>
+      <point x="562" y="299"/>
+      <point x="548" y="213"/>
+      <point x="542" y="168" type="curve"/>
+      <point x="539" y="168" type="line"/>
+      <point x="356" y="714" type="line"/>
+      <point x="207" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

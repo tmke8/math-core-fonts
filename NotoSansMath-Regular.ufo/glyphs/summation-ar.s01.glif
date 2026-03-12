@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation-ar.s01" format="2">
+  <advance width="1747"/>
+  <outline>
+    <component base="summation-ar" xScale="1.4" yScale="1.4" xOffset="-20" yOffset="-239"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

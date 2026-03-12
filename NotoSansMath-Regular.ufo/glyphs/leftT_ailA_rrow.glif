@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftTailArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21A2"/>
+  <anchor x="511" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="877" y="83" type="line"/>
+      <point x="961" y="83" type="line"/>
+      <point x="803" y="278" type="line"/>
+      <point x="961" y="473" type="line"/>
+      <point x="877" y="473" type="line"/>
+      <point x="718" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="84" type="curve"/>
+      <point x="328" y="84" type="line"/>
+      <point x="293" y="161"/>
+      <point x="257" y="219"/>
+      <point x="223" y="253" type="curve"/>
+      <point x="223" y="305" type="line"/>
+      <point x="257" y="339"/>
+      <point x="293" y="397"/>
+      <point x="328" y="474" type="curve"/>
+      <point x="271" y="474" type="line"/>
+      <point x="201" y="392"/>
+      <point x="127" y="332"/>
+      <point x="51" y="293" type="curve"/>
+      <point x="51" y="265" type="line"/>
+      <point x="127" y="226"/>
+      <point x="201" y="166"/>
+    </contour>
+    <contour>
+      <point x="184" y="244" type="line"/>
+      <point x="781" y="244" type="line"/>
+      <point x="781" y="315" type="line"/>
+      <point x="184" y="315" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gmono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D690"/>
+  <anchor x="327" y="150" name="center"/>
+  <anchor x="340" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="313" y="-249" type="curve" smooth="yes"/>
+      <point x="432" y="-249"/>
+      <point x="560" y="-188"/>
+      <point x="560" y="-14" type="curve" smooth="yes"/>
+      <point x="560" y="465" type="line"/>
+      <point x="644" y="484" type="line"/>
+      <point x="644" y="536" type="line"/>
+      <point x="488" y="536" type="line"/>
+      <point x="476" y="470" type="line"/>
+      <point x="471" y="470" type="line"/>
+      <point x="432" y="525"/>
+      <point x="386" y="546"/>
+      <point x="314" y="546" type="curve" smooth="yes"/>
+      <point x="178" y="546"/>
+      <point x="95" y="439"/>
+      <point x="95" y="265" type="curve" smooth="yes"/>
+      <point x="95" y="92"/>
+      <point x="177" y="-10"/>
+      <point x="319" y="-10" type="curve" smooth="yes"/>
+      <point x="390" y="-10"/>
+      <point x="438" y="7"/>
+      <point x="475" y="62" type="curve"/>
+      <point x="479" y="62" type="line"/>
+      <point x="476" y="31"/>
+      <point x="476" y="21"/>
+      <point x="476" y="5" type="curve" smooth="yes"/>
+      <point x="476" y="-14" type="line" smooth="yes"/>
+      <point x="476" y="-129"/>
+      <point x="407" y="-169"/>
+      <point x="340" y="-172" type="curve" smooth="yes"/>
+      <point x="294" y="-174"/>
+      <point x="271" y="-171"/>
+      <point x="244" y="-161" type="curve"/>
+      <point x="245" y="-157"/>
+      <point x="245" y="-152"/>
+      <point x="245" y="-147" type="curve" smooth="yes"/>
+      <point x="245" y="-102"/>
+      <point x="215" y="-82"/>
+      <point x="181" y="-82" type="curve" smooth="yes"/>
+      <point x="146" y="-82"/>
+      <point x="117" y="-102"/>
+      <point x="117" y="-147" type="curve" smooth="yes"/>
+      <point x="117" y="-204"/>
+      <point x="212" y="-249"/>
+    </contour>
+    <contour>
+      <point x="336" y="63" type="curve" smooth="yes"/>
+      <point x="235" y="63"/>
+      <point x="187" y="134"/>
+      <point x="187" y="268" type="curve" smooth="yes"/>
+      <point x="187" y="398"/>
+      <point x="232" y="473"/>
+      <point x="333" y="473" type="curve" smooth="yes"/>
+      <point x="423" y="473"/>
+      <point x="479" y="413"/>
+      <point x="479" y="267" type="curve" smooth="yes"/>
+      <point x="479" y="246" type="line" smooth="yes"/>
+      <point x="479" y="118"/>
+      <point x="425" y="63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

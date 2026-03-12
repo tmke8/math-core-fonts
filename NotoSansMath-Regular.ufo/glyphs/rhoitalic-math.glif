@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rhoitalic-math" format="2">
+  <advance width="595"/>
+  <unicode hex="1D70C"/>
+  <anchor x="283" y="152" name="center"/>
+  <anchor x="366" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="137" y="315" type="curve" smooth="yes"/>
+      <point x="20" y="-240" type="line"/>
+      <point x="107" y="-240" type="line"/>
+      <point x="137" y="-98" type="line" smooth="yes"/>
+      <point x="149" y="-42"/>
+      <point x="157" y="0"/>
+      <point x="165" y="52" type="curve"/>
+      <point x="202" y="15"/>
+      <point x="245" y="-10"/>
+      <point x="311" y="-10" type="curve" smooth="yes"/>
+      <point x="469" y="-10"/>
+      <point x="547" y="183"/>
+      <point x="547" y="334" type="curve" smooth="yes"/>
+      <point x="547" y="470"/>
+      <point x="489" y="545"/>
+      <point x="366" y="545" type="curve" smooth="yes"/>
+      <point x="210" y="545"/>
+      <point x="162" y="434"/>
+    </contour>
+    <contour>
+      <point x="302" y="63" type="curve" smooth="yes"/>
+      <point x="249" y="63"/>
+      <point x="208" y="88"/>
+      <point x="182" y="116" type="curve"/>
+      <point x="221" y="296" type="line" smooth="yes"/>
+      <point x="244" y="403"/>
+      <point x="273" y="472"/>
+      <point x="361" y="472" type="curve" smooth="yes"/>
+      <point x="436" y="472"/>
+      <point x="458" y="419"/>
+      <point x="458" y="335" type="curve" smooth="yes"/>
+      <point x="458" y="211"/>
+      <point x="399" y="63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

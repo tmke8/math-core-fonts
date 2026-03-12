@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbridgeabovecomb" format="2">
+  <unicode hex="0346"/>
+  <anchor x="243" y="547" name="_top"/>
+  <anchor x="243" y="0" name="math.ta"/>
+  <anchor x="243" y="776" name="top"/>
+  <outline>
+    <contour>
+      <point x="25" y="606" type="line"/>
+      <point x="91" y="606" type="line"/>
+      <point x="91" y="716" type="line"/>
+      <point x="395" y="716" type="line"/>
+      <point x="395" y="606" type="line"/>
+      <point x="461" y="606" type="line"/>
+      <point x="461" y="776" type="line"/>
+      <point x="25" y="776" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>486</integer>
+    </dict>
+  </lib>
+</glyph>

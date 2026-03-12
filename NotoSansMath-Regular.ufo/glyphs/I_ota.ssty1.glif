@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota.ssty1" format="2">
+  <advance width="416"/>
+  <anchor x="207" y="357" name="center"/>
+  <anchor x="209" y="0" name="math.ta"/>
+  <outline>
+    <component base="I.ssty1"/>
+  </outline>
+</glyph>

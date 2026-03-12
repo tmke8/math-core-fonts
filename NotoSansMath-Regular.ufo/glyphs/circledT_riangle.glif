@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circledTriangle" format="2">
+  <advance width="928"/>
+  <unicode hex="1F7D5"/>
+  <anchor x="464" y="349" name="center"/>
+  <outline>
+    <component base="_circle"/>
+    <component base="upWhiteMediumTriangle" xOffset="155" yOffset="32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_circle</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Bscript.ssty2" format="2">
+  <advance width="890"/>
+  <anchor x="435" y="355" name="center"/>
+  <anchor x="602" y="0" name="math.ta"/>
+  <outline>
+    <component base="Bboldscript-math"/>
+  </outline>
+</glyph>

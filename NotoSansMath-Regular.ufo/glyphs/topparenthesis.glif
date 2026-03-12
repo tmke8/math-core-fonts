@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="topparenthesis" format="2">
+  <advance width="662"/>
+  <unicode hex="23DC"/>
+  <anchor x="331" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="331" y="864" type="curve" smooth="yes"/>
+      <point x="179" y="864"/>
+      <point x="69" y="789"/>
+      <point x="0" y="658" type="curve"/>
+      <point x="57" y="658" type="line"/>
+      <point x="123" y="740"/>
+      <point x="204" y="790"/>
+      <point x="331" y="790" type="curve" smooth="yes"/>
+      <point x="458" y="790"/>
+      <point x="539" y="740"/>
+      <point x="605" y="658" type="curve"/>
+      <point x="662" y="658" type="line"/>
+      <point x="593" y="789"/>
+      <point x="483" y="864"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>topparenthesis.l</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>250</integer>
+          </array>
+          <array>
+            <string>topparenthesis.x</string>
+            <integer>1</integer>
+            <integer>800</integer>
+            <integer>800</integer>
+          </array>
+          <array>
+            <string>topparenthesis.r</string>
+            <integer>0</integer>
+            <integer>250</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>topparenthesis</string>
+          <string>topparenthesis.s01</string>
+          <string>topparenthesis.s02</string>
+          <string>topparenthesis.s03</string>
+          <string>topparenthesis.s04</string>
+          <string>topparenthesis.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

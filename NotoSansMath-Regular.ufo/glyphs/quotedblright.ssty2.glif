@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright.ssty2" format="2">
+  <advance width="394"/>
+  <anchor x="197" y="583" name="center"/>
+  <outline>
+    <contour>
+      <point x="8" y="453" type="curve"/>
+      <point x="111" y="453" type="line"/>
+      <point x="144" y="526"/>
+      <point x="180" y="634"/>
+      <point x="197" y="703" type="curve"/>
+      <point x="190" y="714" type="line"/>
+      <point x="60" y="714" type="line"/>
+      <point x="50" y="639"/>
+      <point x="29" y="536"/>
+    </contour>
+    <contour>
+      <point x="197" y="453" type="curve"/>
+      <point x="300" y="453" type="line"/>
+      <point x="333" y="526"/>
+      <point x="369" y="634"/>
+      <point x="386" y="703" type="curve"/>
+      <point x="379" y="714" type="line"/>
+      <point x="249" y="714" type="line"/>
+      <point x="239" y="639"/>
+      <point x="218" y="536"/>
+    </contour>
+  </outline>
+</glyph>

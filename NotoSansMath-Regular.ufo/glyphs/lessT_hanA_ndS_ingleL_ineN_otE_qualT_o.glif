@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessThanAndSingleLineNotEqualTo" format="2">
+  <advance width="572"/>
+  <unicode hex="2A87"/>
+  <anchor x="287" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="248" y="-159" type="line"/>
+      <point x="373" y="104" type="line"/>
+      <point x="316" y="134" type="line"/>
+      <point x="190" y="-131" type="line"/>
+    </contour>
+    <component base="lessequal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

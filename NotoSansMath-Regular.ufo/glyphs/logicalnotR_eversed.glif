@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnotReversed" format="2">
+  <advance width="572"/>
+  <unicode hex="2310"/>
+  <anchor x="286" y="183" name="center"/>
+  <outline>
+    <component base="logicalnot" xScale="-1" xOffset="572"/>
+  </outline>
+</glyph>

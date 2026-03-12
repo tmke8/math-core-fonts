@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation" format="2">
+  <advance width="852"/>
+  <unicode hex="2211"/>
+  <anchor x="393" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="164" y="-164" type="line"/>
+      <point x="513" y="265" type="line"/>
+      <point x="177" y="638" type="line"/>
+      <point x="766" y="638" type="line"/>
+      <point x="766" y="714" type="line"/>
+      <point x="59" y="714" type="line"/>
+      <point x="59" y="655" type="line"/>
+      <point x="408" y="263" type="line"/>
+      <point x="51" y="-182" type="line"/>
+      <point x="51" y="-240" type="line"/>
+      <point x="801" y="-240" type="line"/>
+      <point x="801" y="-164" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>summation</string>
+          <string>summation.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

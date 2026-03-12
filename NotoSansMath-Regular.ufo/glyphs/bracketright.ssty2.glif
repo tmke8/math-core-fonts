@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright.ssty2" format="2">
+  <advance width="322"/>
+  <anchor x="133" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="15" y="-158" type="line"/>
+      <point x="252" y="-158" type="line"/>
+      <point x="252" y="784" type="line"/>
+      <point x="15" y="784" type="line"/>
+      <point x="15" y="671" type="line"/>
+      <point x="128" y="671" type="line"/>
+      <point x="128" y="-45" type="line"/>
+      <point x="15" y="-45" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

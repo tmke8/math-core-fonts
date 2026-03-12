@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightdoublewigglyfence" format="2">
+  <advance width="454"/>
+  <unicode hex="29DB"/>
+  <anchor x="227" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="147" y="-158" type="line"/>
+      <point x="233" y="-158" type="line"/>
+      <point x="137" y="-64" type="line"/>
+      <point x="233" y="31" type="line"/>
+      <point x="137" y="125" type="line"/>
+      <point x="232" y="219" type="line"/>
+      <point x="137" y="313" type="line"/>
+      <point x="232" y="408" type="line"/>
+      <point x="137" y="501" type="line"/>
+      <point x="233" y="595" type="line"/>
+      <point x="137" y="690" type="line"/>
+      <point x="232" y="784" type="line"/>
+      <point x="147" y="784" type="line"/>
+      <point x="52" y="690" type="line"/>
+      <point x="147" y="595" type="line"/>
+      <point x="51" y="501" type="line"/>
+      <point x="147" y="408" type="line"/>
+      <point x="52" y="313" type="line"/>
+      <point x="147" y="219" type="line"/>
+      <point x="51" y="125" type="line"/>
+      <point x="147" y="31" type="line"/>
+      <point x="51" y="-64" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="-158" type="line"/>
+      <point x="403" y="-158" type="line"/>
+      <point x="307" y="-64" type="line"/>
+      <point x="403" y="31" type="line"/>
+      <point x="307" y="125" type="line"/>
+      <point x="402" y="219" type="line"/>
+      <point x="307" y="313" type="line"/>
+      <point x="402" y="408" type="line"/>
+      <point x="307" y="501" type="line"/>
+      <point x="403" y="595" type="line"/>
+      <point x="307" y="690" type="line"/>
+      <point x="402" y="784" type="line"/>
+      <point x="317" y="784" type="line"/>
+      <point x="222" y="690" type="line"/>
+      <point x="317" y="595" type="line"/>
+      <point x="221" y="501" type="line"/>
+      <point x="317" y="408" type="line"/>
+      <point x="222" y="313" type="line"/>
+      <point x="317" y="219" type="line"/>
+      <point x="221" y="125" type="line"/>
+      <point x="317" y="31" type="line"/>
+      <point x="221" y="-64" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>rightdoublewigglyfence</string>
+          <string>rightdoublewigglyfence.s01</string>
+          <string>rightdoublewigglyfence.s02</string>
+          <string>rightdoublewigglyfence.s03</string>
+          <string>rightdoublewigglyfence.s04</string>
+          <string>rightdoublewigglyfence.s05</string>
+          <string>rightdoublewigglyfence.s06</string>
+          <string>rightdoublewigglyfence.s07</string>
+          <string>rightdoublewigglyfence.s08</string>
+          <string>rightdoublewigglyfence.s09</string>
+          <string>rightdoublewigglyfence.s10</string>
+          <string>rightdoublewigglyfence.s11</string>
+          <string>rightdoublewigglyfence.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

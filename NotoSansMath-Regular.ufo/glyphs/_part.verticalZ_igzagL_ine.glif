@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.verticalZigzagLine" format="2">
+  <advance width="294"/>
+  <outline>
+    <contour>
+      <point x="157" y="-158" type="line"/>
+      <point x="243" y="-158" type="line"/>
+      <point x="136" y="-53" type="line"/>
+      <point x="242" y="52" type="line"/>
+      <point x="137" y="156" type="line"/>
+      <point x="242" y="261" type="line"/>
+      <point x="137" y="366" type="line"/>
+      <point x="242" y="470" type="line"/>
+      <point x="136" y="574" type="line"/>
+      <point x="242" y="680" type="line"/>
+      <point x="137" y="784" type="line"/>
+      <point x="52" y="784" type="line"/>
+      <point x="157" y="680" type="line"/>
+      <point x="51" y="574" type="line"/>
+      <point x="157" y="470" type="line"/>
+      <point x="52" y="366" type="line"/>
+      <point x="157" y="261" type="line"/>
+      <point x="52" y="156" type="line"/>
+      <point x="157" y="52" type="line"/>
+      <point x="51" y="-53" type="line"/>
+    </contour>
+  </outline>
+</glyph>

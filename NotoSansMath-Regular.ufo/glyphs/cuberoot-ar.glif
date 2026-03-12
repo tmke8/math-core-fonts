@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cuberoot-ar" format="2">
+  <advance width="679"/>
+  <unicode hex="0606"/>
+  <outline>
+    <contour>
+      <point x="405" y="0" type="line"/>
+      <point x="540" y="380" type="line"/>
+      <point x="628" y="380" type="line"/>
+      <point x="628" y="450" type="line"/>
+      <point x="485" y="450" type="line"/>
+      <point x="372" y="121" type="line"/>
+      <point x="40" y="1057" type="line"/>
+      <point x="-31" y="1057" type="line"/>
+      <point x="340" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="385" y="718" type="curve" smooth="yes"/>
+      <point x="425" y="718"/>
+      <point x="439" y="742"/>
+      <point x="445" y="766" type="curve"/>
+      <point x="428" y="773" type="line"/>
+      <point x="430" y="748"/>
+      <point x="452" y="721"/>
+      <point x="493" y="721" type="curve" smooth="yes"/>
+      <point x="539" y="721"/>
+      <point x="578" y="754"/>
+      <point x="578" y="808" type="curve" smooth="yes"/>
+      <point x="578" y="832"/>
+      <point x="571" y="884"/>
+      <point x="551" y="920" type="curve"/>
+      <point x="494" y="898" type="line"/>
+      <point x="502" y="878"/>
+      <point x="511" y="836"/>
+      <point x="511" y="818" type="curve" smooth="yes"/>
+      <point x="511" y="797"/>
+      <point x="496" y="785"/>
+      <point x="479" y="785" type="curve" smooth="yes"/>
+      <point x="469" y="785"/>
+      <point x="452" y="791"/>
+      <point x="454" y="812" type="curve" smooth="yes"/>
+      <point x="460" y="886" type="line"/>
+      <point x="400" y="890" type="line"/>
+      <point x="391" y="800"/>
+      <point x="392" y="785"/>
+      <point x="368" y="785" type="curve" smooth="yes"/>
+      <point x="355" y="785"/>
+      <point x="340" y="790"/>
+      <point x="329" y="818" type="curve"/>
+      <point x="310" y="901" type="line"/>
+      <point x="316" y="761" type="line"/>
+      <point x="320" y="742"/>
+      <point x="340" y="718"/>
+    </contour>
+    <contour>
+      <point x="352" y="554" type="line"/>
+      <point x="352" y="592"/>
+      <point x="352" y="662"/>
+      <point x="343" y="751" type="curve"/>
+      <point x="310" y="901" type="line"/>
+      <point x="248" y="884" type="line"/>
+      <point x="278" y="776"/>
+      <point x="283" y="590"/>
+      <point x="283" y="557" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>cuberoot-ar</string>
+          <string>cuberoot-ar.s01</string>
+          <string>cuberoot-ar.s02</string>
+          <string>cuberoot-ar.s03</string>
+          <string>cuberoot-ar.s04</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+    </dict>
+  </lib>
+</glyph>

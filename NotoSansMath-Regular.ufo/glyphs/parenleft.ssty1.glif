@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft.ssty1" format="2">
+  <advance width="380"/>
+  <anchor x="190" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="212" y="-158" type="curve"/>
+      <point x="321" y="-158" type="line"/>
+      <point x="213" y="-30"/>
+      <point x="162" y="155"/>
+      <point x="162" y="315" type="curve" smooth="yes"/>
+      <point x="162" y="475"/>
+      <point x="217" y="657"/>
+      <point x="321" y="784" type="curve"/>
+      <point x="212" y="784" type="line"/>
+      <point x="112" y="662"/>
+      <point x="59" y="497"/>
+      <point x="59" y="316" type="curve" smooth="yes"/>
+      <point x="59" y="119"/>
+      <point x="115" y="-36"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

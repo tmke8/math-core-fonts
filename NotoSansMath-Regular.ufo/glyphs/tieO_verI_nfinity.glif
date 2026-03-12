@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tieOverInfinity" format="2">
+  <advance width="930"/>
+  <unicode hex="29DD"/>
+  <anchor x="464" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="238" y="453" type="curve"/>
+      <point x="311" y="453" type="line"/>
+      <point x="335" y="547"/>
+      <point x="399" y="582"/>
+      <point x="465" y="582" type="curve" smooth="yes"/>
+      <point x="531" y="582"/>
+      <point x="595" y="547"/>
+      <point x="619" y="453" type="curve"/>
+      <point x="692" y="453" type="line"/>
+      <point x="667" y="576"/>
+      <point x="573" y="648"/>
+      <point x="465" y="648" type="curve" smooth="yes"/>
+      <point x="357" y="648"/>
+      <point x="263" y="576"/>
+    </contour>
+    <component base="infinity"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>infinity</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

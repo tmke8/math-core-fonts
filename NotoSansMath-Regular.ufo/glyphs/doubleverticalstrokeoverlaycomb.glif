@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleverticalstrokeoverlaycomb" format="2">
+  <unicode hex="20E6"/>
+  <anchor x="0" y="260" name="_center"/>
+  <outline>
+    <contour>
+      <point x="73" y="-241" type="line"/>
+      <point x="146" y="-241" type="line"/>
+      <point x="146" y="760" type="line"/>
+      <point x="73" y="760" type="line"/>
+    </contour>
+    <contour>
+      <point x="-147" y="-241" type="line"/>
+      <point x="-74" y="-241" type="line"/>
+      <point x="-74" y="760" type="line"/>
+      <point x="-147" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

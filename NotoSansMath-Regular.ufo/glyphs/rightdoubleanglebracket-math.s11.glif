@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightdoubleanglebracket-math.s11" format="2">
+  <advance width="855"/>
+  <anchor x="356.583" y="281" name="center"/>
+  <outline>
+    <contour>
+      <point x="196.55" y="-1472.5" type="line"/>
+      <point x="281.05" y="-1472.5" type="line"/>
+      <point x="775.45" y="333" type="line"/>
+      <point x="302.5" y="2060" type="line"/>
+      <point x="218" y="2060" type="line"/>
+      <point x="686.95" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="25" y="-1472.5" type="line"/>
+      <point x="109.5" y="-1472.5" type="line"/>
+      <point x="603.9" y="333" type="line"/>
+      <point x="130.95" y="2060" type="line"/>
+      <point x="46.45" y="2060" type="line"/>
+      <point x="515.4000000000001" y="333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>11</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

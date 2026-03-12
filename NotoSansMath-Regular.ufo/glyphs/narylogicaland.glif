@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narylogicaland" format="2">
+  <advance width="920"/>
+  <unicode hex="22C0"/>
+  <anchor x="460" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-240" type="line"/>
+      <point x="127" y="-240" type="line"/>
+      <point x="475" y="637" type="line"/>
+      <point x="445" y="637" type="line"/>
+      <point x="793" y="-240" type="line"/>
+      <point x="869" y="-240" type="line"/>
+      <point x="490" y="714" type="line"/>
+      <point x="430" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>narylogicaland</string>
+          <string>narylogicaland.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

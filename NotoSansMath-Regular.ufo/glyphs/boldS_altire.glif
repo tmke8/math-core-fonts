@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boldSaltire" format="2">
+  <advance width="600"/>
+  <unicode hex="1F7AB"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="193" y="90" type="line"/>
+      <point x="617" y="514" type="line"/>
+      <point x="508" y="624" type="line"/>
+      <point x="83" y="199" type="line"/>
+    </contour>
+    <contour>
+      <point x="508" y="90" type="line"/>
+      <point x="617" y="200" type="line"/>
+      <point x="193" y="624" type="line"/>
+      <point x="83" y="515" type="line"/>
+    </contour>
+  </outline>
+</glyph>

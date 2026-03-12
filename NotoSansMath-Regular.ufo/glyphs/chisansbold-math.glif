@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chisansbold-math" format="2">
+  <advance width="579"/>
+  <unicode hex="1D786"/>
+  <unicode hex="1D6D8"/>
+  <anchor x="289" y="159" name="center"/>
+  <anchor x="287" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="20" y="-213" type="line"/>
+      <point x="174" y="-213" type="line"/>
+      <point x="289" y="47" type="line"/>
+      <point x="409" y="-213" type="line"/>
+      <point x="559" y="-213" type="line"/>
+      <point x="375" y="169" type="line"/>
+      <point x="545" y="531" type="line"/>
+      <point x="394" y="531" type="line"/>
+      <point x="290" y="285" type="line"/>
+      <point x="183" y="531" type="line"/>
+      <point x="29" y="531" type="line"/>
+      <point x="205" y="166" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

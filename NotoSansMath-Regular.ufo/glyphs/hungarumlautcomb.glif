@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="220" y="536" name="_top"/>
+  <anchor x="220" y="0" name="math.ta"/>
+  <anchor x="220" y="766" name="top"/>
+  <outline>
+    <contour>
+      <point x="399" y="756" type="curve"/>
+      <point x="399" y="766" type="line"/>
+      <point x="303" y="766" type="line"/>
+      <point x="282" y="721"/>
+      <point x="244" y="656"/>
+      <point x="216" y="618" type="curve"/>
+      <point x="216" y="606" type="line"/>
+      <point x="266" y="606" type="line"/>
+      <point x="311" y="642"/>
+      <point x="378" y="721"/>
+    </contour>
+    <contour>
+      <point x="223" y="756" type="curve"/>
+      <point x="223" y="766" type="line"/>
+      <point x="127" y="766" type="line"/>
+      <point x="105" y="721"/>
+      <point x="68" y="656"/>
+      <point x="40" y="618" type="curve"/>
+      <point x="40" y="606" type="line"/>
+      <point x="90" y="606" type="line"/>
+      <point x="135" y="642"/>
+      <point x="202" y="721"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>439</integer>
+    </dict>
+  </lib>
+</glyph>

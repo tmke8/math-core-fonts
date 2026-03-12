@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb.s03" format="2">
+  <advance width="1751"/>
+  <anchor x="875" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="594" type="line"/>
+      <point x="73" y="594" type="line"/>
+      <point x="307" y="612"/>
+      <point x="626" y="645"/>
+      <point x="874" y="706" type="curve"/>
+      <point x="1123" y="645"/>
+      <point x="1443" y="612"/>
+      <point x="1677" y="594" type="curve"/>
+      <point x="1751" y="594" type="line"/>
+      <point x="1751" y="615" type="line"/>
+      <point x="1426" y="652"/>
+      <point x="1133" y="711"/>
+      <point x="933" y="785" type="curve"/>
+      <point x="817" y="785" type="line"/>
+      <point x="617" y="711"/>
+      <point x="324" y="652"/>
+      <point x="0" y="615" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

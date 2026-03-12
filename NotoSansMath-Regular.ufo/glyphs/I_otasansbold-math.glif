@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotasansbold-math" format="2">
+  <advance width="307"/>
+  <unicode hex="1D75E"/>
+  <unicode hex="1D6B0"/>
+  <anchor x="153" y="359" name="center"/>
+  <anchor x="153" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="79" y="0" type="line"/>
+      <point x="227" y="0" type="line"/>
+      <point x="227" y="719" type="line"/>
+      <point x="79" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

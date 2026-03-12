@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft.ssty2" format="2">
+  <advance width="394"/>
+  <anchor x="197" y="583" name="center"/>
+  <outline>
+    <contour>
+      <point x="204" y="453" type="line"/>
+      <point x="334" y="453" type="line"/>
+      <point x="344" y="528"/>
+      <point x="365" y="631"/>
+      <point x="386" y="714" type="curve"/>
+      <point x="283" y="714" type="line"/>
+      <point x="250" y="641"/>
+      <point x="214" y="533"/>
+      <point x="197" y="464" type="curve"/>
+    </contour>
+    <contour>
+      <point x="15" y="453" type="line"/>
+      <point x="145" y="453" type="line"/>
+      <point x="155" y="528"/>
+      <point x="176" y="631"/>
+      <point x="197" y="714" type="curve"/>
+      <point x="94" y="714" type="line"/>
+      <point x="61" y="641"/>
+      <point x="25" y="533"/>
+      <point x="8" y="464" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

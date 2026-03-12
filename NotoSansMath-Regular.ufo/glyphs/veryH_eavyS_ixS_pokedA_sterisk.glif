@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veryHeavySixSpokedAsterisk" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7B9"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="240" y="57" type="line"/>
+      <point x="460" y="57" type="line"/>
+      <point x="402" y="264" type="line"/>
+      <point x="546" y="117" type="line"/>
+      <point x="655" y="307" type="line"/>
+      <point x="459" y="357" type="line"/>
+      <point x="655" y="407" type="line"/>
+      <point x="546" y="597" type="line"/>
+      <point x="402" y="450" type="line"/>
+      <point x="460" y="657" type="line"/>
+      <point x="240" y="657" type="line"/>
+      <point x="298" y="450" type="line"/>
+      <point x="154" y="597" type="line"/>
+      <point x="45" y="407" type="line"/>
+      <point x="241" y="357" type="line"/>
+      <point x="45" y="307" type="line"/>
+      <point x="154" y="117" type="line"/>
+      <point x="298" y="264" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="precedesAboveNotAlmostEqualTo" format="2">
+  <advance width="572"/>
+  <unicode hex="2AB9"/>
+  <anchor x="286" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="223" y="-204" type="line"/>
+      <point x="405" y="185" type="line"/>
+      <point x="348" y="215" type="line"/>
+      <point x="165" y="-176" type="line"/>
+    </contour>
+    <component base="precedesAboveAlmostEqualTo"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

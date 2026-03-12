@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitetortoiseshellbracket-math" format="2">
+  <advance width="378"/>
+  <unicode hex="27ED"/>
+  <anchor x="187" y="333" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="line"/>
+      <point x="105" y="-158" type="line"/>
+      <point x="298" y="58" type="line"/>
+      <point x="298" y="568" type="line"/>
+      <point x="105" y="784" type="line"/>
+      <point x="25" y="784" type="line"/>
+      <point x="93" y="708" type="line"/>
+      <point x="93" y="-82" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="-9" type="line"/>
+      <point x="158" y="635" type="line"/>
+      <point x="233" y="551" type="line"/>
+      <point x="233" y="75" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>rightwhitetortoiseshellbracket-math.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>741</integer>
+          </array>
+          <array>
+            <string>rightwhitetortoiseshellbracket-math.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>rightwhitetortoiseshellbracket-math.t</string>
+            <integer>0</integer>
+            <integer>741</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rightwhitetortoiseshellbracket-math</string>
+          <string>rightwhitetortoiseshellbracket-math.s01</string>
+          <string>rightwhitetortoiseshellbracket-math.s02</string>
+          <string>rightwhitetortoiseshellbracket-math.s03</string>
+          <string>rightwhitetortoiseshellbracket-math.s04</string>
+          <string>rightwhitetortoiseshellbracket-math.s05</string>
+          <string>rightwhitetortoiseshellbracket-math.s06</string>
+          <string>rightwhitetortoiseshellbracket-math.s07</string>
+          <string>rightwhitetortoiseshellbracket-math.s08</string>
+          <string>rightwhitetortoiseshellbracket-math.s09</string>
+          <string>rightwhitetortoiseshellbracket-math.s10</string>
+          <string>rightwhitetortoiseshellbracket-math.s11</string>
+          <string>rightwhitetortoiseshellbracket-math.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

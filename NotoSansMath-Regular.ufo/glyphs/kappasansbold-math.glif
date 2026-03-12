@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kappasansbold-math" format="2">
+  <advance width="575"/>
+  <unicode hex="1D779"/>
+  <unicode hex="1D6CB"/>
+  <anchor x="313" y="271" name="center"/>
+  <anchor x="294" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="204" y="206" type="line"/>
+      <point x="197" y="253" type="line"/>
+      <point x="200" y="278"/>
+      <point x="204" y="340"/>
+      <point x="204" y="397" type="curve" smooth="yes"/>
+      <point x="204" y="531" type="line"/>
+      <point x="65" y="531" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="381" type="line"/>
+      <point x="191" y="293" type="line"/>
+      <point x="375" y="40" type="line" smooth="yes"/>
+      <point x="399" y="6"/>
+      <point x="432" y="-11"/>
+      <point x="475" y="-11" type="curve" smooth="yes"/>
+      <point x="509" y="-11"/>
+      <point x="538" y="-1"/>
+      <point x="555" y="11" type="curve"/>
+      <point x="555" y="119" type="line"/>
+      <point x="519" y="109"/>
+      <point x="509" y="107"/>
+      <point x="502" y="107" type="curve" smooth="yes"/>
+      <point x="489" y="107"/>
+      <point x="480" y="118"/>
+      <point x="458" y="146" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="562" y="442" type="curve"/>
+      <point x="512" y="554" type="line"/>
+      <point x="302" y="453"/>
+      <point x="160" y="340"/>
+      <point x="66" y="126" type="curve"/>
+      <point x="162" y="90" type="line"/>
+      <point x="234" y="249"/>
+      <point x="355" y="334"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

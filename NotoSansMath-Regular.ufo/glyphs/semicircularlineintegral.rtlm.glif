@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicircularlineintegral.rtlm" format="2">
+  <advance width="836"/>
+  <anchor x="438" y="327" name="center"/>
+  <anchor x="1110" y="0" name="math.ic"/>
+  <outline>
+    <component base="semicircularlineintegral" yScale="-1" yOffset="655"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>semicircularlineintegral.rtlm</string>
+          <string>semicircularlineintegral.rtlm.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

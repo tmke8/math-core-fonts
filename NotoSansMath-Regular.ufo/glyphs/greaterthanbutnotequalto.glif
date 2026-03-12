@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterthanbutnotequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="2269"/>
+  <anchor x="286" y="229" name="center"/>
+  <outline>
+    <contour>
+      <point x="215" y="-147" type="line"/>
+      <point x="386" y="218" type="line"/>
+      <point x="329" y="248" type="line"/>
+      <point x="157" y="-119" type="line"/>
+    </contour>
+    <component base="greateroverequal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P.ssty2" format="2">
+  <advance width="717"/>
+  <anchor x="391" y="357" name="center"/>
+  <anchor x="376" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="283" y="0" type="line"/>
+      <point x="283" y="256" type="line"/>
+      <point x="360" y="256" type="line" smooth="yes"/>
+      <point x="572" y="256"/>
+      <point x="646" y="368"/>
+      <point x="646" y="494" type="curve" smooth="yes"/>
+      <point x="646" y="634"/>
+      <point x="557" y="714"/>
+      <point x="370" y="714" type="curve" smooth="yes"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="283" y="377" type="line"/>
+      <point x="283" y="594" type="line"/>
+      <point x="364" y="594" type="line" smooth="yes"/>
+      <point x="455" y="594"/>
+      <point x="496" y="557"/>
+      <point x="496" y="489" type="curve" smooth="yes"/>
+      <point x="496" y="407"/>
+      <point x="435" y="377"/>
+      <point x="347" y="377" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

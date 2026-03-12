@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwigglyfence" format="2">
+  <advance width="284"/>
+  <unicode hex="29D9"/>
+  <anchor x="172" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="147" y="-158" type="line"/>
+      <point x="233" y="-158" type="line"/>
+      <point x="137" y="-64" type="line"/>
+      <point x="233" y="31" type="line"/>
+      <point x="137" y="125" type="line"/>
+      <point x="232" y="219" type="line"/>
+      <point x="137" y="313" type="line"/>
+      <point x="232" y="408" type="line"/>
+      <point x="137" y="501" type="line"/>
+      <point x="233" y="595" type="line"/>
+      <point x="137" y="690" type="line"/>
+      <point x="232" y="784" type="line"/>
+      <point x="147" y="784" type="line"/>
+      <point x="52" y="690" type="line"/>
+      <point x="147" y="595" type="line"/>
+      <point x="51" y="501" type="line"/>
+      <point x="147" y="408" type="line"/>
+      <point x="52" y="313" type="line"/>
+      <point x="147" y="219" type="line"/>
+      <point x="51" y="125" type="line"/>
+      <point x="147" y="31" type="line"/>
+      <point x="51" y="-64" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>rightwigglyfence</string>
+          <string>rightwigglyfence.s01</string>
+          <string>rightwigglyfence.s02</string>
+          <string>rightwigglyfence.s03</string>
+          <string>rightwigglyfence.s04</string>
+          <string>rightwigglyfence.s05</string>
+          <string>rightwigglyfence.s06</string>
+          <string>rightwigglyfence.s07</string>
+          <string>rightwigglyfence.s08</string>
+          <string>rightwigglyfence.s09</string>
+          <string>rightwigglyfence.s10</string>
+          <string>rightwigglyfence.s11</string>
+          <string>rightwigglyfence.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessThanOrSlantedEqualTo.ssty1" format="2">
+  <advance width="600"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="521" y="125" type="line"/>
+      <point x="521" y="220" type="line"/>
+      <point x="181" y="378" type="line"/>
+      <point x="521" y="536" type="line"/>
+      <point x="521" y="631" type="line"/>
+      <point x="51" y="410" type="line"/>
+      <point x="51" y="346" type="line"/>
+    </contour>
+    <contour>
+      <point x="521" y="-75" type="line"/>
+      <point x="521" y="15" type="line"/>
+      <point x="51" y="236" type="line"/>
+      <point x="51" y="146" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterThanOrSlantedEqualToWithDotAboveLeft" format="2">
+  <advance width="572"/>
+  <unicode hex="2A84"/>
+  <anchor x="286" y="359" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="129" type="line"/>
+      <point x="521" y="350" type="line"/>
+      <point x="521" y="400" type="line"/>
+      <point x="51" y="621" type="line"/>
+      <point x="51" y="543" type="line"/>
+      <point x="417" y="375" type="line"/>
+      <point x="51" y="207" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="-62" type="line"/>
+      <point x="521" y="159" type="line"/>
+      <point x="521" y="237" type="line"/>
+      <point x="51" y="16" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="660" type="curve" smooth="yes"/>
+      <point x="151" y="660"/>
+      <point x="177" y="687"/>
+      <point x="177" y="720" type="curve" smooth="yes"/>
+      <point x="177" y="753"/>
+      <point x="151" y="780"/>
+      <point x="117" y="780" type="curve" smooth="yes"/>
+      <point x="84" y="780"/>
+      <point x="57" y="753"/>
+      <point x="57" y="720" type="curve" smooth="yes"/>
+      <point x="57" y="687"/>
+      <point x="84" y="660"/>
+    </contour>
+  </outline>
+</glyph>

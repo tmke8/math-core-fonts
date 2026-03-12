@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationleftimagebracket.s09" format="2">
+  <advance width="544"/>
+  <anchor x="162" y="334" name="center"/>
+  <outline>
+    <contour>
+      <point x="393.75" y="-1244" type="curve"/>
+      <point x="493" y="-1244" type="line"/>
+      <point x="493" y="1817.5" type="line"/>
+      <point x="393.75" y="1817.5" type="line"/>
+      <point x="329.5" y="1674.5"/>
+      <point x="51" y="1003"/>
+      <point x="51" y="323.25" type="curve" smooth="yes"/>
+      <point x="51" y="-354.75"/>
+      <point x="330.5" y="-1106.5"/>
+    </contour>
+    <contour>
+      <point x="407.75" y="-1044.75" type="line"/>
+      <point x="303.75" y="-751"/>
+      <point x="137.25" y="-192.75"/>
+      <point x="137.25" y="323.5" type="curve" smooth="yes"/>
+      <point x="137.25" y="841.25"/>
+      <point x="303.75" y="1351.75"/>
+      <point x="407.75" y="1626.75" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

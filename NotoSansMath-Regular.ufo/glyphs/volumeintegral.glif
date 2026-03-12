@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="volumeintegral" format="2">
+  <advance width="1514"/>
+  <unicode hex="2230"/>
+  <anchor x="735" y="0" name="#entry"/>
+  <anchor x="1074" y="0" name="#exit"/>
+  <anchor x="757" y="328" name="center"/>
+  <anchor x="1708" y="0" name="math.ic"/>
+  <outline>
+    <component base="tripleintegral"/>
+    <component base="_contour3.integral" xOffset="262" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>volumeintegral</string>
+          <string>volumeintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tripleintegral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

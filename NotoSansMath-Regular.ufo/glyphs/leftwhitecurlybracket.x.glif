@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftwhitecurlybracket.x" format="2">
+  <advance width="631"/>
+  <anchor x="312" y="840" name="center"/>
+  <outline>
+    <contour>
+      <point x="474" y="1069" type="line"/>
+      <point x="384" y="1069" type="line"/>
+      <point x="384" y="0" type="line"/>
+      <point x="474" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="1069" type="line"/>
+      <point x="150" y="1069" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="242" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

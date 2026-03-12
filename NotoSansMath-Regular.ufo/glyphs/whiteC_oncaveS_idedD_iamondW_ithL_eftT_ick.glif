@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteConcaveSidedDiamondWithLeftTick" format="2">
+  <advance width="877"/>
+  <unicode hex="27E2"/>
+  <anchor x="410" y="274" name="center"/>
+  <outline>
+    <contour>
+      <point x="473" y="-79" type="curve"/>
+      <point x="478" y="-79" type="line"/>
+      <point x="607" y="109"/>
+      <point x="695" y="185"/>
+      <point x="826" y="273" type="curve"/>
+      <point x="826" y="278" type="line"/>
+      <point x="677" y="378"/>
+      <point x="593" y="461"/>
+      <point x="478" y="628" type="curve"/>
+      <point x="473" y="628" type="line"/>
+      <point x="374" y="481"/>
+      <point x="294" y="400"/>
+      <point x="171" y="310" type="curve"/>
+      <point x="-5" y="310" type="line"/>
+      <point x="-5" y="240" type="line"/>
+      <point x="172" y="240" type="line"/>
+      <point x="295" y="151"/>
+      <point x="369" y="74"/>
+    </contour>
+    <contour>
+      <point x="476" y="35" type="curve"/>
+      <point x="382" y="157"/>
+      <point x="324" y="211"/>
+      <point x="234" y="275" type="curve"/>
+      <point x="329" y="343"/>
+      <point x="389" y="401"/>
+      <point x="476" y="516" type="curve"/>
+      <point x="558" y="403"/>
+      <point x="624" y="340"/>
+      <point x="718" y="275" type="curve"/>
+      <point x="627" y="212"/>
+      <point x="563" y="151"/>
+    </contour>
+  </outline>
+</glyph>

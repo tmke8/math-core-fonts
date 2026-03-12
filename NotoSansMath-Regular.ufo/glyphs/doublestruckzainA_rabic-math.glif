@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublestruckzainArabic-math" format="2">
+  <advance width="439"/>
+  <unicode hex="1EEA6"/>
+  <outline>
+    <contour>
+      <point x="76" y="-88" type="line"/>
+      <point x="179" y="-64"/>
+      <point x="389" y="44"/>
+      <point x="389" y="268" type="curve" smooth="yes"/>
+      <point x="389" y="329"/>
+      <point x="366" y="415"/>
+      <point x="312" y="506" type="curve"/>
+      <point x="221" y="460" type="line"/>
+      <point x="279" y="356"/>
+      <point x="294" y="317"/>
+      <point x="294" y="261" type="curve" smooth="yes"/>
+      <point x="294" y="175"/>
+      <point x="245" y="68"/>
+      <point x="40" y="6" type="curve"/>
+    </contour>
+    <contour>
+      <point x="88" y="-64" type="curve"/>
+      <point x="66" y="-6" type="line"/>
+      <point x="265" y="60"/>
+      <point x="314" y="171"/>
+      <point x="314" y="261" type="curve" smooth="yes"/>
+      <point x="314" y="317"/>
+      <point x="299" y="359"/>
+      <point x="249" y="452" type="curve"/>
+      <point x="304" y="480" type="line"/>
+      <point x="350" y="397"/>
+      <point x="369" y="323"/>
+      <point x="369" y="268" type="curve" smooth="yes"/>
+      <point x="369" y="69"/>
+      <point x="192" y="-34"/>
+    </contour>
+    <contour>
+      <point x="255" y="597" type="curve" smooth="yes"/>
+      <point x="289" y="597"/>
+      <point x="315" y="623"/>
+      <point x="315" y="657" type="curve" smooth="yes"/>
+      <point x="315" y="692"/>
+      <point x="286" y="717"/>
+      <point x="255" y="717" type="curve" smooth="yes"/>
+      <point x="222" y="717"/>
+      <point x="195" y="690"/>
+      <point x="195" y="657" type="curve" smooth="yes"/>
+      <point x="195" y="625"/>
+      <point x="221" y="597"/>
+    </contour>
+    <contour>
+      <point x="255" y="617" type="curve" smooth="yes"/>
+      <point x="233" y="617"/>
+      <point x="215" y="635"/>
+      <point x="215" y="657" type="curve" smooth="yes"/>
+      <point x="215" y="678"/>
+      <point x="234" y="697"/>
+      <point x="255" y="697" type="curve" smooth="yes"/>
+      <point x="276" y="697"/>
+      <point x="295" y="680"/>
+      <point x="295" y="657" type="curve" smooth="yes"/>
+      <point x="295" y="635"/>
+      <point x="277" y="617"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Arabic Math Double-struck</string>
+    </dict>
+  </lib>
+</glyph>

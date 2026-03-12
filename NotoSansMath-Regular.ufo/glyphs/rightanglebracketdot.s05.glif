@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracketdot.s05" format="2">
+  <advance width="532"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-755.5" type="line"/>
+      <point x="132.5" y="-755.5" type="line"/>
+      <point x="480.5" y="333" type="line"/>
+      <point x="148.25" y="1364" type="line"/>
+      <point x="66.75" y="1364" type="line"/>
+      <point x="395" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="265.5" y="273" type="curve" smooth="yes"/>
+      <point x="297.5" y="273"/>
+      <point x="325.5" y="299"/>
+      <point x="325.5" y="333" type="curve" smooth="yes"/>
+      <point x="325.5" y="366"/>
+      <point x="298.5" y="393"/>
+      <point x="265.5" y="393" type="curve" smooth="yes"/>
+      <point x="230.5" y="393"/>
+      <point x="205.5" y="364"/>
+      <point x="205.5" y="333" type="curve" smooth="yes"/>
+      <point x="205.5" y="300"/>
+      <point x="232.5" y="273"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>5</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

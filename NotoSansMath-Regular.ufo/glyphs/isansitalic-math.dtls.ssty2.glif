@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="isansitalic-math.dtls.ssty2" format="2">
+  <advance width="385"/>
+  <anchor x="192" y="273" name="center"/>
+  <anchor x="292" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="207" y="0" type="line"/>
+      <point x="323" y="546" type="line"/>
+      <point x="178" y="546" type="line"/>
+    </contour>
+  </outline>
+</glyph>

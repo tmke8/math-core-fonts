@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acuteAngle" format="2">
+  <advance width="652"/>
+  <unicode hex="299F"/>
+  <anchor x="326" y="149" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="601" y="71" type="line"/>
+      <point x="224" y="71" type="line"/>
+      <point x="582" y="234" type="line"/>
+      <point x="550" y="298" type="line"/>
+      <point x="51" y="61" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation.ssty2" format="2">
+  <advance width="897"/>
+  <anchor x="364" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-266" type="line"/>
+      <point x="846" y="-266" type="line"/>
+      <point x="846" y="-135" type="line"/>
+      <point x="248" y="-135" type="line"/>
+      <point x="521" y="265" type="line"/>
+      <point x="263" y="609" type="line"/>
+      <point x="846" y="609" type="line"/>
+      <point x="846" y="740" type="line"/>
+      <point x="59" y="740" type="line"/>
+      <point x="59" y="649" type="line"/>
+      <point x="351" y="261" type="line"/>
+      <point x="51" y="-177" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="longdoublesolidusoverlaycomb" format="2">
+  <unicode hex="20EB"/>
+  <anchor x="0" y="357" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-82" y="0" type="line"/>
+      <point x="5" y="0" type="line"/>
+      <point x="271" y="714" type="line"/>
+      <point x="185" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="-272" y="0" type="line"/>
+      <point x="-185" y="0" type="line"/>
+      <point x="81" y="714" type="line"/>
+      <point x="-5" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

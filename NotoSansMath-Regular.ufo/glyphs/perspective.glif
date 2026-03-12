@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perspective" format="2">
+  <advance width="560"/>
+  <unicode hex="2306"/>
+  <anchor x="280" y="0" name="center"/>
+  <outline>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="157" y="0" type="line"/>
+      <point x="281" y="246" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="486" y="0" type="line"/>
+      <point x="291" y="376" type="line"/>
+      <point x="271" y="376" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="449" type="line"/>
+      <point x="509" y="449" type="line"/>
+      <point x="509" y="520" type="line"/>
+      <point x="51" y="520" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="608" type="line"/>
+      <point x="509" y="608" type="line"/>
+      <point x="509" y="679" type="line"/>
+      <point x="51" y="679" type="line"/>
+    </contour>
+  </outline>
+</glyph>

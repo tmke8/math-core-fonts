@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zsansitalic-math" format="2">
+  <advance width="460"/>
+  <unicode hex="1D63B"/>
+  <unicode hex="1D467"/>
+  <anchor x="227" y="268" name="center"/>
+  <anchor x="295" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="355" y="0" type="line"/>
+      <point x="368" y="66" type="line"/>
+      <point x="113" y="66" type="line"/>
+      <point x="440" y="465" type="line"/>
+      <point x="454" y="536" type="line"/>
+      <point x="129" y="536" type="line"/>
+      <point x="115" y="470" type="line"/>
+      <point x="345" y="470" type="line"/>
+      <point x="12" y="60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

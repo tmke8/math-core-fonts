@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="2192"/>
+  <anchor x="506" y="279" name="center"/>
+  <outline>
+    <component base="leftArrow" xScale="-1" xOffset="1012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>leftArrow.x</string>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>777</integer>
+          </array>
+          <array>
+            <string>rightArrow.r</string>
+            <integer>0</integer>
+            <integer>500</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftArrow</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

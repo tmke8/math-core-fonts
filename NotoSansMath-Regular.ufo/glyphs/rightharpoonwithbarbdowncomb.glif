@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightharpoonwithbarbdowncomb" format="2">
+  <unicode hex="20EC"/>
+  <anchor x="137" y="0" name="_bottom"/>
+  <anchor x="137" y="0" name="math.ta"/>
+  <anchor x="137" y="-48" name="top"/>
+  <outline>
+    <component base="rightharpoonwithbarbdowncomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hVariants</key>
+        <array>
+          <string>rightharpoonwithbarbdowncomb.s00</string>
+          <string>rightharpoonwithbarbdowncomb.s01</string>
+          <string>rightharpoonwithbarbdowncomb.s02</string>
+          <string>rightharpoonwithbarbdowncomb.s03</string>
+          <string>rightharpoonwithbarbdowncomb.s04</string>
+          <string>rightharpoonwithbarbdowncomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>448</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="extremelyHeavyGreekCross" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7A7"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="50" y="233" type="line"/>
+      <point x="650" y="233" type="line"/>
+      <point x="650" y="483" type="line"/>
+      <point x="50" y="483" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="57" type="line"/>
+      <point x="476" y="57" type="line"/>
+      <point x="476" y="657" type="line"/>
+      <point x="226" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

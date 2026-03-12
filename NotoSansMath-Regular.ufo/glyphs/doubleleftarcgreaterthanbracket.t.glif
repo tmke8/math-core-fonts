@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleleftarcgreaterthanbracket.t" format="2">
+  <advance width="620"/>
+  <outline>
+    <component base="doubleleftarcgreaterthanbracket.b" yScale="-1" yOffset="1069"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

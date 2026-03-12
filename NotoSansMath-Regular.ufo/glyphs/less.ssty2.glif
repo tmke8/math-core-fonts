@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less.ssty2" format="2">
+  <advance width="588"/>
+  <anchor x="294" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="544" y="12" type="line"/>
+      <point x="544" y="124" type="line"/>
+      <point x="190" y="269" type="line"/>
+      <point x="544" y="432" type="line"/>
+      <point x="544" y="544" type="line"/>
+      <point x="44" y="296" type="line"/>
+      <point x="44" y="230" type="line"/>
+    </contour>
+  </outline>
+</glyph>

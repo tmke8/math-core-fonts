@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftFloor" format="2">
+  <advance width="429"/>
+  <unicode hex="230A"/>
+  <anchor x="202" y="314" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-158" type="line"/>
+      <point x="404" y="-158" type="line"/>
+      <point x="404" y="-72" type="line"/>
+      <point x="166" y="-72" type="line"/>
+      <point x="166" y="784" type="line"/>
+      <point x="80" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>bracketleft.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>947</integer>
+          </array>
+          <array>
+            <string>bracketleft.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>leftFloor</string>
+          <string>leftFloor.s01</string>
+          <string>leftFloor.s02</string>
+          <string>leftFloor.s03</string>
+          <string>leftFloor.s04</string>
+          <string>leftFloor.s05</string>
+          <string>leftFloor.s06</string>
+          <string>leftFloor.s07</string>
+          <string>leftFloor.s08</string>
+          <string>leftFloor.s09</string>
+          <string>leftFloor.s10</string>
+          <string>leftFloor.s11</string>
+          <string>leftFloor.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

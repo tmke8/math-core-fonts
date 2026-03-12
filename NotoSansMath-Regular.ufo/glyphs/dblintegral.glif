@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblintegral" format="2">
+  <advance width="1175"/>
+  <unicode hex="222C"/>
+  <anchor x="396" y="0" name="#entry"/>
+  <anchor x="735" y="0" name="#exit"/>
+  <anchor x="588" y="328" name="center"/>
+  <anchor x="1409" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral"/>
+    <component base="integral" xOffset="339"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>dblintegral.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1178</integer>
+          </array>
+          <array>
+            <string>dblintegral.x</string>
+            <integer>1</integer>
+            <integer>1362</integer>
+            <integer>1362</integer>
+          </array>
+          <array>
+            <string>dblintegral.t</string>
+            <integer>0</integer>
+            <integer>1291</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>dblintegral</string>
+          <string>dblintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>integral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

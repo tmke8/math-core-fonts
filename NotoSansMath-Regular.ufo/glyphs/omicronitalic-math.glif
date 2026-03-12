@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronitalic-math" format="2">
+  <advance width="563"/>
+  <unicode hex="1D70A"/>
+  <anchor x="339" y="268" name="center"/>
+  <anchor x="322" y="0" name="math.ta"/>
+  <outline>
+    <component base="osansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>osansitalic-math</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

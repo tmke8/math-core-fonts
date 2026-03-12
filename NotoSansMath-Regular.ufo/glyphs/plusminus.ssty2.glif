@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusminus.ssty2" format="2">
+  <advance width="572"/>
+  <anchor x="301" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="50" y="37" type="line"/>
+      <point x="552" y="37" type="line"/>
+      <point x="552" y="140" type="line"/>
+      <point x="50" y="140" type="line"/>
+    </contour>
+    <component base="plus.ssty2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

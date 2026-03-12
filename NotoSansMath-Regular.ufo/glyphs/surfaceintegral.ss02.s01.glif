@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="surfaceintegral.ss02.s01" format="2">
+  <advance width="731"/>
+  <anchor x="259" y="0" name="#entry"/>
+  <anchor x="518" y="0" name="#exit"/>
+  <anchor x="366" y="322" name="center"/>
+  <anchor x="821" y="0" name="math.ic"/>
+  <outline>
+    <component base="dblintegral.ss02.s01"/>
+    <component base="_contour2.integral" xOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dblintegral.ss02.s01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

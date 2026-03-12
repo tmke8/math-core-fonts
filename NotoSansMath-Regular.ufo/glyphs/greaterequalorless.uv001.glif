@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequalorless.uv001" format="2">
+  <advance width="572"/>
+  <anchor x="286" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="336" type="line"/>
+      <point x="521" y="505" type="line"/>
+      <point x="521" y="555" type="line"/>
+      <point x="51" y="725" type="line"/>
+      <point x="51" y="652" type="line"/>
+      <point x="413" y="530" type="line"/>
+      <point x="51" y="409" type="line"/>
+    </contour>
+    <contour>
+      <point x="521" y="-166" type="line"/>
+      <point x="521" y="-93" type="line"/>
+      <point x="159" y="28" type="line"/>
+      <point x="521" y="150" type="line"/>
+      <point x="521" y="223" type="line"/>
+      <point x="51" y="53" type="line"/>
+      <point x="51" y="3" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="160" type="line"/>
+      <point x="521" y="331" type="line"/>
+      <point x="521" y="399" type="line"/>
+      <point x="51" y="228" type="line"/>
+    </contour>
+  </outline>
+</glyph>

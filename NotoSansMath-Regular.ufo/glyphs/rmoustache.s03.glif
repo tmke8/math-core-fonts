@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rmoustache.s03" format="2">
+  <advance width="372"/>
+  <outline>
+    <contour>
+      <point x="339.75" y="-511.25" type="curve"/>
+      <point x="339.75" y="-439.25" type="line"/>
+      <point x="269.5" y="-438.75"/>
+      <point x="230" y="-410.5"/>
+      <point x="230" y="-346" type="curve" smooth="yes"/>
+      <point x="230" y="979" type="line" smooth="yes"/>
+      <point x="230" y="1085"/>
+      <point x="149" y="1137"/>
+      <point x="32" y="1137" type="curve"/>
+      <point x="32" y="1065" type="line"/>
+      <point x="102.25" y="1064.5"/>
+      <point x="141.75" y="1035.5"/>
+      <point x="141.75" y="971" type="curve" smooth="yes"/>
+      <point x="141.75" y="-352.5" type="line" smooth="yes"/>
+      <point x="141.75" y="-458.5"/>
+      <point x="222.75" y="-511.25"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>3</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

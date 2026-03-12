@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="433"/>
+  <unicode hex="007C"/>
+  <anchor x="216" y="325" name="center"/>
+  <outline>
+    <contour>
+      <point x="180" y="-158" type="line"/>
+      <point x="253" y="-158" type="line"/>
+      <point x="253" y="784" type="line"/>
+      <point x="180" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>bar.x</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>bar.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>bar</string>
+          <string>bar.s01</string>
+          <string>bar.s02</string>
+          <string>bar.s03</string>
+          <string>bar.s04</string>
+          <string>bar.s05</string>
+          <string>bar.s06</string>
+          <string>bar.s07</string>
+          <string>bar.s08</string>
+          <string>bar.s09</string>
+          <string>bar.s10</string>
+          <string>bar.s11</string>
+          <string>bar.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrow.ssty2" format="2">
+  <advance width="1109"/>
+  <anchor x="555" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="679" y="50" type="curve"/>
+      <point x="806" y="50" type="line"/>
+      <point x="883" y="142"/>
+      <point x="960" y="205"/>
+      <point x="1044" y="243" type="curve"/>
+      <point x="1044" y="314" type="line"/>
+      <point x="960" y="352"/>
+      <point x="883" y="415"/>
+      <point x="806" y="508" type="curve"/>
+      <point x="679" y="508" type="line"/>
+      <point x="719" y="414"/>
+      <point x="762" y="338"/>
+      <point x="803" y="292" type="curve"/>
+      <point x="803" y="266" type="line"/>
+      <point x="762" y="220"/>
+      <point x="719" y="143"/>
+    </contour>
+    <contour>
+      <point x="65" y="209" type="line"/>
+      <point x="911" y="209" type="line"/>
+      <point x="911" y="348" type="line"/>
+      <point x="65" y="348" type="line"/>
+    </contour>
+  </outline>
+</glyph>

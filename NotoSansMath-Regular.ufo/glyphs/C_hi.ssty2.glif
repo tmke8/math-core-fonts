@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chi.ssty2" format="2">
+  <advance width="715"/>
+  <anchor x="357" y="357" name="center"/>
+  <anchor x="356" y="0" name="math.ta"/>
+  <outline>
+    <component base="X.ssty2"/>
+  </outline>
+</glyph>

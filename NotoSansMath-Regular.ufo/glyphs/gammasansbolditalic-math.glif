@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gammasansbolditalic-math" format="2">
+  <advance width="505"/>
+  <unicode hex="1D7AC"/>
+  <unicode hex="1D738"/>
+  <anchor x="267" y="159" name="center"/>
+  <anchor x="546" y="0" name="math.ic"/>
+  <anchor x="346" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="64" y="-214" type="line"/>
+      <point x="202" y="-214" type="line"/>
+      <point x="246" y="37" type="line"/>
+      <point x="526" y="533" type="line"/>
+      <point x="378" y="533" type="line"/>
+      <point x="206" y="193" type="line"/>
+      <point x="146" y="533" type="line"/>
+      <point x="8" y="533" type="line"/>
+      <point x="110" y="46" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

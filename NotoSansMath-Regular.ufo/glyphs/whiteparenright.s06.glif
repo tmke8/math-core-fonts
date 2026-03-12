@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteparenright.s06" format="2">
+  <advance width="566"/>
+  <anchor x="262" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-882" type="curve"/>
+      <point x="104" y="-882" type="line"/>
+      <point x="378" y="-574"/>
+      <point x="514.5" y="-176.5"/>
+      <point x="514.5" y="295.5" type="curve" smooth="yes"/>
+      <point x="514.5" y="770.5"/>
+      <point x="374.5" y="1162.5"/>
+      <point x="104" y="1473" type="curve"/>
+      <point x="25" y="1473" type="line"/>
+      <point x="253" y="1107.5"/>
+      <point x="294" y="658"/>
+      <point x="294" y="295.5" type="curve" smooth="yes"/>
+      <point x="294" y="-67.5"/>
+      <point x="252.5" y="-517.5"/>
+    </contour>
+    <contour>
+      <point x="168" y="-714" type="line"/>
+      <point x="314.5" y="-422"/>
+      <point x="359" y="-55"/>
+      <point x="359" y="295.5" type="curve" smooth="yes"/>
+      <point x="359" y="646"/>
+      <point x="314.5" y="1013"/>
+      <point x="168" y="1305" type="curve"/>
+      <point x="170" y="1305" type="line"/>
+      <point x="370.5" y="1009"/>
+      <point x="445.5" y="677"/>
+      <point x="445.5" y="295.5" type="curve" smooth="yes"/>
+      <point x="445.5" y="-87.5"/>
+      <point x="367" y="-422.5"/>
+      <point x="170" y="-714" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>6</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

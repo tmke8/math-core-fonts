@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="identicalToAndSlantedParallel" format="2">
+  <advance width="572"/>
+  <unicode hex="29E5"/>
+  <anchor x="281" y="279" name="center"/>
+  <outline>
+    <component base="equivalence"/>
+    <component base="doubleSolidusOperator" xOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>equivalence</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleleftarcgreaterthanbracket.m" format="2">
+  <advance width="620"/>
+  <outline>
+    <contour>
+      <point x="51" y="264" type="line"/>
+      <point x="569" y="491" type="line"/>
+      <point x="569" y="546" type="line"/>
+      <point x="51" y="805" type="line"/>
+      <point x="51" y="719" type="line"/>
+      <point x="466" y="522" type="line"/>
+      <point x="51" y="349" type="line"/>
+    </contour>
+    <component base="doubleleftarcgreaterthanbracket.x"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

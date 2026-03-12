@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical.s02" format="2">
+  <advance width="813"/>
+  <outline>
+    <contour>
+      <point x="355.5" y="0" type="line"/>
+      <point x="438" y="0" type="line"/>
+      <point x="849.5" y="1781" type="line"/>
+      <point x="773.5" y="1781" type="line"/>
+      <point x="395.5" y="121.5" type="line"/>
+      <point x="197.5" y="850.5" type="line"/>
+      <point x="49" y="850.5" type="line"/>
+      <point x="49" y="780.5" type="line"/>
+      <point x="137" y="780.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>2</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

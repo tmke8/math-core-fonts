@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb" format="2">
+  <unicode hex="030C"/>
+  <anchor x="169" y="536" name="_top"/>
+  <anchor x="167" y="0" name="math.ta"/>
+  <anchor x="169" y="766" name="top"/>
+  <outline>
+    <component base="caroncomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hVariants</key>
+        <array>
+          <string>caroncomb</string>
+          <string>caroncomb.s01</string>
+          <string>caroncomb.s02</string>
+          <string>caroncomb.s03</string>
+          <string>caroncomb.s04</string>
+          <string>caroncomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>338</integer>
+    </dict>
+  </lib>
+</glyph>

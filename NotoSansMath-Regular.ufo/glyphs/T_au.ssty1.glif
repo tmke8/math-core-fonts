@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau.ssty1" format="2">
+  <advance width="571"/>
+  <anchor x="285" y="357" name="center"/>
+  <anchor x="286" y="0" name="math.ta"/>
+  <outline>
+    <component base="T.ssty1"/>
+  </outline>
+</glyph>

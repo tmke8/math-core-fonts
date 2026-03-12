@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heavyTwelvePointedBlackStar" format="2">
+  <advance width="800"/>
+  <unicode hex="1F7D3"/>
+  <anchor x="400" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="224" y="50" type="line"/>
+      <point x="335" y="117" type="line"/>
+      <point x="400" y="7" type="line"/>
+      <point x="464" y="118" type="line"/>
+      <point x="576" y="50" type="line"/>
+      <point x="576" y="181" type="line"/>
+      <point x="707" y="181" type="line"/>
+      <point x="640" y="292" type="line"/>
+      <point x="750" y="357" type="line"/>
+      <point x="640" y="421" type="line"/>
+      <point x="707" y="533" type="line"/>
+      <point x="576" y="533" type="line"/>
+      <point x="576" y="664" type="line"/>
+      <point x="464" y="597" type="line"/>
+      <point x="400" y="707" type="line"/>
+      <point x="335" y="597" type="line"/>
+      <point x="224" y="664" type="line"/>
+      <point x="224" y="533" type="line"/>
+      <point x="93" y="533" type="line"/>
+      <point x="161" y="421" type="line"/>
+      <point x="50" y="357" type="line"/>
+      <point x="160" y="292" type="line"/>
+      <point x="93" y="181" type="line"/>
+      <point x="224" y="181" type="line"/>
+    </contour>
+  </outline>
+</glyph>

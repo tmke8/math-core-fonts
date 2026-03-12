@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicronitalic-math" format="2">
+  <advance width="721"/>
+  <unicode hex="1D6F0"/>
+  <anchor x="399" y="357" name="center"/>
+  <anchor x="446" y="0" name="math.ta"/>
+  <outline>
+    <component base="Osansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

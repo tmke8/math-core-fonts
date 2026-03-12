@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wmono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D686"/>
+  <anchor x="340" y="357" name="center"/>
+  <anchor x="340" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="145" y="0" type="line"/>
+      <point x="241" y="0" type="line"/>
+      <point x="317" y="328" type="line" smooth="yes"/>
+      <point x="331" y="389"/>
+      <point x="338" y="434"/>
+      <point x="340" y="450" type="curve"/>
+      <point x="342" y="450" type="line"/>
+      <point x="345" y="434"/>
+      <point x="353" y="388"/>
+      <point x="367" y="328" type="curve" smooth="yes"/>
+      <point x="446" y="0" type="line"/>
+      <point x="543" y="0" type="line"/>
+      <point x="608" y="641" type="line"/>
+      <point x="674" y="662" type="line"/>
+      <point x="674" y="714" type="line"/>
+      <point x="448" y="714" type="line"/>
+      <point x="448" y="662" type="line"/>
+      <point x="526" y="643" type="line"/>
+      <point x="505" y="402" type="line" smooth="yes"/>
+      <point x="494" y="273"/>
+      <point x="488" y="146"/>
+      <point x="486" y="98" type="curve"/>
+      <point x="484" y="98" type="line"/>
+      <point x="477" y="144"/>
+      <point x="457" y="233"/>
+      <point x="440" y="302" type="curve" smooth="yes"/>
+      <point x="384" y="536" type="line"/>
+      <point x="298" y="536" type="line"/>
+      <point x="244" y="304" type="line" smooth="yes"/>
+      <point x="230" y="242"/>
+      <point x="209" y="144"/>
+      <point x="201" y="98" type="curve"/>
+      <point x="199" y="98" type="line"/>
+      <point x="198" y="146"/>
+      <point x="188" y="297"/>
+      <point x="178" y="399" type="curve" smooth="yes"/>
+      <point x="155" y="643" type="line"/>
+      <point x="232" y="662" type="line"/>
+      <point x="232" y="714" type="line"/>
+      <point x="6" y="714" type="line"/>
+      <point x="6" y="662" type="line"/>
+      <point x="73" y="641" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

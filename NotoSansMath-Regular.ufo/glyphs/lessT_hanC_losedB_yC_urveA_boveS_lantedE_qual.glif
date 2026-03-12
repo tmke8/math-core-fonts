@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessThanClosedByCurveAboveSlantedEqual" format="2">
+  <advance width="760"/>
+  <unicode hex="2AA8"/>
+  <anchor x="380" y="268" name="center"/>
+  <outline>
+    <contour>
+      <point x="522" y="106" type="line"/>
+      <point x="646" y="172"/>
+      <point x="709" y="266"/>
+      <point x="709" y="372" type="curve" smooth="yes"/>
+      <point x="709" y="477"/>
+      <point x="649" y="569"/>
+      <point x="522" y="638" type="curve"/>
+      <point x="51" y="383" type="line"/>
+      <point x="51" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="567" y="-102" type="line"/>
+      <point x="567" y="-24" type="line"/>
+      <point x="51" y="217" type="line"/>
+      <point x="51" y="139" type="line"/>
+    </contour>
+    <contour>
+      <point x="522" y="184" type="curve"/>
+      <point x="145" y="362" type="line"/>
+      <point x="522" y="560" type="line"/>
+      <point x="590" y="529"/>
+      <point x="643" y="448"/>
+      <point x="643" y="372" type="curve" smooth="yes"/>
+      <point x="643" y="296"/>
+      <point x="591" y="218"/>
+    </contour>
+  </outline>
+</glyph>

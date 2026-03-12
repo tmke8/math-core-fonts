@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squareimageoforequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="2291"/>
+  <anchor x="286" y="274" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="82" type="line"/>
+      <point x="521" y="82" type="line"/>
+      <point x="521" y="153" type="line"/>
+      <point x="122" y="153" type="line"/>
+      <point x="122" y="553" type="line"/>
+      <point x="521" y="553" type="line"/>
+      <point x="521" y="624" type="line"/>
+      <point x="51" y="624" type="line"/>
+    </contour>
+    <contour>
+      <point x="52" y="-78" type="line"/>
+      <point x="521" y="-78" type="line"/>
+      <point x="521" y="-7" type="line"/>
+      <point x="52" y="-7" type="line"/>
+    </contour>
+  </outline>
+</glyph>

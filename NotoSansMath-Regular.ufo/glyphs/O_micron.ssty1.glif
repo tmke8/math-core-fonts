@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicron.ssty1" format="2">
+  <advance width="804"/>
+  <anchor x="402" y="357" name="center"/>
+  <anchor x="403" y="0" name="math.ta"/>
+  <outline>
+    <component base="O.ssty1"/>
+  </outline>
+</glyph>

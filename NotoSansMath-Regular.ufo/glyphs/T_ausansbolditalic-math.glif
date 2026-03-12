@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tausansbolditalic-math" format="2">
+  <advance width="566"/>
+  <unicode hex="1D7A3"/>
+  <unicode hex="1D72F"/>
+  <anchor x="332" y="359" name="center"/>
+  <anchor x="635" y="0" name="math.ic"/>
+  <anchor x="399" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="148" y="0" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="404" y="592" type="line"/>
+      <point x="593" y="592" type="line"/>
+      <point x="615" y="719" type="line"/>
+      <point x="72" y="719" type="line"/>
+      <point x="50" y="592" type="line"/>
+      <point x="252" y="592" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rsansitalic-math.ssty2" format="2">
+  <advance width="470"/>
+  <anchor x="282" y="278" name="center"/>
+  <anchor x="555" y="0" name="math.ic"/>
+  <anchor x="340" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="207" y="0" type="line"/>
+      <point x="259" y="244" type="line" smooth="yes"/>
+      <point x="283" y="359"/>
+      <point x="346" y="419"/>
+      <point x="420" y="419" type="curve"/>
+      <point x="440" y="419"/>
+      <point x="458" y="415"/>
+      <point x="469" y="411" type="curve"/>
+      <point x="501" y="551" type="line"/>
+      <point x="490" y="554"/>
+      <point x="469" y="556"/>
+      <point x="453" y="556" type="curve"/>
+      <point x="382" y="556"/>
+      <point x="328" y="513"/>
+      <point x="284" y="445" type="curve"/>
+      <point x="279" y="445" type="line"/>
+      <point x="289" y="546" type="line"/>
+      <point x="178" y="546" type="line"/>
+    </contour>
+  </outline>
+</glyph>

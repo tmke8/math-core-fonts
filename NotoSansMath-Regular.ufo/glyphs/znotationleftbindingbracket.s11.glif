@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationleftbindingbracket.s11" format="2">
+  <advance width="613"/>
+  <anchor x="170" y="334" name="center"/>
+  <outline>
+    <contour>
+      <point x="432.41666666666663" y="-1485.3333333333333" type="line"/>
+      <point x="562.1666666666666" y="-1485.3333333333333" type="line"/>
+      <point x="562.1666666666666" y="2047.1666666666665" type="line"/>
+      <point x="432.41666666666663" y="2047.1666666666665" type="line"/>
+      <point x="51" y="372.4166666666667" type="line"/>
+      <point x="51" y="284.25" type="line"/>
+    </contour>
+    <contour>
+      <point x="472.4166666666667" y="-1248.0833333333333" type="line"/>
+      <point x="141.16666666666666" y="295" type="line"/>
+      <point x="141.16666666666666" y="361.5" type="line"/>
+      <point x="472.4166666666667" y="1818.9166666666665" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>11</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

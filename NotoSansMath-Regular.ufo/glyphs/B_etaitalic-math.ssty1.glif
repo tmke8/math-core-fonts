@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Betaitalic-math.ssty1" format="2">
+  <advance width="645"/>
+  <anchor x="343" y="357" name="center"/>
+  <anchor x="426" y="0" name="math.ta"/>
+  <outline>
+    <component base="Bsansitalic-math.ssty1"/>
+  </outline>
+</glyph>

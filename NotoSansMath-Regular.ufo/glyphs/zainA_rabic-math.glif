@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zainArabic-math" format="2">
+  <advance width="416"/>
+  <unicode hex="1EE06"/>
+  <outline>
+    <contour>
+      <point x="69" y="-76" type="line"/>
+      <point x="173" y="-49"/>
+      <point x="366" y="57"/>
+      <point x="366" y="268" type="curve" smooth="yes"/>
+      <point x="366" y="326"/>
+      <point x="345" y="406"/>
+      <point x="295" y="493" type="curve"/>
+      <point x="222" y="456" type="line"/>
+      <point x="276" y="358"/>
+      <point x="291" y="317"/>
+      <point x="291" y="261" type="curve" smooth="yes"/>
+      <point x="291" y="173"/>
+      <point x="242" y="64"/>
+      <point x="40" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="242" y="607" type="curve" smooth="yes"/>
+      <point x="270" y="607"/>
+      <point x="292" y="629"/>
+      <point x="292" y="657" type="curve" smooth="yes"/>
+      <point x="292" y="686"/>
+      <point x="268" y="707"/>
+      <point x="242" y="707" type="curve" smooth="yes"/>
+      <point x="215" y="707"/>
+      <point x="192" y="684"/>
+      <point x="192" y="657" type="curve" smooth="yes"/>
+      <point x="192" y="630"/>
+      <point x="214" y="607"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Arabic Math Isolated</string>
+    </dict>
+  </lib>
+</glyph>

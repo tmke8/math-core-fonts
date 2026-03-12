@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="partialdiff.ssty1" format="2">
+  <advance width="591"/>
+  <anchor x="304" y="356" name="center"/>
+  <anchor x="273" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="273" y="-8" type="curve" smooth="yes"/>
+      <point x="416" y="-8"/>
+      <point x="527" y="97"/>
+      <point x="527" y="315" type="curve" smooth="yes"/>
+      <point x="527" y="633"/>
+      <point x="399" y="743"/>
+      <point x="270" y="743" type="curve" smooth="yes"/>
+      <point x="197" y="743"/>
+      <point x="125" y="707"/>
+      <point x="81" y="656" type="curve"/>
+      <point x="124" y="581" type="line"/>
+      <point x="177" y="631"/>
+      <point x="221" y="651"/>
+      <point x="258" y="651" type="curve" smooth="yes"/>
+      <point x="324" y="651"/>
+      <point x="374" y="585"/>
+      <point x="400" y="478" type="curve"/>
+      <point x="365" y="502"/>
+      <point x="323" y="512"/>
+      <point x="282" y="509" type="curve" smooth="yes"/>
+      <point x="171" y="502"/>
+      <point x="64" y="401"/>
+      <point x="64" y="240" type="curve" smooth="yes"/>
+      <point x="64" y="107"/>
+      <point x="146" y="-8"/>
+    </contour>
+    <contour>
+      <point x="173" y="240" type="curve" smooth="yes"/>
+      <point x="173" y="360"/>
+      <point x="233" y="421"/>
+      <point x="293" y="428" type="curve" smooth="yes"/>
+      <point x="340" y="433"/>
+      <point x="390" y="407"/>
+      <point x="418" y="357" type="curve"/>
+      <point x="430" y="224"/>
+      <point x="382" y="82"/>
+      <point x="283" y="82" type="curve" smooth="yes"/>
+      <point x="208" y="82"/>
+      <point x="173" y="149"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
+</glyph>

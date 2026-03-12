@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ascript-math.ssty2" format="2">
+  <advance width="1010"/>
+  <anchor x="505" y="350" name="center"/>
+  <anchor x="1050" y="0" name="math.ic"/>
+  <anchor x="1012" y="0" name="math.ta"/>
+  <outline>
+    <component base="Aboldscript-math"/>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="444"/>
+  <unicode hex="005F"/>
+  <anchor x="222" y="-126" name="center"/>
+  <outline>
+    <contour>
+      <point x="0" y="-131" type="line"/>
+      <point x="444" y="-131" type="line"/>
+      <point x="444" y="-60" type="line"/>
+      <point x="0" y="-60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

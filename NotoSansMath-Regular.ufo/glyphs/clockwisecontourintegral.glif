@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clockwisecontourintegral" format="2">
+  <advance width="836"/>
+  <unicode hex="2232"/>
+  <anchor x="57" y="0" name="#entry"/>
+  <anchor x="396" y="0" name="#exit"/>
+  <anchor x="418" y="328" name="center"/>
+  <anchor x="1110" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral"/>
+    <component base="_contour5.integral" xOffset="182" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>clockwisecontourintegral</string>
+          <string>clockwisecontourintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

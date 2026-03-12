@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="neitherapproximatelynoractuallyequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="2247"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="208" y="-54" type="line"/>
+      <point x="440" y="550" type="line"/>
+      <point x="378" y="573" type="line"/>
+      <point x="146" y="-31" type="line"/>
+    </contour>
+    <component base="congruent"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

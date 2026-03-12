@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonsansbold-math" format="2">
+  <advance width="686"/>
+  <unicode hex="1D76A"/>
+  <unicode hex="1D6BC"/>
+  <anchor x="343" y="359" name="center"/>
+  <anchor x="332" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="281" y="0" type="line"/>
+      <point x="429" y="0" type="line"/>
+      <point x="429" y="268" type="line"/>
+      <point x="666" y="719" type="line"/>
+      <point x="497" y="719" type="line"/>
+      <point x="355" y="409" type="line"/>
+      <point x="201" y="719" type="line"/>
+      <point x="20" y="719" type="line"/>
+      <point x="281" y="268" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

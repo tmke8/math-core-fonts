@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AnnuitySymbol" format="2">
+  <unicode hex="20E7"/>
+  <anchor x="-264" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="143" y="776" type="line"/>
+      <point x="-633" y="776" type="line"/>
+      <point x="-633" y="713" type="line"/>
+      <point x="80" y="713" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>143</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral.x.rtlm" format="2">
+  <advance width="472"/>
+  <anchor x="-7" y="0" name="#entry"/>
+  <anchor x="252" y="0" name="#exit"/>
+  <anchor x="232" y="681" name="center"/>
+  <outline>
+    <component base="integral.x" xOffset="-7"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

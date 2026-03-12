@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hscript.ssty2" format="2">
+  <advance width="1107"/>
+  <anchor x="568" y="366" name="center"/>
+  <anchor x="1137" y="0" name="math.ic"/>
+  <anchor x="857" y="0" name="math.ta"/>
+  <outline>
+    <component base="Hboldscript-math"/>
+  </outline>
+</glyph>

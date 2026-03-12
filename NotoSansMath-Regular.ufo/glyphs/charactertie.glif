@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="charactertie" format="2">
+  <advance width="855"/>
+  <unicode hex="2040"/>
+  <outline>
+    <contour>
+      <point x="427.704" y="794.848" type="curve" smooth="yes"/>
+      <point x="266.216" y="794.848"/>
+      <point x="146.55200000000002" y="719.992"/>
+      <point x="70.0" y="588.704" type="curve"/>
+      <point x="126.408" y="588.0" type="line"/>
+      <point x="199.896" y="670.656"/>
+      <point x="291.87199999999996" y="720.848"/>
+      <point x="427.704" y="720.848" type="curve" smooth="yes"/>
+      <point x="563.536" y="720.848"/>
+      <point x="655.512" y="670.656"/>
+      <point x="728.9999999999999" y="588.0" type="curve"/>
+      <point x="785.408" y="588.704" type="line"/>
+      <point x="708.856" y="719.992"/>
+      <point x="589.192" y="794.848"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.topparenthesis</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <real>0.08</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

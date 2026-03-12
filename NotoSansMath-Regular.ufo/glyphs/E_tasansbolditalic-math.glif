@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etasansbolditalic-math" format="2">
+  <advance width="728"/>
+  <unicode hex="1D796"/>
+  <unicode hex="1D722"/>
+  <anchor x="364" y="359" name="center"/>
+  <anchor x="436" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="11" y="0" type="line"/>
+      <point x="161" y="0" type="line"/>
+      <point x="217" y="316" type="line"/>
+      <point x="495" y="316" type="line"/>
+      <point x="440" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+      <point x="717" y="719" type="line"/>
+      <point x="569" y="719" type="line"/>
+      <point x="519" y="443" type="line"/>
+      <point x="241" y="443" type="line"/>
+      <point x="290" y="719" type="line"/>
+      <point x="139" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

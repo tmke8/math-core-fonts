@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphaitalic-math" format="2">
+  <advance width="619"/>
+  <unicode hex="1D6E2"/>
+  <anchor x="285" y="357" name="center"/>
+  <anchor x="433" y="0" name="math.ta"/>
+  <outline>
+    <component base="Asansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

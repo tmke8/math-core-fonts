@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.ssty1" format="2">
+  <advance width="573"/>
+  <anchor x="305" y="357" name="center"/>
+  <anchor x="314" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="97" y="0" type="line"/>
+      <point x="513" y="0" type="line"/>
+      <point x="513" y="107" type="line"/>
+      <point x="229" y="107" type="line"/>
+      <point x="229" y="317" type="line"/>
+      <point x="495" y="317" type="line"/>
+      <point x="495" y="423" type="line"/>
+      <point x="229" y="423" type="line"/>
+      <point x="229" y="608" type="line"/>
+      <point x="513" y="608" type="line"/>
+      <point x="513" y="714" type="line"/>
+      <point x="97" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

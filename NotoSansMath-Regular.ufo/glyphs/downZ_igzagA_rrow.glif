@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downZigzagArrow" format="2">
+  <advance width="619"/>
+  <unicode hex="21AF"/>
+  <anchor x="319" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="228" y="734" type="line"/>
+      <point x="51" y="171" type="line"/>
+      <point x="422" y="348" type="line"/>
+      <point x="274" y="-9" type="line"/>
+      <point x="340" y="-41" type="line"/>
+      <point x="568" y="506" type="line"/>
+      <point x="174" y="318" type="line"/>
+      <point x="297" y="709" type="line"/>
+    </contour>
+    <contour>
+      <point x="332" y="-29" type="curve"/>
+      <point x="287" y="-11" type="line"/>
+      <point x="267" y="31"/>
+      <point x="229" y="82"/>
+      <point x="175" y="144" type="curve"/>
+      <point x="154" y="92" type="line"/>
+      <point x="201" y="1"/>
+      <point x="228" y="-88"/>
+      <point x="235" y="-172" type="curve"/>
+      <point x="262" y="-183" type="line"/>
+      <point x="325" y="-127"/>
+      <point x="406" y="-83"/>
+      <point x="502" y="-51" type="curve"/>
+      <point x="523" y="1" type="line"/>
+      <point x="445" y="-3"/>
+      <point x="377" y="-14"/>
+    </contour>
+  </outline>
+</glyph>

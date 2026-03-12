@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Asansitalic-math" format="2">
+  <advance width="619"/>
+  <unicode hex="1D608"/>
+  <unicode hex="1D434"/>
+  <anchor x="285" y="357" name="center"/>
+  <anchor x="433" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="98" y="0" type="line"/>
+      <point x="214" y="222" type="line"/>
+      <point x="455" y="222" type="line"/>
+      <point x="482" y="0" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="482" y="714" type="line"/>
+      <point x="388" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="257" y="302" type="line"/>
+      <point x="334" y="448" type="line" smooth="yes"/>
+      <point x="365" y="507"/>
+      <point x="393" y="566"/>
+      <point x="415" y="617" type="curve"/>
+      <point x="418" y="617" type="line"/>
+      <point x="419" y="570"/>
+      <point x="425" y="503"/>
+      <point x="430" y="452" type="curve" smooth="yes"/>
+      <point x="446" y="302" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

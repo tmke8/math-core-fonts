@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightdoublewigglyfence.s04" format="2">
+  <advance width="598"/>
+  <anchor x="227" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="243" y="-640.6666666666666" type="line"/>
+      <point x="344" y="-640.6666666666666" type="line"/>
+      <point x="152" y="-452.3333333333333" type="line"/>
+      <point x="344" y="-262.99999999999994" type="line"/>
+      <point x="152" y="-74.66666666666666" type="line"/>
+      <point x="342" y="113.00000000000003" type="line"/>
+      <point x="152" y="301.33333333333337" type="line"/>
+      <point x="342" y="491.33333333333337" type="line"/>
+      <point x="152" y="677.3333333333334" type="line"/>
+      <point x="344" y="865.6666666666667" type="line"/>
+      <point x="152" y="1055" type="line"/>
+      <point x="342" y="1243.3333333333335" type="line"/>
+      <point x="241.66666666666669" y="1243.3333333333335" type="line"/>
+      <point x="51.66666666666667" y="1055" type="line"/>
+      <point x="243" y="865.6666666666667" type="line"/>
+      <point x="51.00000000000001" y="677.3333333333334" type="line"/>
+      <point x="241.66666666666669" y="491.00000000000006" type="line"/>
+      <point x="52" y="301.33333333333337" type="line"/>
+      <point x="241.66666666666669" y="113.00000000000003" type="line"/>
+      <point x="51.00000000000001" y="-74.66666666666666" type="line"/>
+      <point x="243" y="-262.99999999999994" type="line"/>
+      <point x="51.00000000000001" y="-452.3333333333333" type="line"/>
+    </contour>
+    <contour>
+      <point x="446.33333333333337" y="-640.6666666666666" type="line"/>
+      <point x="547.3333333333333" y="-640.6666666666666" type="line"/>
+      <point x="355.33333333333337" y="-452.3333333333333" type="line"/>
+      <point x="547.3333333333333" y="-262.99999999999994" type="line"/>
+      <point x="355.33333333333337" y="-74.66666666666666" type="line"/>
+      <point x="545.3333333333334" y="113.00000000000003" type="line"/>
+      <point x="355.33333333333337" y="301.33333333333337" type="line"/>
+      <point x="545.3333333333334" y="491.33333333333337" type="line"/>
+      <point x="355.33333333333337" y="677.3333333333334" type="line"/>
+      <point x="547.3333333333333" y="865.6666666666667" type="line"/>
+      <point x="355.33333333333337" y="1055" type="line"/>
+      <point x="545.3333333333334" y="1243.3333333333335" type="line"/>
+      <point x="445" y="1243.3333333333335" type="line"/>
+      <point x="255.00000000000003" y="1055" type="line"/>
+      <point x="446.33333333333337" y="865.6666666666667" type="line"/>
+      <point x="254.33333333333334" y="677.3333333333334" type="line"/>
+      <point x="445" y="491.00000000000006" type="line"/>
+      <point x="255.33333333333337" y="301.33333333333337" type="line"/>
+      <point x="445" y="113.00000000000003" type="line"/>
+      <point x="254.33333333333334" y="-74.66666666666666" type="line"/>
+      <point x="446.33333333333337" y="-262.99999999999994" type="line"/>
+      <point x="254.33333333333334" y="-452.3333333333333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>4</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

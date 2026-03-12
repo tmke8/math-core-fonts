@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="risingDiagonalCrossingFallingDiagonal" format="2">
+  <advance width="880"/>
+  <unicode hex="292B"/>
+  <anchor x="440" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="102" y="-111" type="line"/>
+      <point x="829" y="616" type="line"/>
+      <point x="778" y="667" type="line"/>
+      <point x="51" y="-60" type="line"/>
+    </contour>
+    <contour>
+      <point x="778" y="-111" type="line"/>
+      <point x="829" y="-60" type="line"/>
+      <point x="540" y="228" type="line"/>
+      <point x="490" y="178" type="line"/>
+    </contour>
+    <contour>
+      <point x="340" y="328" type="line"/>
+      <point x="390" y="378" type="line"/>
+      <point x="102" y="667" type="line"/>
+      <point x="51" y="616" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

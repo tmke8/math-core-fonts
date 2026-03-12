@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalZigzagLine" format="2">
+  <advance width="294"/>
+  <unicode hex="299A"/>
+  <anchor x="172" y="329" name="center"/>
+  <outline>
+    <contour>
+      <point x="157" y="-158" type="line"/>
+      <point x="243" y="-158" type="line"/>
+      <point x="136" y="-53" type="line"/>
+      <point x="242" y="52" type="line"/>
+      <point x="137" y="156" type="line"/>
+      <point x="242" y="261" type="line"/>
+      <point x="137" y="366" type="line"/>
+      <point x="242" y="470" type="line"/>
+      <point x="136" y="574" type="line"/>
+      <point x="242" y="680" type="line"/>
+      <point x="137" y="784" type="line"/>
+      <point x="52" y="784" type="line"/>
+      <point x="157" y="680" type="line"/>
+      <point x="51" y="574" type="line"/>
+      <point x="157" y="470" type="line"/>
+      <point x="52" y="366" type="line"/>
+      <point x="157" y="261" type="line"/>
+      <point x="52" y="156" type="line"/>
+      <point x="157" y="52" type="line"/>
+      <point x="51" y="-53" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>verticalZigzagLine</string>
+          <string>verticalZigzagLine.s01</string>
+          <string>verticalZigzagLine.s02</string>
+          <string>verticalZigzagLine.s03</string>
+          <string>verticalZigzagLine.s04</string>
+          <string>verticalZigzagLine.s05</string>
+          <string>verticalZigzagLine.s06</string>
+          <string>verticalZigzagLine.s07</string>
+          <string>verticalZigzagLine.s08</string>
+          <string>verticalZigzagLine.s09</string>
+          <string>verticalZigzagLine.s10</string>
+          <string>verticalZigzagLine.s11</string>
+          <string>verticalZigzagLine.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

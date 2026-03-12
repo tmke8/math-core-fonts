@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight" format="2">
+  <advance width="826"/>
+  <unicode hex="2963"/>
+  <anchor x="413" y="280" name="center"/>
+  <outline>
+    <contour>
+      <point x="756" y="458" type="curve"/>
+      <point x="756" y="515" type="line"/>
+      <point x="675" y="585"/>
+      <point x="614" y="659"/>
+      <point x="576" y="735" type="curve"/>
+      <point x="526" y="735" type="line"/>
+      <point x="526" y="563" type="line"/>
+      <point x="588" y="563" type="line"/>
+      <point x="622" y="529"/>
+      <point x="680" y="493"/>
+    </contour>
+    <contour>
+      <point x="229" y="-175" type="line"/>
+      <point x="300" y="-175" type="line"/>
+      <point x="300" y="602" type="line"/>
+      <point x="229" y="602" type="line"/>
+    </contour>
+    <contour>
+      <point x="526" y="-175" type="line"/>
+      <point x="597" y="-175" type="line"/>
+      <point x="597" y="602" type="line"/>
+      <point x="526" y="602" type="line"/>
+    </contour>
+    <contour>
+      <point x="70" y="458" type="line"/>
+      <point x="146" y="493"/>
+      <point x="204" y="529"/>
+      <point x="238" y="563" type="curve"/>
+      <point x="300" y="563" type="line"/>
+      <point x="300" y="735" type="line"/>
+      <point x="250" y="735" type="line"/>
+      <point x="212" y="659"/>
+      <point x="152" y="585"/>
+      <point x="70" y="515" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

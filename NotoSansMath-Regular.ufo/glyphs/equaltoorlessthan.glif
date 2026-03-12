@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equaltoorlessthan" format="2">
+  <advance width="572"/>
+  <unicode hex="22DC"/>
+  <anchor x="286" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="521" y="-26" type="line"/>
+      <point x="521" y="52" type="line"/>
+      <point x="155" y="220" type="line"/>
+      <point x="521" y="388" type="line"/>
+      <point x="521" y="466" type="line"/>
+      <point x="51" y="245" type="line"/>
+      <point x="51" y="195" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="514" type="line"/>
+      <point x="521" y="514" type="line"/>
+      <point x="521" y="585" type="line"/>
+      <point x="51" y="585" type="line"/>
+    </contour>
+  </outline>
+</glyph>

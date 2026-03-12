@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="partialdiffitalic-math.ssty2" format="2">
+  <advance width="756"/>
+  <anchor x="378" y="356" name="center"/>
+  <anchor x="482" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="315" y="-36" type="curve" smooth="yes"/>
+      <point x="379" y="-36"/>
+      <point x="436" y="-15"/>
+      <point x="486" y="27" type="curve" smooth="yes"/>
+      <point x="582" y="109"/>
+      <point x="644" y="278"/>
+      <point x="644" y="455" type="curve" smooth="yes"/>
+      <point x="644" y="648"/>
+      <point x="558" y="748"/>
+      <point x="408" y="748" type="curve" smooth="yes"/>
+      <point x="355" y="748"/>
+      <point x="288" y="733"/>
+      <point x="244" y="708" type="curve"/>
+      <point x="244" y="569" type="line"/>
+      <point x="288" y="603"/>
+      <point x="348" y="622"/>
+      <point x="396" y="622" type="curve" smooth="yes"/>
+      <point x="462" y="622"/>
+      <point x="504" y="574"/>
+      <point x="504" y="499" type="curve" smooth="yes"/>
+      <point x="504" y="493"/>
+      <point x="504" y="488"/>
+      <point x="503" y="480" type="curve"/>
+      <point x="477" y="505"/>
+      <point x="435" y="520"/>
+      <point x="393" y="520" type="curve" smooth="yes"/>
+      <point x="339" y="520"/>
+      <point x="289" y="505"/>
+      <point x="247" y="476" type="curve" smooth="yes"/>
+      <point x="162" y="418"/>
+      <point x="112" y="299"/>
+      <point x="112" y="183" type="curve" smooth="yes"/>
+      <point x="112" y="44"/>
+      <point x="185" y="-36"/>
+    </contour>
+    <contour>
+      <point x="320" y="90" type="curve" smooth="yes"/>
+      <point x="274" y="90"/>
+      <point x="255" y="116"/>
+      <point x="255" y="182" type="curve" smooth="yes"/>
+      <point x="255" y="300"/>
+      <point x="316" y="400"/>
+      <point x="403" y="400" type="curve" smooth="yes"/>
+      <point x="444" y="400"/>
+      <point x="474" y="375"/>
+      <point x="487" y="330" type="curve"/>
+      <point x="464" y="186"/>
+      <point x="397" y="90"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
+</glyph>

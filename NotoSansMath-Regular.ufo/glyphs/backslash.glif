@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
+  <advance width="457"/>
+  <unicode hex="005C"/>
+  <anchor x="186" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="361" y="-158" type="line"/>
+      <point x="447" y="-158" type="line"/>
+      <point x="96" y="784" type="line"/>
+      <point x="10" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>backslash</string>
+          <string>backslash.s01</string>
+          <string>backslash.s02</string>
+          <string>backslash.s03</string>
+          <string>backslash.s04</string>
+          <string>backslash.s05</string>
+          <string>backslash.s06</string>
+          <string>backslash.s07</string>
+          <string>backslash.s08</string>
+          <string>backslash.s09</string>
+          <string>backslash.s10</string>
+          <string>backslash.s11</string>
+          <string>backslash.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

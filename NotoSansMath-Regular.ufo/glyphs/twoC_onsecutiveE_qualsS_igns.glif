@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twoConsecutiveEqualsSigns" format="2">
+  <advance width="872"/>
+  <unicode hex="2A75"/>
+  <anchor x="436" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="481" y="341" type="line"/>
+      <point x="821" y="341" type="line"/>
+      <point x="821" y="412" type="line"/>
+      <point x="481" y="412" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="142" type="line"/>
+      <point x="391" y="142" type="line"/>
+      <point x="391" y="213" type="line"/>
+      <point x="51" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="341" type="line"/>
+      <point x="391" y="341" type="line"/>
+      <point x="391" y="412" type="line"/>
+      <point x="51" y="412" type="line"/>
+    </contour>
+    <contour>
+      <point x="481" y="142" type="line"/>
+      <point x="821" y="142" type="line"/>
+      <point x="821" y="213" type="line"/>
+      <point x="481" y="213" type="line"/>
+    </contour>
+  </outline>
+</glyph>

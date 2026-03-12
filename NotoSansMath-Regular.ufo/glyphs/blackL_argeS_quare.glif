@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackLargeSquare" format="2">
+  <advance width="928"/>
+  <unicode hex="2B1B"/>
+  <anchor x="464" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-56" type="line"/>
+      <point x="877" y="-56" type="line"/>
+      <point x="877" y="770" type="line"/>
+      <point x="51" y="770" type="line"/>
+    </contour>
+  </outline>
+</glyph>

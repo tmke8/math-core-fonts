@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multimap.rtlm" format="2">
+  <advance width="796"/>
+  <anchor x="398" y="276" name="center"/>
+  <outline>
+    <component base="multimap" xScale="-1" xOffset="796"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>multimap</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

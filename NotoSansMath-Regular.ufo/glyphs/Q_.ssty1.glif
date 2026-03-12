@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q.ssty1" format="2">
+  <advance width="804"/>
+  <anchor x="402" y="277" name="center"/>
+  <anchor x="403" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="550" y="-170" type="line"/>
+      <point x="725" y="-170" type="line"/>
+      <point x="552" y="17" type="line"/>
+      <point x="684" y="68"/>
+      <point x="743" y="196"/>
+      <point x="743" y="358" type="curve" smooth="yes"/>
+      <point x="743" y="577"/>
+      <point x="636" y="725"/>
+      <point x="403" y="725" type="curve" smooth="yes"/>
+      <point x="171" y="725"/>
+      <point x="61" y="578"/>
+      <point x="61" y="360" type="curve" smooth="yes"/>
+      <point x="61" y="138"/>
+      <point x="170" y="-10"/>
+      <point x="402" y="-10" type="curve" smooth="yes"/>
+      <point x="416" y="-10" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="100" type="curve" smooth="yes"/>
+      <point x="261" y="100"/>
+      <point x="201" y="201"/>
+      <point x="201" y="358" type="curve" smooth="yes"/>
+      <point x="201" y="515"/>
+      <point x="263" y="615"/>
+      <point x="403" y="615" type="curve" smooth="yes"/>
+      <point x="540" y="615"/>
+      <point x="604" y="520"/>
+      <point x="604" y="358" type="curve" smooth="yes"/>
+      <point x="604" y="200"/>
+      <point x="545" y="100"/>
+    </contour>
+  </outline>
+</glyph>

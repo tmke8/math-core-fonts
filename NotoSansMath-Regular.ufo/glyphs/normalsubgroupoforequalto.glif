@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="normalsubgroupoforequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="22B4"/>
+  <anchor x="286" y="272" name="center"/>
+  <outline>
+    <contour>
+      <point x="521" y="143" type="line"/>
+      <point x="521" y="520" type="line"/>
+      <point x="51" y="348" type="line"/>
+      <point x="51" y="314" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="24" type="line"/>
+      <point x="521" y="24" type="line"/>
+      <point x="521" y="95" type="line"/>
+      <point x="51" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="235" type="line"/>
+      <point x="169" y="330" type="line"/>
+      <point x="454" y="428" type="line"/>
+    </contour>
+  </outline>
+</glyph>

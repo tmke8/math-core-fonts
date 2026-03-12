@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightDoubleStrokeArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21CF"/>
+  <anchor x="456" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="232" y="84" type="line"/>
+      <point x="312" y="84" type="line"/>
+      <point x="521" y="474" type="line"/>
+      <point x="441" y="474" type="line"/>
+    </contour>
+    <component base="rightDoubleArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rightDoubleArrow</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

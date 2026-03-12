@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thinSaltire" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7A8"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="544" y="127" type="line"/>
+      <point x="581" y="163" type="line"/>
+      <point x="156" y="588" type="line"/>
+      <point x="120" y="551" type="line"/>
+    </contour>
+    <contour>
+      <point x="156" y="126" type="line"/>
+      <point x="581" y="551" type="line"/>
+      <point x="544" y="587" type="line"/>
+      <point x="120" y="163" type="line"/>
+    </contour>
+  </outline>
+</glyph>

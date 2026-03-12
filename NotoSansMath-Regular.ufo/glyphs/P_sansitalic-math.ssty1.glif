@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Psansitalic-math.ssty1" format="2">
+  <advance width="626"/>
+  <anchor x="341" y="357" name="center"/>
+  <anchor x="412" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="57" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="242" y="262" type="line"/>
+      <point x="315" y="262" type="line" smooth="yes"/>
+      <point x="500" y="262"/>
+      <point x="626" y="345"/>
+      <point x="626" y="513" type="curve" smooth="yes"/>
+      <point x="626" y="632"/>
+      <point x="563" y="714"/>
+      <point x="395" y="714" type="curve" smooth="yes"/>
+      <point x="208" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="327" y="371" type="curve" smooth="yes"/>
+      <point x="266" y="371" type="line"/>
+      <point x="316" y="604" type="line"/>
+      <point x="387" y="604" type="line" smooth="yes"/>
+      <point x="459" y="604"/>
+      <point x="494" y="575"/>
+      <point x="494" y="509" type="curve" smooth="yes"/>
+      <point x="494" y="419"/>
+      <point x="428" y="371"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="enclosingsquarecomb" format="2">
+  <advance width="1084"/>
+  <unicode hex="20DE"/>
+  <anchor x="542" y="357" name="_center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-134" type="line"/>
+      <point x="1033" y="-134" type="line"/>
+      <point x="1033" y="848" type="line"/>
+      <point x="51" y="848" type="line"/>
+    </contour>
+    <contour>
+      <point x="102" y="-83" type="line"/>
+      <point x="102" y="797" type="line"/>
+      <point x="982" y="797" type="line"/>
+      <point x="982" y="-83" type="line"/>
+    </contour>
+  </outline>
+</glyph>

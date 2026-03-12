@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phiitalic-math.ssty1" format="2">
+  <advance width="865"/>
+  <anchor x="455" y="357" name="center"/>
+  <anchor x="561" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="315" y="-7" type="line"/>
+      <point x="436" y="-7" type="line"/>
+      <point x="457" y="90" type="line"/>
+      <point x="727" y="94"/>
+      <point x="824" y="237"/>
+      <point x="842" y="360" type="curve" smooth="yes"/>
+      <point x="864" y="501"/>
+      <point x="816" y="631"/>
+      <point x="575" y="646" type="curve"/>
+      <point x="591" y="721" type="line"/>
+      <point x="470" y="721" type="line"/>
+      <point x="454" y="646" type="line"/>
+      <point x="184" y="642"/>
+      <point x="88" y="499"/>
+      <point x="69" y="376" type="curve" smooth="yes"/>
+      <point x="48" y="235"/>
+      <point x="95" y="104"/>
+      <point x="335" y="90" type="curve"/>
+    </contour>
+    <contour>
+      <point x="358" y="195" type="line"/>
+      <point x="201" y="201"/>
+      <point x="182" y="284"/>
+      <point x="195" y="375" type="curve" smooth="yes"/>
+      <point x="211" y="473"/>
+      <point x="279" y="537"/>
+      <point x="433" y="542" type="curve"/>
+    </contour>
+    <contour>
+      <point x="479" y="194" type="curve"/>
+      <point x="553" y="541" type="line"/>
+      <point x="711" y="535"/>
+      <point x="729" y="452"/>
+      <point x="715" y="361" type="curve" smooth="yes"/>
+      <point x="700" y="263"/>
+      <point x="631" y="199"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohm" format="2">
+  <advance width="717"/>
+  <unicode hex="2126"/>
+  <anchor x="358" y="0" name="bottom"/>
+  <anchor x="358" y="362" name="center"/>
+  <anchor x="358" y="714" name="top"/>
+  <anchor x="40" y="714" name="topleft"/>
+  <outline>
+    <component base="Omega"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omega</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
+</glyph>

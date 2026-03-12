@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notalmostequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="2249"/>
+  <anchor x="286" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="205" y="5" type="line"/>
+      <point x="445" y="519" type="line"/>
+      <point x="385" y="548" type="line"/>
+      <point x="145" y="33" type="line"/>
+    </contour>
+    <component base="approxequal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

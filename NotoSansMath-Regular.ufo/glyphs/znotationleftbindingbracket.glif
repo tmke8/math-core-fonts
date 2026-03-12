@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationleftbindingbracket" format="2">
+  <advance width="340"/>
+  <unicode hex="2989"/>
+  <anchor x="170" y="334" name="center"/>
+  <outline>
+    <contour>
+      <point x="195" y="-158" type="line"/>
+      <point x="289" y="-158" type="line"/>
+      <point x="289" y="784" type="line"/>
+      <point x="195" y="784" type="line"/>
+      <point x="51" y="344" type="line"/>
+      <point x="51" y="276" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="-28" type="line"/>
+      <point x="121" y="295" type="line"/>
+      <point x="121" y="323" type="line"/>
+      <point x="224" y="663" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>znotationleftbindingbracket</string>
+          <string>znotationleftbindingbracket.s01</string>
+          <string>znotationleftbindingbracket.s02</string>
+          <string>znotationleftbindingbracket.s03</string>
+          <string>znotationleftbindingbracket.s04</string>
+          <string>znotationleftbindingbracket.s05</string>
+          <string>znotationleftbindingbracket.s06</string>
+          <string>znotationleftbindingbracket.s07</string>
+          <string>znotationleftbindingbracket.s08</string>
+          <string>znotationleftbindingbracket.s09</string>
+          <string>znotationleftbindingbracket.s10</string>
+          <string>znotationleftbindingbracket.s11</string>
+          <string>znotationleftbindingbracket.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

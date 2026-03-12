@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftOverRightHarpoon" format="2">
+  <advance width="1012"/>
+  <unicode hex="21CB"/>
+  <anchor x="506" y="278" name="center"/>
+  <outline>
+    <component base="leftBarbUpHarpoon" yOffset="106"/>
+    <component base="rightBarbdownHarpoon" yOffset="-110"/>
+  </outline>
+</glyph>

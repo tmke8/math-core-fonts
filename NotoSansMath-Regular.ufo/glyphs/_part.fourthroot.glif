@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.fourthroot" format="2">
+  <advance width="679"/>
+  <outline>
+    <contour>
+      <point x="274" y="0" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="710" y="1057" type="line"/>
+      <point x="639" y="1057" type="line"/>
+      <point x="307" y="121" type="line"/>
+      <point x="194" y="450" type="line"/>
+      <point x="51" y="450" type="line"/>
+      <point x="51" y="380" type="line"/>
+      <point x="139" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="552" type="line"/>
+      <point x="338" y="552" type="line"/>
+      <point x="338" y="632" type="line"/>
+      <point x="388" y="632" type="line"/>
+      <point x="388" y="685" type="line"/>
+      <point x="338" y="685" type="line"/>
+      <point x="338" y="913" type="line"/>
+      <point x="274" y="913" type="line"/>
+      <point x="109" y="677" type="line"/>
+      <point x="109" y="632" type="line"/>
+      <point x="272" y="632" type="line"/>
+    </contour>
+    <contour>
+      <point x="174" y="685" type="line"/>
+      <point x="275" y="842" type="line"/>
+      <point x="275" y="685" type="line"/>
+    </contour>
+  </outline>
+</glyph>

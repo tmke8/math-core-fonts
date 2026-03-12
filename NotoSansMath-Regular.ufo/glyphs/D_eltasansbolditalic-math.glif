@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Deltasansbolditalic-math" format="2">
+  <advance width="731"/>
+  <unicode hex="1D793"/>
+  <unicode hex="1D71F"/>
+  <anchor x="348" y="359" name="center"/>
+  <anchor x="401" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="697" y="0" type="line"/>
+      <point x="516" y="719" type="line"/>
+      <point x="366" y="719" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="124" type="line"/>
+      <point x="422" y="540" type="line"/>
+      <point x="526" y="124" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

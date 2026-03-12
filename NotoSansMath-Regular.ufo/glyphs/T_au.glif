@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau" format="2">
+  <advance width="556"/>
+  <unicode hex="03A4"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="278" y="357" name="center"/>
+  <anchor x="278" y="0" name="math.ta"/>
+  <anchor x="278" y="714" name="top"/>
+  <anchor x="536" y="714" name="topright"/>
+  <outline>
+    <component base="T"/>
+  </outline>
+</glyph>

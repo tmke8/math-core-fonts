@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="subsetOfAboveTildeOperator" format="2">
+  <advance width="699"/>
+  <unicode hex="2AC7"/>
+  <anchor x="349" y="259" name="center"/>
+  <outline>
+    <component base="subset" yOffset="74"/>
+    <component base="asciitilde" xOffset="103" yOffset="-337"/>
+  </outline>
+</glyph>

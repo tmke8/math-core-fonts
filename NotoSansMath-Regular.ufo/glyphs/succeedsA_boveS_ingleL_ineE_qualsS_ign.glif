@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="succeedsAboveSingleLineEqualsSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2AB0"/>
+  <anchor x="286" y="288" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="88" type="line"/>
+      <point x="164" y="195"/>
+      <point x="351" y="293"/>
+      <point x="491" y="325" type="curve"/>
+      <point x="491" y="371" type="line"/>
+      <point x="351" y="403"/>
+      <point x="166" y="501"/>
+      <point x="51" y="608" type="curve"/>
+      <point x="51" y="522" type="line"/>
+      <point x="96" y="477"/>
+      <point x="247" y="383"/>
+      <point x="350" y="350" type="curve"/>
+      <point x="350" y="346" type="line"/>
+      <point x="248" y="314"/>
+      <point x="102" y="222"/>
+      <point x="51" y="174" type="curve"/>
+    </contour>
+    <contour>
+      <point x="51" y="-31" type="line"/>
+      <point x="521" y="-31" type="line"/>
+      <point x="521" y="40" type="line"/>
+      <point x="51" y="40" type="line"/>
+    </contour>
+  </outline>
+</glyph>

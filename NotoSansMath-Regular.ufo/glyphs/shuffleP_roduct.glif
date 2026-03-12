@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shuffleProduct" format="2">
+  <advance width="845"/>
+  <unicode hex="29E2"/>
+  <anchor x="422" y="211" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="794" y="0" type="line"/>
+      <point x="794" y="423" type="line"/>
+      <point x="723" y="423" type="line"/>
+      <point x="723" y="71" type="line"/>
+      <point x="458" y="71" type="line"/>
+      <point x="458" y="423" type="line"/>
+      <point x="387" y="423" type="line"/>
+      <point x="387" y="71" type="line"/>
+      <point x="122" y="71" type="line"/>
+      <point x="122" y="423" type="line"/>
+      <point x="51" y="423" type="line"/>
+    </contour>
+  </outline>
+</glyph>

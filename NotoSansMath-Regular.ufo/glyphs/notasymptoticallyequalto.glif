@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notasymptoticallyequalto" format="2">
+  <advance width="572"/>
+  <unicode hex="2244"/>
+  <anchor x="286" y="270" name="center"/>
+  <outline>
+    <contour>
+      <point x="220" y="-24" type="line"/>
+      <point x="420" y="496" type="line"/>
+      <point x="358" y="519" type="line"/>
+      <point x="158" y="-1" type="line"/>
+    </contour>
+    <component base="asymptoticallyequal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleVerticalBarLeftTurnstile" format="2">
+  <advance width="836"/>
+  <unicode hex="2AE3"/>
+  <anchor x="418" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="524" y="0" type="line"/>
+      <point x="595" y="0" type="line"/>
+      <point x="595" y="654" type="line"/>
+      <point x="524" y="654" type="line"/>
+      <point x="524" y="364" type="line"/>
+      <point x="51" y="364" type="line"/>
+      <point x="51" y="293" type="line"/>
+      <point x="524" y="293" type="line"/>
+    </contour>
+    <contour>
+      <point x="714" y="0" type="line"/>
+      <point x="785" y="0" type="line"/>
+      <point x="785" y="654" type="line"/>
+      <point x="714" y="654" type="line"/>
+    </contour>
+  </outline>
+</glyph>

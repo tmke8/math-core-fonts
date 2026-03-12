@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalBarBesideRightTriangle" format="2">
+  <advance width="956"/>
+  <unicode hex="29D0"/>
+  <anchor x="478" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="204" y="91" type="line"/>
+      <point x="905" y="278" type="line"/>
+      <point x="204" y="468" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="91" type="line"/>
+      <point x="122" y="91" type="line"/>
+      <point x="122" y="468" type="line"/>
+      <point x="51" y="468" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="180" type="line"/>
+      <point x="271" y="376" type="line"/>
+      <point x="660" y="278" type="line"/>
+    </contour>
+  </outline>
+</glyph>

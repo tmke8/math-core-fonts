@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitesquarebracket-math.s06" format="2">
+  <advance width="517"/>
+  <anchor x="233.5" y="295" name="center"/>
+  <outline>
+    <contour>
+      <point x="437" y="-882" type="line"/>
+      <point x="437" y="1473" type="line"/>
+      <point x="25" y="1473" type="line"/>
+      <point x="25" y="1400" type="line"/>
+      <point x="179" y="1400" type="line"/>
+      <point x="179" y="-809" type="line"/>
+      <point x="25" y="-809" type="line"/>
+      <point x="25" y="-882" type="line"/>
+    </contour>
+    <contour>
+      <point x="359.5" y="-809" type="line"/>
+      <point x="256.5" y="-809" type="line"/>
+      <point x="256.5" y="1400" type="line"/>
+      <point x="359.5" y="1400" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>6</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

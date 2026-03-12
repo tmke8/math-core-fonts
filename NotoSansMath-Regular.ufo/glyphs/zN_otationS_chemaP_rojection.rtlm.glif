@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zNotationSchemaProjection.rtlm" format="2">
+  <advance width="321"/>
+  <anchor x="161" y="370" name="center"/>
+  <outline>
+    <component base="zNotationSchemaProjection" xScale="-1" xOffset="321"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>zNotationSchemaProjection</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

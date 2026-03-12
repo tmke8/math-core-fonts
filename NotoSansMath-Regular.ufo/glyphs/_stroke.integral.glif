@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_stroke.integral" format="2">
+  <advance width="472"/>
+  <anchor x="236" y="323" name="_center"/>
+  <outline>
+    <contour>
+      <point x="421" y="358" type="line"/>
+      <point x="51" y="358" type="line"/>
+      <point x="51" y="287" type="line"/>
+      <point x="421" y="287" type="line"/>
+    </contour>
+  </outline>
+</glyph>

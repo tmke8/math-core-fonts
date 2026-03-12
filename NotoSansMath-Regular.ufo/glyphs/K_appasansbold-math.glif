@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappasansbold-math" format="2">
+  <advance width="734"/>
+  <unicode hex="1D75F"/>
+  <unicode hex="1D6B1"/>
+  <anchor x="394" y="359" name="center"/>
+  <anchor x="370" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="74" y="0" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="222" y="253" type="line"/>
+      <point x="299" y="329" type="line"/>
+      <point x="533" y="0" type="line"/>
+      <point x="714" y="0" type="line"/>
+      <point x="401" y="428" type="line"/>
+      <point x="688" y="719" type="line"/>
+      <point x="503" y="719" type="line"/>
+      <point x="222" y="424" type="line"/>
+      <point x="222" y="719" type="line"/>
+      <point x="74" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

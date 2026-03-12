@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sharp-musical.ssty2" format="2">
+  <advance width="587"/>
+  <anchor x="293" y="178" name="center"/>
+  <outline>
+    <contour>
+      <point x="139" y="-253" type="line"/>
+      <point x="241" y="-253" type="line"/>
+      <point x="241" y="-76" type="line"/>
+      <point x="346" y="-25" type="line"/>
+      <point x="346" y="-155" type="line"/>
+      <point x="448" y="-155" type="line"/>
+      <point x="448" y="21" type="line"/>
+      <point x="546" y="64" type="line"/>
+      <point x="546" y="203" type="line"/>
+      <point x="448" y="159" type="line"/>
+      <point x="448" y="343" type="line"/>
+      <point x="546" y="390" type="line"/>
+      <point x="546" y="529" type="line"/>
+      <point x="448" y="483" type="line"/>
+      <point x="448" y="610" type="line"/>
+      <point x="346" y="610" type="line"/>
+      <point x="346" y="438" type="line"/>
+      <point x="241" y="387" type="line"/>
+      <point x="241" y="502" type="line"/>
+      <point x="139" y="502" type="line"/>
+      <point x="139" y="341" type="line"/>
+      <point x="41" y="294" type="line"/>
+      <point x="41" y="154" type="line"/>
+      <point x="139" y="201" type="line"/>
+      <point x="139" y="18" type="line"/>
+      <point x="41" y="-28" type="line"/>
+      <point x="41" y="-168" type="line"/>
+      <point x="139" y="-121" type="line"/>
+    </contour>
+    <contour>
+      <point x="241" y="64" type="line"/>
+      <point x="241" y="246" type="line"/>
+      <point x="346" y="297" type="line"/>
+      <point x="346" y="115" type="line"/>
+    </contour>
+  </outline>
+</glyph>

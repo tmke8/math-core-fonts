@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chiitalic-math.ssty1" format="2">
+  <advance width="655"/>
+  <anchor x="379" y="357" name="center"/>
+  <anchor x="765" y="0" name="math.ic"/>
+  <anchor x="446" y="0" name="math.ta"/>
+  <outline>
+    <component base="Xsansitalic-math.ssty1"/>
+  </outline>
+</glyph>

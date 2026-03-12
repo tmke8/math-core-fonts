@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.leftFloor" format="2">
+  <advance width="429"/>
+  <outline>
+    <contour>
+      <point x="80" y="-158" type="line"/>
+      <point x="404" y="-158" type="line"/>
+      <point x="404" y="-72" type="line"/>
+      <point x="166" y="-72" type="line"/>
+      <point x="166" y="784" type="line"/>
+      <point x="80" y="784" type="line"/>
+    </contour>
+  </outline>
+</glyph>

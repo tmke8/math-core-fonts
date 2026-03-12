@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="models.rtlm" format="2">
+  <advance width="469"/>
+  <anchor x="235" y="275" name="center"/>
+  <outline>
+    <component base="models" xScale="-1" xOffset="469"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>models</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sigmasansbold-math" format="2">
+  <advance width="586"/>
+  <unicode hex="1D768"/>
+  <unicode hex="1D6BA"/>
+  <anchor x="296" y="359" name="center"/>
+  <anchor x="295" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="22" y="0" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="570" y="125" type="line"/>
+      <point x="234" y="125" type="line"/>
+      <point x="463" y="371" type="line"/>
+      <point x="246" y="594" type="line"/>
+      <point x="549" y="594" type="line"/>
+      <point x="549" y="719" type="line"/>
+      <point x="35" y="719" type="line"/>
+      <point x="35" y="612" type="line"/>
+      <point x="285" y="373" type="line"/>
+      <point x="22" y="100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

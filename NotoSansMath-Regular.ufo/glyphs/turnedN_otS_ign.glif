@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="turnedNotSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2319"/>
+  <anchor x="286" y="440" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="310" type="line"/>
+      <point x="521" y="310" type="line"/>
+      <point x="521" y="381" type="line"/>
+      <point x="122" y="381" type="line"/>
+      <point x="122" y="570" type="line"/>
+      <point x="51" y="570" type="line"/>
+    </contour>
+  </outline>
+</glyph>

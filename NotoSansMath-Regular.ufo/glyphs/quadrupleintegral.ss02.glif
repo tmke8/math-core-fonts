@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quadrupleintegral.ss02" format="2">
+  <advance width="1249"/>
+  <anchor x="777" y="0" name="#entry"/>
+  <anchor x="1036" y="0" name="#exit"/>
+  <anchor x="625" y="322" name="center"/>
+  <anchor x="1339" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.ss02"/>
+    <component base="integral.ss02" xOffset="259"/>
+    <component base="integral.ss02" xOffset="518"/>
+    <component base="integral.ss02" xOffset="777"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>quadrupleintegral.ss02.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1178</integer>
+          </array>
+          <array>
+            <string>quadrupleintegral.ss02.x</string>
+            <integer>1</integer>
+            <integer>1362</integer>
+            <integer>1362</integer>
+          </array>
+          <array>
+            <string>quadrupleintegral.ss02.t</string>
+            <integer>0</integer>
+            <integer>1291</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>quadrupleintegral.ss02</string>
+          <string>quadrupleintegral.ss02.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.ss02</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>integral.ss02</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>integral.ss02</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>integral.ss02</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

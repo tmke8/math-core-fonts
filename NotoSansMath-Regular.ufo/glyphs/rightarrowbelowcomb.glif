@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightarrowbelowcomb" format="2">
+  <unicode hex="20EF"/>
+  <anchor x="122" y="0" name="_bottom"/>
+  <anchor x="122" y="0" name="math.ta"/>
+  <anchor x="122" y="-61" name="top"/>
+  <outline>
+    <component base="rightarrowbelowcomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>leftarrowbelowcomb.x</string>
+            <integer>1</integer>
+            <integer>600</integer>
+            <integer>600</integer>
+          </array>
+          <array>
+            <string>rightarrowbelowcomb.s01</string>
+            <integer>0</integer>
+            <integer>500</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>rightarrowbelowcomb.s00</string>
+          <string>rightarrowbelowcomb.s01</string>
+          <string>rightarrowbelowcomb.s02</string>
+          <string>rightarrowbelowcomb.s03</string>
+          <string>rightarrowbelowcomb.s04</string>
+          <string>rightarrowbelowcomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>448</integer>
+    </dict>
+  </lib>
+</glyph>

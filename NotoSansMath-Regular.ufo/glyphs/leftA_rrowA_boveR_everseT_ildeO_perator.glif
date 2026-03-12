@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftArrowAboveReverseTildeOperator" format="2">
+  <advance width="1012"/>
+  <unicode hex="2B4B"/>
+  <anchor x="506" y="278" name="center"/>
+  <anchor x="588" y="-576" name="math.ta"/>
+  <anchor x="588" y="159" name="top"/>
+  <outline>
+    <component base="leftArrow"/>
+    <component base="tildecomb" xScale="-1" xOffset="772" yOffset="-576"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftArrow</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

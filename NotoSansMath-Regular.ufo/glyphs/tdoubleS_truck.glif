@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tdoubleStruck" format="2">
+  <advance width="379"/>
+  <unicode hex="1D565"/>
+  <anchor x="185" y="335" name="center"/>
+  <anchor x="197" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="272" y="-10" type="curve" smooth="yes"/>
+      <point x="308" y="-10"/>
+      <point x="341" y="-6"/>
+      <point x="370" y="1" type="curve"/>
+      <point x="370" y="54" type="line"/>
+      <point x="338" y="47"/>
+      <point x="305" y="43"/>
+      <point x="270" y="43" type="curve"/>
+      <point x="270" y="483" type="line"/>
+      <point x="370" y="483" type="line"/>
+      <point x="370" y="536" type="line"/>
+      <point x="270" y="536" type="line"/>
+      <point x="270" y="680" type="line"/>
+      <point x="97" y="680" type="line"/>
+      <point x="97" y="536" type="line"/>
+      <point x="0" y="536" type="line"/>
+      <point x="0" y="483" type="line"/>
+      <point x="97" y="483" type="line"/>
+      <point x="97" y="166" type="line" smooth="yes"/>
+      <point x="97" y="37"/>
+      <point x="143" y="-10"/>
+    </contour>
+    <contour>
+      <point x="217" y="47" type="line"/>
+      <point x="165" y="61"/>
+      <point x="150" y="89"/>
+      <point x="150" y="175" type="curve" smooth="yes"/>
+      <point x="150" y="627" type="line"/>
+      <point x="217" y="627" type="line"/>
+    </contour>
+  </outline>
+</glyph>

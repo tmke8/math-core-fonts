@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="timesintegral.s01" format="2">
+  <advance width="1052"/>
+  <anchor x="133" y="0" name="#entry"/>
+  <anchor x="545" y="0" name="#exit"/>
+  <anchor x="526.0" y="215.0" name="center"/>
+  <anchor x="1552" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.s01"/>
+    <component base="multiply" xScale="1.5" yScale="1.5" xOffset="97" yOffset="-202"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>multiply</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

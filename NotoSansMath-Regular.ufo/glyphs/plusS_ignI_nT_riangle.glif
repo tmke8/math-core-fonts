@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusSignInTriangle" format="2">
+  <advance width="862"/>
+  <unicode hex="2A39"/>
+  <anchor x="431" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-87" type="line"/>
+      <point x="811" y="-87" type="line"/>
+      <point x="457" y="646" type="line"/>
+      <point x="407" y="646" type="line"/>
+    </contour>
+    <contour>
+      <point x="406" y="37" type="line"/>
+      <point x="457" y="37" type="line"/>
+      <point x="457" y="117" type="line"/>
+      <point x="537" y="117" type="line"/>
+      <point x="537" y="168" type="line"/>
+      <point x="457" y="168" type="line"/>
+      <point x="457" y="248" type="line"/>
+      <point x="406" y="248" type="line"/>
+      <point x="406" y="168" type="line"/>
+      <point x="326" y="168" type="line"/>
+      <point x="326" y="117" type="line"/>
+      <point x="406" y="117" type="line"/>
+    </contour>
+    <contour>
+      <point x="167" y="-17" type="line"/>
+      <point x="432" y="544" type="line"/>
+      <point x="695" y="-17" type="line"/>
+    </contour>
+  </outline>
+</glyph>

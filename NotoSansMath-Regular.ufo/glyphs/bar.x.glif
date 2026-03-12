@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar.x" format="2">
+  <advance width="452"/>
+  <outline>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="272" y="0" type="line"/>
+      <point x="272" y="1069" type="line"/>
+      <point x="180" y="1069" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict/>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

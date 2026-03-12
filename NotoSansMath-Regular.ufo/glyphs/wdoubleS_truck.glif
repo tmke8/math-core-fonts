@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wdoubleStruck" format="2">
+  <advance width="956"/>
+  <unicode hex="1D568"/>
+  <anchor x="478" y="268" name="center"/>
+  <anchor x="518" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="line"/>
+      <point x="362" y="0" type="line"/>
+      <point x="471" y="387" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="782" y="0" type="line"/>
+      <point x="951" y="536" type="line"/>
+      <point x="896" y="536" type="line"/>
+      <point x="749" y="73" type="line"/>
+      <point x="624" y="484" type="line"/>
+      <point x="444" y="484" type="line"/>
+      <point x="329" y="73" type="line"/>
+      <point x="188" y="536" type="line"/>
+      <point x="5" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="53" type="line"/>
+      <point x="78" y="483" type="line"/>
+      <point x="147" y="483" type="line"/>
+      <point x="279" y="53" type="line"/>
+    </contour>
+    <contour>
+      <point x="630" y="53" type="line"/>
+      <point x="514" y="431" type="line"/>
+      <point x="583" y="431" type="line"/>
+      <point x="699" y="53" type="line"/>
+    </contour>
+  </outline>
+</glyph>

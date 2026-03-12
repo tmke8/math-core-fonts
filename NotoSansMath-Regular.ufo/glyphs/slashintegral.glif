@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashintegral" format="2">
+  <advance width="836"/>
+  <unicode hex="2A0F"/>
+  <anchor x="57" y="0" name="#entry"/>
+  <anchor x="396" y="0" name="#exit"/>
+  <anchor x="418" y="328" name="center"/>
+  <anchor x="1110" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral"/>
+    <component base="_slash.integral" xOffset="182" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>slashintegral</string>
+          <string>slashintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

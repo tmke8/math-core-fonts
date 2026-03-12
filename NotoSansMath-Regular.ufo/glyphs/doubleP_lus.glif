@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublePlus" format="2">
+  <advance width="744"/>
+  <unicode hex="29FA"/>
+  <anchor x="372" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="250" y="36" type="line"/>
+      <point x="322" y="36" type="line"/>
+      <point x="322" y="242" type="line"/>
+      <point x="422" y="242" type="line"/>
+      <point x="422" y="36" type="line"/>
+      <point x="494" y="36" type="line"/>
+      <point x="494" y="242" type="line"/>
+      <point x="693" y="242" type="line"/>
+      <point x="693" y="313" type="line"/>
+      <point x="494" y="313" type="line"/>
+      <point x="494" y="520" type="line"/>
+      <point x="422" y="520" type="line"/>
+      <point x="422" y="313" type="line"/>
+      <point x="322" y="313" type="line"/>
+      <point x="322" y="520" type="line"/>
+      <point x="250" y="520" type="line"/>
+      <point x="250" y="313" type="line"/>
+      <point x="51" y="313" type="line"/>
+      <point x="51" y="242" type="line"/>
+      <point x="250" y="242" type="line"/>
+    </contour>
+  </outline>
+</glyph>

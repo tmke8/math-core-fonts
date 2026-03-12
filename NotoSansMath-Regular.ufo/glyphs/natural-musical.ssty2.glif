@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="natural-musical.ssty2" format="2">
+  <advance width="393"/>
+  <anchor x="196" y="102" name="center"/>
+  <outline>
+    <contour>
+      <point x="249" y="-229" type="line"/>
+      <point x="351" y="-229" type="line"/>
+      <point x="351" y="394" type="line"/>
+      <point x="144" y="299" type="line"/>
+      <point x="144" y="434" type="line"/>
+      <point x="42" y="434" type="line"/>
+      <point x="42" y="-189" type="line"/>
+      <point x="249" y="-94" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="-3" type="line"/>
+      <point x="144" y="159" type="line"/>
+      <point x="249" y="207" type="line"/>
+      <point x="249" y="45" type="line"/>
+    </contour>
+  </outline>
+</glyph>

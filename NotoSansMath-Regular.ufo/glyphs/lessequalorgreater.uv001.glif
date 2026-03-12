@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequalorgreater.uv001" format="2">
+  <advance width="572"/>
+  <anchor x="286" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="521" y="334" type="line"/>
+      <point x="521" y="407" type="line"/>
+      <point x="159" y="528" type="line"/>
+      <point x="521" y="650" type="line"/>
+      <point x="521" y="723" type="line"/>
+      <point x="51" y="553" type="line"/>
+      <point x="51" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="-168" type="line"/>
+      <point x="521" y="1" type="line"/>
+      <point x="521" y="51" type="line"/>
+      <point x="51" y="221" type="line"/>
+      <point x="51" y="148" type="line"/>
+      <point x="413" y="26" type="line"/>
+      <point x="51" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="521" y="158" type="line"/>
+      <point x="521" y="226" type="line"/>
+      <point x="51" y="397" type="line"/>
+      <point x="51" y="329" type="line"/>
+    </contour>
+  </outline>
+</glyph>

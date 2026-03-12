@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalZigzagLine.s10" format="2">
+  <advance width="598"/>
+  <anchor x="172" y="329" name="center"/>
+  <outline>
+    <contour>
+      <point x="423.6666666666667" y="-1364.6666666666667" type="line"/>
+      <point x="547.1666666666666" y="-1364.6666666666667" type="line"/>
+      <point x="174.33333333333334" y="-996.3333333333334" type="line"/>
+      <point x="547" y="-629.6666666666667" type="line"/>
+      <point x="178.66666666666669" y="-266.5" type="line"/>
+      <point x="546.1666666666667" y="101.83333333333333" type="line"/>
+      <point x="177.83333333333331" y="470.1666666666667" type="line"/>
+      <point x="547" y="834.1666666666667" type="line"/>
+      <point x="174.33333333333334" y="1198.1666666666667" type="line"/>
+      <point x="547" y="1568.3333333333333" type="line"/>
+      <point x="178.66666666666669" y="1932.3333333333335" type="line"/>
+      <point x="55.333333333333336" y="1932.3333333333335" type="line"/>
+      <point x="423.6666666666667" y="1568.3333333333333" type="line"/>
+      <point x="51" y="1197.3333333333335" type="line"/>
+      <point x="423.6666666666667" y="834.1666666666667" type="line"/>
+      <point x="55.333333333333336" y="470.1666666666667" type="line"/>
+      <point x="423.6666666666667" y="101.83333333333333" type="line"/>
+      <point x="55.333333333333336" y="-266.5" type="line"/>
+      <point x="423.6666666666667" y="-629.6666666666667" type="line"/>
+      <point x="51" y="-996.3333333333334" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>10</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

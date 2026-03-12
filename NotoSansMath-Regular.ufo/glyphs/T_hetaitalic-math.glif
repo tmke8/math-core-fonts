@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thetaitalic-math" format="2">
+  <advance width="721"/>
+  <unicode hex="1D6E9"/>
+  <anchor x="399" y="357" name="center"/>
+  <anchor x="446" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="232" y="324" type="line"/>
+      <point x="514" y="324" type="line"/>
+      <point x="530" y="402" type="line"/>
+      <point x="248" y="402" type="line"/>
+    </contour>
+    <component base="Osansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

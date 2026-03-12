@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squarecup" format="2">
+  <advance width="644"/>
+  <unicode hex="2294"/>
+  <anchor x="322" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="4" type="line"/>
+      <point x="593" y="4" type="line"/>
+      <point x="593" y="546" type="line"/>
+      <point x="522" y="546" type="line"/>
+      <point x="522" y="75" type="line"/>
+      <point x="122" y="75" type="line"/>
+      <point x="122" y="546" type="line"/>
+      <point x="51" y="546" type="line"/>
+    </contour>
+  </outline>
+</glyph>

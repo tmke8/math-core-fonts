@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Muitalic-math" format="2">
+  <advance width="841"/>
+  <unicode hex="1D6ED"/>
+  <anchor x="442" y="357" name="center"/>
+  <anchor x="864" y="0" name="math.ic"/>
+  <anchor x="502" y="0" name="math.ta"/>
+  <outline>
+    <component base="Msansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

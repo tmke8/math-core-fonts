@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upperRightArc" format="2">
+  <advance width="838"/>
+  <unicode hex="25DD"/>
+  <anchor x="602" y="540" name="center"/>
+  <outline>
+    <contour>
+      <point x="735" y="357" type="curve"/>
+      <point x="786" y="357" type="line"/>
+      <point x="786" y="560"/>
+      <point x="620" y="724"/>
+      <point x="419" y="724" type="curve"/>
+      <point x="419" y="673" type="line"/>
+      <point x="594" y="673"/>
+      <point x="735" y="532"/>
+    </contour>
+  </outline>
+</glyph>

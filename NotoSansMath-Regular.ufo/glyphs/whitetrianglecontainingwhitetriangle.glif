@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whitetrianglecontainingwhitetriangle" format="2">
+  <advance width="868"/>
+  <unicode hex="27C1"/>
+  <anchor x="434" y="374" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="817" y="0" type="line"/>
+      <point x="434" y="749" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="185" type="line"/>
+      <point x="434" y="348" type="line"/>
+      <point x="517" y="185" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="128" type="line"/>
+      <point x="606" y="128" type="line"/>
+      <point x="434" y="465" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="71" type="line"/>
+      <point x="434" y="589" type="line"/>
+      <point x="699" y="71" type="line"/>
+    </contour>
+  </outline>
+</glyph>

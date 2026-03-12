@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overlinecomb.s00" format="2">
+  <advance width="417"/>
+  <anchor x="209" y="546" name="_top"/>
+  <anchor x="209" y="0" name="math.ta"/>
+  <anchor x="209" y="697" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="606" type="line"/>
+      <point x="417" y="606" type="line"/>
+      <point x="417" y="677" type="line"/>
+      <point x="0" y="677" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

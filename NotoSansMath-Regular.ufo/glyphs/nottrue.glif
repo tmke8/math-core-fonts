@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nottrue" format="2">
+  <advance width="756"/>
+  <unicode hex="22AD"/>
+  <anchor x="378" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="283" y="-36" type="line"/>
+      <point x="555" y="664" type="line"/>
+      <point x="494" y="690" type="line"/>
+      <point x="222" y="-10" type="line"/>
+    </contour>
+    <component base="true"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

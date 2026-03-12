@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalZigzagLine.s05" format="2">
+  <advance width="446"/>
+  <anchor x="172" y="329" name="center"/>
+  <outline>
+    <contour>
+      <point x="290.3333333333333" y="-761.3333333333334" type="line"/>
+      <point x="395.0833333333333" y="-761.3333333333334" type="line"/>
+      <point x="155.16666666666669" y="-524.6666666666666" type="line"/>
+      <point x="394.5" y="-288.83333333333337" type="line"/>
+      <point x="157.83333333333331" y="-55.250000000000014" type="line"/>
+      <point x="394.08333333333337" y="181.41666666666663" type="line"/>
+      <point x="157.41666666666666" y="418.0833333333333" type="line"/>
+      <point x="394.5" y="652.0833333333333" type="line"/>
+      <point x="155.16666666666669" y="886.0833333333333" type="line"/>
+      <point x="394.5" y="1124.1666666666665" type="line"/>
+      <point x="157.83333333333331" y="1358.1666666666665" type="line"/>
+      <point x="53.666666666666664" y="1358.1666666666665" type="line"/>
+      <point x="290.3333333333333" y="1124.1666666666665" type="line"/>
+      <point x="51" y="885.6666666666667" type="line"/>
+      <point x="290.3333333333333" y="652.0833333333333" type="line"/>
+      <point x="53.666666666666664" y="418.0833333333333" type="line"/>
+      <point x="290.3333333333333" y="181.41666666666663" type="line"/>
+      <point x="53.666666666666664" y="-55.250000000000014" type="line"/>
+      <point x="290.3333333333333" y="-288.83333333333337" type="line"/>
+      <point x="51" y="-524.6666666666666" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>5</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

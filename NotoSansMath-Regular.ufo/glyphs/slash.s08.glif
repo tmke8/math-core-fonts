@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash.s08" format="2">
+  <advance width="1182"/>
+  <anchor x="602" y="657" name="center"/>
+  <outline>
+    <contour>
+      <point x="10" y="-1123.3333333333333" type="line"/>
+      <point x="118.66666666666666" y="-1123.3333333333333" type="line"/>
+      <point x="1172.3333333333333" y="1702.6666666666665" type="line"/>
+      <point x="1063.6666666666665" y="1702.6666666666665" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>8</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

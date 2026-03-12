@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteRect" format="2">
+  <advance width="838"/>
+  <unicode hex="25AD"/>
+  <anchor x="419" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="62" y="179" type="line"/>
+      <point x="776" y="179" type="line"/>
+      <point x="776" y="536" type="line"/>
+      <point x="62" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="230" type="line"/>
+      <point x="113" y="485" type="line"/>
+      <point x="725" y="485" type="line"/>
+      <point x="725" y="230" type="line"/>
+    </contour>
+  </outline>
+</glyph>

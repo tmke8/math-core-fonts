@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xisansbolditalic-math" format="2">
+  <advance width="624"/>
+  <unicode hex="1D79D"/>
+  <unicode hex="1D729"/>
+  <anchor x="317" y="359" name="center"/>
+  <anchor x="655" y="0" name="math.ic"/>
+  <anchor x="371" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="543" y="0" type="line"/>
+      <point x="566" y="127" type="line"/>
+      <point x="22" y="127" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="307" type="line"/>
+      <point x="538" y="307" type="line"/>
+      <point x="561" y="434" type="line"/>
+      <point x="104" y="434" type="line"/>
+    </contour>
+    <contour>
+      <point x="86" y="591" type="line"/>
+      <point x="612" y="591" type="line"/>
+      <point x="635" y="719" type="line"/>
+      <point x="108" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

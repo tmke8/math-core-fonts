@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftRightDoubleStrokeArrow" format="2">
+  <advance width="1262"/>
+  <unicode hex="21CE"/>
+  <anchor x="631" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="486" y="83" type="line"/>
+      <point x="567" y="83" type="line"/>
+      <point x="776" y="473" type="line"/>
+      <point x="695" y="473" type="line"/>
+    </contour>
+    <component base="leftRightDoubleArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

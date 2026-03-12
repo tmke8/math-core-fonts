@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildebelowcomb" format="2">
+  <unicode hex="0330"/>
+  <anchor x="184" y="0" name="_bottom"/>
+  <anchor x="184" y="-184" name="bottom"/>
+  <anchor x="184" y="0" name="math.ta"/>
+  <anchor x="184" y="50" name="top"/>
+  <outline>
+    <component base="tildebelowcomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hVariants</key>
+        <array>
+          <string>tildebelowcomb.s00</string>
+          <string>tildebelowcomb.s01</string>
+          <string>tildebelowcomb.s02</string>
+          <string>tildebelowcomb.s03</string>
+          <string>tildebelowcomb.s04</string>
+          <string>tildebelowcomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>367</integer>
+    </dict>
+  </lib>
+</glyph>

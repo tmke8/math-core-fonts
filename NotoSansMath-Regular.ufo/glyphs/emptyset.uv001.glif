@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emptyset.uv001" format="2">
+  <advance width="572"/>
+  <anchor x="292" y="357" name="center"/>
+  <anchor x="286" y="0" name="math.ta"/>
+  <outline>
+    <component base="zero"/>
+    <component base="slashlongcomb" xOffset="72" yOffset="80"/>
+  </outline>
+</glyph>

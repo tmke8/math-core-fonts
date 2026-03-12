@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteCircleWithBlackCircle" format="2">
+  <advance width="838"/>
+  <unicode hex="1F78A"/>
+  <anchor x="419" y="357" name="center"/>
+  <outline>
+    <component base="whiteCircle"/>
+    <component base="mediumBlackCircle" xOffset="126" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteCircle</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

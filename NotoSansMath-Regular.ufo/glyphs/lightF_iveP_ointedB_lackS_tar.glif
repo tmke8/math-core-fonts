@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightFivePointedBlackStar" format="2">
+  <advance width="800"/>
+  <unicode hex="1F7C9"/>
+  <anchor x="399" y="353" name="center"/>
+  <outline>
+    <contour>
+      <point x="181" y="21" type="line"/>
+      <point x="399" y="222" type="line"/>
+      <point x="617" y="21" type="line"/>
+      <point x="486" y="286" type="line"/>
+      <point x="749" y="433" type="line"/>
+      <point x="453" y="390" type="line"/>
+      <point x="399" y="685" type="line"/>
+      <point x="344" y="390" type="line"/>
+      <point x="49" y="433" type="line"/>
+      <point x="310" y="286" type="line"/>
+    </contour>
+  </outline>
+</glyph>

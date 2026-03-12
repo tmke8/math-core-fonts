@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lsansitalic-math.ssty2" format="2">
+  <advance width="346"/>
+  <anchor x="247" y="273" name="center"/>
+  <anchor x="419" y="0" name="math.ic"/>
+  <anchor x="300" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="59" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+      <point x="365" y="760" type="line"/>
+      <point x="220" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

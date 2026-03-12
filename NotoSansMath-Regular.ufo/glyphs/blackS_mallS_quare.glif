@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackSmallSquare" format="2">
+  <advance width="502"/>
+  <unicode hex="25AA"/>
+  <anchor x="251" y="357" name="_center"/>
+  <anchor x="251" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="157" type="line"/>
+      <point x="451" y="157" type="line"/>
+      <point x="451" y="557" type="line"/>
+      <point x="51" y="557" type="line"/>
+    </contour>
+  </outline>
+</glyph>

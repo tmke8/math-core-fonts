@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaitalic-math.ssty1" format="2">
+  <advance width="633"/>
+  <anchor x="296" y="157" name="center"/>
+  <anchor x="342" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="419" y="324" type="curve" smooth="yes"/>
+      <point x="300" y="-240" type="line"/>
+      <point x="431" y="-240" type="line"/>
+      <point x="548" y="316" type="line"/>
+      <point x="554" y="346"/>
+      <point x="559" y="377"/>
+      <point x="559" y="404" type="curve" smooth="yes"/>
+      <point x="559" y="496"/>
+      <point x="511" y="554"/>
+      <point x="418" y="554" type="curve" smooth="yes"/>
+      <point x="341" y="554"/>
+      <point x="287" y="505"/>
+      <point x="244" y="444" type="curve"/>
+      <point x="241" y="444" type="line"/>
+      <point x="251" y="544" type="line"/>
+      <point x="149" y="544" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="213" y="227" type="line" smooth="yes"/>
+      <point x="242" y="361"/>
+      <point x="301" y="446"/>
+      <point x="370" y="446" type="curve" smooth="yes"/>
+      <point x="408" y="446"/>
+      <point x="427" y="427"/>
+      <point x="427" y="385" type="curve" smooth="yes"/>
+      <point x="427" y="369"/>
+      <point x="424" y="349"/>
+    </contour>
+  </outline>
+</glyph>

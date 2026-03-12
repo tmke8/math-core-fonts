@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationleftimagebracket.x" format="2">
+  <advance width="441"/>
+  <outline>
+    <contour>
+      <point x="298" y="0" type="line"/>
+      <point x="390" y="0" type="line"/>
+      <point x="390" y="1069" type="line"/>
+      <point x="298" y="1069" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="143" y="1069" type="line"/>
+      <point x="51" y="1069" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

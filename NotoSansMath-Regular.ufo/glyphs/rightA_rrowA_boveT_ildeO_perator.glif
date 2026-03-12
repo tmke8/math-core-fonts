@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrowAboveTildeOperator" format="2">
+  <advance width="1012"/>
+  <unicode hex="2974"/>
+  <anchor x="506" y="278" name="center"/>
+  <anchor x="424" y="-576" name="math.ta"/>
+  <anchor x="424" y="159" name="top"/>
+  <outline>
+    <component base="leftArrowAboveReverseTildeOperator" xScale="-1" xOffset="1012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftArrowAboveReverseTildeOperator</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

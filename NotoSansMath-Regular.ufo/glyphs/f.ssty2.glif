@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f.ssty2" format="2">
+  <advance width="408"/>
+  <anchor x="242" y="382" name="center"/>
+  <anchor x="495" y="0" name="math.ic"/>
+  <anchor x="299" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="398" y="436" type="line"/>
+      <point x="398" y="545" type="line"/>
+      <point x="266" y="545" type="line"/>
+      <point x="266" y="578" type="line" smooth="yes"/>
+      <point x="266" y="627"/>
+      <point x="287" y="654"/>
+      <point x="335" y="654" type="curve" smooth="yes"/>
+      <point x="367" y="654"/>
+      <point x="394" y="648"/>
+      <point x="417" y="641" type="curve"/>
+      <point x="451" y="743" type="line"/>
+      <point x="414" y="755"/>
+      <point x="369" y="765"/>
+      <point x="313" y="765" type="curve" smooth="yes"/>
+      <point x="188" y="765"/>
+      <point x="121" y="714"/>
+      <point x="121" y="578" type="curve" smooth="yes"/>
+      <point x="121" y="545" type="line"/>
+      <point x="33" y="508" type="line"/>
+      <point x="33" y="436" type="line"/>
+      <point x="120" y="436" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="266" y="436" type="line"/>
+    </contour>
+  </outline>
+</glyph>

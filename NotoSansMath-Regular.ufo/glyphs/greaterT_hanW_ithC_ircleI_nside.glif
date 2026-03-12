@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterThanWithCircleInside" format="2">
+  <advance width="669"/>
+  <unicode hex="2A7A"/>
+  <anchor x="334" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="147" y="32" type="line"/>
+      <point x="618" y="239" type="line"/>
+      <point x="618" y="289" type="line"/>
+      <point x="147" y="524" type="line"/>
+      <point x="147" y="446" type="line"/>
+      <point x="524" y="268" type="line"/>
+      <point x="147" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="159" y="170" type="curve" smooth="yes"/>
+      <point x="219" y="170"/>
+      <point x="267" y="217"/>
+      <point x="267" y="278" type="curve" smooth="yes"/>
+      <point x="267" y="338"/>
+      <point x="220" y="386"/>
+      <point x="159" y="386" type="curve" smooth="yes"/>
+      <point x="99" y="386"/>
+      <point x="51" y="338"/>
+      <point x="51" y="278" type="curve" smooth="yes"/>
+      <point x="51" y="219"/>
+      <point x="98" y="170"/>
+    </contour>
+    <contour>
+      <point x="159" y="218" type="curve" smooth="yes"/>
+      <point x="128" y="218"/>
+      <point x="100" y="247"/>
+      <point x="100" y="278" type="curve" smooth="yes"/>
+      <point x="100" y="309"/>
+      <point x="128" y="337"/>
+      <point x="159" y="337" type="curve" smooth="yes"/>
+      <point x="190" y="337"/>
+      <point x="219" y="309"/>
+      <point x="219" y="278" type="curve" smooth="yes"/>
+      <point x="219" y="247"/>
+      <point x="190" y="218"/>
+    </contour>
+  </outline>
+</glyph>

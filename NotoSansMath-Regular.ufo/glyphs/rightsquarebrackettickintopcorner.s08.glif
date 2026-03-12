@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightsquarebrackettickintopcorner.s08" format="2">
+  <advance width="344"/>
+  <anchor x="137" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-1123.3333333333333" type="line"/>
+      <point x="263.6666666666667" y="-1123.3333333333333" type="line"/>
+      <point x="263.6666666666667" y="1702.6666666666665" type="line"/>
+      <point x="25" y="1702.6666666666665" type="line"/>
+      <point x="25" y="1617.3333333333335" type="line"/>
+      <point x="173.66666666666669" y="1617.3333333333335" type="line"/>
+      <point x="173.66666666666669" y="-1038" type="line"/>
+      <point x="25" y="-1038" type="line"/>
+    </contour>
+    <contour>
+      <point x="66" y="1471.3333333333333" type="line"/>
+      <point x="222" y="1599" type="line"/>
+      <point x="181" y="1649" type="line"/>
+      <point x="25" y="1522" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>8</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

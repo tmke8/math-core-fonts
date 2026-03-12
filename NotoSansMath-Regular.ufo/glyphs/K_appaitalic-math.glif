@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappaitalic-math" format="2">
+  <advance width="562"/>
+  <unicode hex="1D6EB"/>
+  <anchor x="346" y="357" name="center"/>
+  <anchor x="671" y="0" name="math.ic"/>
+  <anchor x="402" y="0" name="math.ta"/>
+  <outline>
+    <component base="Ksansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftLongDoubleFromBarArrow" format="2">
+  <advance width="1558"/>
+  <unicode hex="27FD"/>
+  <anchor x="729" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="1436" y="-33" type="line"/>
+      <point x="1507" y="-33" type="line"/>
+      <point x="1507" y="591" type="line"/>
+      <point x="1436" y="591" type="line"/>
+    </contour>
+    <component base="leftLongDoubleArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

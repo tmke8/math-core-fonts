@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zeta.ssty1" format="2">
+  <advance width="648"/>
+  <anchor x="323" y="357" name="center"/>
+  <anchor x="329" y="0" name="math.ta"/>
+  <outline>
+    <component base="Z.ssty1"/>
+  </outline>
+</glyph>

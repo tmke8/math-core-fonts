@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imono-math.dtls" format="2">
+  <advance width="680"/>
+  <anchor x="350" y="268" name="center"/>
+  <anchor x="310" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="120" y="0" type="line"/>
+      <point x="580" y="0" type="line"/>
+      <point x="580" y="50" type="line"/>
+      <point x="401" y="71" type="line"/>
+      <point x="401" y="536" type="line"/>
+      <point x="136" y="536" type="line"/>
+      <point x="136" y="484" type="line"/>
+      <point x="311" y="465" type="line"/>
+      <point x="311" y="71" type="line"/>
+      <point x="120" y="50" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

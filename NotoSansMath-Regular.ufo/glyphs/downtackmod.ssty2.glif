@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downtackmod.ssty2" format="2">
+  <advance width="310"/>
+  <anchor x="155" y="312" name="center"/>
+  <outline>
+    <contour>
+      <point x="117" y="207" type="line"/>
+      <point x="193" y="207" type="line"/>
+      <point x="193" y="347" type="line"/>
+      <point x="275" y="347" type="line"/>
+      <point x="275" y="417" type="line"/>
+      <point x="35" y="417" type="line"/>
+      <point x="35" y="347" type="line"/>
+      <point x="117" y="347" type="line"/>
+    </contour>
+  </outline>
+</glyph>

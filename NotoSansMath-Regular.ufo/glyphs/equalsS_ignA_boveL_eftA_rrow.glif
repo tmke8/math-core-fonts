@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equalsSignAboveLeftArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="2B40"/>
+  <anchor x="506" y="354" name="center"/>
+  <outline>
+    <contour>
+      <point x="271" y="84" type="curve"/>
+      <point x="328" y="84" type="line"/>
+      <point x="293" y="161"/>
+      <point x="257" y="219"/>
+      <point x="223" y="253" type="curve"/>
+      <point x="223" y="305" type="line"/>
+      <point x="257" y="340"/>
+      <point x="293" y="397"/>
+      <point x="328" y="474" type="curve"/>
+      <point x="271" y="474" type="line"/>
+      <point x="201" y="392"/>
+      <point x="127" y="332"/>
+      <point x="51" y="293" type="curve"/>
+      <point x="51" y="265" type="line"/>
+      <point x="127" y="226"/>
+      <point x="201" y="166"/>
+    </contour>
+    <contour>
+      <point x="184" y="244" type="line"/>
+      <point x="961" y="244" type="line"/>
+      <point x="961" y="315" type="line"/>
+      <point x="184" y="315" type="line"/>
+    </contour>
+    <contour>
+      <point x="451" y="403" type="line"/>
+      <point x="833" y="403" type="line"/>
+      <point x="833" y="474" type="line"/>
+      <point x="451" y="474" type="line"/>
+    </contour>
+    <contour>
+      <point x="451" y="555" type="line"/>
+      <point x="833" y="555" type="line"/>
+      <point x="833" y="626" type="line"/>
+      <point x="451" y="626" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zscript-math.ssty2" format="2">
+  <advance width="437"/>
+  <anchor x="169" y="3" name="center"/>
+  <anchor x="363" y="0" name="math.ta"/>
+  <outline>
+    <component base="zboldscript-math"/>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.ssty1" format="2">
+  <advance width="580"/>
+  <anchor x="290" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="130" y="0" type="line"/>
+      <point x="253" y="0" type="line"/>
+      <point x="536" y="633" type="line"/>
+      <point x="536" y="714" type="line"/>
+      <point x="44" y="714" type="line"/>
+      <point x="44" y="615" type="line"/>
+      <point x="413" y="615" type="line"/>
+    </contour>
+  </outline>
+</glyph>

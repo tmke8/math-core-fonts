@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F.ssty2" format="2">
+  <advance width="598"/>
+  <anchor x="351" y="357" name="center"/>
+  <anchor x="343" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="281" y="0" type="line"/>
+      <point x="281" y="284" type="line"/>
+      <point x="547" y="284" type="line"/>
+      <point x="547" y="404" type="line"/>
+      <point x="281" y="404" type="line"/>
+      <point x="281" y="594" type="line"/>
+      <point x="566" y="594" type="line"/>
+      <point x="566" y="714" type="line"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

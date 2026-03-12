@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightHalfBlackDiamond" format="2">
+  <advance width="938"/>
+  <unicode hex="2B17"/>
+  <anchor x="469" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="469" y="-82" type="line"/>
+      <point x="908" y="357" type="line"/>
+      <point x="469" y="796" type="line"/>
+      <point x="30" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="-10" type="line"/>
+      <point x="102" y="357" type="line"/>
+      <point x="469" y="724" type="line"/>
+    </contour>
+  </outline>
+</glyph>

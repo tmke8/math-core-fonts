@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Deltaitalic-math.ssty2" format="2">
+  <advance width="712"/>
+  <anchor x="343" y="357" name="center"/>
+  <anchor x="496" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="27" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="659" y="78" type="line"/>
+      <point x="574" y="714" type="line"/>
+      <point x="397" y="714" type="line"/>
+      <point x="44" y="81" type="line"/>
+    </contour>
+    <contour>
+      <point x="216" y="125" type="line"/>
+      <point x="393" y="465" type="line" smooth="yes"/>
+      <point x="402" y="484"/>
+      <point x="441" y="556"/>
+      <point x="464" y="602" type="curve"/>
+      <point x="466" y="602" type="line"/>
+      <point x="469" y="562"/>
+      <point x="476" y="497"/>
+      <point x="480" y="465" type="curve" smooth="yes"/>
+      <point x="516" y="125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightBlackPointer" format="2">
+  <advance width="838"/>
+  <unicode hex="25BA"/>
+  <anchor x="419" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="62" y="115" type="line"/>
+      <point x="776" y="357" type="line"/>
+      <point x="62" y="599" type="line"/>
+    </contour>
+  </outline>
+</glyph>

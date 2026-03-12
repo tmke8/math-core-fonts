@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dashdownArrow" format="2">
+  <advance width="530"/>
+  <unicode hex="21E3"/>
+  <anchor x="265" y="278" name="center"/>
+  <outline>
+    <component base="leftDashArrow" xScale="0.0" xyScale="1.0" yxScale="-1.0" yScale="0.0" xOffset="543" yOffset="-228"/>
+  </outline>
+</glyph>

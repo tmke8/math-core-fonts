@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply.ssty1" format="2">
+  <advance width="568"/>
+  <anchor x="284" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="129" y="57" type="line"/>
+      <point x="283" y="210" type="line"/>
+      <point x="440" y="57" type="line"/>
+      <point x="506" y="124" type="line"/>
+      <point x="351" y="278" type="line"/>
+      <point x="506" y="434" type="line"/>
+      <point x="439" y="500" type="line"/>
+      <point x="283" y="346" type="line"/>
+      <point x="129" y="500" type="line"/>
+      <point x="62" y="432" type="line"/>
+      <point x="216" y="278" type="line"/>
+      <point x="62" y="124" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lmoustache.s08" format="2">
+  <advance width="370"/>
+  <outline>
+    <contour>
+      <point x="32" y="-1100" type="line"/>
+      <point x="149" y="-1100"/>
+      <point x="230" y="-1047.6666666666667"/>
+      <point x="230" y="-941.6666666666666" type="curve" smooth="yes"/>
+      <point x="230" y="1559.3333333333333" type="line" smooth="yes"/>
+      <point x="230" y="1623"/>
+      <point x="268.6666666666667" y="1652"/>
+      <point x="337.6666666666667" y="1653.3333333333335" type="curve"/>
+      <point x="337.6666666666667" y="1725.3333333333335" type="line"/>
+      <point x="220.66666666666669" y="1725.3333333333335"/>
+      <point x="139.66666666666669" y="1673.3333333333333"/>
+      <point x="139.66666666666669" y="1567.3333333333333" type="curve" smooth="yes"/>
+      <point x="139.66666666666669" y="-934.3333333333333" type="line" smooth="yes"/>
+      <point x="139.66666666666669" y="-998"/>
+      <point x="101" y="-1026.6666666666667"/>
+      <point x="32" y="-1028" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>8</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

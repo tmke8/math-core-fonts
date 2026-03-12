@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L.ssty2" format="2">
+  <advance width="635"/>
+  <anchor x="368" y="357" name="center"/>
+  <anchor x="214" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="600" y="121" type="line"/>
+      <point x="283" y="121" type="line"/>
+      <point x="283" y="714" type="line"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

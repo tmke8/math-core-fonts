@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squaredSquare" format="2">
+  <advance width="756"/>
+  <unicode hex="29C8"/>
+  <anchor x="378" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-52" type="line"/>
+      <point x="705" y="-52" type="line"/>
+      <point x="705" y="602" type="line"/>
+      <point x="51" y="602" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="19" type="line"/>
+      <point x="122" y="531" type="line"/>
+      <point x="634" y="531" type="line"/>
+      <point x="634" y="19" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="120" type="line"/>
+      <point x="533" y="120" type="line"/>
+      <point x="533" y="430" type="line"/>
+      <point x="223" y="430" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="179" type="line"/>
+      <point x="282" y="370" type="line"/>
+      <point x="473" y="370" type="line"/>
+      <point x="473" y="179" type="line"/>
+    </contour>
+  </outline>
+</glyph>

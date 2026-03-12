@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversedDoubleStrokeNotSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2AED"/>
+  <anchor x="286" y="311" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="181" type="line"/>
+      <point x="122" y="181" type="line"/>
+      <point x="122" y="248" type="line"/>
+      <point x="521" y="248" type="line"/>
+      <point x="521" y="319" type="line"/>
+      <point x="122" y="319" type="line"/>
+      <point x="122" y="370" type="line"/>
+      <point x="521" y="370" type="line"/>
+      <point x="521" y="441" type="line"/>
+      <point x="51" y="441" type="line"/>
+    </contour>
+  </outline>
+</glyph>

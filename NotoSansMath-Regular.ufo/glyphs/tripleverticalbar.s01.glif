@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleverticalbar.s01" format="2">
+  <advance width="875"/>
+  <anchor x="436" y="325" name="center"/>
+  <outline>
+    <contour>
+      <point x="180" y="-278.66666666666663" type="line"/>
+      <point x="254.58333333333331" y="-278.66666666666663" type="line"/>
+      <point x="254.58333333333331" y="898.8333333333333" type="line"/>
+      <point x="180" y="898.8333333333333" type="line"/>
+    </contour>
+    <contour>
+      <point x="400.0" y="-278.66666666666663" type="line"/>
+      <point x="474.5833333333333" y="-278.66666666666663" type="line"/>
+      <point x="474.5833333333333" y="898.8333333333333" type="line"/>
+      <point x="400.0" y="898.8333333333333" type="line"/>
+    </contour>
+    <contour>
+      <point x="620.0" y="-278.66666666666663" type="line"/>
+      <point x="694.5833333333333" y="-278.66666666666663" type="line"/>
+      <point x="694.5833333333333" y="898.8333333333333" type="line"/>
+      <point x="620.0" y="898.8333333333333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>_part.bar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

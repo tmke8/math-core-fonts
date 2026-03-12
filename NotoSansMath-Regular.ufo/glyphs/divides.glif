@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divides" format="2">
+  <advance width="173"/>
+  <unicode hex="2223"/>
+  <anchor x="86" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-162" type="line"/>
+      <point x="122" y="-162" type="line"/>
+      <point x="122" y="718" type="line"/>
+      <point x="51" y="718" type="line"/>
+    </contour>
+  </outline>
+</glyph>

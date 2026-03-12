@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notgreaternorless" format="2">
+  <advance width="572"/>
+  <unicode hex="2279"/>
+  <anchor x="286" y="267" name="center"/>
+  <outline>
+    <component base="greaterorless"/>
+    <component base="slashlongcomb.alt" xOffset="146" yOffset="-54"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>greaterorless</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

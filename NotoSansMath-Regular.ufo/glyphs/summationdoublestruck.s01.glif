@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationdoublestruck.s01" format="2">
+  <advance width="1059"/>
+  <anchor x="530" y="237" name="center"/>
+  <outline>
+    <component base="summationdoublestruck" xScale="1.4" yScale="1.4" xOffset="-20" yOffset="-95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

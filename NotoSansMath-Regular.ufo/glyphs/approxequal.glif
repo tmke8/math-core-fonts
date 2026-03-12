@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="approxequal" format="2">
+  <advance width="573"/>
+  <unicode hex="2248"/>
+  <anchor x="286" y="278" name="center"/>
+  <outline>
+    <component base="asciitilde" yOffset="-99"/>
+    <component base="asciitilde" yOffset="98"/>
+  </outline>
+</glyph>

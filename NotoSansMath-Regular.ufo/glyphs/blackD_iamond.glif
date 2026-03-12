@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackDiamond" format="2">
+  <advance width="938"/>
+  <unicode hex="25C6"/>
+  <anchor x="469" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="469" y="-81" type="line"/>
+      <point x="908" y="357" type="line"/>
+      <point x="469" y="797" type="line"/>
+      <point x="30" y="357" type="line"/>
+    </contour>
+  </outline>
+</glyph>

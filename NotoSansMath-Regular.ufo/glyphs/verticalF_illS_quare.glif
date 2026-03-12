@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalFillSquare" format="2">
+  <advance width="838"/>
+  <unicode hex="25A5"/>
+  <anchor x="419" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="776" y="0" type="line"/>
+      <point x="776" y="714" type="line"/>
+      <point x="62" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="228" y="26" type="line"/>
+      <point x="279" y="26" type="line"/>
+      <point x="279" y="688" type="line"/>
+      <point x="228" y="688" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="51" type="line"/>
+      <point x="113" y="663" type="line"/>
+      <point x="725" y="663" type="line"/>
+      <point x="725" y="51" type="line"/>
+    </contour>
+    <contour>
+      <point x="394" y="26" type="line"/>
+      <point x="444" y="26" type="line"/>
+      <point x="444" y="688" type="line"/>
+      <point x="394" y="688" type="line"/>
+    </contour>
+    <contour>
+      <point x="559" y="26" type="line"/>
+      <point x="610" y="26" type="line"/>
+      <point x="610" y="688" type="line"/>
+      <point x="559" y="688" type="line"/>
+    </contour>
+  </outline>
+</glyph>

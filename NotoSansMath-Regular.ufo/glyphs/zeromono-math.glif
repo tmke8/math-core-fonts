@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeromono-math" format="2">
+  <advance width="600"/>
+  <unicode hex="1D7F6"/>
+  <anchor x="299.2502" y="188.3496" name="_top"/>
+  <anchor x="299.2502" y="-434.0" name="math.ta"/>
+  <anchor x="299.2502" y="421.7307" name="top"/>
+  <anchor x="300" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="299" y="-10" type="curve" smooth="yes"/>
+      <point x="472" y="-10"/>
+      <point x="540" y="127"/>
+      <point x="540" y="358" type="curve" smooth="yes"/>
+      <point x="540" y="590"/>
+      <point x="467" y="724"/>
+      <point x="299" y="724" type="curve" smooth="yes"/>
+      <point x="127" y="724"/>
+      <point x="60" y="589"/>
+      <point x="60" y="358" type="curve" smooth="yes"/>
+      <point x="60" y="127"/>
+      <point x="132" y="-10"/>
+    </contour>
+    <contour>
+      <point x="298" y="69" type="curve" smooth="yes"/>
+      <point x="186" y="69"/>
+      <point x="143" y="172"/>
+      <point x="143" y="358" type="curve" smooth="yes"/>
+      <point x="143" y="553"/>
+      <point x="190" y="645"/>
+      <point x="298" y="645" type="curve" smooth="yes"/>
+      <point x="408" y="645"/>
+      <point x="458" y="547"/>
+      <point x="458" y="358" type="curve" smooth="yes"/>
+      <point x="458" y="161"/>
+      <point x="407" y="69"/>
+    </contour>
+    <component base="dotaccentcomb" xScale="1.2402" yScale="1.1611" xOffset="236" yOffset="-434"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
+    </dict>
+  </lib>
+</glyph>

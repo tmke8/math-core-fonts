@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rmoustache" format="2">
+  <advance width="373"/>
+  <unicode hex="23B1"/>
+  <outline>
+    <contour>
+      <point x="341" y="-158" type="curve"/>
+      <point x="341" y="-86" type="line"/>
+      <point x="270" y="-86"/>
+      <point x="230" y="-58"/>
+      <point x="230" y="7" type="curve" smooth="yes"/>
+      <point x="230" y="626" type="line" smooth="yes"/>
+      <point x="230" y="732"/>
+      <point x="149" y="784"/>
+      <point x="32" y="784" type="curve"/>
+      <point x="32" y="712" type="line"/>
+      <point x="103" y="712"/>
+      <point x="143" y="683"/>
+      <point x="143" y="618" type="curve" smooth="yes"/>
+      <point x="143" y="1" type="line" smooth="yes"/>
+      <point x="143" y="-105"/>
+      <point x="224" y="-158"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>braceleft.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>903</integer>
+          </array>
+          <array>
+            <string>braceleft.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>braceright.t</string>
+            <integer>0</integer>
+            <integer>903</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rmoustache</string>
+          <string>rmoustache.s01</string>
+          <string>rmoustache.s02</string>
+          <string>rmoustache.s03</string>
+          <string>rmoustache.s04</string>
+          <string>rmoustache.s05</string>
+          <string>rmoustache.s06</string>
+          <string>rmoustache.s07</string>
+          <string>rmoustache.s08</string>
+          <string>rmoustache.s09</string>
+          <string>rmoustache.s10</string>
+          <string>rmoustache.s11</string>
+          <string>rmoustache.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

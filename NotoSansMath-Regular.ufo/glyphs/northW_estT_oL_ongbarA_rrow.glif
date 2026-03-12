@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northWestToLongbarArrow" format="2">
+  <advance width="781"/>
+  <unicode hex="21B8"/>
+  <anchor x="348" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="641" type="line"/>
+      <point x="660" y="641" type="line"/>
+      <point x="660" y="712" type="line"/>
+      <point x="51" y="712" type="line"/>
+    </contour>
+    <component base="northWestArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

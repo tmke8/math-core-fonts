@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notcontains" format="2">
+  <advance width="699"/>
+  <unicode hex="220C"/>
+  <anchor x="349" y="281" name="center"/>
+  <outline>
+    <component base="suchthat"/>
+    <component base="slashlongcomb.alt" xScale="0.9960410654107695" xyScale="-0.08889429686644151" yxScale="0.08889429686644151" yScale="0.9960410654107695" xOffset="146" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>suchthat</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

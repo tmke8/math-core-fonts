@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narycircledtimes" format="2">
+  <advance width="1056"/>
+  <unicode hex="2A02"/>
+  <anchor x="528" y="237" name="center"/>
+  <outline>
+    <component base="narycircledplus" xScale="0.7071067811865476" xyScale="0.7071067811865475" yxScale="-0.7071067811865475" yScale="0.7071067811865476" xOffset="322" yOffset="-304"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>narycircledtimes</string>
+          <string>narycircledtimes.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

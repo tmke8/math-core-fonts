@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma.ssty1" format="2">
+  <advance width="280"/>
+  <anchor x="124" y="-7" name="center"/>
+  <outline>
+    <contour>
+      <point x="214" y="105" type="curve"/>
+      <point x="207" y="116" type="line"/>
+      <point x="83" y="116" type="line"/>
+      <point x="73" y="47"/>
+      <point x="53" y="-51"/>
+      <point x="34" y="-129" type="curve"/>
+      <point x="128" y="-129" type="line"/>
+      <point x="161" y="-56"/>
+      <point x="196" y="34"/>
+    </contour>
+  </outline>
+</glyph>

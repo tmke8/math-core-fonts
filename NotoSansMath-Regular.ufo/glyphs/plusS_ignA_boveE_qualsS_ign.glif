@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusSignAboveEqualsSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2A72"/>
+  <anchor x="286" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="250" y="170" type="line"/>
+      <point x="322" y="170" type="line"/>
+      <point x="322" y="654" type="line"/>
+      <point x="250" y="654" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="-104" type="line"/>
+      <point x="521" y="-104" type="line"/>
+      <point x="521" y="-33" type="line"/>
+      <point x="51" y="-33" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="56" type="line"/>
+      <point x="521" y="56" type="line"/>
+      <point x="521" y="127" type="line"/>
+      <point x="51" y="127" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="377" type="line"/>
+      <point x="521" y="377" type="line"/>
+      <point x="521" y="448" type="line"/>
+      <point x="51" y="448" type="line"/>
+    </contour>
+  </outline>
+</glyph>

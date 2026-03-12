@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hsansitalic-math.ssty1" format="2">
+  <advance width="618"/>
+  <anchor x="374" y="272" name="center"/>
+  <anchor x="272" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="39" y="0" type="line"/>
+      <point x="168" y="0" type="line"/>
+      <point x="216" y="227" type="line" smooth="yes"/>
+      <point x="245" y="362"/>
+      <point x="306" y="447"/>
+      <point x="373" y="447" type="curve" smooth="yes"/>
+      <point x="413" y="447"/>
+      <point x="432" y="426"/>
+      <point x="432" y="385" type="curve" smooth="yes"/>
+      <point x="432" y="369"/>
+      <point x="429" y="349"/>
+      <point x="423" y="324" type="curve" smooth="yes"/>
+      <point x="355" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="551" y="316" type="line"/>
+      <point x="558" y="347"/>
+      <point x="562" y="377"/>
+      <point x="562" y="401" type="curve" smooth="yes"/>
+      <point x="562" y="496"/>
+      <point x="514" y="553"/>
+      <point x="423" y="553" type="curve" smooth="yes"/>
+      <point x="351" y="553"/>
+      <point x="301" y="511"/>
+      <point x="261" y="461" type="curve"/>
+      <point x="257" y="461" type="line"/>
+      <point x="270" y="503"/>
+      <point x="288" y="565"/>
+      <point x="296" y="608" type="curve" smooth="yes"/>
+      <point x="329" y="760" type="line"/>
+      <point x="200" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

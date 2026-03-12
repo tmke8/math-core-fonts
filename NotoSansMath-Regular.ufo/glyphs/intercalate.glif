@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="intercalate" format="2">
+  <advance width="556"/>
+  <unicode hex="22BA"/>
+  <anchor x="278" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="243" y="0" type="line"/>
+      <point x="314" y="0" type="line"/>
+      <point x="314" y="583" type="line"/>
+      <point x="505" y="583" type="line"/>
+      <point x="505" y="654" type="line"/>
+      <point x="51" y="654" type="line"/>
+      <point x="51" y="583" type="line"/>
+      <point x="243" y="583" type="line"/>
+    </contour>
+  </outline>
+</glyph>

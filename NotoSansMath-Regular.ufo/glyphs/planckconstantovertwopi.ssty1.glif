@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="planckconstantovertwopi.ssty1" format="2">
+  <advance width="596"/>
+  <anchor x="374" y="272" name="center"/>
+  <anchor x="272" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="20" y="441" type="line"/>
+      <point x="406" y="637" type="line"/>
+      <point x="419" y="702" type="line"/>
+      <point x="33" y="506" type="line"/>
+    </contour>
+    <component base="hsansitalic-math.ssty1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

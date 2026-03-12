@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="xscript-math.ssty2" format="2">
+  <advance width="453"/>
+  <anchor x="192" y="150" name="center"/>
+  <anchor x="384" y="0" name="math.ta"/>
+  <outline>
+    <component base="xboldscript-math"/>
+  </outline>
+</glyph>

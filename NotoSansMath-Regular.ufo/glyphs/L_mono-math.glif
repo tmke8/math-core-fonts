@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lmono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D67B"/>
+  <anchor x="340" y="357" name="center"/>
+  <anchor x="201" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="71" y="0" type="line"/>
+      <point x="585" y="0" type="line"/>
+      <point x="585" y="184" type="line"/>
+      <point x="533" y="184" type="line"/>
+      <point x="514" y="83" type="line"/>
+      <point x="245" y="83" type="line"/>
+      <point x="245" y="643" type="line"/>
+      <point x="329" y="662" type="line"/>
+      <point x="329" y="714" type="line"/>
+      <point x="71" y="714" type="line"/>
+      <point x="71" y="662" type="line"/>
+      <point x="155" y="643" type="line"/>
+      <point x="155" y="71" type="line"/>
+      <point x="71" y="52" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notparallel" format="2">
+  <advance width="616"/>
+  <unicode hex="2226"/>
+  <anchor x="309" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="97" y="4" type="line"/>
+      <point x="567" y="506" type="line"/>
+      <point x="519" y="550" type="line"/>
+      <point x="51" y="49" type="line"/>
+    </contour>
+    <component base="parallel" xOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

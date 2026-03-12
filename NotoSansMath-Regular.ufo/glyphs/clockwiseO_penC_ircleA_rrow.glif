@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clockwiseOpenCircleArrow" format="2">
+  <advance width="1187"/>
+  <unicode hex="21BB"/>
+  <anchor x="593" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="864" y="633" type="curve"/>
+      <point x="824" y="575" type="line"/>
+      <point x="858" y="554"/>
+      <point x="981" y="453"/>
+      <point x="981" y="278" type="curve" smooth="yes"/>
+      <point x="981" y="79"/>
+      <point x="820" y="-81"/>
+      <point x="622" y="-81" type="curve" smooth="yes"/>
+      <point x="423" y="-81"/>
+      <point x="263" y="79"/>
+      <point x="263" y="278" type="curve" smooth="yes"/>
+      <point x="263" y="395"/>
+      <point x="317" y="483"/>
+      <point x="373" y="538" type="curve"/>
+      <point x="380" y="491"/>
+      <point x="400" y="432"/>
+      <point x="434" y="362" type="curve"/>
+      <point x="471" y="406" type="line"/>
+      <point x="452" y="512"/>
+      <point x="453" y="607"/>
+      <point x="473" y="690" type="curve"/>
+      <point x="451" y="708" type="line"/>
+      <point x="373" y="675"/>
+      <point x="280" y="657"/>
+      <point x="172" y="657" type="curve"/>
+      <point x="135" y="612" type="line"/>
+      <point x="210" y="591"/>
+      <point x="272" y="582"/>
+      <point x="319" y="583" type="curve"/>
+      <point x="240" y="507"/>
+      <point x="192" y="398"/>
+      <point x="192" y="278" type="curve" smooth="yes"/>
+      <point x="192" y="40"/>
+      <point x="384" y="-152"/>
+      <point x="622" y="-152" type="curve" smooth="yes"/>
+      <point x="860" y="-152"/>
+      <point x="1052" y="40"/>
+      <point x="1052" y="278" type="curve" smooth="yes"/>
+      <point x="1052" y="445"/>
+      <point x="958" y="573"/>
+    </contour>
+  </outline>
+</glyph>

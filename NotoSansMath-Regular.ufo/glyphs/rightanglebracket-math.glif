@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracket-math" format="2">
+  <advance width="410"/>
+  <unicode hex="27E9"/>
+  <anchor x="203" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="line"/>
+      <point x="104" y="-158" type="line"/>
+      <point x="330" y="333" type="line"/>
+      <point x="115" y="784" type="line"/>
+      <point x="36" y="784" type="line"/>
+      <point x="247" y="333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>rightanglebracket-math</string>
+          <string>rightanglebracket-math.s01</string>
+          <string>rightanglebracket-math.s02</string>
+          <string>rightanglebracket-math.s03</string>
+          <string>rightanglebracket-math.s04</string>
+          <string>rightanglebracket-math.s05</string>
+          <string>rightanglebracket-math.s06</string>
+          <string>rightanglebracket-math.s07</string>
+          <string>rightanglebracket-math.s08</string>
+          <string>rightanglebracket-math.s09</string>
+          <string>rightanglebracket-math.s10</string>
+          <string>rightanglebracket-math.s11</string>
+          <string>rightanglebracket-math.s12</string>
+          <string>rightanglebracket-math.s13</string>
+          <string>rightanglebracket-math.s14</string>
+          <string>rightanglebracket-math.s15</string>
+          <string>rightanglebracket-math.s16</string>
+          <string>rightanglebracket-math.s17</string>
+          <string>rightanglebracket-math.s18</string>
+          <string>rightanglebracket-math.s19</string>
+          <string>rightanglebracket-math.s20</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

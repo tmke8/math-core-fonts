@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightFiveSpokedAsterisk" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7AF"/>
+  <anchor x="350" y="358" name="center"/>
+  <outline>
+    <contour>
+      <point x="204" y="58" type="line"/>
+      <point x="350" y="310" type="line"/>
+      <point x="498" y="58" type="line"/>
+      <point x="574" y="100" type="line"/>
+      <point x="389" y="333" type="line"/>
+      <point x="650" y="387" type="line"/>
+      <point x="636" y="471" type="line"/>
+      <point x="372" y="376" type="line"/>
+      <point x="393" y="658" type="line"/>
+      <point x="307" y="658" type="line"/>
+      <point x="328" y="376" type="line"/>
+      <point x="64" y="471" type="line"/>
+      <point x="50" y="387" type="line"/>
+      <point x="312" y="333" type="line"/>
+      <point x="128" y="100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

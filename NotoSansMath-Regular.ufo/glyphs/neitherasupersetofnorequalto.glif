@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="neitherasupersetofnorequalto" format="2">
+  <advance width="699"/>
+  <unicode hex="2289"/>
+  <anchor x="349" y="298" name="center"/>
+  <outline>
+    <contour>
+      <point x="178" y="-170" type="line"/>
+      <point x="524" y="730" type="line"/>
+      <point x="462" y="754" type="line"/>
+      <point x="116" y="-146" type="line"/>
+    </contour>
+    <component base="reflexsuperset"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

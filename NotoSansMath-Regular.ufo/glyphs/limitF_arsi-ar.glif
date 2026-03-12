@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="limitFarsi-ar" format="2">
+  <advance width="1477"/>
+  <unicode hex="1EEF1"/>
+  <outline>
+    <contour>
+      <point x="439" y="29"/>
+      <point x="540" y="-9"/>
+      <point x="756" y="-9" type="curve" smooth="yes"/>
+      <point x="996" y="-9"/>
+      <point x="1166" y="49"/>
+      <point x="1304" y="130" type="curve" smooth="yes"/>
+      <point x="1342" y="152"/>
+      <point x="1380" y="158"/>
+      <point x="1426" y="158" type="curve"/>
+      <point x="1419" y="230" type="line"/>
+      <point x="1398" y="230" type="line" smooth="yes"/>
+      <point x="1294" y="230"/>
+      <point x="1218" y="352"/>
+      <point x="1043" y="352" type="curve" smooth="yes"/>
+      <point x="1009" y="352"/>
+      <point x="973" y="346"/>
+      <point x="937" y="335" type="curve"/>
+      <point x="953" y="259" type="line"/>
+      <point x="989" y="267"/>
+      <point x="1010" y="270"/>
+      <point x="1043" y="270" type="curve" smooth="yes"/>
+      <point x="1133" y="270"/>
+      <point x="1211" y="240"/>
+      <point x="1263" y="194" type="curve"/>
+      <point x="1168" y="129"/>
+      <point x="996" y="70"/>
+      <point x="759" y="70" type="curve" smooth="yes"/>
+      <point x="562" y="70"/>
+      <point x="478" y="99"/>
+      <point x="454" y="174" type="curve" smooth="yes"/>
+      <point x="429" y="253"/>
+      <point x="382" y="350"/>
+      <point x="305" y="469" type="curve"/>
+      <point x="236" y="424" type="line"/>
+      <point x="307" y="318"/>
+      <point x="367" y="214"/>
+      <point x="367" y="162" type="curve" smooth="yes"/>
+      <point x="367" y="109"/>
+      <point x="330" y="77"/>
+      <point x="231" y="77" type="curve" smooth="yes"/>
+      <point x="167" y="77"/>
+      <point x="118" y="96"/>
+      <point x="91" y="114" type="curve"/>
+      <point x="51" y="45" type="line"/>
+      <point x="92" y="13"/>
+      <point x="158" y="-6"/>
+      <point x="231" y="-6" type="curve" smooth="yes"/>
+      <point x="396" y="-6"/>
+      <point x="437" y="76"/>
+      <point x="437" y="157" type="curve"/>
+      <point x="397" y="125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hVariants</key>
+        <array>
+          <string>limitFarsi-ar</string>
+          <string>limitFarsi-ar.s01</string>
+          <string>limitFarsi-ar.s02</string>
+          <string>limitFarsi-ar.s03</string>
+          <string>limitFarsi-ar.s04</string>
+          <string>limitFarsi-ar.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

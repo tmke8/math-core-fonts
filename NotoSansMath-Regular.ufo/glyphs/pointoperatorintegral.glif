@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pointoperatorintegral" format="2">
+  <advance width="836"/>
+  <unicode hex="2A15"/>
+  <anchor x="418" y="328" name="_center"/>
+  <anchor x="417" y="328" name="center"/>
+  <anchor x="1110" y="0" name="math.ic"/>
+  <outline>
+    <contour>
+      <point x="402" y="485" type="curve"/>
+      <point x="488" y="485" type="line"/>
+      <point x="504" y="568"/>
+      <point x="522" y="643"/>
+      <point x="543" y="699" type="curve" smooth="yes"/>
+      <point x="589" y="821"/>
+      <point x="654" y="827"/>
+      <point x="755" y="800" type="curve"/>
+      <point x="785" y="866" type="line"/>
+      <point x="652" y="925"/>
+      <point x="525" y="889"/>
+      <point x="463" y="725" type="curve" smooth="yes"/>
+      <point x="438" y="659"/>
+      <point x="419" y="575"/>
+    </contour>
+    <contour>
+      <point x="417" y="268" type="curve" smooth="yes"/>
+      <point x="450" y="268"/>
+      <point x="477" y="295"/>
+      <point x="477" y="328" type="curve" smooth="yes"/>
+      <point x="477" y="363"/>
+      <point x="448" y="388"/>
+      <point x="417" y="388" type="curve" smooth="yes"/>
+      <point x="384" y="388"/>
+      <point x="357" y="361"/>
+      <point x="357" y="328" type="curve" smooth="yes"/>
+      <point x="357" y="296"/>
+      <point x="383" y="268"/>
+    </contour>
+    <contour>
+      <point x="434" y="177" type="curve"/>
+      <point x="348" y="175" type="line"/>
+      <point x="332" y="90"/>
+      <point x="315" y="13"/>
+      <point x="293" y="-45" type="curve" smooth="yes"/>
+      <point x="247" y="-166"/>
+      <point x="182" y="-172"/>
+      <point x="81" y="-145" type="curve"/>
+      <point x="51" y="-211" type="line"/>
+      <point x="184" y="-270"/>
+      <point x="311" y="-234"/>
+      <point x="373" y="-69" type="curve" smooth="yes"/>
+      <point x="398" y="-2"/>
+      <point x="417" y="84"/>
+    </contour>
+    <component base="_contour1.integral" xOffset="182" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>pointoperatorintegral</string>
+          <string>pointoperatorintegral.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPPC</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

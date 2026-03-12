@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="southWestArrow" format="2">
+  <advance width="781"/>
+  <unicode hex="2199"/>
+  <anchor x="391" y="279" name="center"/>
+  <outline>
+    <component base="leftArrow" xScale="0.7071067811865477" xyScale="0.7071067811865475" yxScale="0.7071067811865475" yScale="-0.7071067811865477" xOffset="-172.0" yOffset="111.0"/>
+  </outline>
+</glyph>

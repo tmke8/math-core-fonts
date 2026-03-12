@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dscript-math.ssty2" format="2">
+  <advance width="604"/>
+  <anchor x="338" y="290" name="center"/>
+  <anchor x="672" y="0" name="math.ic"/>
+  <anchor x="608" y="0" name="math.ta"/>
+  <outline>
+    <component base="dboldscript-math"/>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.rightblacktortoiseshellbracket" format="2">
+  <advance width="339"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="line"/>
+      <point x="99" y="-158" type="line"/>
+      <point x="258" y="179" type="line"/>
+      <point x="259" y="447" type="line"/>
+      <point x="99" y="784" type="line"/>
+      <point x="25" y="784" type="line"/>
+      <point x="108" y="609" type="line"/>
+      <point x="108" y="17" type="line"/>
+    </contour>
+  </outline>
+</glyph>

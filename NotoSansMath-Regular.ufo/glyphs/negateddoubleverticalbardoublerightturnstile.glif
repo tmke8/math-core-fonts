@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="negateddoubleverticalbardoublerightturnstile" format="2">
+  <advance width="836"/>
+  <unicode hex="22AF"/>
+  <anchor x="418" y="327" name="center"/>
+  <outline>
+    <contour>
+      <point x="443" y="-36" type="line"/>
+      <point x="715" y="664" type="line"/>
+      <point x="654" y="690" type="line"/>
+      <point x="382" y="-10" type="line"/>
+    </contour>
+    <component base="doubleverticalbardoublerightturnstile"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

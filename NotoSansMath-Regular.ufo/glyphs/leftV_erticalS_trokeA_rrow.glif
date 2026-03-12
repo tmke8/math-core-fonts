@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftVerticalStrokeArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21F7"/>
+  <anchor x="506" y="278" name="center"/>
+  <outline>
+    <component base="leftArrow"/>
+    <component base="_bar.arrow" xOffset="537"/>
+  </outline>
+</glyph>

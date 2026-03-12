@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftsquarebracketunderbar" format="2">
+  <advance width="329"/>
+  <unicode hex="298B"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-37" type="line"/>
+      <point x="304" y="-37" type="line"/>
+      <point x="304" y="35" type="line"/>
+      <point x="166" y="35" type="line"/>
+      <point x="166" y="712" type="line"/>
+      <point x="304" y="712" type="line"/>
+      <point x="304" y="784" type="line"/>
+      <point x="80" y="784" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="-158" type="line"/>
+      <point x="304" y="-158" type="line"/>
+      <point x="304" y="-87" type="line"/>
+      <point x="80" y="-87" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>leftsquarebracketunderbar.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>826</integer>
+          </array>
+          <array>
+            <string>bracketleft.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>bracketleft.t</string>
+            <integer>0</integer>
+            <integer>947</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>leftsquarebracketunderbar</string>
+          <string>leftsquarebracketunderbar.s01</string>
+          <string>leftsquarebracketunderbar.s02</string>
+          <string>leftsquarebracketunderbar.s03</string>
+          <string>leftsquarebracketunderbar.s04</string>
+          <string>leftsquarebracketunderbar.s05</string>
+          <string>leftsquarebracketunderbar.s06</string>
+          <string>leftsquarebracketunderbar.s07</string>
+          <string>leftsquarebracketunderbar.s08</string>
+          <string>leftsquarebracketunderbar.s09</string>
+          <string>leftsquarebracketunderbar.s10</string>
+          <string>leftsquarebracketunderbar.s11</string>
+          <string>leftsquarebracketunderbar.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

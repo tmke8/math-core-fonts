@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightarrowbelowcomb.s05" format="2">
+  <advance width="2148"/>
+  <anchor x="1074" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="2052" y="-158" type="line"/>
+      <point x="2052" y="-98" type="line"/>
+      <point x="0" y="-98" type="line"/>
+      <point x="0" y="-158" type="line"/>
+    </contour>
+    <contour>
+      <point x="2025" y="-247" type="line"/>
+      <point x="2064" y="-198"/>
+      <point x="2105" y="-163"/>
+      <point x="2148" y="-140" type="curve"/>
+      <point x="2148" y="-118" type="line"/>
+      <point x="2105" y="-95"/>
+      <point x="2064" y="-60"/>
+      <point x="2025" y="-11" type="curve"/>
+      <point x="1981" y="-11" type="line"/>
+      <point x="2000" y="-56"/>
+      <point x="2019" y="-89"/>
+      <point x="2038" y="-109" type="curve"/>
+      <point x="2038" y="-149" type="line"/>
+      <point x="2019" y="-169"/>
+      <point x="2000" y="-202"/>
+      <point x="1981" y="-247" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>5</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

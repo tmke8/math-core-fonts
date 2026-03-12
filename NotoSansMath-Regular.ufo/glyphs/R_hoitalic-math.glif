@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rhoitalic-math" format="2">
+  <advance width="567"/>
+  <unicode hex="1D6F2"/>
+  <anchor x="304" y="357" name="center"/>
+  <anchor x="373" y="0" name="math.ta"/>
+  <outline>
+    <component base="Psansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

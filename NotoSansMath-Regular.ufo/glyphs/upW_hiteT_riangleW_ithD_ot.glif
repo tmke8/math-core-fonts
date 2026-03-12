@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upWhiteTriangleWithDot" format="2">
+  <advance width="907"/>
+  <unicode hex="25EC"/>
+  <anchor x="453" y="348" name="center"/>
+  <outline>
+    <component base="upWhiteTriangle"/>
+    <component base="dotmath" xOffset="343" yOffset="-115"/>
+  </outline>
+</glyph>

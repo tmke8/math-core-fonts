@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nuitalic-math" format="2">
+  <advance width="707"/>
+  <unicode hex="1D6EE"/>
+  <anchor x="376" y="357" name="center"/>
+  <anchor x="732" y="0" name="math.ic"/>
+  <anchor x="454" y="0" name="math.ta"/>
+  <outline>
+    <component base="Nsansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

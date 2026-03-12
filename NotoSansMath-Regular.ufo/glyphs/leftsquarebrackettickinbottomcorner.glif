@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftsquarebrackettickinbottomcorner" format="2">
+  <advance width="329"/>
+  <unicode hex="298F"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-158" type="line"/>
+      <point x="304" y="-158" type="line"/>
+      <point x="304" y="-86" type="line"/>
+      <point x="166" y="-86" type="line"/>
+      <point x="166" y="712" type="line"/>
+      <point x="304" y="712" type="line"/>
+      <point x="304" y="784" type="line"/>
+      <point x="80" y="784" type="line"/>
+    </contour>
+    <contour>
+      <point x="164" y="-109" type="line"/>
+      <point x="304" y="6" type="line"/>
+      <point x="271" y="46" type="line"/>
+      <point x="129" y="-71" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>leftsquarebrackettickinbottomcorner.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1289</integer>
+          </array>
+          <array>
+            <string>bracketleft.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>bracketleft.t</string>
+            <integer>0</integer>
+            <integer>947</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>leftsquarebrackettickinbottomcorner</string>
+          <string>leftsquarebrackettickinbottomcorner.s01</string>
+          <string>leftsquarebrackettickinbottomcorner.s02</string>
+          <string>leftsquarebrackettickinbottomcorner.s03</string>
+          <string>leftsquarebrackettickinbottomcorner.s04</string>
+          <string>leftsquarebrackettickinbottomcorner.s05</string>
+          <string>leftsquarebrackettickinbottomcorner.s06</string>
+          <string>leftsquarebrackettickinbottomcorner.s07</string>
+          <string>leftsquarebrackettickinbottomcorner.s08</string>
+          <string>leftsquarebrackettickinbottomcorner.s09</string>
+          <string>leftsquarebrackettickinbottomcorner.s10</string>
+          <string>leftsquarebrackettickinbottomcorner.s11</string>
+          <string>leftsquarebrackettickinbottomcorner.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

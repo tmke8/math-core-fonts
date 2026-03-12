@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexbelowcomb" format="2">
+  <unicode hex="032D"/>
+  <anchor x="194" y="0" name="_bottom"/>
+  <anchor x="194" y="-200" name="bottom"/>
+  <anchor x="194" y="0" name="math.ta"/>
+  <anchor x="194" y="50" name="top"/>
+  <outline>
+    <contour>
+      <point x="25" y="-200" type="line"/>
+      <point x="85" y="-200" type="line"/>
+      <point x="120" y="-178"/>
+      <point x="156" y="-146"/>
+      <point x="192" y="-110" type="curve"/>
+      <point x="228" y="-146"/>
+      <point x="266" y="-179"/>
+      <point x="301" y="-200" type="curve"/>
+      <point x="363" y="-200" type="line"/>
+      <point x="363" y="-189" type="line"/>
+      <point x="325" y="-151"/>
+      <point x="262" y="-85"/>
+      <point x="238" y="-40" type="curve"/>
+      <point x="148" y="-40" type="line"/>
+      <point x="122" y="-85"/>
+      <point x="62" y="-150"/>
+      <point x="25" y="-189" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>388</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationdoublestruck" format="2">
+  <advance width="785"/>
+  <unicode hex="2140"/>
+  <anchor x="393" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-240" type="line"/>
+      <point x="734" y="-240" type="line"/>
+      <point x="734" y="-74" type="line"/>
+      <point x="203" y="-74" type="line"/>
+      <point x="496" y="291" type="line"/>
+      <point x="264" y="659" type="line"/>
+      <point x="699" y="659" type="line"/>
+      <point x="699" y="714" type="line"/>
+      <point x="63" y="714" type="line"/>
+      <point x="63" y="659" type="line"/>
+      <point x="353" y="201" type="line"/>
+      <point x="51" y="-177" type="line"/>
+    </contour>
+    <contour>
+      <point x="112" y="-188" type="line"/>
+      <point x="162" y="-126" type="line"/>
+      <point x="685" y="-126" type="line"/>
+      <point x="685" y="-188" type="line"/>
+    </contour>
+    <contour>
+      <point x="387" y="244" type="line"/>
+      <point x="126" y="659" type="line"/>
+      <point x="201" y="659" type="line"/>
+      <point x="430" y="297" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>summationdoublestruck</string>
+          <string>summationdoublestruck.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

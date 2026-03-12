@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftwigglyfence.s11" format="2">
+  <advance width="589"/>
+  <anchor x="172" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-1485.3333333333333" type="line"/>
+      <point x="178.25" y="-1485.3333333333333" type="line"/>
+      <point x="538.2499999999999" y="-1131.9166666666665" type="line"/>
+      <point x="178.25" y="-777.4999999999999" type="line"/>
+      <point x="538.2499999999999" y="-424.0833333333333" type="line"/>
+      <point x="181.91666666666669" y="-72.5" type="line"/>
+      <point x="537.25" y="280.9166666666667" type="line"/>
+      <point x="181.91666666666669" y="636.25" type="line"/>
+      <point x="538.2499999999999" y="985.9166666666666" type="line"/>
+      <point x="178.25" y="1339.3333333333333" type="line"/>
+      <point x="538.1666666666666" y="1693.75" type="line"/>
+      <point x="181.91666666666669" y="2047.1666666666665" type="line"/>
+      <point x="54.75" y="2047.1666666666665" type="line"/>
+      <point x="411" y="1693.75" type="line"/>
+      <point x="51" y="1339.3333333333333" type="line"/>
+      <point x="411" y="985.9166666666666" type="line"/>
+      <point x="54.75" y="637.1666666666666" type="line"/>
+      <point x="411" y="280.9166666666667" type="line"/>
+      <point x="54.75" y="-72.5" type="line"/>
+      <point x="411" y="-424.0833333333333" type="line"/>
+      <point x="51" y="-777.4999999999999" type="line"/>
+      <point x="411" y="-1131.9166666666665" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>11</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

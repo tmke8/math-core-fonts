@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftDoubleArrowWithVerticalStroke" format="2">
+  <advance width="1012"/>
+  <unicode hex="2902"/>
+  <anchor x="506" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="591" y="-33" type="line"/>
+      <point x="662" y="-33" type="line"/>
+      <point x="662" y="591" type="line"/>
+      <point x="591" y="591" type="line"/>
+    </contour>
+    <component base="leftDoubleArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

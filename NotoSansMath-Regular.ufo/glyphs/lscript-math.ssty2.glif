@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lscript-math.ssty2" format="2">
+  <advance width="421"/>
+  <anchor x="232" y="289" name="center"/>
+  <anchor x="451" y="0" name="math.ic"/>
+  <anchor x="381" y="0" name="math.ta"/>
+  <outline>
+    <component base="lboldscript-math"/>
+  </outline>
+</glyph>

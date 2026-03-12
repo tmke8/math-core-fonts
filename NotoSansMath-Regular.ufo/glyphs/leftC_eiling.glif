@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftCeiling" format="2">
+  <advance width="429"/>
+  <unicode hex="2308"/>
+  <anchor x="202" y="312" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-158" type="line"/>
+      <point x="166" y="-158" type="line"/>
+      <point x="166" y="698" type="line"/>
+      <point x="404" y="698" type="line"/>
+      <point x="404" y="784" type="line"/>
+      <point x="80" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>bracketleft.x</string>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>bracketleft.t</string>
+            <integer>0</integer>
+            <integer>947</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>leftCeiling</string>
+          <string>leftCeiling.s01</string>
+          <string>leftCeiling.s02</string>
+          <string>leftCeiling.s03</string>
+          <string>leftCeiling.s04</string>
+          <string>leftCeiling.s05</string>
+          <string>leftCeiling.s06</string>
+          <string>leftCeiling.s07</string>
+          <string>leftCeiling.s08</string>
+          <string>leftCeiling.s09</string>
+          <string>leftCeiling.s10</string>
+          <string>leftCeiling.s11</string>
+          <string>leftCeiling.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

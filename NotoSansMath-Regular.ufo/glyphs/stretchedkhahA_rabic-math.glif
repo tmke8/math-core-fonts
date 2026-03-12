@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="stretchedkhahArabic-math" format="2">
+  <advance width="880"/>
+  <unicode hex="1EE77"/>
+  <outline>
+    <contour>
+      <point x="458" y="455" type="curve" smooth="yes"/>
+      <point x="485" y="455"/>
+      <point x="507" y="477"/>
+      <point x="507" y="504" type="curve" smooth="yes"/>
+      <point x="507" y="531"/>
+      <point x="485" y="554"/>
+      <point x="458" y="554" type="curve" smooth="yes"/>
+      <point x="430" y="554"/>
+      <point x="408" y="531"/>
+      <point x="408" y="504" type="curve" smooth="yes"/>
+      <point x="408" y="477"/>
+      <point x="430" y="455"/>
+    </contour>
+    <component base="stretchedhahArabic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Arabic Math Stretched</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

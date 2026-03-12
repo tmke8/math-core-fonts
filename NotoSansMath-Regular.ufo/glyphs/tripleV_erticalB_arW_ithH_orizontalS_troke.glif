@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleVerticalBarWithHorizontalStroke" format="2">
+  <advance width="735"/>
+  <unicode hex="2AF5"/>
+  <anchor x="367" y="278" name="center"/>
+  <outline>
+    <component base="tripleVerticalBarBinaryRelation" xOffset="94"/>
+    <component base="minus"/>
+    <component base="minus" xOffset="163"/>
+  </outline>
+</glyph>

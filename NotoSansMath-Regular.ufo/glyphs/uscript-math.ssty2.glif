@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uscript-math.ssty2" format="2">
+  <advance width="590"/>
+  <anchor x="298" y="151" name="center"/>
+  <anchor x="412" y="0" name="math.ta"/>
+  <outline>
+    <component base="uboldscript-math"/>
+  </outline>
+</glyph>

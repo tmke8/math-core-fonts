@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narycircledtimes.s01" format="2">
+  <advance width="1437"/>
+  <anchor x="630" y="337" name="center"/>
+  <outline>
+    <component base="narycircledtimes" xScale="1.4" yScale="1.4" xOffset="-20" yOffset="-135"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

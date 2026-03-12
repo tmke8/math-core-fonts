@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftarrowhookintegral.rtlm" format="2">
+  <advance width="836"/>
+  <anchor x="779" y="0" name="#exit"/>
+  <anchor x="440" y="0" name="#entry"/>
+  <anchor x="418" y="328" name="center"/>
+  <anchor x="1110" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.rtlm"/>
+    <component base="_arrowhook.integral" xOffset="68" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>leftarrowhookintegral.rtlm</string>
+          <string>leftarrowhookintegral.rtlm.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.rtlm</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

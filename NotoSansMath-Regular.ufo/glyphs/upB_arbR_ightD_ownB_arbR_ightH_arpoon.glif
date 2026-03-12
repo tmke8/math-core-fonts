@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upBarbRightDownBarbRightHarpoon" format="2">
+  <advance width="573"/>
+  <unicode hex="294F"/>
+  <anchor x="366" y="280" name="center"/>
+  <outline>
+    <contour>
+      <point x="481" y="458" type="curve"/>
+      <point x="481" y="515" type="line"/>
+      <point x="400" y="585"/>
+      <point x="339" y="659"/>
+      <point x="301" y="735" type="curve"/>
+      <point x="251" y="735" type="line"/>
+      <point x="251" y="563" type="line"/>
+      <point x="313" y="563" type="line"/>
+      <point x="347" y="529"/>
+      <point x="405" y="493"/>
+    </contour>
+    <contour>
+      <point x="251" y="-175" type="line"/>
+      <point x="301" y="-175" type="line"/>
+      <point x="339" y="-99"/>
+      <point x="400" y="-25"/>
+      <point x="481" y="45" type="curve"/>
+      <point x="481" y="103" type="line"/>
+      <point x="405" y="67"/>
+      <point x="347" y="32"/>
+      <point x="313" y="-3" type="curve"/>
+      <point x="251" y="-3" type="line"/>
+    </contour>
+    <contour>
+      <point x="251" y="-42" type="line"/>
+      <point x="322" y="-42" type="line"/>
+      <point x="322" y="602" type="line"/>
+      <point x="251" y="602" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

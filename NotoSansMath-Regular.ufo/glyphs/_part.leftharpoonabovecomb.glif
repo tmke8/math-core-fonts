@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.leftharpoonabovecomb" format="2">
+  <advance width="448"/>
+  <outline>
+    <contour>
+      <point x="118" y="670" type="line"/>
+      <point x="448" y="670" type="line"/>
+      <point x="448" y="730" type="line"/>
+      <point x="118" y="730" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="670" type="line"/>
+      <point x="131" y="670" type="line"/>
+      <point x="131" y="717" type="line"/>
+      <point x="151" y="739"/>
+      <point x="171" y="776"/>
+      <point x="191" y="825" type="curve"/>
+      <point x="147" y="825" type="line"/>
+      <point x="100" y="772"/>
+      <point x="51" y="733"/>
+      <point x="0" y="708" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

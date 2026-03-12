@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imono-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D678"/>
+  <anchor x="341" y="357" name="center"/>
+  <anchor x="341" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="151" y="0" type="line"/>
+      <point x="529" y="0" type="line"/>
+      <point x="529" y="52" type="line"/>
+      <point x="385" y="71" type="line"/>
+      <point x="385" y="643" type="line"/>
+      <point x="529" y="662" type="line"/>
+      <point x="529" y="714" type="line"/>
+      <point x="151" y="714" type="line"/>
+      <point x="151" y="662" type="line"/>
+      <point x="295" y="643" type="line"/>
+      <point x="295" y="71" type="line"/>
+      <point x="151" y="52" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Mono</string>
+    </dict>
+  </lib>
+</glyph>

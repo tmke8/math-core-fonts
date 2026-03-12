@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftTwoHeadedArrowFromBar" format="2">
+  <advance width="1012"/>
+  <unicode hex="2B36"/>
+  <anchor x="572" y="277" name="center"/>
+  <outline>
+    <component base="leftTwoheadedArrow" yOffset="-1"/>
+    <component base="_bar.arrow" xOffset="890"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftpointingcurvedanglebracket.s09" format="2">
+  <advance width="668"/>
+  <anchor x="334" y="283" name="center"/>
+  <outline>
+    <contour>
+      <point x="542" y="-1252.25" type="curve"/>
+      <point x="617" y="-1252.25" type="line"/>
+      <point x="572" y="-799.75"/>
+      <point x="371" y="-21.5"/>
+      <point x="161" y="308" type="curve"/>
+      <point x="161" y="318" type="line"/>
+      <point x="371.25" y="647.5"/>
+      <point x="572.25" y="1386.25"/>
+      <point x="617.25" y="1817.5" type="curve"/>
+      <point x="542.25" y="1817.5" type="line"/>
+      <point x="473.25" y="1318"/>
+      <point x="246" y="585.5"/>
+      <point x="51" y="353.25" type="curve"/>
+      <point x="51" y="272.75" type="line"/>
+      <point x="253.75" y="17.75"/>
+      <point x="474.75" y="-741.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

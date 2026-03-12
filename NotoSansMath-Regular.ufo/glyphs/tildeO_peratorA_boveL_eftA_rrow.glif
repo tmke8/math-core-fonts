@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildeOperatorAboveLeftArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="2B49"/>
+  <anchor x="506" y="279" name="center"/>
+  <anchor x="618" y="-206" name="math.ta"/>
+  <anchor x="618" y="529" name="top"/>
+  <outline>
+    <component base="rightArrow" xScale="-1" xOffset="1012"/>
+    <component base="tildecomb" xOffset="434" yOffset="-206"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rightArrow</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

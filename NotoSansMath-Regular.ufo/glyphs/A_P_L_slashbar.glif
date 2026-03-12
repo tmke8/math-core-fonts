@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="APLslashbar" format="2">
+  <advance width="539"/>
+  <unicode hex="233F"/>
+  <anchor x="269" y="301" name="center"/>
+  <outline>
+    <contour>
+      <point x="73" y="-110" type="line"/>
+      <point x="148" y="-110" type="line"/>
+      <point x="466" y="713" type="line"/>
+      <point x="391" y="713" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="268" type="line"/>
+      <point x="488" y="268" type="line"/>
+      <point x="488" y="335" type="line"/>
+      <point x="51" y="335" type="line"/>
+    </contour>
+  </outline>
+</glyph>

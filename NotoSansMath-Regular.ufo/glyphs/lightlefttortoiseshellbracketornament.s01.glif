@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightlefttortoiseshellbracketornament.s01" format="2">
+  <advance width="277"/>
+  <outline>
+    <contour>
+      <point x="175.83333333333331" y="-278.66666666666663" type="line"/>
+      <point x="251.5" y="-278.66666666666663" type="line"/>
+      <point x="166.5" y="-99.41666666666667" type="line"/>
+      <point x="166.5" y="719.5833333333333" type="line"/>
+      <point x="251.5" y="898.8333333333333" type="line"/>
+      <point x="175.83333333333331" y="898.8333333333333" type="line"/>
+      <point x="80" y="696.0833333333333" type="line"/>
+      <point x="80" y="-75.91666666666666" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

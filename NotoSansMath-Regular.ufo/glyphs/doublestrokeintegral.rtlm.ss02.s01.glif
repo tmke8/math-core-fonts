@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublestrokeintegral.rtlm.ss02.s01" format="2">
+  <advance width="472"/>
+  <anchor x="472" y="0" name="#exit"/>
+  <anchor x="213" y="0" name="#entry"/>
+  <anchor x="236" y="322" name="center"/>
+  <anchor x="562" y="0" name="math.ic"/>
+  <outline>
+    <component base="doublestrokeintegral.ss02.s01" xScale="-1" xOffset="472"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>doublestrokeintegral.ss02.s01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

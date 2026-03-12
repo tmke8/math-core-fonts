@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitesquarebracket-math" format="2">
+  <advance width="449"/>
+  <unicode hex="27E7"/>
+  <anchor x="195" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="369" y="-158" type="line"/>
+      <point x="369" y="784" type="line"/>
+      <point x="25" y="784" type="line"/>
+      <point x="25" y="730" type="line"/>
+      <point x="153" y="730" type="line"/>
+      <point x="153" y="-104" type="line"/>
+      <point x="25" y="-104" type="line"/>
+      <point x="25" y="-158" type="line"/>
+    </contour>
+    <contour>
+      <point x="304" y="-104" type="line"/>
+      <point x="218" y="-104" type="line"/>
+      <point x="218" y="730" type="line"/>
+      <point x="304" y="730" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>rightwhitesquarebracket-math.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>977</integer>
+          </array>
+          <array>
+            <string>rightwhitesquarebracket-math.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>rightwhitesquarebracket-math.t</string>
+            <integer>0</integer>
+            <integer>977</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rightwhitesquarebracket-math</string>
+          <string>rightwhitesquarebracket-math.s01</string>
+          <string>rightwhitesquarebracket-math.s02</string>
+          <string>rightwhitesquarebracket-math.s03</string>
+          <string>rightwhitesquarebracket-math.s04</string>
+          <string>rightwhitesquarebracket-math.s05</string>
+          <string>rightwhitesquarebracket-math.s06</string>
+          <string>rightwhitesquarebracket-math.s07</string>
+          <string>rightwhitesquarebracket-math.s08</string>
+          <string>rightwhitesquarebracket-math.s09</string>
+          <string>rightwhitesquarebracket-math.s10</string>
+          <string>rightwhitesquarebracket-math.s11</string>
+          <string>rightwhitesquarebracket-math.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

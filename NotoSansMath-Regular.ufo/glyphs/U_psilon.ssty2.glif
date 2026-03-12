@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilon.ssty2" format="2">
+  <advance width="650"/>
+  <anchor x="325" y="357" name="center"/>
+  <anchor x="325" y="0" name="math.ta"/>
+  <outline>
+    <component base="Y.ssty2"/>
+  </outline>
+</glyph>

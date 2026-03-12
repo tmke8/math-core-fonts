@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="amalgamationOrCoproduct" format="2">
+  <advance width="817"/>
+  <unicode hex="2A3F"/>
+  <anchor x="408" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="766" y="0" type="line"/>
+      <point x="766" y="52" type="line"/>
+      <point x="682" y="71" type="line"/>
+      <point x="682" y="714" type="line"/>
+      <point x="592" y="714" type="line"/>
+      <point x="592" y="80" type="line"/>
+      <point x="225" y="80" type="line"/>
+      <point x="225" y="714" type="line"/>
+      <point x="135" y="714" type="line"/>
+      <point x="135" y="71" type="line"/>
+      <point x="51" y="52" type="line"/>
+    </contour>
+  </outline>
+</glyph>

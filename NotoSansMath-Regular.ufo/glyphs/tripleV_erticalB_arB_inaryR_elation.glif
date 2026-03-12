@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleVerticalBarBinaryRelation" format="2">
+  <advance width="547"/>
+  <unicode hex="2AF4"/>
+  <anchor x="273" y="278" name="center"/>
+  <outline>
+    <component base="divides"/>
+    <component base="divides" xOffset="187"/>
+    <component base="divides" xOffset="374"/>
+  </outline>
+</glyph>

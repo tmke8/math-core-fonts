@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalor.ssty1" format="2">
+  <advance width="715"/>
+  <anchor x="357" y="290" name="center"/>
+  <outline>
+    <contour>
+      <point x="329" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="667" y="580" type="line"/>
+      <point x="574" y="580" type="line"/>
+      <point x="343" y="85" type="line"/>
+      <point x="372" y="85" type="line"/>
+      <point x="141" y="580" type="line"/>
+      <point x="48" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

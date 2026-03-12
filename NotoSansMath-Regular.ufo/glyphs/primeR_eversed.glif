@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primeReversed" format="2">
+  <advance width="232"/>
+  <unicode hex="2035"/>
+  <anchor x="83" y="585" name="center"/>
+  <outline>
+    <contour>
+      <point x="135" y="456" type="line"/>
+      <point x="193" y="456" type="line"/>
+      <point x="64" y="714" type="line"/>
+      <point x="-26" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Prime</string>
+    </dict>
+  </lib>
+</glyph>

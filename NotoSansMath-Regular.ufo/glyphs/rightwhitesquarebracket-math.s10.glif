@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightwhitesquarebracket-math.s10" format="2">
+  <advance width="562"/>
+  <anchor x="258.5" y="283" name="center"/>
+  <outline>
+    <contour>
+      <point x="482.33333333333337" y="-1364.6666666666667" type="line"/>
+      <point x="482.33333333333337" y="1932.3333333333335" type="line"/>
+      <point x="25" y="1932.3333333333335" type="line"/>
+      <point x="25" y="1846.6666666666667" type="line"/>
+      <point x="196.33333333333334" y="1846.6666666666667" type="line"/>
+      <point x="196.33333333333334" y="-1279" type="line"/>
+      <point x="25" y="-1279" type="line"/>
+      <point x="25" y="-1364.6666666666667" type="line"/>
+    </contour>
+    <contour>
+      <point x="396.5" y="-1279" type="line"/>
+      <point x="282.1666666666667" y="-1279" type="line"/>
+      <point x="282.1666666666667" y="1846.6666666666667" type="line"/>
+      <point x="396.5" y="1846.6666666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>10</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

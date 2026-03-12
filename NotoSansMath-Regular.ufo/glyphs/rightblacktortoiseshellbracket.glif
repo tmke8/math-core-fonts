@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightblacktortoiseshellbracket" format="2">
+  <advance width="339"/>
+  <unicode hex="2998"/>
+  <anchor x="137" y="333" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="line"/>
+      <point x="99" y="-158" type="line"/>
+      <point x="258" y="179" type="line"/>
+      <point x="259" y="447" type="line"/>
+      <point x="99" y="784" type="line"/>
+      <point x="25" y="784" type="line"/>
+      <point x="108" y="609" type="line"/>
+      <point x="108" y="17" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>rightblacktortoiseshellbracket.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>598</integer>
+          </array>
+          <array>
+            <string>rightblacktortoiseshellbracket.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>rightblacktortoiseshellbracket.t</string>
+            <integer>0</integer>
+            <integer>598</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rightblacktortoiseshellbracket</string>
+          <string>rightblacktortoiseshellbracket.s01</string>
+          <string>rightblacktortoiseshellbracket.s02</string>
+          <string>rightblacktortoiseshellbracket.s03</string>
+          <string>rightblacktortoiseshellbracket.s04</string>
+          <string>rightblacktortoiseshellbracket.s05</string>
+          <string>rightblacktortoiseshellbracket.s06</string>
+          <string>rightblacktortoiseshellbracket.s07</string>
+          <string>rightblacktortoiseshellbracket.s08</string>
+          <string>rightblacktortoiseshellbracket.s09</string>
+          <string>rightblacktortoiseshellbracket.s10</string>
+          <string>rightblacktortoiseshellbracket.s11</string>
+          <string>rightblacktortoiseshellbracket.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

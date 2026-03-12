@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slopingLargeOr" format="2">
+  <advance width="713"/>
+  <unicode hex="2A57"/>
+  <anchor x="356" y="290" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="101" y="0" type="line"/>
+      <point x="662" y="580" type="line"/>
+      <point x="566" y="580" type="line"/>
+      <point x="109" y="106" type="line"/>
+      <point x="122" y="101" type="line"/>
+      <point x="122" y="580" type="line"/>
+      <point x="51" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleSolidusBinaryRelation.rtlm" format="2">
+  <advance width="777"/>
+  <anchor x="389" y="278" name="center"/>
+  <outline>
+    <component base="tripleSolidusBinaryRelation" xScale="-1" xOffset="777"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tripleSolidusBinaryRelation</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

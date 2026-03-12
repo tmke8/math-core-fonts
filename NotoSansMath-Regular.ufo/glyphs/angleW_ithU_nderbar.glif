@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="angleWithUnderbar" format="2">
+  <advance width="652"/>
+  <unicode hex="29A4"/>
+  <anchor x="326" y="322" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="130" type="line"/>
+      <point x="601" y="130" type="line"/>
+      <point x="601" y="201" type="line"/>
+      <point x="166" y="201" type="line"/>
+      <point x="511" y="594" type="line"/>
+      <point x="461" y="645" type="line"/>
+      <point x="51" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="601" y="71" type="line"/>
+      <point x="51" y="71" type="line"/>
+    </contour>
+  </outline>
+</glyph>

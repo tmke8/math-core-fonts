@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downArrow" format="2">
+  <advance width="530"/>
+  <unicode hex="2193"/>
+  <anchor x="266" y="278" name="center"/>
+  <outline>
+    <component base="leftArrow" xScale="0" xyScale="1" yxScale="1" yScale="0" xOffset="-13" yOffset="-228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>downArrow</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>500</integer>
+          </array>
+          <array>
+            <string>upArrow.x</string>
+            <integer>1</integer>
+            <integer>600</integer>
+            <integer>600</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>downArrow</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

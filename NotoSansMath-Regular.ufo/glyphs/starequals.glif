@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="starequals" format="2">
+  <advance width="572"/>
+  <unicode hex="225B"/>
+  <anchor x="286" y="483" name="center"/>
+  <outline>
+    <contour>
+      <point x="170" y="470" type="line"/>
+      <point x="286" y="554" type="line"/>
+      <point x="402" y="470" type="line"/>
+      <point x="356" y="605" type="line"/>
+      <point x="472" y="689" type="line"/>
+      <point x="330" y="689" type="line"/>
+      <point x="286" y="823" type="line"/>
+      <point x="242" y="689" type="line"/>
+      <point x="100" y="689" type="line"/>
+      <point x="215" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="143" type="line"/>
+      <point x="521" y="143" type="line"/>
+      <point x="521" y="214" type="line"/>
+      <point x="51" y="214" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="342" type="line"/>
+      <point x="521" y="342" type="line"/>
+      <point x="521" y="413" type="line"/>
+      <point x="51" y="413" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thinGreekCross" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7A1"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="50" y="332" type="line"/>
+      <point x="650" y="332" type="line"/>
+      <point x="650" y="383" type="line"/>
+      <point x="50" y="383" type="line"/>
+    </contour>
+    <contour>
+      <point x="325" y="57" type="line"/>
+      <point x="376" y="57" type="line"/>
+      <point x="376" y="657" type="line"/>
+      <point x="325" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

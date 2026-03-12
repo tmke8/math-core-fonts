@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar.ssty2" format="2">
+  <advance width="452"/>
+  <anchor x="226" y="325" name="center"/>
+  <outline>
+    <contour>
+      <point x="165" y="-158" type="line"/>
+      <point x="287" y="-158" type="line"/>
+      <point x="287" y="784" type="line"/>
+      <point x="165" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

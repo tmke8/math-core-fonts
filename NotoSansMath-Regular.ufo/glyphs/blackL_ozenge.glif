@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackLozenge" format="2">
+  <advance width="580"/>
+  <unicode hex="29EB"/>
+  <anchor x="290" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="271" y="-83" type="line"/>
+      <point x="309" y="-83" type="line"/>
+      <point x="529" y="277" type="line"/>
+      <point x="309" y="637" type="line"/>
+      <point x="271" y="637" type="line"/>
+      <point x="51" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

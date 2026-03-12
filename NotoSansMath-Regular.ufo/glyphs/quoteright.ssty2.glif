@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteright.ssty2" format="2">
+  <advance width="224"/>
+  <anchor x="116" y="583" name="center"/>
+  <outline>
+    <contour>
+      <point x="22" y="453" type="curve"/>
+      <point x="125" y="453" type="line"/>
+      <point x="158" y="526"/>
+      <point x="194" y="634"/>
+      <point x="211" y="703" type="curve"/>
+      <point x="204" y="714" type="line"/>
+      <point x="74" y="714" type="line"/>
+      <point x="64" y="639"/>
+      <point x="43" y="536"/>
+    </contour>
+  </outline>
+</glyph>

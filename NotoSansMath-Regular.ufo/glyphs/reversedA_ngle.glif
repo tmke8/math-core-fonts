@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversedAngle" format="2">
+  <advance width="652"/>
+  <unicode hex="29A3"/>
+  <anchor x="326" y="257" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="601" y="50" type="line"/>
+      <point x="191" y="515" type="line"/>
+      <point x="141" y="464" type="line"/>
+      <point x="486" y="71" type="line"/>
+      <point x="51" y="71" type="line"/>
+    </contour>
+  </outline>
+</glyph>

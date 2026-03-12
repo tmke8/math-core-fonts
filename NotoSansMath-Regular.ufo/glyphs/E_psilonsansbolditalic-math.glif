@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonsansbolditalic-math" format="2">
+  <advance width="611"/>
+  <unicode hex="1D794"/>
+  <unicode hex="1D720"/>
+  <anchor x="312" y="359" name="center"/>
+  <anchor x="633" y="0" name="math.ic"/>
+  <anchor x="381" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="11" y="0" type="line"/>
+      <point x="506" y="0" type="line"/>
+      <point x="529" y="124" type="line"/>
+      <point x="184" y="124" type="line"/>
+      <point x="216" y="311" type="line"/>
+      <point x="516" y="311" type="line"/>
+      <point x="541" y="439" type="line"/>
+      <point x="237" y="439" type="line"/>
+      <point x="267" y="592" type="line"/>
+      <point x="591" y="592" type="line"/>
+      <point x="613" y="719" type="line"/>
+      <point x="140" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

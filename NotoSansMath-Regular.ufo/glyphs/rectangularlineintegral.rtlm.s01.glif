@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rectangularlineintegral.rtlm.s01" format="2">
+  <advance width="1052"/>
+  <anchor x="516" y="333" name="center"/>
+  <anchor x="1552" y="0" name="math.ic"/>
+  <outline>
+    <component base="rectangularlineintegral.s01" yScale="-1" yOffset="655"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

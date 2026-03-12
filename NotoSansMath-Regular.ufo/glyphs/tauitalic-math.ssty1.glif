@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tauitalic-math.ssty1" format="2">
+  <advance width="466"/>
+  <anchor x="287" y="267" name="center"/>
+  <anchor x="553" y="0" name="math.ic"/>
+  <anchor x="311" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="275" y="-10" type="curve" smooth="yes"/>
+      <point x="322" y="-10"/>
+      <point x="365" y="1"/>
+      <point x="392" y="14" type="curve"/>
+      <point x="392" y="111" type="line"/>
+      <point x="362" y="100"/>
+      <point x="341" y="95"/>
+      <point x="315" y="95" type="curve" smooth="yes"/>
+      <point x="285" y="95"/>
+      <point x="269" y="109"/>
+      <point x="269" y="137" type="curve" smooth="yes"/>
+      <point x="269" y="147"/>
+      <point x="271" y="162"/>
+      <point x="274" y="179" type="curve" smooth="yes"/>
+      <point x="330" y="442" type="line"/>
+      <point x="493" y="442" type="line"/>
+      <point x="515" y="543" type="line"/>
+      <point x="81" y="543" type="line"/>
+      <point x="59" y="442" type="line"/>
+      <point x="201" y="442" type="line"/>
+      <point x="145" y="179" type="line" smooth="yes"/>
+      <point x="140" y="156"/>
+      <point x="137" y="131"/>
+      <point x="137" y="114" type="curve" smooth="yes"/>
+      <point x="137" y="21"/>
+      <point x="193" y="-10"/>
+    </contour>
+  </outline>
+</glyph>

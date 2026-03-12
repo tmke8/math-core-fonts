@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="naryuniondot" format="2">
+  <advance width="770"/>
+  <unicode hex="2A03"/>
+  <anchor x="385" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="385" y="153" type="curve" smooth="yes"/>
+      <point x="432" y="153"/>
+      <point x="468" y="190"/>
+      <point x="468" y="237" type="curve" smooth="yes"/>
+      <point x="468" y="284"/>
+      <point x="432" y="321"/>
+      <point x="385" y="321" type="curve" smooth="yes"/>
+      <point x="339" y="321"/>
+      <point x="302" y="285"/>
+      <point x="302" y="237" type="curve" smooth="yes"/>
+      <point x="302" y="188"/>
+      <point x="338" y="153"/>
+    </contour>
+    <component base="naryunion"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>naryuniondot</string>
+          <string>naryuniondot.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

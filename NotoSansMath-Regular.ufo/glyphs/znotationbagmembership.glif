@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationbagmembership" format="2">
+  <advance width="689"/>
+  <unicode hex="22FF"/>
+  <anchor x="344" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-13" type="line"/>
+      <point x="638" y="-13" type="line"/>
+      <point x="638" y="58" type="line"/>
+      <point x="125" y="58" type="line"/>
+      <point x="125" y="243" type="line"/>
+      <point x="638" y="243" type="line"/>
+      <point x="638" y="314" type="line"/>
+      <point x="125" y="314" type="line"/>
+      <point x="125" y="498" type="line"/>
+      <point x="638" y="498" type="line"/>
+      <point x="638" y="569" type="line"/>
+      <point x="51" y="569" type="line"/>
+    </contour>
+  </outline>
+</glyph>

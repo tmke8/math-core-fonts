@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrowThroughSuperset" format="2">
+  <advance width="1112"/>
+  <unicode hex="2B44"/>
+  <anchor x="559" y="277" name="center"/>
+  <outline>
+    <component base="superset"/>
+    <component base="rightArrow" xOffset="100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

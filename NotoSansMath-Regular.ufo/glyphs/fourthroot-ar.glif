@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourthroot-ar" format="2">
+  <advance width="679"/>
+  <unicode hex="0607"/>
+  <outline>
+    <contour>
+      <point x="405" y="0" type="line"/>
+      <point x="540" y="380" type="line"/>
+      <point x="628" y="380" type="line"/>
+      <point x="628" y="450" type="line"/>
+      <point x="485" y="450" type="line"/>
+      <point x="372" y="121" type="line"/>
+      <point x="40" y="1057" type="line"/>
+      <point x="-31" y="1057" type="line"/>
+      <point x="340" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="542" y="644" type="line"/>
+      <point x="523" y="634"/>
+      <point x="494" y="622"/>
+      <point x="457" y="622" type="curve" smooth="yes"/>
+      <point x="433" y="622"/>
+      <point x="407" y="626"/>
+      <point x="407" y="647" type="curve" smooth="yes"/>
+      <point x="407" y="661"/>
+      <point x="418" y="691"/>
+      <point x="475" y="716" type="curve"/>
+      <point x="470" y="776" type="line"/>
+      <point x="436" y="764"/>
+      <point x="409" y="775"/>
+      <point x="409" y="794" type="curve" smooth="yes"/>
+      <point x="409" y="814"/>
+      <point x="440" y="847"/>
+      <point x="497" y="854" type="curve"/>
+      <point x="488" y="923" type="line"/>
+      <point x="391" y="896"/>
+      <point x="341" y="853"/>
+      <point x="341" y="797" type="curve" smooth="yes"/>
+      <point x="341" y="737"/>
+      <point x="397" y="721"/>
+      <point x="436" y="716" type="curve"/>
+      <point x="434" y="758" type="line"/>
+      <point x="352" y="722"/>
+      <point x="332" y="673"/>
+      <point x="332" y="641" type="curve" smooth="yes"/>
+      <point x="332" y="596"/>
+      <point x="370" y="557"/>
+      <point x="455" y="557" type="curve" smooth="yes"/>
+      <point x="496" y="557"/>
+      <point x="523" y="568"/>
+      <point x="548" y="581" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>fourthroot-ar</string>
+          <string>fourthroot-ar.s01</string>
+          <string>fourthroot-ar.s02</string>
+          <string>fourthroot-ar.s03</string>
+          <string>fourthroot-ar.s04</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

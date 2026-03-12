@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="longverticallineoverlaycomb" format="2">
+  <unicode hex="20D2"/>
+  <anchor x="0" y="268" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-45" y="-178" type="line"/>
+      <point x="45" y="-178" type="line"/>
+      <point x="45" y="714" type="line"/>
+      <point x="-45" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu.ssty1" format="2">
+  <advance width="724"/>
+  <anchor x="362" y="151" name="center"/>
+  <anchor x="363" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="85" y="-240" type="line"/>
+      <point x="215" y="-240" type="line"/>
+      <point x="215" y="-84" type="line" smooth="yes"/>
+      <point x="215" y="-42"/>
+      <point x="213" y="12"/>
+      <point x="210" y="34" type="curve"/>
+      <point x="213" y="34" type="line"/>
+      <point x="236" y="7"/>
+      <point x="271" y="-10"/>
+      <point x="315" y="-10" type="curve" smooth="yes"/>
+      <point x="374" y="-10"/>
+      <point x="418" y="18"/>
+      <point x="447" y="73" type="curve"/>
+      <point x="454" y="73" type="line"/>
+      <point x="474" y="11"/>
+      <point x="514" y="-10"/>
+      <point x="575" y="-10" type="curve" smooth="yes"/>
+      <point x="597" y="-10"/>
+      <point x="629" y="-3"/>
+      <point x="639" y="3" type="curve"/>
+      <point x="639" y="103" type="line"/>
+      <point x="633" y="101"/>
+      <point x="619" y="98"/>
+      <point x="609" y="98" type="curve" smooth="yes"/>
+      <point x="587" y="98"/>
+      <point x="568" y="112"/>
+      <point x="568" y="156" type="curve" smooth="yes"/>
+      <point x="568" y="543" type="line"/>
+      <point x="438" y="543" type="line"/>
+      <point x="438" y="279" type="line" smooth="yes"/>
+      <point x="438" y="160"/>
+      <point x="406" y="95"/>
+      <point x="314" y="95" type="curve" smooth="yes"/>
+      <point x="248" y="95"/>
+      <point x="215" y="136"/>
+      <point x="215" y="215" type="curve" smooth="yes"/>
+      <point x="215" y="543" type="line"/>
+      <point x="85" y="543" type="line"/>
+    </contour>
+  </outline>
+</glyph>

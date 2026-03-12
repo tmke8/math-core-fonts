@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonitalic-math" format="2">
+  <advance width="514"/>
+  <unicode hex="1D6E6"/>
+  <anchor x="297" y="357" name="center"/>
+  <anchor x="574" y="0" name="math.ic"/>
+  <anchor x="370" y="0" name="math.ta"/>
+  <outline>
+    <component base="Esansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

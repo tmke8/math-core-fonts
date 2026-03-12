@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horizontallineextension" format="2">
+  <advance width="1000"/>
+  <unicode hex="23AF"/>
+  <anchor x="500" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="-2" y="251" type="line"/>
+      <point x="1002" y="251" type="line"/>
+      <point x="1002" y="305" type="line"/>
+      <point x="-2" y="305" type="line"/>
+    </contour>
+  </outline>
+</glyph>

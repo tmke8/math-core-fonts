@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackHourglass" format="2">
+  <advance width="762"/>
+  <unicode hex="29D7"/>
+  <anchor x="381" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-40" type="line"/>
+      <point x="711" y="-40" type="line"/>
+      <point x="422" y="278" type="line"/>
+      <point x="711" y="597" type="line"/>
+      <point x="51" y="597" type="line"/>
+      <point x="339" y="278" type="line"/>
+    </contour>
+  </outline>
+</glyph>

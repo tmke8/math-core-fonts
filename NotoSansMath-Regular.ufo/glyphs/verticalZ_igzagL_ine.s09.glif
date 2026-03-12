@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalZigzagLine.s09" format="2">
+  <advance width="568"/>
+  <anchor x="172" y="329" name="center"/>
+  <outline>
+    <contour>
+      <point x="397" y="-1244" type="line"/>
+      <point x="516.75" y="-1244" type="line"/>
+      <point x="170.5" y="-902" type="line"/>
+      <point x="516.5" y="-561.5" type="line"/>
+      <point x="174.5" y="-224.25" type="line"/>
+      <point x="515.75" y="117.75" type="line"/>
+      <point x="173.75" y="459.75" type="line"/>
+      <point x="516.5" y="797.75" type="line"/>
+      <point x="170.5" y="1135.75" type="line"/>
+      <point x="516.5" y="1479.5" type="line"/>
+      <point x="174.5" y="1817.5" type="line"/>
+      <point x="55" y="1817.5" type="line"/>
+      <point x="397" y="1479.5" type="line"/>
+      <point x="51" y="1135" type="line"/>
+      <point x="397" y="797.75" type="line"/>
+      <point x="55" y="459.75" type="line"/>
+      <point x="397" y="117.75" type="line"/>
+      <point x="55" y="-224.25" type="line"/>
+      <point x="397" y="-561.5" type="line"/>
+      <point x="51" y="-902" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

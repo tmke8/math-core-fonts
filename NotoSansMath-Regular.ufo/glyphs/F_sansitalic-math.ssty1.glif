@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fsansitalic-math.ssty1" format="2">
+  <advance width="517"/>
+  <anchor x="325" y="357" name="center"/>
+  <anchor x="622" y="0" name="math.ic"/>
+  <anchor x="438" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="57" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="248" y="288" type="line"/>
+      <point x="486" y="288" type="line"/>
+      <point x="510" y="398" type="line"/>
+      <point x="272" y="398" type="line"/>
+      <point x="315" y="604" type="line"/>
+      <point x="571" y="604" type="line"/>
+      <point x="594" y="714" type="line"/>
+      <point x="208" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

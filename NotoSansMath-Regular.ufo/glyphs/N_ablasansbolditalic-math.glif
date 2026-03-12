@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nablasansbolditalic-math" format="2">
+  <advance width="731"/>
+  <unicode hex="1D7A9"/>
+  <unicode hex="1D735"/>
+  <anchor x="382" y="359" name="center"/>
+  <anchor x="382" y="0" name="math.ta"/>
+  <anchor x="751" y="0" name="math.ic"/>
+  <outline>
+    <component base="Deltasansbolditalic-math" xScale="-1.0" yScale="-1.0" xOffset="731" yOffset="714"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

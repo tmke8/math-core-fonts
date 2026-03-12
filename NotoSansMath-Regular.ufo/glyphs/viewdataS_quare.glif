@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="viewdataSquare" format="2">
+  <advance width="823"/>
+  <unicode hex="2317"/>
+  <anchor x="411" y="0" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="111" type="line"/>
+      <point x="772" y="111" type="line"/>
+      <point x="772" y="180" type="line"/>
+      <point x="51" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="535" type="line"/>
+      <point x="772" y="535" type="line"/>
+      <point x="772" y="604" type="line"/>
+      <point x="51" y="604" type="line"/>
+    </contour>
+    <contour>
+      <point x="165" y="-3" type="line"/>
+      <point x="234" y="-3" type="line"/>
+      <point x="234" y="718" type="line"/>
+      <point x="165" y="718" type="line"/>
+    </contour>
+    <contour>
+      <point x="589" y="-3" type="line"/>
+      <point x="658" y="-3" type="line"/>
+      <point x="658" y="718" type="line"/>
+      <point x="589" y="718" type="line"/>
+    </contour>
+  </outline>
+</glyph>

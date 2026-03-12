@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="znotationschemapiping" format="2">
+  <advance width="1164"/>
+  <unicode hex="2A20"/>
+  <anchor x="581" y="237" name="center"/>
+  <outline>
+    <contour>
+      <point x="491" y="627" type="line"/>
+      <point x="1038" y="237" type="line"/>
+      <point x="491" y="-153" type="line"/>
+      <point x="491" y="-240" type="line"/>
+      <point x="1113" y="203" type="line"/>
+      <point x="1113" y="272" type="line"/>
+      <point x="491" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="627" type="line"/>
+      <point x="598" y="237" type="line"/>
+      <point x="51" y="-153" type="line"/>
+      <point x="51" y="-240" type="line"/>
+      <point x="673" y="203" type="line"/>
+      <point x="673" y="272" type="line"/>
+      <point x="51" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>znotationschemapiping</string>
+          <string>znotationschemapiping.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

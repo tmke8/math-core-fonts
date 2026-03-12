@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quadrupleintegral.s01" format="2">
+  <advance width="2288"/>
+  <anchor x="1369" y="0" name="#entry"/>
+  <anchor x="1781" y="0" name="#exit"/>
+  <anchor x="1144" y="328" name="center"/>
+  <anchor x="2608" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.s01"/>
+    <component base="integral.s01" xOffset="412"/>
+    <component base="integral.s01" xOffset="824"/>
+    <component base="integral.s01" xOffset="1236"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

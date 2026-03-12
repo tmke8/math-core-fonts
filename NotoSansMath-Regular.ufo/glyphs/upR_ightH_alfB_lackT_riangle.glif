@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upRightHalfBlackTriangle" format="2">
+  <advance width="907"/>
+  <unicode hex="25EE"/>
+  <anchor x="453" y="348" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="856" y="0" type="line"/>
+      <point x="453" y="697" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="72" type="line"/>
+      <point x="453" y="554" type="line"/>
+      <point x="453" y="72" type="line"/>
+    </contour>
+  </outline>
+</glyph>

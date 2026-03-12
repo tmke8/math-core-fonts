@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterThanAndNotApproximate" format="2">
+  <advance width="572"/>
+  <unicode hex="2A8A"/>
+  <anchor x="286" y="247" name="center"/>
+  <outline>
+    <contour>
+      <point x="224" y="-147" type="line"/>
+      <point x="406" y="242" type="line"/>
+      <point x="349" y="272" type="line"/>
+      <point x="166" y="-119" type="line"/>
+    </contour>
+    <component base="greaterThanOrApproximate"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

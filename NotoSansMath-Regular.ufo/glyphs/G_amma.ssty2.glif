@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma.ssty2" format="2">
+  <advance width="576"/>
+  <anchor x="340" y="357" name="center"/>
+  <anchor x="335" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="281" y="0" type="line"/>
+      <point x="281" y="594" type="line"/>
+      <point x="544" y="594" type="line"/>
+      <point x="544" y="714" type="line"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

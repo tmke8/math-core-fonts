@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circledSquare" format="2">
+  <advance width="928"/>
+  <unicode hex="1F7D7"/>
+  <anchor x="464" y="349" name="center"/>
+  <outline>
+    <component base="_circle"/>
+    <component base="mediumWhiteSmallSquare" xOffset="181" yOffset="-13"/>
+  </outline>
+</glyph>

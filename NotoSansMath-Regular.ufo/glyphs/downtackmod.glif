@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downtackmod" format="2">
+  <advance width="270"/>
+  <unicode hex="02D5"/>
+  <anchor x="135" y="312" name="center"/>
+  <outline>
+    <contour>
+      <point x="108" y="227" type="line"/>
+      <point x="162" y="227" type="line"/>
+      <point x="162" y="347" type="line"/>
+      <point x="235" y="347" type="line"/>
+      <point x="235" y="397" type="line"/>
+      <point x="35" y="397" type="line"/>
+      <point x="35" y="347" type="line"/>
+      <point x="108" y="347" type="line"/>
+    </contour>
+  </outline>
+</glyph>

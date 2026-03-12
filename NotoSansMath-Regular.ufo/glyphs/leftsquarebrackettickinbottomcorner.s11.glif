@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftsquarebrackettickinbottomcorner.s11" format="2">
+  <advance width="349"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="80" y="-1485.3333333333333" type="line"/>
+      <point x="324.16666666666663" y="-1485.3333333333333" type="line"/>
+      <point x="324.16666666666663" y="-1395" type="line"/>
+      <point x="171.5" y="-1395" type="line"/>
+      <point x="171.5" y="1956.8333333333333" type="line"/>
+      <point x="324.16666666666663" y="1956.8333333333333" type="line"/>
+      <point x="324.16666666666663" y="2047.1666666666665" type="line"/>
+      <point x="80" y="2047.1666666666665" type="line"/>
+    </contour>
+    <contour>
+      <point x="162.16666666666669" y="-1429.9166666666665" type="line"/>
+      <point x="324.16666666666663" y="-1298.4166666666665" type="line"/>
+      <point x="280.16666666666663" y="-1243.75" type="line"/>
+      <point x="118.91666666666666" y="-1375.4166666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>11</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

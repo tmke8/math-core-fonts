@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upArrow" format="2">
+  <advance width="530"/>
+  <unicode hex="2191"/>
+  <anchor x="266" y="278" name="center"/>
+  <outline>
+    <component base="leftArrow" xScale="0.0" xyScale="-1.0" yxScale="1.0" yScale="0.0" xOffset="-13" yOffset="784"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>upArrow.x</string>
+            <integer>1</integer>
+            <integer>600</integer>
+            <integer>600</integer>
+          </array>
+          <array>
+            <string>upArrow</string>
+            <integer>0</integer>
+            <integer>500</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

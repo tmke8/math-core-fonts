@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heavyEightPointedBlackStar" format="2">
+  <advance width="800"/>
+  <unicode hex="1F7CF"/>
+  <anchor x="400" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="400" y="7" type="line"/>
+      <point x="480" y="164" type="line"/>
+      <point x="647" y="110" type="line"/>
+      <point x="593" y="277" type="line"/>
+      <point x="750" y="357" type="line"/>
+      <point x="593" y="437" type="line"/>
+      <point x="647" y="604" type="line"/>
+      <point x="480" y="550" type="line"/>
+      <point x="400" y="707" type="line"/>
+      <point x="320" y="550" type="line"/>
+      <point x="153" y="604" type="line"/>
+      <point x="207" y="437" type="line"/>
+      <point x="50" y="357" type="line"/>
+      <point x="207" y="277" type="line"/>
+      <point x="153" y="110" type="line"/>
+      <point x="320" y="164" type="line"/>
+    </contour>
+  </outline>
+</glyph>

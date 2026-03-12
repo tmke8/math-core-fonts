@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftanglebracket-math.s14" format="2">
+  <advance width="759"/>
+  <anchor x="203" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="647.5999999999999" y="-1831" type="line"/>
+      <point x="733.5999999999999" y="-1831" type="line"/>
+      <point x="170" y="333" type="line"/>
+      <point x="709.3" y="2408" type="line"/>
+      <point x="623.3" y="2408" type="line"/>
+      <point x="80" y="333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>14</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

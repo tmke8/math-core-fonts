@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bigsolidus" format="2">
+  <advance width="422"/>
+  <unicode hex="29F8"/>
+  <anchor x="211" y="237" name="center"/>
+  <outline>
+    <component base="bigreversesolidus" xScale="-1" xOffset="422"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>bigsolidus</string>
+          <string>bigsolidus.s01</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

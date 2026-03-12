@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleStrokeNotSign" format="2">
+  <advance width="572"/>
+  <unicode hex="2AEC"/>
+  <anchor x="286" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="450" y="149" type="line"/>
+      <point x="521" y="149" type="line"/>
+      <point x="521" y="409" type="line"/>
+      <point x="51" y="409" type="line"/>
+      <point x="51" y="338" type="line"/>
+      <point x="450" y="338" type="line"/>
+      <point x="450" y="287" type="line"/>
+      <point x="51" y="287" type="line"/>
+      <point x="51" y="216" type="line"/>
+      <point x="450" y="216" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourthroot.rtlm" format="2">
+  <advance width="679"/>
+  <outline>
+    <contour>
+      <point x="405" y="0" type="line"/>
+      <point x="540" y="380" type="line"/>
+      <point x="628" y="380" type="line"/>
+      <point x="628" y="450" type="line"/>
+      <point x="485" y="450" type="line"/>
+      <point x="372" y="121" type="line"/>
+      <point x="40" y="1057" type="line"/>
+      <point x="-31" y="1057" type="line"/>
+      <point x="340" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="552" type="line"/>
+      <point x="520" y="552" type="line"/>
+      <point x="520" y="632" type="line"/>
+      <point x="570" y="632" type="line"/>
+      <point x="570" y="685" type="line"/>
+      <point x="520" y="685" type="line"/>
+      <point x="520" y="913" type="line"/>
+      <point x="456" y="913" type="line"/>
+      <point x="291" y="677" type="line"/>
+      <point x="291" y="632" type="line"/>
+      <point x="454" y="632" type="line"/>
+    </contour>
+    <contour>
+      <point x="356" y="685" type="line"/>
+      <point x="457" y="842" type="line"/>
+      <point x="457" y="685" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>fourthroot.rtlm</string>
+          <string>fourthroot.rtlm.s01</string>
+          <string>fourthroot.rtlm.s02</string>
+          <string>fourthroot.rtlm.s03</string>
+          <string>fourthroot.rtlm.s04</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

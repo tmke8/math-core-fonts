@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.leftarrowbelowcomb" format="2">
+  <advance width="448"/>
+  <outline>
+    <contour>
+      <point x="96" y="-158" type="line"/>
+      <point x="448" y="-158" type="line"/>
+      <point x="448" y="-98" type="line"/>
+      <point x="96" y="-98" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="-247" type="curve"/>
+      <point x="167" y="-247" type="line"/>
+      <point x="148" y="-203"/>
+      <point x="129" y="-169"/>
+      <point x="110" y="-149" type="curve"/>
+      <point x="110" y="-109" type="line"/>
+      <point x="129" y="-89"/>
+      <point x="148" y="-55"/>
+      <point x="167" y="-11" type="curve"/>
+      <point x="123" y="-11" type="line"/>
+      <point x="84" y="-59"/>
+      <point x="43" y="-95"/>
+      <point x="0" y="-118" type="curve"/>
+      <point x="0" y="-140" type="line"/>
+      <point x="43" y="-163"/>
+      <point x="84" y="-199"/>
+    </contour>
+  </outline>
+</glyph>

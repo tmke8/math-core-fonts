@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anticlockwisecontourintegral.s01" format="2">
+  <advance width="1052"/>
+  <anchor x="133" y="0" name="#entry"/>
+  <anchor x="545" y="0" name="#exit"/>
+  <anchor x="526" y="328" name="center"/>
+  <anchor x="1552" y="0" name="math.ic"/>
+  <outline>
+    <component base="integral.s01"/>
+    <component base="_contour6.integral" xScale="1.4" yScale="1.5" xOffset="196" yOffset="-155"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>integral.s01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

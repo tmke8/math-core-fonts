@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackTinyDiamond" format="2">
+  <advance width="338"/>
+  <unicode hex="1F797"/>
+  <anchor x="169" y="358" name="_center"/>
+  <anchor x="169" y="358" name="center"/>
+  <outline>
+    <contour>
+      <point x="169" y="240" type="line"/>
+      <point x="287" y="357" type="line"/>
+      <point x="169" y="476" type="line"/>
+      <point x="51" y="357" type="line"/>
+    </contour>
+  </outline>
+</glyph>

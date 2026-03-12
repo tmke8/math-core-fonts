@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tauitalic-math" format="2">
+  <advance width="501"/>
+  <unicode hex="1D6F5"/>
+  <anchor x="289" y="357" name="center"/>
+  <anchor x="609" y="0" name="math.ic"/>
+  <anchor x="376" y="0" name="math.ta"/>
+  <outline>
+    <component base="Tsansitalic-math"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

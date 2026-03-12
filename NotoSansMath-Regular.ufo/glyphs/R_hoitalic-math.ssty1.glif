@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rhoitalic-math.ssty1" format="2">
+  <advance width="626"/>
+  <anchor x="341" y="357" name="center"/>
+  <anchor x="412" y="0" name="math.ta"/>
+  <outline>
+    <component base="Psansitalic-math.ssty1"/>
+  </outline>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vectorOrCrossProduct" format="2">
+  <advance width="562"/>
+  <unicode hex="2A2F"/>
+  <anchor x="281" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="120" y="45" type="line"/>
+      <point x="281" y="206" type="line"/>
+      <point x="442" y="45" type="line"/>
+      <point x="511" y="114" type="line"/>
+      <point x="350" y="275" type="line"/>
+      <point x="511" y="436" type="line"/>
+      <point x="442" y="505" type="line"/>
+      <point x="281" y="344" type="line"/>
+      <point x="120" y="505" type="line"/>
+      <point x="51" y="436" type="line"/>
+      <point x="212" y="275" type="line"/>
+      <point x="51" y="114" type="line"/>
+    </contour>
+  </outline>
+</glyph>

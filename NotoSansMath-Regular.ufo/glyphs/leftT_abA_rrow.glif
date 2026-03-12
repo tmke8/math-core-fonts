@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftTabArrow" format="2">
+  <advance width="1012"/>
+  <unicode hex="21E4"/>
+  <anchor x="506" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="83" type="line"/>
+      <point x="122" y="83" type="line"/>
+      <point x="122" y="473" type="line"/>
+      <point x="51" y="473" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="243" type="line"/>
+      <point x="961" y="243" type="line"/>
+      <point x="961" y="314" type="line"/>
+      <point x="255" y="314" type="line"/>
+    </contour>
+    <contour>
+      <point x="116" y="289" type="curve"/>
+      <point x="116" y="267" type="line"/>
+      <point x="195" y="228"/>
+      <point x="270" y="167"/>
+      <point x="342" y="83" type="curve"/>
+      <point x="400" y="83" type="line"/>
+      <point x="364" y="160"/>
+      <point x="329" y="218"/>
+      <point x="294" y="252" type="curve"/>
+      <point x="294" y="304" type="line"/>
+      <point x="329" y="338"/>
+      <point x="364" y="396"/>
+      <point x="400" y="473" type="curve"/>
+      <point x="342" y="473" type="line"/>
+      <point x="270" y="389"/>
+      <point x="195" y="328"/>
+    </contour>
+  </outline>
+</glyph>

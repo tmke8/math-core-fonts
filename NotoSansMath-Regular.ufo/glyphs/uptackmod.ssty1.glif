@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uptackmod.ssty1" format="2">
+  <advance width="280"/>
+  <anchor x="140" y="312" name="center"/>
+  <outline>
+    <contour>
+      <point x="30" y="217" type="line"/>
+      <point x="250" y="217" type="line"/>
+      <point x="250" y="275" type="line"/>
+      <point x="172" y="275" type="line"/>
+      <point x="172" y="407" type="line"/>
+      <point x="108" y="407" type="line"/>
+      <point x="108" y="275" type="line"/>
+      <point x="30" y="275" type="line"/>
+    </contour>
+  </outline>
+</glyph>

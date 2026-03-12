@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightharpoonwithbarbdowncomb.s01" format="2">
+  <advance width="788"/>
+  <anchor x="394" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="670" y="-98" type="line"/>
+      <point x="0" y="-98" type="line"/>
+      <point x="0" y="-158" type="line"/>
+      <point x="670" y="-158" type="line"/>
+    </contour>
+    <contour>
+      <point x="788" y="-98" type="line"/>
+      <point x="657" y="-98" type="line"/>
+      <point x="657" y="-145" type="line"/>
+      <point x="637" y="-167"/>
+      <point x="617" y="-204.00000000000003"/>
+      <point x="597" y="-253" type="curve"/>
+      <point x="641" y="-253" type="line"/>
+      <point x="688" y="-200"/>
+      <point x="737" y="-161"/>
+      <point x="788" y="-136" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

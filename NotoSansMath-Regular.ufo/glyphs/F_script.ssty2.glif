@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fscript.ssty2" format="2">
+  <advance width="885"/>
+  <anchor x="462" y="359" name="center"/>
+  <anchor x="915" y="0" name="math.ic"/>
+  <anchor x="701" y="0" name="math.ta"/>
+  <outline>
+    <component base="Fboldscript-math"/>
+  </outline>
+</glyph>

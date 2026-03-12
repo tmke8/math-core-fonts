@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftArrowTail" format="2">
+  <advance width="1022"/>
+  <unicode hex="2919"/>
+  <anchor x="511" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="887" y="83" type="line"/>
+      <point x="971" y="83" type="line"/>
+      <point x="813" y="278" type="line"/>
+      <point x="971" y="473" type="line"/>
+      <point x="887" y="473" type="line"/>
+      <point x="728" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="242" type="line"/>
+      <point x="790" y="242" type="line"/>
+      <point x="790" y="314" type="line"/>
+      <point x="51" y="314" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

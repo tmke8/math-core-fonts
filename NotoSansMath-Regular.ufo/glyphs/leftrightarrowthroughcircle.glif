@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftrightarrowthroughcircle" format="2">
+  <advance width="1130"/>
+  <unicode hex="2948"/>
+  <anchor x="565" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="565" y="83" type="curve" smooth="yes"/>
+      <point x="673" y="83"/>
+      <point x="760" y="170"/>
+      <point x="760" y="278" type="curve" smooth="yes"/>
+      <point x="760" y="386"/>
+      <point x="673" y="473"/>
+      <point x="565" y="473" type="curve" smooth="yes"/>
+      <point x="457" y="473"/>
+      <point x="370" y="386"/>
+      <point x="370" y="278" type="curve" smooth="yes"/>
+      <point x="370" y="170"/>
+      <point x="457" y="83"/>
+    </contour>
+    <contour>
+      <point x="565" y="154" type="curve" smooth="yes"/>
+      <point x="497" y="154"/>
+      <point x="441" y="210"/>
+      <point x="441" y="278" type="curve" smooth="yes"/>
+      <point x="441" y="346"/>
+      <point x="497" y="402"/>
+      <point x="565" y="402" type="curve" smooth="yes"/>
+      <point x="633" y="402"/>
+      <point x="689" y="346"/>
+      <point x="689" y="278" type="curve" smooth="yes"/>
+      <point x="689" y="210"/>
+      <point x="633" y="154"/>
+    </contour>
+    <component base="leftRightArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

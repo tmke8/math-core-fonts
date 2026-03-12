@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bottomcurlybracket.m" format="2">
+  <advance width="1478"/>
+  <outline>
+    <contour>
+      <point x="705" y="-305" type="curve"/>
+      <point x="773" y="-305" type="line"/>
+      <point x="776" y="-254"/>
+      <point x="811" y="-229"/>
+      <point x="878" y="-229" type="curve" smooth="yes"/>
+      <point x="1478" y="-229" type="line"/>
+      <point x="1478" y="-149" type="line"/>
+      <point x="866" y="-149" type="line" smooth="yes"/>
+      <point x="798" y="-149"/>
+      <point x="757" y="-173"/>
+      <point x="742" y="-222" type="curve"/>
+      <point x="736" y="-222" type="line"/>
+      <point x="721" y="-173"/>
+      <point x="680" y="-149"/>
+      <point x="612" y="-149" type="curve" smooth="yes"/>
+      <point x="0" y="-149" type="line"/>
+      <point x="0" y="-229" type="line"/>
+      <point x="600" y="-229" type="line" smooth="yes"/>
+      <point x="667" y="-229"/>
+      <point x="702" y="-254"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

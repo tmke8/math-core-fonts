@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightCeiling.s05" format="2">
+  <advance width="434"/>
+  <anchor x="222.917" y="298" name="center"/>
+  <outline>
+    <contour>
+      <point x="265.5" y="-761.3333333333334" type="line"/>
+      <point x="354" y="-761.3333333333334" type="line"/>
+      <point x="354" y="1358.1666666666665" type="line"/>
+      <point x="25" y="1358.1666666666665" type="line"/>
+      <point x="25" y="1269.6666666666665" type="line"/>
+      <point x="265.5" y="1269.6666666666665" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>5</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

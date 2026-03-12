@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tscript-math.ssty2" format="2">
+  <advance width="442"/>
+  <anchor x="250" y="280" name="center"/>
+  <anchor x="467" y="0" name="math.ic"/>
+  <anchor x="415" y="0" name="math.ta"/>
+  <outline>
+    <component base="tboldscript-math"/>
+  </outline>
+</glyph>

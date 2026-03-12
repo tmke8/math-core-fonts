@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftdoubleanglebracket-math" format="2">
+  <advance width="581"/>
+  <unicode hex="27EA"/>
+  <anchor x="289" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="306" y="-158" type="line"/>
+      <point x="385" y="-158" type="line"/>
+      <point x="163" y="333" type="line"/>
+      <point x="374" y="784" type="line"/>
+      <point x="295" y="784" type="line"/>
+      <point x="80" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="477" y="-158" type="line"/>
+      <point x="556" y="-158" type="line"/>
+      <point x="334" y="333" type="line"/>
+      <point x="545" y="784" type="line"/>
+      <point x="466" y="784" type="line"/>
+      <point x="251" y="333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>leftdoubleanglebracket-math</string>
+          <string>leftdoubleanglebracket-math.s01</string>
+          <string>leftdoubleanglebracket-math.s02</string>
+          <string>leftdoubleanglebracket-math.s03</string>
+          <string>leftdoubleanglebracket-math.s04</string>
+          <string>leftdoubleanglebracket-math.s05</string>
+          <string>leftdoubleanglebracket-math.s06</string>
+          <string>leftdoubleanglebracket-math.s07</string>
+          <string>leftdoubleanglebracket-math.s08</string>
+          <string>leftdoubleanglebracket-math.s09</string>
+          <string>leftdoubleanglebracket-math.s10</string>
+          <string>leftdoubleanglebracket-math.s11</string>
+          <string>leftdoubleanglebracket-math.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

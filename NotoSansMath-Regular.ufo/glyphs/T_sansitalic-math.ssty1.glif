@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tsansitalic-math.ssty1" format="2">
+  <advance width="516"/>
+  <anchor x="307" y="357" name="center"/>
+  <anchor x="632" y="0" name="math.ic"/>
+  <anchor x="387" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="143" y="0" type="line"/>
+      <point x="273" y="0" type="line"/>
+      <point x="401" y="602" type="line"/>
+      <point x="580" y="602" type="line"/>
+      <point x="604" y="714" type="line"/>
+      <point x="114" y="714" type="line"/>
+      <point x="90" y="602" type="line"/>
+      <point x="269" y="602" type="line"/>
+    </contour>
+  </outline>
+</glyph>

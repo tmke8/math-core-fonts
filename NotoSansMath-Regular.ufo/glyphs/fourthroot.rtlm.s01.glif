@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourthroot.rtlm.s01" format="2">
+  <advance width="746"/>
+  <outline>
+    <contour>
+      <point x="431" y="0" type="line"/>
+      <point x="607.75" y="580.25" type="line"/>
+      <point x="695.75" y="580.25" type="line"/>
+      <point x="695.75" y="650.25" type="line"/>
+      <point x="550" y="650.25" type="line"/>
+      <point x="394.5" y="121.25" type="line"/>
+      <point x="39.5" y="1419" type="line"/>
+      <point x="-34" y="1419" type="line"/>
+      <point x="357.25" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="757.75" type="line"/>
+      <point x="544" y="757.75" type="line"/>
+      <point x="544" y="837.75" type="line"/>
+      <point x="594" y="837.75" type="line"/>
+      <point x="594" y="890.75" type="line"/>
+      <point x="544" y="890.75" type="line"/>
+      <point x="544" y="1118.75" type="line"/>
+      <point x="480" y="1118.75" type="line"/>
+      <point x="315" y="882.75" type="line"/>
+      <point x="315" y="837.75" type="line"/>
+      <point x="478" y="837.75" type="line"/>
+    </contour>
+    <contour>
+      <point x="380" y="890.75" type="line"/>
+      <point x="481" y="1047.75" type="line"/>
+      <point x="481" y="890.75" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

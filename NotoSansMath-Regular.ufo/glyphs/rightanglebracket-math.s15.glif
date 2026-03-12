@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracket-math.s15" format="2">
+  <advance width="784"/>
+  <anchor x="203" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-1950.5" type="line"/>
+      <point x="111.5" y="-1950.5" type="line"/>
+      <point x="703.5" y="333" type="line"/>
+      <point x="136.75" y="2524" type="line"/>
+      <point x="50.25" y="2524" type="line"/>
+      <point x="613" y="333" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>15</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

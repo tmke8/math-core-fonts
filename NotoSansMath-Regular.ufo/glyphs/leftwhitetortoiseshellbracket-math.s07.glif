@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftwhitetortoiseshellbracket-math.s07" format="2">
+  <advance width="443"/>
+  <anchor x="187" y="335" name="center"/>
+  <outline>
+    <contour>
+      <point x="319.0833333333333" y="-1002.6666666666667" type="line"/>
+      <point x="418.3333333333333" y="-1002.6666666666667" type="line"/>
+      <point x="334" y="-908.5833333333334" type="line"/>
+      <point x="334" y="1493.75" type="line"/>
+      <point x="418.3333333333333" y="1587.8333333333335" type="line"/>
+      <point x="319.0833333333333" y="1587.8333333333335" type="line"/>
+      <point x="80" y="1320.5000000000002" type="line"/>
+      <point x="80" y="-735.3333333333334" type="line"/>
+    </contour>
+    <contour>
+      <point x="253.25" y="-818.0833333333334" type="line"/>
+      <point x="160.75" y="-714.25" type="line"/>
+      <point x="160.75" y="1299.4166666666667" type="line"/>
+      <point x="253.25" y="1403.25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>7</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

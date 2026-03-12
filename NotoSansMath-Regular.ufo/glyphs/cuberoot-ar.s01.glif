@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cuberoot-ar.s01" format="2">
+  <advance width="746"/>
+  <outline>
+    <contour>
+      <point x="431" y="0" type="line"/>
+      <point x="607.75" y="580.25" type="line"/>
+      <point x="695.75" y="580.25" type="line"/>
+      <point x="695.75" y="650.25" type="line"/>
+      <point x="550" y="650.25" type="line"/>
+      <point x="394.5" y="121.25" type="line"/>
+      <point x="39.5" y="1419" type="line"/>
+      <point x="-34" y="1419" type="line"/>
+      <point x="357.25" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="409.25" y="925.5" type="curve" smooth="yes"/>
+      <point x="449.25" y="925.5"/>
+      <point x="463.25" y="949.5"/>
+      <point x="469.25" y="973.5" type="curve"/>
+      <point x="452.25" y="980.5" type="line"/>
+      <point x="454.25" y="955.5"/>
+      <point x="476.25" y="928.5"/>
+      <point x="517.25" y="928.5" type="curve" smooth="yes"/>
+      <point x="563.25" y="928.5"/>
+      <point x="602.25" y="961.5"/>
+      <point x="602.25" y="1015.5" type="curve" smooth="yes"/>
+      <point x="602.25" y="1039.5"/>
+      <point x="595.25" y="1091.5"/>
+      <point x="575.25" y="1127.5" type="curve"/>
+      <point x="518.25" y="1105.5" type="line"/>
+      <point x="526.25" y="1085.5"/>
+      <point x="535.25" y="1043.5"/>
+      <point x="535.25" y="1025.5" type="curve" smooth="yes"/>
+      <point x="535.25" y="1004.5"/>
+      <point x="520.25" y="992.5"/>
+      <point x="503.25" y="992.5" type="curve" smooth="yes"/>
+      <point x="493.25" y="992.5"/>
+      <point x="476.25" y="998.5"/>
+      <point x="478.25" y="1019.5" type="curve" smooth="yes"/>
+      <point x="484.25" y="1093.5" type="line"/>
+      <point x="424.25" y="1097.5" type="line"/>
+      <point x="415.25" y="1007.5"/>
+      <point x="416.25" y="992.5"/>
+      <point x="392.25" y="992.5" type="curve" smooth="yes"/>
+      <point x="379.25" y="992.5"/>
+      <point x="364.25" y="997.5"/>
+      <point x="353.25" y="1025.5" type="curve"/>
+      <point x="334.25" y="1108.5" type="line"/>
+      <point x="340.25" y="968.5" type="line"/>
+      <point x="344.25" y="949.5"/>
+      <point x="364.25" y="925.5"/>
+    </contour>
+    <contour>
+      <point x="376.25" y="761.5" type="line"/>
+      <point x="376.25" y="799.5"/>
+      <point x="376.25" y="869.5"/>
+      <point x="367.25" y="958.5" type="curve"/>
+      <point x="334.25" y="1108.5" type="line"/>
+      <point x="272.25" y="1091.5" type="line"/>
+      <point x="302.25" y="983.5"/>
+      <point x="307.25" y="797.5"/>
+      <point x="307.25" y="764.5" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>1</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

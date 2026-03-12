@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parallel" format="2">
+  <advance width="360"/>
+  <unicode hex="2225"/>
+  <anchor x="180" y="320" name="center"/>
+  <outline>
+    <component base="divides"/>
+    <component base="divides" xOffset="187"/>
+  </outline>
+</glyph>

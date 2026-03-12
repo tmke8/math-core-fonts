@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Isansbold-math" format="2">
+  <advance width="389"/>
+  <unicode hex="1D5DC"/>
+  <unicode hex="1D408"/>
+  <anchor x="194" y="357" name="center"/>
+  <anchor x="195" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="32" y="0" type="line"/>
+      <point x="357" y="0" type="line"/>
+      <point x="357" y="86" type="line"/>
+      <point x="270" y="126" type="line"/>
+      <point x="270" y="588" type="line"/>
+      <point x="357" y="628" type="line"/>
+      <point x="357" y="714" type="line"/>
+      <point x="32" y="714" type="line"/>
+      <point x="32" y="628" type="line"/>
+      <point x="119" y="588" type="line"/>
+      <point x="119" y="126" type="line"/>
+      <point x="32" y="86" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

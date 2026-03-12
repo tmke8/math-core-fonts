@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Beta.ssty2" format="2">
+  <advance width="760"/>
+  <anchor x="410" y="357" name="center"/>
+  <anchor x="376" y="0" name="math.ta"/>
+  <outline>
+    <component base="B.ssty2"/>
+  </outline>
+</glyph>

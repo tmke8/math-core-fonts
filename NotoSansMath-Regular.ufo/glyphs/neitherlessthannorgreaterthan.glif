@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="neitherlessthannorgreaterthan" format="2">
+  <advance width="572"/>
+  <unicode hex="2278"/>
+  <anchor x="286" y="267" name="center"/>
+  <outline>
+    <component base="lessorgreater"/>
+    <component base="slashlongcomb.alt" xOffset="171" yOffset="-53"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lessorgreater</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

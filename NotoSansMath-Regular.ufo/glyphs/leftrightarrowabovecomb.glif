@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftrightarrowabovecomb" format="2">
+  <unicode hex="20E1"/>
+  <anchor x="298" y="536" name="_top"/>
+  <anchor x="298" y="0" name="math.ta"/>
+  <anchor x="298" y="486" name="top"/>
+  <outline>
+    <contour>
+      <point x="497" y="670" type="line"/>
+      <point x="497" y="730" type="line"/>
+      <point x="100" y="730" type="line"/>
+      <point x="100" y="670" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="592" type="curve"/>
+      <point x="167" y="592" type="line"/>
+      <point x="148" y="632"/>
+      <point x="129" y="662"/>
+      <point x="110" y="680" type="curve"/>
+      <point x="110" y="720" type="line"/>
+      <point x="129" y="738"/>
+      <point x="148" y="768"/>
+      <point x="167" y="808" type="curve"/>
+      <point x="123" y="808" type="line"/>
+      <point x="84" y="764"/>
+      <point x="43" y="732"/>
+      <point x="0" y="711" type="curve"/>
+      <point x="0" y="689" type="line"/>
+      <point x="43" y="668"/>
+      <point x="84" y="636"/>
+    </contour>
+    <contour>
+      <point x="474" y="592" type="line"/>
+      <point x="513" y="636"/>
+      <point x="554" y="668"/>
+      <point x="597" y="689" type="curve"/>
+      <point x="597" y="711" type="line"/>
+      <point x="554" y="732"/>
+      <point x="513" y="764"/>
+      <point x="474" y="808" type="curve"/>
+      <point x="430" y="808" type="line"/>
+      <point x="449" y="768"/>
+      <point x="468" y="738"/>
+      <point x="487" y="720" type="curve"/>
+      <point x="487" y="680" type="line"/>
+      <point x="468" y="662"/>
+      <point x="449" y="632"/>
+      <point x="430" y="592" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>leftarrowabovecomb.s01</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>700</integer>
+          </array>
+          <array>
+            <string>leftarrowabovecomb.x</string>
+            <integer>1</integer>
+            <integer>600</integer>
+            <integer>600</integer>
+          </array>
+          <array>
+            <string>rightarrowabovecomb.s01</string>
+            <integer>0</integer>
+            <integer>700</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>leftrightarrowabovecomb</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>597</integer>
+    </dict>
+  </lib>
+</glyph>

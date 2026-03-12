@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="toptortoiseshellbracket.r" format="2">
+  <advance width="800"/>
+  <outline>
+    <contour>
+      <point x="0" y="859" type="line"/>
+      <point x="0" y="788" type="line"/>
+      <point x="647" y="788" type="line"/>
+      <point x="726" y="658" type="line"/>
+      <point x="800" y="658" type="line"/>
+      <point x="681" y="859" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

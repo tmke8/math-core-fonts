@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="narylogicalor.s01" format="2">
+  <advance width="1248"/>
+  <anchor x="624" y="311" name="center"/>
+  <outline>
+    <component base="narylogicalor" xScale="1.4" yScale="1.4" xOffset="-20" yOffset="-95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

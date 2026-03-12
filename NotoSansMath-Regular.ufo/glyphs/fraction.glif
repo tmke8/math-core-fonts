@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="130"/>
+  <unicode hex="2044"/>
+  <anchor x="64" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="-116" y="0" type="line"/>
+      <point x="320" y="714" type="line"/>
+      <point x="245" y="714" type="line"/>
+      <point x="-191" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>fraction</string>
+          <string>slash</string>
+          <string>slash.s01</string>
+          <string>slash.s02</string>
+          <string>slash.s03</string>
+          <string>slash.s04</string>
+          <string>slash.s05</string>
+          <string>slash.s06</string>
+          <string>slash.s07</string>
+          <string>slash.s08</string>
+          <string>slash.s09</string>
+          <string>slash.s10</string>
+          <string>slash.s11</string>
+          <string>slash.s12</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

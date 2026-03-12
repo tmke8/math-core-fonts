@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="YdoubleStruck.ssty2" format="2">
+  <advance width="757"/>
+  <anchor x="378" y="357" name="center"/>
+  <anchor x="339" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="277" y="0" type="line"/>
+      <point x="476" y="0" type="line"/>
+      <point x="476" y="339" type="line"/>
+      <point x="730" y="714" type="line"/>
+      <point x="639" y="714" type="line"/>
+      <point x="436" y="410" type="line"/>
+      <point x="254" y="714" type="line"/>
+      <point x="27" y="714" type="line"/>
+      <point x="277" y="291" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="74" type="line"/>
+      <point x="350" y="313" type="line"/>
+      <point x="156" y="640" type="line"/>
+      <point x="213" y="640" type="line"/>
+      <point x="403" y="324" type="line"/>
+      <point x="403" y="74" type="line"/>
+    </contour>
+  </outline>
+</glyph>

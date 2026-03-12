@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iscript-math.ssty2" format="2">
+  <advance width="344"/>
+  <anchor x="194" y="227" name="center"/>
+  <anchor x="337" y="0" name="math.ta"/>
+  <outline>
+    <component base="iboldscript-math"/>
+  </outline>
+</glyph>

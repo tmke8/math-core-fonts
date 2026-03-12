@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shortUpTackAboveShortDownTack" format="2">
+  <advance width="756"/>
+  <unicode hex="2AE9"/>
+  <anchor x="378" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="335" type="line"/>
+      <point x="705" y="335" type="line"/>
+      <point x="705" y="406" type="line"/>
+      <point x="413" y="406" type="line"/>
+      <point x="413" y="716" type="line"/>
+      <point x="342" y="716" type="line"/>
+      <point x="342" y="406" type="line"/>
+      <point x="51" y="406" type="line"/>
+    </contour>
+    <contour>
+      <point x="342" y="-165" type="line"/>
+      <point x="413" y="-165" type="line"/>
+      <point x="413" y="145" type="line"/>
+      <point x="705" y="145" type="line"/>
+      <point x="705" y="216" type="line"/>
+      <point x="51" y="216" type="line"/>
+      <point x="51" y="145" type="line"/>
+      <point x="342" y="145" type="line"/>
+    </contour>
+  </outline>
+</glyph>

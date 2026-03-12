@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequal" format="2">
+  <advance width="573"/>
+  <unicode hex="2264"/>
+  <anchor x="287" y="277" name="center"/>
+  <outline>
+    <component base="minus" xOffset="1" yOffset="-281"/>
+    <component base="less" xOffset="1" yOffset="39"/>
+  </outline>
+</glyph>

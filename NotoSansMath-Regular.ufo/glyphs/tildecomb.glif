@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="184" y="536" name="_top"/>
+  <anchor x="184" y="0" name="math.ta"/>
+  <anchor x="184" y="735" name="top"/>
+  <outline>
+    <component base="tildecomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hVariants</key>
+        <array>
+          <string>tildecomb.s00</string>
+          <string>tildecomb.s01</string>
+          <string>tildecomb.s02</string>
+          <string>tildecomb.s03</string>
+          <string>tildecomb.s04</string>
+          <string>tildecomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>367</integer>
+    </dict>
+  </lib>
+</glyph>

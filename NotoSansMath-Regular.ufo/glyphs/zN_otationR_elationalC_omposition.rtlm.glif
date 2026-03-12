@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zNotationRelationalComposition.rtlm" format="2">
+  <advance width="322"/>
+  <anchor x="161" y="285" name="center"/>
+  <outline>
+    <component base="zNotationRelationalComposition" xScale="-1" xOffset="322"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>zNotationRelationalComposition</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

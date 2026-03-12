@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.ssty1" format="2">
+  <advance width="580"/>
+  <anchor x="290" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="339" y="0" type="line"/>
+      <point x="463" y="0" type="line"/>
+      <point x="463" y="159" type="line"/>
+      <point x="565" y="159" type="line"/>
+      <point x="565" y="259" type="line"/>
+      <point x="463" y="259" type="line"/>
+      <point x="463" y="715" type="line"/>
+      <point x="342" y="715" type="line"/>
+      <point x="15" y="246" type="line"/>
+      <point x="15" y="159" type="line"/>
+      <point x="339" y="159" type="line"/>
+    </contour>
+    <contour>
+      <point x="131" y="259" type="line"/>
+      <point x="264" y="453" type="line" smooth="yes"/>
+      <point x="289" y="490"/>
+      <point x="332" y="556"/>
+      <point x="344" y="581" type="curve"/>
+      <point x="340" y="528"/>
+      <point x="339" y="460"/>
+      <point x="339" y="413" type="curve" smooth="yes"/>
+      <point x="339" y="259" type="line"/>
+    </contour>
+  </outline>
+</glyph>

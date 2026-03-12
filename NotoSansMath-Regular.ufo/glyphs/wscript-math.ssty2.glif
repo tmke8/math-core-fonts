@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wscript-math.ssty2" format="2">
+  <advance width="758"/>
+  <anchor x="397" y="151" name="center"/>
+  <anchor x="598" y="0" name="math.ta"/>
+  <outline>
+    <component base="wboldscript-math"/>
+  </outline>
+</glyph>

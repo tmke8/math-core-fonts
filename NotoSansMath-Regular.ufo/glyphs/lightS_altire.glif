@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightSaltire" format="2">
+  <advance width="700"/>
+  <unicode hex="1F7A9"/>
+  <anchor x="350" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="532" y="115" type="line"/>
+      <point x="593" y="175" type="line"/>
+      <point x="168" y="600" type="line"/>
+      <point x="108" y="539" type="line"/>
+    </contour>
+    <contour>
+      <point x="168" y="114" type="line"/>
+      <point x="593" y="539" type="line"/>
+      <point x="532" y="599" type="line"/>
+      <point x="108" y="175" type="line"/>
+    </contour>
+  </outline>
+</glyph>

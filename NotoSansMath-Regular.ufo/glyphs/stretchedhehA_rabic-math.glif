@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="stretchedhehArabic-math" format="2">
+  <advance width="865"/>
+  <unicode hex="1EE64"/>
+  <outline>
+    <contour>
+      <point x="676" y="-8" type="curve" smooth="yes"/>
+      <point x="780" y="-8"/>
+      <point x="820" y="52"/>
+      <point x="820" y="119" type="curve" smooth="yes"/>
+      <point x="820" y="184"/>
+      <point x="801" y="264"/>
+      <point x="481" y="499" type="curve"/>
+      <point x="434" y="437" type="line"/>
+      <point x="742" y="218"/>
+      <point x="738" y="139"/>
+      <point x="738" y="121" type="curve" smooth="yes"/>
+      <point x="738" y="85"/>
+      <point x="717" y="71"/>
+      <point x="672" y="71" type="curve" smooth="yes"/>
+      <point x="577" y="71"/>
+      <point x="445" y="137"/>
+      <point x="445" y="248" type="curve" smooth="yes"/>
+      <point x="445" y="292"/>
+      <point x="477" y="335"/>
+      <point x="522" y="335" type="curve" smooth="yes"/>
+      <point x="566" y="335"/>
+      <point x="592" y="292"/>
+      <point x="592" y="250" type="curve" smooth="yes"/>
+      <point x="592" y="206"/>
+      <point x="563" y="141"/>
+      <point x="471" y="105" type="curve" smooth="yes"/>
+      <point x="429" y="88"/>
+      <point x="373" y="77"/>
+      <point x="301" y="77" type="curve"/>
+      <point x="291" y="-5" type="line"/>
+      <point x="471" y="-5"/>
+      <point x="666" y="82"/>
+      <point x="666" y="238" type="curve" smooth="yes"/>
+      <point x="666" y="321"/>
+      <point x="611" y="406"/>
+      <point x="522" y="406" type="curve" smooth="yes"/>
+      <point x="429" y="406"/>
+      <point x="370" y="327"/>
+      <point x="370" y="238" type="curve" smooth="yes"/>
+      <point x="370" y="90"/>
+      <point x="540" y="-8"/>
+    </contour>
+    <contour>
+      <point x="291" y="-5" type="curve" smooth="yes"/>
+      <point x="320" y="-5"/>
+      <point x="341" y="16"/>
+      <point x="341" y="38" type="curve" smooth="yes"/>
+      <point x="341" y="59"/>
+      <point x="329" y="77"/>
+      <point x="301" y="77" type="curve" smooth="yes"/>
+      <point x="186" y="77"/>
+      <point x="178" y="101"/>
+      <point x="174" y="199" type="curve" smooth="yes"/>
+      <point x="154" y="714" type="line"/>
+      <point x="72" y="714" type="line"/>
+      <point x="92" y="167" type="line" smooth="yes"/>
+      <point x="96" y="47"/>
+      <point x="130" y="-5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Arabic Math Stretched</string>
+    </dict>
+  </lib>
+</glyph>

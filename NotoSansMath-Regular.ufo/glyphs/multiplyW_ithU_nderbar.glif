@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiplyWithUnderbar" format="2">
+  <advance width="543"/>
+  <unicode hex="2A31"/>
+  <anchor x="271" y="212" name="center"/>
+  <outline>
+    <contour>
+      <point x="101" y="58" type="line"/>
+      <point x="271" y="228" type="line"/>
+      <point x="442" y="58" type="line"/>
+      <point x="492" y="108" type="line"/>
+      <point x="322" y="278" type="line"/>
+      <point x="492" y="449" type="line"/>
+      <point x="442" y="499" type="line"/>
+      <point x="271" y="329" type="line"/>
+      <point x="101" y="499" type="line"/>
+      <point x="51" y="449" type="line"/>
+      <point x="221" y="278" type="line"/>
+      <point x="51" y="108" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="-74" type="line"/>
+      <point x="492" y="-74" type="line"/>
+      <point x="492" y="-3" type="line"/>
+      <point x="51" y="-3" type="line"/>
+    </contour>
+  </outline>
+</glyph>

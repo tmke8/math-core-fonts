@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upTripleArrow" format="2">
+  <advance width="914"/>
+  <unicode hex="290A"/>
+  <anchor x="457" y="278" name="center"/>
+  <outline>
+    <component base="rightTripleArrow" xScale="0.0" xyScale="1.0" yxScale="-1.0" yScale="0.0" xOffset="735" yOffset="-178"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

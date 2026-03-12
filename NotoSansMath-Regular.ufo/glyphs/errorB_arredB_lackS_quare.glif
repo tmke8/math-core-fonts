@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="errorBarredBlackSquare" format="2">
+  <advance width="638"/>
+  <unicode hex="29EF"/>
+  <anchor x="319" y="268" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="587" y="0" type="line"/>
+      <point x="587" y="536" type="line"/>
+      <point x="51" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="-198" type="line"/>
+      <point x="538" y="-198" type="line"/>
+      <point x="538" y="-138" type="line"/>
+      <point x="100" y="-138" type="line"/>
+    </contour>
+    <contour>
+      <point x="289" y="-198" type="line"/>
+      <point x="349" y="-198" type="line"/>
+      <point x="349" y="60" type="line"/>
+      <point x="289" y="60" type="line"/>
+    </contour>
+    <contour>
+      <point x="289" y="476" type="line"/>
+      <point x="349" y="476" type="line"/>
+      <point x="349" y="734" type="line"/>
+      <point x="289" y="734" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="674" type="line"/>
+      <point x="538" y="674" type="line"/>
+      <point x="538" y="734" type="line"/>
+      <point x="100" y="734" type="line"/>
+    </contour>
+  </outline>
+</glyph>

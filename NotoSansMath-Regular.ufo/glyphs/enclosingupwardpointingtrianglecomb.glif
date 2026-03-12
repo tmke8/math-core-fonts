@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="enclosingupwardpointingtrianglecomb" format="2">
+  <advance width="1720"/>
+  <unicode hex="20E4"/>
+  <anchor x="860" y="322" name="_center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-142" type="line"/>
+      <point x="1669" y="-142" type="line"/>
+      <point x="860" y="1239" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="-91" type="line"/>
+      <point x="860" y="1138" type="line"/>
+      <point x="1580" y="-91" type="line"/>
+    </contour>
+  </outline>
+</glyph>

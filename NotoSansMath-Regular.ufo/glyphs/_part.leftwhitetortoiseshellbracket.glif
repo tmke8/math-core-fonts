@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.leftwhitetortoiseshellbracket" format="2">
+  <advance width="378"/>
+  <outline>
+    <contour>
+      <point x="273" y="-158" type="line"/>
+      <point x="353" y="-158" type="line"/>
+      <point x="285" y="-82" type="line"/>
+      <point x="285" y="708" type="line"/>
+      <point x="353" y="784" type="line"/>
+      <point x="273" y="784" type="line"/>
+      <point x="80" y="568" type="line"/>
+      <point x="80" y="58" type="line"/>
+    </contour>
+    <contour>
+      <point x="220" y="-9" type="line"/>
+      <point x="145" y="75" type="line"/>
+      <point x="145" y="551" type="line"/>
+      <point x="220" y="635" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eta.ssty1" format="2">
+  <advance width="777"/>
+  <anchor x="388" y="357" name="center"/>
+  <anchor x="389" y="0" name="math.ta"/>
+  <outline>
+    <component base="H.ssty1"/>
+  </outline>
+</glyph>

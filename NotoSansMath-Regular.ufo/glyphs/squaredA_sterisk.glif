@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squaredAsterisk" format="2">
+  <advance width="756"/>
+  <unicode hex="29C6"/>
+  <anchor x="378" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-52" type="line"/>
+      <point x="705" y="-52" type="line"/>
+      <point x="705" y="602" type="line"/>
+      <point x="51" y="602" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="19" type="line"/>
+      <point x="122" y="531" type="line"/>
+      <point x="634" y="531" type="line"/>
+      <point x="634" y="19" type="line"/>
+    </contour>
+    <contour>
+      <point x="307" y="73" type="line"/>
+      <point x="376" y="231" type="line"/>
+      <point x="453" y="73" type="line"/>
+      <point x="530" y="116" type="line"/>
+      <point x="423" y="258" type="line"/>
+      <point x="589" y="271" type="line"/>
+      <point x="576" y="354" type="line"/>
+      <point x="403" y="306" type="line"/>
+      <point x="421" y="478" type="line"/>
+      <point x="333" y="478" type="line"/>
+      <point x="352" y="306" type="line"/>
+      <point x="181" y="354" type="line"/>
+      <point x="168" y="271" type="line"/>
+      <point x="332" y="258" type="line"/>
+      <point x="227" y="116" type="line"/>
+    </contour>
+  </outline>
+</glyph>

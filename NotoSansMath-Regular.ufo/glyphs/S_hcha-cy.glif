@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shcha-cy" format="2">
+  <advance width="1031"/>
+  <unicode hex="0429"/>
+  <anchor x="519" y="-156" name="bottom"/>
+  <anchor x="519" y="357" name="center"/>
+  <anchor x="519" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="935" y="-156" type="line"/>
+      <point x="1021" y="-156" type="line"/>
+      <point x="1021" y="79" type="line"/>
+      <point x="941" y="79" type="line"/>
+      <point x="941" y="714" type="line"/>
+      <point x="851" y="714" type="line"/>
+      <point x="851" y="79" type="line"/>
+      <point x="564" y="79" type="line"/>
+      <point x="564" y="714" type="line"/>
+      <point x="474" y="714" type="line"/>
+      <point x="474" y="79" type="line"/>
+      <point x="187" y="79" type="line"/>
+      <point x="187" y="714" type="line"/>
+      <point x="97" y="714" type="line"/>
+      <point x="97" y="0" type="line"/>
+      <point x="935" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

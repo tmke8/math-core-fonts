@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteInBlackSquare" format="2">
+  <advance width="816"/>
+  <unicode hex="25A3"/>
+  <anchor x="408" y="357" name="center"/>
+  <outline>
+    <component base="whiteSquare"/>
+    <component base="blackSmallSquare" xOffset="157"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteSquare</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upperLeftTriangle" format="2">
+  <advance width="838"/>
+  <unicode hex="25F8"/>
+  <anchor x="419" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="776" y="714" type="line"/>
+      <point x="62" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="123" type="line"/>
+      <point x="113" y="663" type="line"/>
+      <point x="653" y="663" type="line"/>
+    </contour>
+  </outline>
+</glyph>

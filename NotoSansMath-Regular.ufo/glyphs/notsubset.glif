@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notsubset" format="2">
+  <advance width="699"/>
+  <unicode hex="2284"/>
+  <anchor x="349" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="379" y="-13" type="curve" smooth="yes"/>
+      <point x="648" y="-13" type="line"/>
+      <point x="648" y="57" type="line"/>
+      <point x="379" y="57" type="line" smooth="yes"/>
+      <point x="205" y="57"/>
+      <point x="123" y="124"/>
+      <point x="123" y="278" type="curve" smooth="yes"/>
+      <point x="123" y="432"/>
+      <point x="206" y="498"/>
+      <point x="379" y="498" type="curve" smooth="yes"/>
+      <point x="648" y="498" type="line"/>
+      <point x="648" y="569" type="line"/>
+      <point x="379" y="569" type="line" smooth="yes"/>
+      <point x="162" y="569"/>
+      <point x="51" y="468"/>
+      <point x="51" y="278" type="curve" smooth="yes"/>
+      <point x="51" y="89"/>
+      <point x="162" y="-13"/>
+    </contour>
+    <contour>
+      <point x="311" y="-132" type="line"/>
+      <point x="617" y="665" type="line"/>
+      <point x="555" y="688" type="line"/>
+      <point x="249" y="-109" type="line"/>
+    </contour>
+  </outline>
+</glyph>

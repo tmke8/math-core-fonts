@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parallelWithTildeOperator" format="2">
+  <advance width="573"/>
+  <unicode hex="2AF3"/>
+  <anchor x="287" y="277" name="center"/>
+  <outline>
+    <component base="parallel" xOffset="107"/>
+    <component base="asciitilde"/>
+  </outline>
+</glyph>

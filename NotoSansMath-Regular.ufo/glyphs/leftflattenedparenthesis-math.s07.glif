@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftflattenedparenthesis-math.s07" format="2">
+  <advance width="367"/>
+  <anchor x="155" y="333" name="center"/>
+  <outline>
+    <contour>
+      <point x="239.91666666666669" y="-1002.6666666666667" type="curve"/>
+      <point x="341.75" y="-1002.6666666666667" type="line"/>
+      <point x="247.08333333333334" y="-919.9166666666666"/>
+      <point x="169.5" y="-854.0833333333334"/>
+      <point x="169.5" y="-679.2500000000001" type="curve" smooth="yes"/>
+      <point x="169.5" y="1276.75" type="line" smooth="yes"/>
+      <point x="169.5" y="1439.25"/>
+      <point x="247.08333333333334" y="1505.0833333333335"/>
+      <point x="341.75" y="1587.8333333333335" type="curve"/>
+      <point x="239.91666666666669" y="1587.8333333333335" type="line"/>
+      <point x="152" y="1505.0833333333335"/>
+      <point x="80" y="1440.25"/>
+      <point x="80" y="1278.3333333333335" type="curve" smooth="yes"/>
+      <point x="80" y="-680.8333333333334" type="line" smooth="yes"/>
+      <point x="80" y="-855.0833333333334"/>
+      <point x="152" y="-919.9166666666666"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>7</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

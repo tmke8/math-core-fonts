@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightblacktortoiseshellbracket.s09" format="2">
+  <advance width="409"/>
+  <anchor x="137" y="333" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-1244" type="line"/>
+      <point x="121.5" y="-1244" type="line"/>
+      <point x="328.5" y="-806.5" type="line"/>
+      <point x="328.75" y="1380" type="line"/>
+      <point x="121.5" y="1817.5" type="line"/>
+      <point x="25" y="1817.5" type="line"/>
+      <point x="133.5" y="1588.5" type="line"/>
+      <point x="133.5" y="-1015" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>9</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

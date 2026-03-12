@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rscript.ssty2" format="2">
+  <advance width="935"/>
+  <anchor x="465" y="357" name="center"/>
+  <anchor x="641" y="0" name="math.ta"/>
+  <outline>
+    <component base="Rboldscript-math"/>
+  </outline>
+</glyph>

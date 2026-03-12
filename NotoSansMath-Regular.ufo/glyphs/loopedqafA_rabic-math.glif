@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="loopedqafArabic-math" format="2">
+  <advance width="806"/>
+  <unicode hex="1EE92"/>
+  <outline>
+    <contour>
+      <point x="74" y="-93" type="line"/>
+      <point x="158" y="-49"/>
+      <point x="341" y="86"/>
+      <point x="341" y="235" type="curve" smooth="yes"/>
+      <point x="341" y="301"/>
+      <point x="293" y="390"/>
+      <point x="202" y="390" type="curve" smooth="yes"/>
+      <point x="98" y="390"/>
+      <point x="57" y="282"/>
+      <point x="57" y="212" type="curve" smooth="yes"/>
+      <point x="57" y="71"/>
+      <point x="166" y="-21"/>
+      <point x="353" y="-21" type="curve" smooth="yes"/>
+      <point x="517" y="-21"/>
+      <point x="653" y="25"/>
+      <point x="718" y="150" type="curve" smooth="yes"/>
+      <point x="746" y="204"/>
+      <point x="756" y="271"/>
+      <point x="756" y="337" type="curve" smooth="yes"/>
+      <point x="756" y="463"/>
+      <point x="703" y="583"/>
+      <point x="596" y="583" type="curve" smooth="yes"/>
+      <point x="494" y="583"/>
+      <point x="428" y="467"/>
+      <point x="428" y="365" type="curve" smooth="yes"/>
+      <point x="428" y="279"/>
+      <point x="485" y="238"/>
+      <point x="587" y="238" type="curve" smooth="yes"/>
+      <point x="631" y="238"/>
+      <point x="677" y="246"/>
+      <point x="709" y="269" type="curve"/>
+      <point x="705" y="339" type="line"/>
+      <point x="677" y="325"/>
+      <point x="634" y="317"/>
+      <point x="596" y="317" type="curve" smooth="yes"/>
+      <point x="531" y="317"/>
+      <point x="507" y="343"/>
+      <point x="507" y="385" type="curve" smooth="yes"/>
+      <point x="507" y="439"/>
+      <point x="541" y="501"/>
+      <point x="588" y="501" type="curve" smooth="yes"/>
+      <point x="644" y="501"/>
+      <point x="678" y="426"/>
+      <point x="678" y="343" type="curve" smooth="yes"/>
+      <point x="678" y="296"/>
+      <point x="671" y="247"/>
+      <point x="658" y="207" type="curve" smooth="yes"/>
+      <point x="631" y="125"/>
+      <point x="529" y="63"/>
+      <point x="375" y="63" type="curve" smooth="yes"/>
+      <point x="246" y="63"/>
+      <point x="139" y="114"/>
+      <point x="139" y="214" type="curve" smooth="yes"/>
+      <point x="139" y="259"/>
+      <point x="160" y="308"/>
+      <point x="202" y="308" type="curve" smooth="yes"/>
+      <point x="238" y="308"/>
+      <point x="261" y="270"/>
+      <point x="261" y="235" type="curve" smooth="yes"/>
+      <point x="261" y="131"/>
+      <point x="122" y="9"/>
+      <point x="40" y="-38" type="curve"/>
+    </contour>
+    <contour>
+      <point x="509" y="685" type="curve" smooth="yes"/>
+      <point x="537" y="685"/>
+      <point x="559" y="707"/>
+      <point x="559" y="735" type="curve" smooth="yes"/>
+      <point x="559" y="764"/>
+      <point x="535" y="785"/>
+      <point x="509" y="785" type="curve" smooth="yes"/>
+      <point x="482" y="785"/>
+      <point x="459" y="762"/>
+      <point x="459" y="735" type="curve" smooth="yes"/>
+      <point x="459" y="708"/>
+      <point x="481" y="685"/>
+    </contour>
+    <contour>
+      <point x="646" y="685" type="curve" smooth="yes"/>
+      <point x="674" y="685"/>
+      <point x="696" y="707"/>
+      <point x="696" y="735" type="curve" smooth="yes"/>
+      <point x="696" y="764"/>
+      <point x="672" y="785"/>
+      <point x="646" y="785" type="curve" smooth="yes"/>
+      <point x="619" y="785"/>
+      <point x="596" y="762"/>
+      <point x="596" y="735" type="curve" smooth="yes"/>
+      <point x="596" y="708"/>
+      <point x="618" y="685"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Arabic Math Looped</string>
+    </dict>
+  </lib>
+</glyph>

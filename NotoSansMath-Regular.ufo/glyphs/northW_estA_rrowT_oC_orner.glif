@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northWestArrowToCorner" format="2">
+  <advance width="973"/>
+  <unicode hex="21F1"/>
+  <anchor x="518" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-102" type="line"/>
+      <point x="122" y="-102" type="line"/>
+      <point x="122" y="677" type="line"/>
+      <point x="922" y="677" type="line"/>
+      <point x="922" y="748" type="line"/>
+      <point x="51" y="748" type="line"/>
+    </contour>
+    <component base="northWestArrow" xOffset="142"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

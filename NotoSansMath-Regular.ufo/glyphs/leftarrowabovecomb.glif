@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftarrowabovecomb" format="2">
+  <unicode hex="20D6"/>
+  <anchor x="233" y="536" name="_top"/>
+  <anchor x="233" y="0" name="math.ta"/>
+  <anchor x="233" y="486" name="top"/>
+  <outline>
+    <component base="leftarrowabovecomb.s00"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>hAssembly</key>
+        <array>
+          <array>
+            <string>leftarrowabovecomb.s01</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>600</integer>
+          </array>
+          <array>
+            <string>leftarrowabovecomb.x</string>
+            <integer>1</integer>
+            <integer>600</integer>
+            <integer>600</integer>
+          </array>
+        </array>
+        <key>hVariants</key>
+        <array>
+          <string>leftarrowabovecomb.s00</string>
+          <string>leftarrowabovecomb.s01</string>
+          <string>leftarrowabovecomb.s02</string>
+          <string>leftarrowabovecomb.s03</string>
+          <string>leftarrowabovecomb.s04</string>
+          <string>leftarrowabovecomb.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>448</integer>
+    </dict>
+  </lib>
+</glyph>

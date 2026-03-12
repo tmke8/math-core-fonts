@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Osansitalic-math.ssty1" format="2">
+  <advance width="737"/>
+  <anchor x="412" y="357" name="center"/>
+  <anchor x="456" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="337" y="-10" type="curve" smooth="yes"/>
+      <point x="589" y="-10"/>
+      <point x="706" y="217"/>
+      <point x="706" y="453" type="curve" smooth="yes"/>
+      <point x="706" y="619"/>
+      <point x="615" y="725"/>
+      <point x="446" y="725" type="curve" smooth="yes"/>
+      <point x="196" y="725"/>
+      <point x="72" y="493"/>
+      <point x="72" y="263" type="curve" smooth="yes"/>
+      <point x="72" y="97"/>
+      <point x="166" y="-10"/>
+    </contour>
+    <contour>
+      <point x="346" y="102" type="curve" smooth="yes"/>
+      <point x="259" y="102"/>
+      <point x="207" y="160"/>
+      <point x="207" y="264" type="curve" smooth="yes"/>
+      <point x="207" y="454"/>
+      <point x="301" y="613"/>
+      <point x="435" y="613" type="curve" smooth="yes"/>
+      <point x="523" y="613"/>
+      <point x="571" y="551"/>
+      <point x="571" y="452" type="curve" smooth="yes"/>
+      <point x="571" y="248"/>
+      <point x="475" y="102"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thermodynamic" format="2">
+  <advance width="607"/>
+  <unicode hex="29E7"/>
+  <anchor x="303" y="279" name="center"/>
+  <outline>
+    <contour>
+      <point x="268" y="-32" type="line"/>
+      <point x="339" y="-32" type="line"/>
+      <point x="339" y="128" type="line"/>
+      <point x="556" y="128" type="line"/>
+      <point x="556" y="199" type="line"/>
+      <point x="339" y="199" type="line"/>
+      <point x="339" y="359" type="line"/>
+      <point x="556" y="359" type="line"/>
+      <point x="556" y="430" type="line"/>
+      <point x="339" y="430" type="line"/>
+      <point x="339" y="590" type="line"/>
+      <point x="268" y="590" type="line"/>
+      <point x="268" y="430" type="line"/>
+      <point x="51" y="430" type="line"/>
+      <point x="51" y="359" type="line"/>
+      <point x="268" y="359" type="line"/>
+      <point x="268" y="199" type="line"/>
+      <point x="51" y="199" type="line"/>
+      <point x="51" y="128" type="line"/>
+      <point x="268" y="128" type="line"/>
+    </contour>
+  </outline>
+</glyph>

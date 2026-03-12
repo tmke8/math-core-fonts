@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Mu" format="2">
+  <advance width="907"/>
+  <unicode hex="039C"/>
+  <anchor x="448" y="0" name="bottom"/>
+  <anchor x="453" y="357" name="center"/>
+  <anchor x="454" y="0" name="math.ta"/>
+  <anchor x="454" y="714" name="top"/>
+  <anchor x="887" y="714" name="topright"/>
+  <outline>
+    <component base="M"/>
+  </outline>
+</glyph>

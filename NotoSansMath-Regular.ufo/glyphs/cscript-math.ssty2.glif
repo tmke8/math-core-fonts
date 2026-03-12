@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cscript-math.ssty2" format="2">
+  <advance width="386"/>
+  <anchor x="198" y="150" name="center"/>
+  <anchor x="423" y="0" name="math.ta"/>
+  <outline>
+    <component base="cboldscript-math"/>
+  </outline>
+</glyph>

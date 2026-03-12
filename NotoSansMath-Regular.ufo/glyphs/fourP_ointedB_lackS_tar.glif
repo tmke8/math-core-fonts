@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourPointedBlackStar" format="2">
+  <advance width="800"/>
+  <unicode hex="1F7C6"/>
+  <anchor x="400" y="357" name="center"/>
+  <outline>
+    <contour>
+      <point x="400" y="7" type="line"/>
+      <point x="504" y="253" type="line"/>
+      <point x="750" y="357" type="line"/>
+      <point x="504" y="461" type="line"/>
+      <point x="400" y="707" type="line"/>
+      <point x="296" y="461" type="line"/>
+      <point x="50" y="357" type="line"/>
+      <point x="296" y="253" type="line"/>
+    </contour>
+  </outline>
+</glyph>

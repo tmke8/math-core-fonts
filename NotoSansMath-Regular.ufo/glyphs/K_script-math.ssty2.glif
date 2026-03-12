@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kscript-math.ssty2" format="2">
+  <advance width="1167"/>
+  <anchor x="583" y="353" name="center"/>
+  <anchor x="910" y="0" name="math.ta"/>
+  <outline>
+    <component base="Kboldscript-math"/>
+  </outline>
+</glyph>

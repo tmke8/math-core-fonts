@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightanglebracketdot" format="2">
+  <advance width="407"/>
+  <unicode hex="2992"/>
+  <anchor x="192" y="313" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-158" type="line"/>
+      <point x="130" y="-158" type="line"/>
+      <point x="356" y="333" type="line"/>
+      <point x="141" y="784" type="line"/>
+      <point x="62" y="784" type="line"/>
+      <point x="273" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="273" type="curve" smooth="yes"/>
+      <point x="173" y="273"/>
+      <point x="201" y="299"/>
+      <point x="201" y="333" type="curve" smooth="yes"/>
+      <point x="201" y="366"/>
+      <point x="174" y="393"/>
+      <point x="141" y="393" type="curve" smooth="yes"/>
+      <point x="106" y="393"/>
+      <point x="81" y="364"/>
+      <point x="81" y="333" type="curve" smooth="yes"/>
+      <point x="81" y="300"/>
+      <point x="108" y="273"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vVariants</key>
+        <array>
+          <string>rightanglebracketdot</string>
+          <string>rightanglebracketdot.s01</string>
+          <string>rightanglebracketdot.s02</string>
+          <string>rightanglebracketdot.s03</string>
+          <string>rightanglebracketdot.s04</string>
+          <string>rightanglebracketdot.s05</string>
+          <string>rightanglebracketdot.s06</string>
+          <string>rightanglebracketdot.s07</string>
+          <string>rightanglebracketdot.s08</string>
+          <string>rightanglebracketdot.s09</string>
+          <string>rightanglebracketdot.s10</string>
+          <string>rightanglebracketdot.s11</string>
+          <string>rightanglebracketdot.s12</string>
+          <string>rightanglebracketdot.s13</string>
+          <string>rightanglebracketdot.s14</string>
+          <string>rightanglebracketdot.s15</string>
+          <string>rightanglebracketdot.s16</string>
+          <string>rightanglebracketdot.s17</string>
+          <string>rightanglebracketdot.s18</string>
+          <string>rightanglebracketdot.s19</string>
+          <string>rightanglebracketdot.s20</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

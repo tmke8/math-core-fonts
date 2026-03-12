@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="volumeintegral.rtlm.ss02.s01" format="2">
+  <advance width="990"/>
+  <anchor x="472" y="0" name="#exit"/>
+  <anchor x="213" y="0" name="#entry"/>
+  <anchor x="404" y="322" name="center"/>
+  <anchor x="1080" y="0" name="math.ic"/>
+  <outline>
+    <component base="volumeintegral.ss02.s01" xScale="-1" xOffset="990"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>volumeintegral.ss02.s01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Largeop</string>
+    </dict>
+  </lib>
+</glyph>

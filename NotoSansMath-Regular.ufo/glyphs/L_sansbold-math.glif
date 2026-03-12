@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lsansbold-math" format="2">
+  <advance width="565"/>
+  <unicode hex="1D5DF"/>
+  <unicode hex="1D40B"/>
+  <anchor x="283" y="357" name="center"/>
+  <anchor x="170" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="531" y="0" type="line"/>
+      <point x="531" y="125" type="line"/>
+      <point x="241" y="125" type="line"/>
+      <point x="241" y="714" type="line"/>
+      <point x="90" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Qscript-math.ssty2" format="2">
+  <advance width="795"/>
+  <anchor x="407" y="357" name="center"/>
+  <anchor x="600" y="0" name="math.ta"/>
+  <outline>
+    <component base="Qboldscript-math"/>
+  </outline>
+</glyph>

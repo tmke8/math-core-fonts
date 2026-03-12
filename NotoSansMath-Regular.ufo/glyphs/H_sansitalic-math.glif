@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hsansitalic-math" format="2">
+  <advance width="680"/>
+  <unicode hex="1D60F"/>
+  <unicode hex="1D43B"/>
+  <anchor x="378" y="357" name="center"/>
+  <anchor x="704" y="0" name="math.ic"/>
+  <anchor x="453" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="42" y="0" type="line"/>
+      <point x="131" y="0" type="line"/>
+      <point x="201" y="333" type="line"/>
+      <point x="515" y="333" type="line"/>
+      <point x="445" y="0" type="line"/>
+      <point x="533" y="0" type="line"/>
+      <point x="684" y="714" type="line"/>
+      <point x="596" y="714" type="line"/>
+      <point x="532" y="412" type="line"/>
+      <point x="218" y="412" type="line"/>
+      <point x="282" y="714" type="line"/>
+      <point x="193" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>Sans</string>
+    </dict>
+  </lib>
+</glyph>

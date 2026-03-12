@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pscript-math.ssty2" format="2">
+  <advance width="541"/>
+  <anchor x="167" y="130" name="center"/>
+  <anchor x="429" y="0" name="math.ta"/>
+  <outline>
+    <component base="pboldscript-math"/>
+  </outline>
+</glyph>

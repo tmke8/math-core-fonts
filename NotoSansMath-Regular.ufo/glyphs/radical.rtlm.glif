@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical.rtlm" format="2">
+  <advance width="679"/>
+  <anchor x="299" y="528" name="center"/>
+  <outline>
+    <component base="radical" xScale="-1" xOffset="679"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>radical.rtlm.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>1272</integer>
+          </array>
+          <array>
+            <string>radical.rtlm.x</string>
+            <integer>1</integer>
+            <integer>1070</integer>
+            <integer>1070</integer>
+          </array>
+          <array>
+            <string>radical.rtlm.t</string>
+            <integer>0</integer>
+            <integer>998</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>radical.rtlm</string>
+          <string>radical.rtlm.s01</string>
+          <string>radical.rtlm.s02</string>
+          <string>radical.rtlm.s03</string>
+          <string>radical.rtlm.s04</string>
+          <string>radical.rtlm.s05</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>radical</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Radical</string>
+    </dict>
+  </lib>
+</glyph>

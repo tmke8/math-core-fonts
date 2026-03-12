@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotaitalic-math.ssty1" format="2">
+  <advance width="411"/>
+  <anchor x="244" y="357" name="center"/>
+  <anchor x="496" y="0" name="math.ic"/>
+  <anchor x="355" y="0" name="math.ta"/>
+  <outline>
+    <component base="Isansitalic-math.ssty1"/>
+  </outline>
+</glyph>

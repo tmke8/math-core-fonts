@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftsemidirectproduct" format="2">
+  <advance width="736"/>
+  <unicode hex="22CB"/>
+  <anchor x="368" y="277" name="center"/>
+  <outline>
+    <contour>
+      <point x="98" y="-42" type="line"/>
+      <point x="369" y="226" type="line"/>
+      <point x="638" y="-42" type="line"/>
+      <point x="685" y="11" type="line"/>
+      <point x="98" y="596" type="line"/>
+      <point x="51" y="544" type="line"/>
+      <point x="317" y="278" type="line"/>
+      <point x="52" y="11" type="line"/>
+    </contour>
+  </outline>
+</glyph>

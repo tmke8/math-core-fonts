@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightflattenedparenthesis-math" format="2">
+  <advance width="330"/>
+  <unicode hex="27EF"/>
+  <anchor x="155" y="333" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-158" type="curve"/>
+      <point x="121" y="-158" type="line"/>
+      <point x="192" y="-91"/>
+      <point x="250" y="-39"/>
+      <point x="250" y="102" type="curve" smooth="yes"/>
+      <point x="250" y="534" type="line" smooth="yes"/>
+      <point x="250" y="665"/>
+      <point x="192" y="717"/>
+      <point x="121" y="784" type="curve"/>
+      <point x="25" y="784" type="line"/>
+      <point x="101" y="717"/>
+      <point x="164" y="664"/>
+      <point x="164" y="533" type="curve" smooth="yes"/>
+      <point x="164" y="103" type="line" smooth="yes"/>
+      <point x="164" y="-38"/>
+      <point x="101" y="-91"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.nagwa.MATHPlugin.variants</key>
+      <dict>
+        <key>vAssembly</key>
+        <array>
+          <array>
+            <string>parenright.b</string>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>627</integer>
+          </array>
+          <array>
+            <string>parenright.x</string>
+            <integer>1</integer>
+            <integer>1069</integer>
+            <integer>1069</integer>
+          </array>
+          <array>
+            <string>parenright.t</string>
+            <integer>0</integer>
+            <integer>627</integer>
+            <integer>0</integer>
+          </array>
+        </array>
+        <key>vVariants</key>
+        <array>
+          <string>rightflattenedparenthesis-math</string>
+          <string>rightflattenedparenthesis-math.s01</string>
+          <string>rightflattenedparenthesis-math.s02</string>
+          <string>rightflattenedparenthesis-math.s03</string>
+          <string>rightflattenedparenthesis-math.s04</string>
+          <string>rightflattenedparenthesis-math.s05</string>
+          <string>rightflattenedparenthesis-math.s06</string>
+          <string>rightflattenedparenthesis-math.s07</string>
+          <string>rightflattenedparenthesis-math.s08</string>
+          <string>rightflattenedparenthesis-math.s09</string>
+          <string>rightflattenedparenthesis-math.s10</string>
+          <string>rightflattenedparenthesis-math.s11</string>
+          <string>rightflattenedparenthesis-math.s12</string>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pi.ssty2" format="2">
+  <advance width="831"/>
+  <anchor x="434" y="357" name="center"/>
+  <anchor x="416" y="0" name="math.ta"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="284" y="0" type="line"/>
+      <point x="284" y="592" type="line"/>
+      <point x="585" y="592" type="line"/>
+      <point x="585" y="0" type="line"/>
+      <point x="733" y="0" type="line"/>
+      <point x="733" y="714" type="line"/>
+      <point x="136" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

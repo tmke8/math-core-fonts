@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="longLeftTack" format="2">
+  <advance width="876"/>
+  <unicode hex="27DE"/>
+  <anchor x="438" y="278" name="center"/>
+  <outline>
+    <contour>
+      <point x="754" y="51" type="line"/>
+      <point x="825" y="51" type="line"/>
+      <point x="825" y="505" type="line"/>
+      <point x="754" y="505" type="line"/>
+      <point x="754" y="314" type="line"/>
+      <point x="51" y="314" type="line"/>
+      <point x="51" y="243" type="line"/>
+      <point x="754" y="243" type="line"/>
+    </contour>
+  </outline>
+</glyph>

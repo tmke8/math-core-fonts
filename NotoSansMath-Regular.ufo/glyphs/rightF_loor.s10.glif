@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightFloor.s10" format="2">
+  <advance width="439"/>
+  <anchor x="265.833" y="282" name="center"/>
+  <outline>
+    <contour>
+      <point x="25" y="-1364.6666666666667" type="line"/>
+      <point x="359" y="-1364.6666666666667" type="line"/>
+      <point x="359" y="1932.3333333333335" type="line"/>
+      <point x="268" y="1932.3333333333335" type="line"/>
+      <point x="268" y="-1273.6666666666667" type="line"/>
+      <point x="25" y="-1273.6666666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fence</string>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict>
+          <key>Size</key>
+          <integer>10</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

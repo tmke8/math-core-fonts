@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftArrowAboveAlmostEqualTo" format="2">
+  <advance width="1012"/>
+  <unicode hex="2B4A"/>
+  <anchor x="506" y="279" name="center"/>
+  <anchor x="619" y="-716" name="math.ta"/>
+  <anchor x="619" y="19" name="top"/>
+  <outline>
+    <component base="rightArrowAboveReverseAlmostEqualTo" xScale="-1" xOffset="1012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rightArrowAboveReverseAlmostEqualTo</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Arrow</string>
+    </dict>
+  </lib>
+</glyph>

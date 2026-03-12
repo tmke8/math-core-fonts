@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallineextension" format="2">
+  <advance width="500"/>
+  <unicode hex="23D0"/>
+  <anchor x="250" y="681" name="center"/>
+  <outline>
+    <component base="rightverticalboxline" xOffset="-411"/>
+  </outline>
+</glyph>

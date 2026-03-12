@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteSquareWithRightTick" format="2">
+  <advance width="877"/>
+  <unicode hex="27E5"/>
+  <anchor x="466" y="275" name="center"/>
+  <outline>
+    <contour>
+      <point x="51" y="-52" type="line"/>
+      <point x="705" y="-52" type="line"/>
+      <point x="705" y="240" type="line"/>
+      <point x="882" y="240" type="line"/>
+      <point x="882" y="310" type="line"/>
+      <point x="705" y="310" type="line"/>
+      <point x="705" y="602" type="line"/>
+      <point x="51" y="602" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="19" type="line"/>
+      <point x="122" y="531" type="line"/>
+      <point x="634" y="531" type="line"/>
+      <point x="634" y="19" type="line"/>
+    </contour>
+  </outline>
+</glyph>

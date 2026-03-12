@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappa.ssty2" format="2">
+  <advance width="729"/>
+  <anchor x="432" y="357" name="center"/>
+  <anchor x="400" y="0" name="math.ta"/>
+  <outline>
+    <component base="K.ssty2"/>
+  </outline>
+</glyph>
