@@ -5,7 +5,7 @@
   <anchor x="229" y="0" name="math.ta"/>
   <anchor x="229" y="486" name="top"/>
   <outline>
-    <component base="rightarrowabovecomb.s00" xOffset="-212" yOffset="-12"/>
+    <component base="rightarrowabovecomb.s00" xOffset="-213" yOffset="-554"/>
   </outline>
   <lib>
     <dict>
