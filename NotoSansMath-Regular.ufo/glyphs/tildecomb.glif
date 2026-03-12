@@ -5,7 +5,7 @@
   <anchor x="184" y="0" name="math.ta"/>
   <anchor x="184" y="735" name="top"/>
   <outline>
-    <component base="tildecomb.s00"/>
+    <component base="tildecomb.s00" xOffset="-183" yOffset="-526"/>
   </outline>
   <lib>
     <dict>
