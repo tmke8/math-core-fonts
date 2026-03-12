@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb" format="2">
+  <advance width="500"/>
   <unicode hex="0302"/>
   <anchor x="169" y="536" name="_top"/>
   <anchor x="167" y="0" name="math.ta"/>
   <anchor x="169" y="766" name="top"/>
   <outline>
-    <component base="circumflexcomb.s00"/>
+    <component base="circumflexcomb.s00" xOffset="-165" yOffset="-1"/>
   </outline>
   <lib>
     <dict>
