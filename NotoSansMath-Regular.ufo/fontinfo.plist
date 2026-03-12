@@ -15,60 +15,80 @@
     <key>guidelines</key>
     <array>
       <dict>
+        <key>identifier</key>
+        <string>gGDi5NyDlv</string>
         <key>name</key>
         <string>.s12 top [locked]</string>
         <key>y</key>
         <integer>2162</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>NGqIVPkXd0</string>
         <key>name</key>
         <string>.s12 bottom [locked]</string>
         <key>y</key>
         <integer>-1606</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>h4rtFoYplg</string>
         <key>name</key>
         <string>bracket-base-regular [locked]</string>
         <key>y</key>
         <integer>-158</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>3YRaB7AALh</string>
         <key>name</key>
         <string>bracket-top-regular [locked]</string>
         <key>y</key>
         <integer>784</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>ot3bSNpRRQ</string>
         <key>name</key>
         <string>bottom-brackets [locked]</string>
         <key>y</key>
         <integer>-60</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>2wG0EKXysf</string>
         <key>name</key>
         <string>AxisHeight [locked]</string>
         <key>y</key>
         <integer>278</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>CBKMy0Vq7p</string>
         <key>name</key>
         <string>largeop top [locked]</string>
         <key>y</key>
         <integer>714</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>vbNZ4MsUFL</string>
         <key>name</key>
         <string>largeop bottom [locked]</string>
         <key>y</key>
         <integer>-240</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>7vjrxF4zn0</string>
         <key>name</key>
         <string>.s20 top [locked]</string>
         <key>y</key>
         <integer>3104</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>whdEqGV85m</string>
         <key>name</key>
         <string>.s20 bottom [locked]</string>
         <key>y</key>
