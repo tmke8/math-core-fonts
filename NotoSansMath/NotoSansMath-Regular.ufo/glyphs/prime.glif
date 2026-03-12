@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="prime" format="2">
-  <advance width="232"/>
+  <advance width="387"/>
   <unicode hex="2032"/>
   <anchor x="148" y="585" name="center"/>
   <outline>
     <contour>
-      <point x="39" y="456" type="line"/>
-      <point x="97" y="456" type="line"/>
-      <point x="258" y="714" type="line"/>
-      <point x="168" y="714" type="line"/>
+      <point x="39" y="106" type="line"/>
+      <point x="136" y="106" type="line"/>
+      <point x="404" y="536" type="line"/>
+      <point x="254" y="536" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,27 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tripleprime" format="2">
-  <advance width="584"/>
+  <advance width="973"/>
   <unicode hex="2034"/>
   <anchor x="324" y="585" name="center"/>
   <outline>
-    <contour>
-      <point x="391" y="456" type="line"/>
-      <point x="449" y="456" type="line"/>
-      <point x="610" y="714" type="line"/>
-      <point x="520" y="714" type="line"/>
-    </contour>
-    <contour>
-      <point x="39" y="456" type="line"/>
-      <point x="97" y="456" type="line"/>
-      <point x="258" y="714" type="line"/>
-      <point x="168" y="714" type="line"/>
-    </contour>
-    <contour>
-      <point x="215" y="456" type="line"/>
-      <point x="273" y="456" type="line"/>
-      <point x="434" y="714" type="line"/>
-      <point x="344" y="714" type="line"/>
-    </contour>
+    <component base="prime" xOffset="598"/>
+    <component base="prime" xOffset="299"/>
+    <component base="prime"/>
   </outline>
   <lib>
     <dict>

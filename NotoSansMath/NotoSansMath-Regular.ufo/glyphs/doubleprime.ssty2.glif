@@ -3,7 +3,7 @@
   <advance width="816"/>
   <anchor x="472" y="278" name="center"/>
   <outline>
-    <component base="doubleprime" xScale="2" yScale="2" yOffset="-892"/>
+    <component base="doubleprime" xScale="1.2" yScale="1.2" yOffset="-100"/>
   </outline>
   <lib>
     <dict>
