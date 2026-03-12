@@ -126,6 +126,10 @@
       <integer>1069</integer>
       <integer>1085</integer>
     </array>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-439</integer>
