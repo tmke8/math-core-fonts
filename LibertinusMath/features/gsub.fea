@@ -1,0 +1,72 @@
+#if defined(MATH) || defined(DISPLAY)
+#define NOSMALLCAPS
+#endif
+
+## languages added here must also be added in the smcp feature in sc.fea
+
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem cyrl MKD;
+languagesystem grek dflt;
+languagesystem hebr dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn dflt;
+languagesystem latn FIN;
+languagesystem latn ISM;
+languagesystem latn KAZ;
+languagesystem latn LSM;
+languagesystem latn NLD;
+languagesystem latn NOR;
+languagesystem latn NSM;
+languagesystem latn SKS;
+languagesystem latn SSM;
+languagesystem latn SVE;
+languagesystem latn TAT;
+languagesystem latn TRK;
+#ifdef MATH
+languagesystem math dflt;
+#endif
+
+#ifndef MATH
+#include "locl.fea"
+
+#include "frac.fea"
+
+#include "small.fea"
+
+#include "case.fea"
+#endif
+
+#ifndef NOSMALLCAPS
+#include "sc.fea"
+#endif
+
+#include "dhlig.fea"
+
+#include "num.fea"
+
+#ifndef MATH
+#include "salt.fea"
+
+#include "ccmp.fea"
+
+#include "sscv.fea"
+#endif
+
+#ifdef SANS
+#include "liga_sans.fea"
+#else
+#include "liga.fea"
+#endif
+
+#ifndef MATH
+#include "calt.fea"
+#endif
+
+#ifdef MATH
+#include "ssty.fea"
+
+#include "integrals.fea"
+#endif
