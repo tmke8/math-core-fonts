@@ -28418,22 +28418,22 @@ StartChar: uni0302
 Encoding: 770 770 671
 Width: 0
 GlyphClass: 4
-Flags: MW
+Flags: HMW
 TopAccentHorizontal: -138
 GlyphVariantsHorizontal: uni0302 uni0302.size1 uni0302.size2 uni0302.size3 uni0302.size4 uni0302.size5
-AnchorPoint: "above" 1 697 mark 0
+AnchorPoint: "above" 1 157 mark 0
 AnchorPoint: "aboveMark" 2 914 basemark 0
 LayerCount: 2
 Fore
 SplineSet
-17 711 m 1
- 46 664 90 611 126 571 c 1
- 121 564 112.400390625 555.900390625 103 554 c 1
- 65 578 30 606 0 637 c 1
- -32 605 -65 576 -104 554 c 1
- -113 556 -120 562 -126 571 c 1
- -90 611 -44 665 -15 711 c 1
- -4.2998046875 713.299804688 6.2998046875 714 17 711 c 1
+17 171 m 5
+ 46 124 90 71 126 31 c 5
+ 121 24 112.400390625 15.900390625 103 14 c 5
+ 65 38 30 66 0 97 c 5
+ -32 65 -65 36 -104 14 c 5
+ -113 16 -120 22 -126 31 c 5
+ -90 71 -44 125 -15 171 c 5
+ -4.2998046875 173.299804688 6.2998046875 174 17 171 c 5
 EndSplineSet
 EndChar
 
@@ -28540,18 +28540,18 @@ GlyphClass: 4
 Flags: HMW
 TopAccentHorizontal: -205
 GlyphVariantsHorizontal: uni030C uni030C.size1 uni030C.size2 uni030C.size3 uni030C.size4 uni030C.size5
-AnchorPoint: "above" -2 676 mark 0
+AnchorPoint: "above" -2 149 mark 0
 LayerCount: 2
 Fore
 SplineSet
--26 533 m 5
- -55 580 -92 625 -127 663 c 5
- -107 676 l 5
- -68 647 -35 622 -1 586 c 5
- 36 624 70 649 107 676 c 5
- 126 663 l 5
- 91 624 53 579 24 533 c 5
- -26 533 l 5
+-26 6 m 5
+ -55 53 -92 98 -127 136 c 5
+ -107 149 l 5
+ -68 120 -35 95 -1 59 c 5
+ 36 97 70 122 107 149 c 5
+ 126 136 l 5
+ 91 97 53 52 24 6 c 5
+ -26 6 l 5
 EndSplineSet
 EndChar
 
@@ -133834,13 +133834,13 @@ StartChar: uni20D7
 Encoding: 8407 8407 3345
 Width: 420
 GlyphClass: 4
-Flags: MW
+Flags: HMW
 TopAccentHorizontal: 210
 GlyphVariantsHorizontal: uni20D7
 GlyphCompositionHorizontal: 2  uni20D6.ex%1,112,112,335 uni20D7%0,140,140,420
 LayerCount: 2
 Fore
-Refer: 3344 8406 N -1 0 0 1 420 0 3
+Refer: 3344 8406 S -1 0 0 1 420 -555 3
 EndChar
 
 StartChar: uni20D6.ex
@@ -152021,7 +152021,7 @@ StartChar: uni2A36
 Encoding: 10806 10806 3957
 Width: 730
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 2082 8855 N 1 0 0 1 0 0 3
