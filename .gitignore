@@ -1,3 +1,6 @@
 .DS_Store
 .python-version
 /LibertinusMath/build/
+
+*.otf
+*.woff2
