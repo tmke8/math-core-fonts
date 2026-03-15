@@ -28537,21 +28537,21 @@ StartChar: uni030C
 Encoding: 780 780 676
 Width: 0
 GlyphClass: 4
-Flags: MW
+Flags: HMW
 TopAccentHorizontal: -205
 GlyphVariantsHorizontal: uni030C uni030C.size1 uni030C.size2 uni030C.size3 uni030C.size4 uni030C.size5
-AnchorPoint: "above" -205 676 mark 0
+AnchorPoint: "above" -2 676 mark 0
 LayerCount: 2
 Fore
 SplineSet
--229 533 m 1
- -258 580 -295 625 -330 663 c 1
- -310 676 l 1
- -271 647 -238 622 -204 586 c 1
- -167 624 -133 649 -96 676 c 1
- -77 663 l 1
- -112 624 -150 579 -179 533 c 1
- -229 533 l 1
+-26 533 m 5
+ -55 580 -92 625 -127 663 c 5
+ -107 676 l 5
+ -68 647 -35 622 -1 586 c 5
+ 36 624 70 649 107 676 c 5
+ 126 663 l 5
+ 91 624 53 579 24 533 c 5
+ -26 533 l 5
 EndSplineSet
 EndChar
 
