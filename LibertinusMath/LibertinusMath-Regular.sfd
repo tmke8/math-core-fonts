@@ -28373,21 +28373,21 @@ StartChar: gravecomb
 Encoding: 768 768 669
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -142
-AnchorPoint: "above" 21 683 mark 0
+AnchorPoint: "above" -142 683 mark 0
 LayerCount: 2
 Fore
 SplineSet
-7 708 m 5
- 77 582 l 6
- 82 572 83 565 83 558 c 4
- 83 553 76 547 68 547 c 4
- 62 547 55 552 39 567 c 6
- -75 676 l 5
- -73 687 l 5
- -65 693 -42 710 -8 710 c 4
- -3 710 3 709 7 708 c 5
+-156 708 m 1
+ -86 582 l 2
+ -81 572 -80 565 -80 558 c 0
+ -80 553 -87 547 -95 547 c 0
+ -101 547 -108 552 -124 567 c 2
+ -238 676 l 1
+ -236 687 l 1
+ -228 693 -205 710 -171 710 c 0
+ -166 710 -160 709 -156 708 c 1
 EndSplineSet
 EndChar
 
@@ -28395,22 +28395,22 @@ StartChar: acutecomb
 Encoding: 769 769 670
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -192
-AnchorPoint: "above" -25 682 mark 0
+AnchorPoint: "above" -191 682 mark 0
 AnchorPoint: "aboveMark" -196 914 basemark 0
 LayerCount: 2
 Fore
 SplineSet
-14 708 m 5
- 17 709 23 710 28 710 c 4
- 34.400390625 710 60 709 83 687 c 5
- 86 676 l 5
- -29 567 l 6
- -44 552 -52 548 -59 548 c 4
- -66 548 -73 554 -73 561 c 4
- -73 572.200195312 -69.7001953125 576.200195312 -61.599609375 589 c 6
- 14 708 l 5
+-152 708 m 1
+ -149 709 -143 710 -138 710 c 0
+ -131.6 710 -106 709 -83 687 c 1
+ -80 676 l 1
+ -195 567 l 2
+ -210 552 -218 548 -225 548 c 0
+ -232 548 -239 554 -239 561 c 0
+ -239 572.2 -235.7 576.2 -227.6 589 c 2
+ -152 708 l 1
 EndSplineSet
 EndChar
 
@@ -28418,22 +28418,22 @@ StartChar: uni0302
 Encoding: 770 770 671
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -138
 GlyphVariantsHorizontal: uni0302 uni0302.size1 uni0302.size2 uni0302.size3 uni0302.size4 uni0302.size5
-AnchorPoint: "above" 1 157 mark 0
-AnchorPoint: "aboveMark" 2 914 basemark 0
+AnchorPoint: "above" -139 697 mark 0
+AnchorPoint: "aboveMark" -138 914 basemark 0
 LayerCount: 2
 Fore
 SplineSet
-17 171 m 5
- 46 124 90 71 126 31 c 5
- 121 24 112.400390625 15.900390625 103 14 c 5
- 65 38 30 66 0 97 c 5
- -32 65 -65 36 -104 14 c 5
- -113 16 -120 22 -126 31 c 5
- -90 71 -44 125 -15 171 c 5
- -4.2998046875 173.299804688 6.2998046875 174 17 171 c 5
+-123 711 m 1
+ -94 664 -50 611 -14 571 c 1
+ -19 564 -27.6 555.9 -37 554 c 1
+ -75 578 -110 606 -140 637 c 1
+ -172 605 -205 576 -244 554 c 1
+ -253 556 -260 562 -266 571 c 1
+ -230 611 -184 665 -155 711 c 1
+ -144.3 713.3 -133.7 714 -123 711 c 1
 EndSplineSet
 EndChar
 
@@ -28444,22 +28444,22 @@ GlyphClass: 4
 Flags: MW
 TopAccentHorizontal: -138
 GlyphVariantsHorizontal: tildecomb tildecomb.size1 tildecomb.size2 tildecomb.size3 tildecomb.size4 tildecomb.size5
-AnchorPoint: "above" 10 697 mark 0
-AnchorPoint: "aboveMark" 11 874 basemark 0
+AnchorPoint: "above" -139 697 mark 0
+AnchorPoint: "aboveMark" -138 874 basemark 0
 LayerCount: 2
 Fore
 SplineSet
-65 621 m 0
- 87 621 98 631 112 673 c 1
- 123 674 133 671 139 667 c 1
- 127 607 98 568 52 568 c 0
- 30 568 9 586 -12 600 c 0
- -30 611 -49 619 -66 619 c 0
- -92 619 -102 604 -112 571 c 1
- -123 569 -133 570 -139 576 c 1
- -125 635 -102 674 -59 674 c 0
- -29 674 -7 654 13 640 c 0
- 29 628 46 621 65 621 c 0
+-84 621 m 0
+ -62 621 -51 631 -37 673 c 1
+ -26 674 -16 671 -10 667 c 1
+ -22 607 -51 568 -97 568 c 0
+ -119 568 -140 586 -161 600 c 0
+ -179 611 -198 619 -215 619 c 0
+ -241 619 -251 604 -261 571 c 1
+ -272 569 -282 570 -288 576 c 1
+ -274 635 -251 674 -208 674 c 0
+ -178 674 -156 654 -136 640 c 0
+ -120 628 -103 621 -84 621 c 0
 EndSplineSet
 EndChar
 
@@ -28467,17 +28467,17 @@ StartChar: uni0307
 Encoding: 775 775 673
 Width: 0
 GlyphClass: 4
-Flags: HMWO
+Flags: MW
 TopAccentHorizontal: -180
-AnchorPoint: "above" 1 667 mark 0
+AnchorPoint: "above" -180 667 mark 0
 LayerCount: 2
 Fore
 SplineSet
--49 576 m 4
- -49 600 -21 624 3 624 c 4
- 30 624 51 596 51 572 c 4
- 51 550.900390625 27 524 -1 524 c 4
- -25 524 -49 550 -49 576 c 4
+-230 576 m 0
+ -230 600 -202 624 -178 624 c 0
+ -151 624 -130 596 -130 572 c 0
+ -130 550.9 -154 524 -182 524 c 0
+ -206 524 -230 550 -230 576 c 0
 EndSplineSet
 EndChar
 
@@ -28485,23 +28485,23 @@ StartChar: uni0308
 Encoding: 776 776 674
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -210
-AnchorPoint: "above" -3 645 mark 0
+AnchorPoint: "above" -210 645 mark 0
 AnchorPoint: "aboveMark" -210 824 basemark 0
 LayerCount: 2
 Fore
 SplineSet
--134 573 m 4
- -134 599 -113 621 -87 621 c 4
- -61 621 -40 599 -40 573 c 4
- -40 547 -61 526 -87 526 c 4
- -113 526 -134 547 -134 573 c 4
-35 573 m 4
- 35 599 56 621 82 621 c 4
- 108 621 129 599 129 573 c 4
- 129 547 108 526 82 526 c 4
- 56 526 35 547 35 573 c 4
+-341 573 m 0
+ -341 599 -320 621 -294 621 c 0
+ -268 621 -247 599 -247 573 c 0
+ -247 547 -268 526 -294 526 c 0
+ -320 526 -341 547 -341 573 c 0
+-172 573 m 0
+ -172 599 -151 621 -125 621 c 0
+ -99 621 -78 599 -78 573 c 0
+ -78 547 -99 526 -125 526 c 0
+ -151 526 -172 547 -172 573 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -28537,21 +28537,21 @@ StartChar: uni030C
 Encoding: 780 780 676
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -205
 GlyphVariantsHorizontal: uni030C uni030C.size1 uni030C.size2 uni030C.size3 uni030C.size4 uni030C.size5
-AnchorPoint: "above" -2 149 mark 0
+AnchorPoint: "above" -205 676 mark 0
 LayerCount: 2
 Fore
 SplineSet
--26 6 m 5
- -55 53 -92 98 -127 136 c 5
- -107 149 l 5
- -68 120 -35 95 -1 59 c 5
- 36 97 70 122 107 149 c 5
- 126 136 l 5
- 91 97 53 52 24 6 c 5
- -26 6 l 5
+-229 533 m 1
+ -258 580 -295 625 -330 663 c 1
+ -310 676 l 1
+ -271 647 -238 622 -204 586 c 1
+ -167 624 -133 649 -96 676 c 1
+ -77 663 l 1
+ -112 624 -150 579 -179 533 c 1
+ -229 533 l 1
 EndSplineSet
 EndChar
 
@@ -56717,21 +56717,21 @@ StartChar: uni0306
 Encoding: 774 774 1403
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: MW
 TopAccentHorizontal: -161
 GlyphVariantsHorizontal: uni0306 uni0306.size1 uni0306.size2 uni0306.size3 uni0306.size4 uni0306.size5
-AnchorPoint: "above" 0 681 mark 0
-AnchorPoint: "aboveMark" 0 691 mark 0
+AnchorPoint: "above" -161 681 mark 0
+AnchorPoint: "aboveMark" -161 691 mark 0
 LayerCount: 2
 Fore
 SplineSet
--108 676 m 5
- -97 623 -54 586 0 586 c 4
- 52 586 98 618 108 676 c 5
- 135 664 l 5
- 123 578 59 529 0 529 c 4
- -70 529 -121 579 -135 664 c 5
- -108 676 l 5
+-269 676 m 1
+ -258 623 -215 586 -161 586 c 0
+ -109 586 -63 618 -53 676 c 1
+ -26 664 l 1
+ -38 578 -102 529 -161 529 c 0
+ -231 529 -282 579 -296 664 c 1
+ -269 676 l 1
 EndSplineSet
 EndChar
 
@@ -56746,13 +56746,13 @@ AnchorPoint: "aboveMark" -210 824 basemark 0
 LayerCount: 2
 Fore
 SplineSet
-106 5 m 2
- -118 5 l 2
- -127 5 -131 16 -131 23 c 0
- -131 35 -120 55 -109 55 c 2
- 116 55 l 2
- 126 55 131 44 131 38 c 4
- 131 26 119 5 106 5 c 2
+-105 535 m 2
+ -329 535 l 2
+ -338 535 -342 546 -342 553 c 0
+ -342 565 -331 585 -320 585 c 2
+ -95 585 l 2
+ -85 585 -81 574 -81 568 c 0
+ -81 556 -92 535 -105 535 c 2
 EndSplineSet
 EndChar
 
@@ -133816,17 +133816,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-178 648 m 5
- 207 638 263 612 315 554 c 5
- 346 554 l 5
- 326 593 282 631 263 644 c 5
- 598 644 l 5
- 598 684 l 5
- 263 684 l 5
- 282 697 326 735 346 774 c 5
- 315 774 l 5
- 263 716 207 690 178 680 c 5
- 178 648 l 5
+0 648 m 1
+ 29 638 85 612 137 554 c 1
+ 168 554 l 1
+ 148 593 104 631 85 644 c 1
+ 420 644 l 1
+ 420 684 l 1
+ 85 684 l 1
+ 104 697 148 735 168 774 c 1
+ 137 774 l 1
+ 85 716 29 690 0 680 c 1
+ 0 648 l 1
 EndSplineSet
 EndChar
 
@@ -152021,7 +152021,7 @@ StartChar: uni2A36
 Encoding: 10806 10806 3957
 Width: 730
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 8855 N 1 0 0 1 0 0 3
