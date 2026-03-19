@@ -5636,6 +5636,13 @@
       <string>leftangleabovecomb</string>
       <string>epsilonLunateReversedSymbol</string>
       <string>cyrillicbreve.cap</string>
+      <string>smalltilde</string>
+      <string>caron</string>
+      <string>acute</string>
+      <string>breve</string>
+      <string>macron</string>
+      <string>dotaccent</string>
+      <string>dieresis</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>

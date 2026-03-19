@@ -1978,6 +1978,8 @@
     <string>aboldscript-math.glif</string>
     <key>accurrent</key>
     <string>accurrent.glif</string>
+    <key>acute</key>
+    <string>acute.glif</string>
     <key>acuteAngle</key>
     <string>acuteA_ngle.glif</string>
     <key>acuteAngle.rtlm</key>
@@ -2660,6 +2662,8 @@
     <string>bracketright.t.glif</string>
     <key>bracketright.x</key>
     <string>bracketright.x.glif</string>
+    <key>breve</key>
+    <string>breve.glif</string>
     <key>brevebelowcomb</key>
     <string>brevebelowcomb.glif</string>
     <key>brevecomb</key>
@@ -2718,6 +2722,8 @@
     <string>capslock.glif</string>
     <key>caretSign</key>
     <string>caretS_ign.glif</string>
+    <key>caron</key>
+    <string>caron.glif</string>
     <key>caronbelowcomb</key>
     <string>caronbelowcomb.glif</string>
     <key>caroncomb</key>
@@ -3176,6 +3182,8 @@
     <string>dieF_ace5.glif</string>
     <key>dieFace6</key>
     <string>dieF_ace6.glif</string>
+    <key>dieresis</key>
+    <string>dieresis.glif</string>
     <key>dieresiscomb</key>
     <string>dieresiscomb.glif</string>
     <key>differencebetween</key>
@@ -3224,6 +3232,8 @@
     <string>doesnotsucceedorequal.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
+    <key>dotaccent</key>
+    <string>dotaccent.glif</string>
     <key>dotaccentcomb</key>
     <string>dotaccentcomb.glif</string>
     <key>dotbelowcomb</key>
@@ -6066,6 +6076,8 @@
     <string>m.ssty2.glif</string>
     <key>mBold-fraktur</key>
     <string>mB_old-fraktur.glif</string>
+    <key>macron</key>
+    <string>macron.glif</string>
     <key>macronbelowcomb</key>
     <string>macronbelowcomb.glif</string>
     <key>macroncomb</key>
@@ -8618,6 +8630,8 @@
     <string>smallerthanorequalto.glif</string>
     <key>smallerthanorequalto.uv001</key>
     <string>smallerthanorequalto.uv001.glif</string>
+    <key>smalltilde</key>
+    <string>smalltilde.glif</string>
     <key>smashProduct</key>
     <string>smashP_roduct.glif</string>
     <key>smile</key>
