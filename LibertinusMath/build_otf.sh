@@ -13,5 +13,5 @@ python build.py --input=build/LibertinusMath-Regular-normalized.sfd --output=bui
 
 psautohint -o build/LibertinusMath-Regular-instance-hinted.otf build/LibertinusMath-Regular-instance.otf
 python -m cffsubr -o build/LibertinusMath-Regular-subr.otf build/LibertinusMath-Regular-instance-hinted.otf
-PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python gftools fix-font build/LibertinusMath-Regular-subr.otf -o build/LibertinusMath-Regular.otf
-font-v write --ver=7-051 --dev --sha1 build/LibertinusMath-Regular.otf
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python gftools fix-font build/LibertinusMath-Regular-subr.otf -o LibertinusMath-Regular.otf
+font-v write --ver=7-051 --dev --sha1 LibertinusMath-Regular.otf
