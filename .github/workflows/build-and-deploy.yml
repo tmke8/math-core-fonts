@@ -1,0 +1,127 @@
+name: Build and Deploy Fonts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-libertinus:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y woff2
+
+      - name: Install Python dependencies
+        run: uv sync
+
+      - name: Build LibertinusMath
+        working-directory: LibertinusMath
+        run: bash build_otf.sh
+
+      - name: Compress to WOFF2
+        working-directory: LibertinusMath
+        run: woff2_compress LibertinusMath-Regular.otf
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: LibertinusMath
+          path: |
+            LibertinusMath/LibertinusMath-Regular.otf
+            LibertinusMath/LibertinusMath-Regular.woff2
+
+  build-newcm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y fontforge woff2
+
+      - name: Build NewComputerModernMath
+        working-directory: NewComputerModernMath
+        run: bash build_otf.sh
+
+      - name: Compress to WOFF2
+        working-directory: NewComputerModernMath
+        run: woff2_compress NewCMMath-Book.otf
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: NewComputerModernMath
+          path: |
+            NewComputerModernMath/NewCMMath-Book.otf
+            NewComputerModernMath/NewCMMath-Book.woff2
+
+  build-noto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: astral-sh/setup-uv@v7
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y woff2
+
+      - name: Install Python dependencies
+        run: uv sync
+
+      - name: Build NotoSansMath
+        working-directory: NotoSansMath
+        run: bash build_otf.sh
+
+      - name: Compress to WOFF2
+        working-directory: NotoSansMath
+        run: woff2_compress NotoSansMath-Regular.otf
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: NotoSansMath
+          path: |
+            NotoSansMath/NotoSansMath-Regular.otf
+            NotoSansMath/NotoSansMath-Regular.woff2
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: [build-libertinus, build-newcm, build-noto]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ github.event.deployment.payload.web_url || steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v6
+        with:
+          path: site
+
+      - name: Flatten directory structure
+        run: |
+          mkdir -p fonts
+          find site -type f \( -name '*.otf' -o -name '*.woff2' \) -exec cp {} fonts/ \;
+          ls -la fonts/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
