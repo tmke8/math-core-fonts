@@ -31,7 +31,7 @@ jobs:
 
       - name: Build LibertinusMath
         working-directory: LibertinusMath
-        run: bash build_otf.sh
+        run: uv run bash build_otf.sh
 
       - name: Compress to WOFF2
         working-directory: LibertinusMath
@@ -84,7 +84,7 @@ jobs:
 
       - name: Build NotoSansMath
         working-directory: NotoSansMath
-        run: bash build_otf.sh
+        run: uv run bash build_otf.sh
 
       - name: Compress to WOFF2
         working-directory: NotoSansMath
