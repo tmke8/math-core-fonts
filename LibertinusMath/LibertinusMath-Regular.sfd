@@ -1569,7 +1569,9 @@ StartChar: grave
 Encoding: 96 96 31
 Width: 392
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 12 161
+VStem: 96 158
 LayerCount: 2
 Fore
 SplineSet
@@ -13670,7 +13672,9 @@ StartChar: dieresis
 Encoding: 168 168 319
 Width: 379
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 7 95<58.0156 135.984 227.016 304.984>
+VStem: 50 94<14.3939 94.3115> 219 94<14.3939 94.3115>
 LayerCount: 2
 Fore
 SplineSet
@@ -13876,7 +13880,9 @@ StartChar: macron
 Encoding: 175 175 326
 Width: 397
 GlyphClass: 2
-Flags: HMWO
+Flags: W
+HStem: 11 44<60.002 337.515>
+VStem: 59 280<11.2051 55>
 LayerCount: 2
 Fore
 SplineSet
@@ -13999,7 +14005,9 @@ StartChar: acute
 Encoding: 180 180 331
 Width: 341
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 14 160
+VStem: 88 156
 LayerCount: 2
 Fore
 SplineSet
@@ -28105,7 +28113,9 @@ StartChar: circumflex
 Encoding: 710 710 656
 Width: 349
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 10 157
+VStem: 51 252
 LayerCount: 2
 Fore
 SplineSet
@@ -28125,7 +28135,9 @@ StartChar: caron
 Encoding: 711 711 657
 Width: 349
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 5 143
+VStem: 48 253
 LayerCount: 2
 Fore
 SplineSet
@@ -28240,7 +28252,9 @@ StartChar: breve
 Encoding: 728 728 663
 Width: 317
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 7 57<91.3011 223.981>
+VStem: 21 27<119.641 145.111> 264 27<118.798 145.111>
 LayerCount: 2
 Fore
 SplineSet
@@ -28259,7 +28273,9 @@ StartChar: dotaccent
 Encoding: 729 729 664
 Width: 291
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 7 100<107.012 185.198>
+VStem: 96 100<18.1298 95.2822>
 LayerCount: 2
 Fore
 SplineSet
@@ -28276,7 +28292,9 @@ StartChar: ring
 Encoding: 730 730 665
 Width: 361
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 7 32<145.639 215.812> 145 32<145.639 216.555>
+VStem: 93 40<48.3652 135.898> 229 40<48.5873 136.252>
 LayerCount: 2
 Fore
 SplineSet
@@ -28319,21 +28337,23 @@ StartChar: tilde
 Encoding: 732 732 667
 Width: 292
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: 9 53<153.461 243.486> 60 55<42.759 135.68>
+VStem: 256 27<83.9834 111.365>
 LayerCount: 2
 Fore
 SplineSet
-209 62 m 4
+209 62 m 4xa0
  231 62 242 72 256 114 c 5
  267 115 277 112 283 108 c 5
- 271 48 242 9 196 9 c 4
+ 271 48 242 9 196 9 c 4xa0
  174 9 153 27 132 41 c 4
  114 52 95 60 78 60 c 4
  52 60 42 45 32 12 c 5
  21 10 11 11 5 17 c 5
- 19 76 42 115 85 115 c 4
+ 19 76 42 115 85 115 c 4x60
  115 115 137 95 157 81 c 4
- 173 69 190 62 209 62 c 4
+ 173 69 190 62 209 62 c 4xa0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -49960,13 +49980,13 @@ EndChar
 
 StartChar: uni2236
 Encoding: 8758 8758 1217
-Width: 527
+Width: 236
 GlyphClass: 2
-Flags: MW
+Flags: W
 LayerCount: 2
 Fore
-Refer: 256 46 N 1 0 0 1 159 64 2
-Refer: 256 46 N 1 0 0 1 159 347 2
+Refer: 256 46 N 1 0 0 1 13 64 2
+Refer: 256 46 N 1 0 0 1 13 347 2
 Colour: ff00ff
 EndChar
 
@@ -133834,7 +133854,7 @@ StartChar: uni20D7
 Encoding: 8407 8407 3345
 Width: 420
 GlyphClass: 4
-Flags: HMW
+Flags: W
 TopAccentHorizontal: 210
 GlyphVariantsHorizontal: uni20D7
 GlyphCompositionHorizontal: 2  uni20D6.ex%1,112,112,335 uni20D7%0,140,140,420
@@ -134313,8 +134333,11 @@ StartChar: uni20DB
 Encoding: 8411 8411 3373
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: W
 TopAccentHorizontal: 374
+HStem: 3 95<-207.984 -130.016 -38.9844 38.9844 130.016 207.984>
+VStem: -216 94<10.3939 90.3115> -47 94<10.3939 90.3115> 122 94<10.3939 90.3115>
+CounterMasks: 1 70
 AnchorPoint: "above" 0 122 mark 0
 AnchorPoint: "aboveMark" 0 301 basemark 0
 LayerCount: 2
@@ -134342,8 +134365,10 @@ StartChar: uni20DC
 Encoding: 8412 8412 3374
 Width: 0
 GlyphClass: 4
-Flags: HMW
+Flags: W
 TopAccentHorizontal: -378
+HStem: 4 95<-292.484 -214.516 -123.484 -45.5156 45.5156 123.484 214.516 292.484>
+VStem: -300.5 94<11.3939 91.3115> -131.5 94<11.3939 91.3115> 37.5 94<11.3939 91.3115> 206.5 94<11.3939 91.3115>
 AnchorPoint: "above" 0.5 123 mark 0
 AnchorPoint: "aboveMark" 0.5 824 basemark 0
 LayerCount: 2
@@ -135771,7 +135796,7 @@ StartChar: uni2237
 Encoding: 8759 8759 3473
 Width: 598
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1217 8758 N 1 0 0 1 -112 0 2
