@@ -1,6 +1,8 @@
 .DS_Store
 .python-version
 /LibertinusMath/build/
+__pycache__/
+/NewComputerModernMath/NewCMMath-Book-patched.sfd
 
 *.otf
 *.woff2
