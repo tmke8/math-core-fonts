@@ -17,11 +17,16 @@ Each font directory is a snapshot of a different upstream project with its own s
 format, own build tooling, and own license — there is no shared build system, and the
 per-font `README.md`/`OFL.txt`/`AUTHORS.txt` files are upstream's, not this project's.
 
+All three follow the same rule: the vendored sources are untouched, and every deviation
+from upstream lives in that directory's `patches.py`, applied at build time. Re-vendoring
+an upstream release is a plain file replacement, and the patches show up in `git log` as
+readable diffs instead of raw coordinates.
+
 ## Fonts, source formats, and builds
 
 | Directory | Source | Build tooling |
 |---|---|---|
-| `LibertinusMath/` | `LibertinusMath-Regular.sfd` (FontForge) + `features/*.fea` | `fontforge` binary + gftools |
+| `LibertinusMath/` | `LibertinusMath-Regular.sfd` + `features/*.fea` (both **pristine upstream**) + `patches.py` + `features/*.fea.new` | `fontforge` binary + gftools |
 | `NewComputerModernMath/` | `NewCMMath-Book.sfd` (FontForge, **pristine upstream**) + `patches.py` | `fontforge` binary only |
 | `NotoSansMath/` | `NotoSansMath-Regular.ufo/` (**pristine upstream**) + `patches.py` | `fontmake` |
 
@@ -100,13 +105,71 @@ coordinates appear. Things worth knowing:
 
 `build_otf.sh` chains several stages, each writing into `build/`:
 
-1. `pcpp -D MATH -I features` resolves `features/gsub.fea`'s `#ifdef`s into `build/gsub.fea`
-2. `build.py` under `fontforge -lang=py -script` — opens the `.sfd`, generates the
-   over/underline glyphs, appends their `mark` feature to `build/gsub.fea` (one combined
-   `build/features.fea`, because a feature file merged on its own only reaches DFLT/dflt),
-   merges it, and calls `font.generate()`
-3. `prune.py` drops the 240 glyphs nothing can reach (see below)
-4. `psautohint` → `cffsubr` → `gftools fix-font` → `font-v` stamps the version
+1. `patches.patch_features()` copies `features/` to `build/features/`, replacing
+   `ssty.fea` with `ss09.fea.new` + `ssty.fea.new` (see below)
+2. `pcpp -D MATH -I build/features` resolves `gsub.fea`'s `#ifdef`s into `build/gsub.fea`
+3. `build.py` under `fontforge -lang=py -script` — opens the `.sfd`, runs
+   `patches.apply_patches()` over it, generates the over/underline glyphs, appends their
+   `mark` feature to `build/gsub.fea` (one combined `build/features.fea`, because a feature
+   file merged on its own only reaches DFLT/dflt), merges it, and calls `font.generate()`
+4. `prune.py` drops the 240 glyphs nothing can reach (see below)
+5. `psautohint` → `cffsubr` → `gftools fix-font` → `font-v` stamps the version
+
+`LibertinusMath-Regular.sfd` and `features/` are **unmodified upstream snapshots — never
+edit them**. Every deviation from upstream lives in `patches.py`, in two halves, because
+the feature files are consumed by `pcpp` (project venv) and the `.sfd` by FontForge (its
+own embedded Python, which cannot see the venv):
+
+- `apply_patches(font)` runs inside `build.py`, first thing after `fontforge.open()`. It is
+  declarative — five tables (`SLANTED_INTEGRALS`, `AXIS_CENTRED_INTEGRALS`,
+  `RATIO_METRICS_FROM`, `CENTERED`, `LOWERED`) name glyphs, and copy-glyph / translate runs
+  over them. Every operation is relative to the glyph's own bounding box or to another
+  glyph's metrics, so no coordinate appears in the file and nothing has to be re-measured
+  if upstream redraws or repositions something. It must run before `mergeFeature()`,
+  because `make_over_under_line()` buckets glyphs by advance width and the patches change
+  several widths.
+- `patch_features(src, dst)` is plain Python (standard library only, so both interpreters
+  can import this module) and is called from `build_otf.sh` before `pcpp`.
+
+Things worth knowing when adding an operation:
+
+- `Glyph.transform` moves the glyph's anchor points but **not** its MATH
+  `TopAccentHorizontal`, which is the point a renderer lines an accent up over its base.
+  Upstream keeps that value on the midpoint of the outline; `centre_horizontally()` puts it
+  back there after the move. Leaving it behind is what the hand-patched `.sfd` did, and it
+  shipped `\vec`, `\dddot` and `\ddddot` with attachment points 210, 374 and −378 units
+  away from their (centred) ink.
+- `transform` also moves the offsets of the glyph's references, which is wrong when the
+  referenced glyphs are being moved by the same amount — hence `translate()`'s
+  `move_references` argument, used by the integral shift.
+- A bounding box read off a glyph in a family that references itself (the integrals) has to
+  come from `glyph.foreground`, not `glyph.boundingBox()`, or a reference to an
+  already-moved sibling drags the answer.
+- **Do not call `Glyph.autoHint()`, and do not touch `Glyph.manualHints`.** Unlike NewCM's,
+  this `.sfd` carries no hints at all — not one `HStem:`/`VStem:` line in 4379 glyphs — and
+  `psautohint` does the hinting downstream. Upstream's `manualhints` flag (set on 3874 of
+  them) is how it keeps FontForge's generate-time autohinter off the glyphs it wants
+  `psautohint` to handle; clearing it, or autohinting by hand, just puts hints into
+  `build/…-instance.otf` for `psautohint` to throw away again.
+
+The two GSUB changes that cannot sensibly be written as Python stay as feature files:
+`features/ss09.fea.new` (the prime feature this repo adds) and `features/ssty.fea.new`
+(upstream's `ssty` extended). `patch_features()` concatenates them over the copy of
+`ssty.fea` in `build/features/`, which is where `gsub.fea` `#include`s it under
+`#ifdef MATH`.
+
+For debugging, `fontforge -lang=py -script patches.py` (from inside the directory) writes
+the patched font out as `LibertinusMath-Regular-patched.sfd` (gitignored). Unlike NewCM,
+a FontForge open/save round-trip of this `.sfd` is not byte-identical — upstream's file
+came out of an older FontForge — so `diff LibertinusMath-Regular.sfd
+LibertinusMath-Regular-patched.sfd` also shows `ModificationTime`,
+`DisplaySize`/`AntiAlias`/`FitToEm`, a trailing space on every `MATH:` entry that can carry
+a device table, and a `VWidth:` line per touched glyph. None of it reaches the `.otf`.
+
+Two more things the diff shows that are FontForge bookkeeping rather than patches: point
+*types* get recategorised (`m 0` → `m 2`, curve → tangent) on the glyphs whose outline is
+replaced wholesale, and `Glyph.transform` snaps coordinates to 1/1024 (`866.72` becomes
+`866.719726562`). Neither survives `font.round()` and the CFF.
 
 `build.py` is short because FontForge already knows the `.sfd` natively: outlines, GPOS
 lookups, GDEF classes and the whole `MATH` table (the `MATH:` font entries plus per-glyph
@@ -131,6 +194,21 @@ Two things the FontForge route needs that the ufo2ft one got for free:
   still leave `build/…-instance.otf` fractional — but `psautohint` rounds those, so the
   shipped `.otf` has no fractional coordinates.
 
+Hinting is `psautohint`'s job, but FontForge still hints on the way there: 413 glyphs come
+out of `font.generate()` with stem hints, being the ones where upstream did not set
+`manualhints` (`bar.size*`, the Fraktur and double-struck alphabets, the `.sl`/`.slsize1`
+integrals, plus the over/underlines `build.py` draws itself). `psautohint` overwrites all
+of it, so the shipped font is unaffected and this is only untidiness in the intermediate.
+
+**Do not "fix" it by passing `no-hints` to `font.generate()`.** It works — 0 hinted glyphs,
+and the Private dict entries `psautohint` reads (blue zones, `StdHW`/`StdVW`, `StemSnap*`)
+survive intact — but it takes `BlueShift` down with it. Upstream's Private dict does not
+declare a value, so FontForge derives one from the hints it generated; suppress them and it
+writes 0, which switches off overshoot suppression at small sizes. `psautohint` passes the
+value straight through, so it reaches the shipped font and nothing downstream catches it.
+Recovering the current output means pinning `font.private["BlueShift"]` by hand, which is a
+worse thing to own than the untidy intermediate.
+
 Overlaps are *not* removed (FontForge's `removeOverlap()` is riskier than pathops and this
 font has degenerate contours it errors on). The consequence is that `psautohint` reports
 duplicate-subpath/loop errors on 5 glyphs — `uni27F2`, `uni29F7`, `u1D62E`, `uniE3E8`,
@@ -146,12 +224,12 @@ mean psautohint derives a different number of stems for 112 glyphs.
 change to shaping, `cmap` or `MATH` for anything that survives. What goes:
 
 - 108 `.ssty` variants. 26 are the italic math lowercase (`u1D44E.ssty`…, plus
-  `uni210E.ssty`), which no rule has ever reached — `ssty.fea` never listed them. The other
-  82 were deliberately removed from `ssty.fea`: measured against the base glyphs, the sans
-  and sans-bold alphabets carry 12–14% more stroke weight than parity at
+  `uni210E.ssty`), which no rule has ever reached — no version of `ssty` ever listed them.
+  The other 82 were deliberately left out of `ssty.fea.new`: measured against the base
+  glyphs, the sans and sans-bold alphabets carry 12–14% more stroke weight than parity at
   `ScriptPercentScaleDown` (80%), so they render visibly heavy at script size. The plain
   digits went with them by eye. Note U+1D7D7 (bold nine) has no `.ssty` glyph drawn at all,
-  which is why `ssty.fea`'s bold digits stop at `u1D7D6`.
+  which is why `ssty.fea.new`'s bold digits stop at `u1D7D6`.
 - 66 German road sign pictograms (`uniE3EB` is "end of pedestrian zone"), inherited from
   Linux Libertine. They are not even PUA-*encoded* here — `Encoding: 1114244 -1 2468`, the
   `-1` meaning no code point — so the `uniE####` names are fossils of a mapping that no
@@ -161,9 +239,10 @@ change to shaping, `cmap` or `MATH` for anything that survives. What goes:
   (`Adieresis`, `A.alt`, `Q_u`, …), plus `uni0330.size5`, which upstream's `uni0330`
   horizontal variant list never references — it lists `.size3` twice instead.
 
-Do not revert `ssty.fea` to its upstream state to shed the rest: `ss09` lives in the same
-file, and that is the feature the prime patch depends on (`README.md` describes it — `ss08`
-is the slanted integrals). Upstream's `ssty` block is 6 prime rules and omits U+2057.
+Do not drop `ssty.fea.new` to shed the rest: it still has to carry the seven prime rules,
+and `ss09.fea.new` next to it is the feature the prime patch depends on (`README.md`
+describes it — `ss08` is the slanted integrals). Upstream's `features/ssty.fea`, which
+these two replace at build time, is 6 prime rules and omits U+2057.
 
 `build.py` used to carry this as a commented-out `_prune()`. **Do not reinstate that
 version**: it seeded the subsetter with `unicodes=` only, and fontTools prunes `MATH`
@@ -175,24 +254,24 @@ a GSUB input (`integral.size1` is a `MATH` variant of `integral` and the `ss08` 
 `integral.slsize1`), and it delegates the GSUB half to fontTools so that extension
 subtables keep working if upstream starts using them.
 
-The `features/` directory is a partial copy of upstream Libertinus features; `gsub.fea`
-`#include`s siblings, and several upstream includes are skipped under `#ifdef MATH`.
-`build.py` does not preprocess it itself: FontForge's embedded Python cannot import `pcpp`
-from the project venv, so `build_otf.sh` runs `pcpp` as a separate step. For the same
-reason `build.py` may only import the standard library and `fontforge`.
+The `features/` directory is a partial copy of upstream Libertinus features (plus this
+repo's two `.fea.new` files); `gsub.fea` `#include`s siblings, and several upstream
+includes are skipped under `#ifdef MATH`. `build.py` does not preprocess it itself:
+FontForge's embedded Python cannot import `pcpp` from the project venv, so `build_otf.sh`
+runs `pcpp` as a separate step. For the same reason `build.py` and `patches.py` may only
+import the standard library and `fontforge`.
 
 ## Editing conventions
 
 - Commit subjects are prefixed with the font: `[Libertinus]`, `[NewCM]`, `[Noto]`, `[All]`.
 - Patching NewCM means adding a glyph name to a table in `patches.py` (or a new operation
   next to `center_horizontally`/`lower_to`) — not touching the `.sfd`.
-- Patching Libertinus' `.sfd` still means editing the `StartChar` block in place (`Width:`,
-  `HStem:`/`VStem:`, and the `SplineSet` coordinates) — unlike NewCM and Noto, it has no
-  `patches.py`, because the `.sfd` is not a pristine upstream snapshot. Lowering/centering
-  an accent is a pure translation of every point; making primes big is copying an `.ssty1`
-  outline over the base glyph.
+- Patching Libertinus means adding a glyph name to a table in `LibertinusMath/patches.py`,
+  or a rule to `features/ssty.fea.new`/`ss09.fea.new` — not touching the `.sfd` or the
+  upstream `.fea` files.
 - Patching Noto means adding a glyph name to a table in `NotoSansMath/patches.py` — not
   editing `NotoSansMath-Regular.ufo/glyphs/*.glif`.
-- Prime handling differs per font by design: Libertinus already ships an `ss09`/`ssty`
-  feature (`features/ssty.fea`) so it needs no glyph patch; NewCM and Noto have the base
-  prime glyphs overwritten with their small raised variants, both via their `patches.py`.
+- Prime handling differs per font by design: Libertinus already ships the raised `.ssty1`
+  outlines, so its patch is a feature (`features/ss09.fea.new`) rather than a glyph swap;
+  NewCM and Noto have the base prime glyphs overwritten with their small raised variants,
+  both via their `patches.py`.

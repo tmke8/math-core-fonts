@@ -4,6 +4,7 @@
 /NotoSansMath/build/
 __pycache__/
 /NewComputerModernMath/NewCMMath-Book-patched.sfd
+/LibertinusMath/LibertinusMath-Regular-patched.sfd
 
 *.otf
 *.woff2
