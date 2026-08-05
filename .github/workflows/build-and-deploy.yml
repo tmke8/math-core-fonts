@@ -24,7 +24,7 @@ jobs:
       - uses: astral-sh/setup-uv@v7
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y woff2
+        run: sudo apt-get update && sudo apt-get install -y fontforge woff2
 
       - name: Install Python dependencies
         run: uv sync

@@ -2,16 +2,17 @@
 
 set -e
 mkdir -p build
-sfdnormalize LibertinusMath-Regular.sfd build/LibertinusMath-Regular-normalized.sfd
 
-#sfd2ufo build/LibertinusMath-Regular-normalized.sfd build/LibertinusMath-Regular-normalized.ufo
-#ufonormalizer build/LibertinusMath-Regular-normalized.ufo
-#fontmake --verbose WARNING --fea-include-dir features -u build/LibertinusMath-Regular-normalized.ufo -o otf --output-dir build
-#mv build/LibertinusMath-Regular-normalized.otf build/LibertinusMath-Regular-instance.otf
+# FontForge's embedded Python cannot see the project venv, so resolve the feature file's
+# `#ifdef MATH` includes here instead.
+pcpp --line-directive -D MATH -I features -o build/gsub.fea features/gsub.fea
 
-python build.py --input=build/LibertinusMath-Regular-normalized.sfd --output=build/LibertinusMath-Regular-instance.otf --feature-file=features/gsub.fea
+fontforge -lang=py -script build.py LibertinusMath-Regular.sfd build/gsub.fea build/LibertinusMath-Regular-instance.otf
 
-psautohint -o build/LibertinusMath-Regular-instance-hinted.otf build/LibertinusMath-Regular-instance.otf
+# Before hinting, so psautohint and cffsubr do not work on glyphs that get thrown away.
+python prune.py build/LibertinusMath-Regular-instance.otf build/LibertinusMath-Regular-pruned.otf
+
+psautohint -o build/LibertinusMath-Regular-instance-hinted.otf build/LibertinusMath-Regular-pruned.otf
 python -m cffsubr -o build/LibertinusMath-Regular-subr.otf build/LibertinusMath-Regular-instance-hinted.otf
 PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python gftools fix-font build/LibertinusMath-Regular-subr.otf -o LibertinusMath-Regular.otf
 font-v write --ver=7-051 --dev --sha1 LibertinusMath-Regular.otf

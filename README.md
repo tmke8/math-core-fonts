@@ -82,7 +82,7 @@ Each font requires different tooling, but they all follow the same general patte
 ### Prerequisites
 
 - [uv](https://docs.astral.sh/uv/) (Python package manager)
-- [FontForge](https://fontforge.org) (needed for NewComputerModernMath)
+- [FontForge](https://fontforge.org) (needed for LibertinusMath and NewComputerModernMath)
 - [woff2](https://github.com/google/woff2) (for `woff2_compress`)
 
 ### Steps
