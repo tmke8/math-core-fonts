@@ -50,6 +50,8 @@ Three combining diacritical marks used as math accents are not centered correctl
 
 The root cause is that Unicode doesn't have dedicated code points for these symbols in a non-combining form. Since combining diacritical marks are not meant to appear on their own, Chromium and Safari have trouble handling them as standalone accents.
 
+Upstream draws all three to the left of the origin, as a combining mark should be; we centre them on it instead. Their MATH `TopAccentHorizontal` values and GPOS anchors move along with the outlines, so a renderer that positions accents by the attachment point rather than by the glyph's centre still gets them right.
+
 The proper solution would be for all browsers to handle these correctly.
 
 ### 3. Accent lowering
@@ -77,9 +79,11 @@ Affected code points:
 
 The proper solution is for Safari to implement the same behavior as the other browsers.
 
-## Extending `ssty` in LibertinusMath
+## LibertinusMath-only changes
 
-This one is not a browser workaround, and it applies to LibertinusMath only.
+The three patches above are browser workarounds and apply to all three fonts. LibertinusMath gets three more, which are not browser workarounds: they fix things about the font itself that only show up in math typesetting.
+
+### Extending `ssty`
 
 `ssty` is the OpenType feature a math renderer uses to swap in glyphs drawn for script size. These are proportionally sturdier shapes that look good in superscripts and subscripts. LibertinusMath's sources contain a large set of such `.ssty` glyphs, but upstream's feature file registers only six of them, all primes. Everything else is not reachable.
 
@@ -100,6 +104,20 @@ Some of the available glyphs are deliberately left unregistered:
 - **Mathematical italic lowercase** (U+1D44E–U+1D467): their shapes differ too much from the non-`ssty` forms.
 
 One additional notes: U+1D7D7 (mathematical bold digit nine) has no `.ssty` glyph in the sources.
+
+### Slanted stretched integrals
+
+Upstream draws the stretched (display-size) integrals upright and keeps the slanted forms — the shape TeX and essentially every other math font uses — behind the `ss08` feature. Browsers don't enable `ss08`, so `\int` grows into an upright integral as soon as it is stretched, which does not match the unstretched glyph.
+
+We copy each slanted variant over its upright counterpart, so the stretched integral is slanted out of the box. `ss08` keeps working; it now substitutes glyphs identical to its inputs.
+
+While moving them, we also re-centre the family vertically. Upstream centres the stretched integrals on the middle of the ascender–descender span, which leaves them sitting visibly high against the fraction bars and relation symbols they are set with; they are now centred on the font's `AxisHeight`, which is what a math renderer aligns to.
+
+Affected code points: U+222B–U+2233 (the integral signs, single through anticlockwise contour) and U+2A0C Quadruple Integral, in their stretched forms only.
+
+### Ratio spacing
+
+U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved.
 
 ## Building
 

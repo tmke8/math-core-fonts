@@ -4,17 +4,22 @@ Run under FontForge's own Python (see `build_otf.sh`):
 
     fontforge -lang=py -script build.py <input.sfd> <features.fea> <output.otf>
 
+`<input.sfd>` is a pristine upstream snapshot; `patches.py` applies this project's changes
+to the font in memory, first thing after it is opened.
+
 The `.sfd` already carries everything OpenType needs — outlines, GPOS lookups, GDEF
 classes and the whole `MATH` table (`MATH:` font entries plus per-glyph
 `ItalicCorrection`/`TopAccentHorizontal`/`GlyphVariants*`) — so `font.generate()` writes
-it out directly. All this script adds is what lives outside the `.sfd`: the GSUB features
-from `features/`, the over/underline glyphs, and a refreshed copyright.
+it out directly. Apart from the patches, all this script adds is what lives outside the
+`.sfd`: the GSUB features from `features/`, the over/underline glyphs, and a refreshed
+copyright.
 
-`<features.fea>` is `features/gsub.fea` after the C preprocessor has resolved its
-`#ifdef MATH` includes; `build_otf.sh` runs `pcpp` over it first, because FontForge's
-embedded Python cannot import from the project venv. What actually gets merged is that
-file plus the generated over/underline feature, written out next to the output as
-`features.fea` so it can be inspected.
+`<features.fea>` is `features/gsub.fea` after `patches.py` has substituted the patched
+feature files and the C preprocessor has resolved its `#ifdef MATH` includes;
+`build_otf.sh` runs both steps first, because FontForge's embedded Python cannot import
+from the project venv. What actually gets merged is that file plus the generated
+over/underline feature, written out next to the output as `features.fea` so it can be
+inspected.
 """
 
 import datetime
@@ -22,6 +27,10 @@ import os
 import sys
 
 import fontforge
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from patches import apply_patches
 
 # Over/underline glyph generation.
 #
@@ -119,6 +128,7 @@ def main():
     build_dir = os.path.dirname(output) or "."
 
     font = fontforge.open(sfd)
+    apply_patches(font)
     update_metadata(font)
 
     # One `mergeFeature()` call for everything: a feature file merged on its own would

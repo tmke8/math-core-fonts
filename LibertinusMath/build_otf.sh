@@ -3,9 +3,13 @@
 set -e
 mkdir -p build
 
+# `features/` is a pristine upstream snapshot, so copy it to build/ with the patched
+# feature files substituted in, and let `pcpp` resolve the `#include`s out of the copy.
+python -c 'import patches; patches.patch_features("features", "build/features")'
+
 # FontForge's embedded Python cannot see the project venv, so resolve the feature file's
 # `#ifdef MATH` includes here instead.
-pcpp --line-directive -D MATH -I features -o build/gsub.fea features/gsub.fea
+pcpp --line-directive -D MATH -I build/features -o build/gsub.fea build/features/gsub.fea
 
 fontforge -lang=py -script build.py LibertinusMath-Regular.sfd build/gsub.fea build/LibertinusMath-Regular-instance.otf
 
