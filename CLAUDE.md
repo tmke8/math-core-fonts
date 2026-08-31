@@ -60,9 +60,12 @@ readable diffs instead of raw `SplineSet` coordinates.
 `patches.py` is declarative: four tables (`BIG_PRIMES`, `ACCENT_SOURCES`, `CENTERED`,
 `LOWERED`) name glyphs, and `apply_patches()` runs copy-outline / center / lower over
 them, then `autoHint()`s everything it moved (equivalent to Hints > AutoHint in the GUI —
-verified to produce byte-identical CFF hint operators). Note that FontForge's
-`Glyph.transform` shifts the advance width along with the outline, so the local
-`translate()` helper restores it.
+verified to produce byte-identical CFF hint operators). A fifth step,
+`declare_default_variants()`, adds the U+FE00 half of the calligraphic variation
+sequences as `altuni` entries on the base glyphs — it takes no table either, deriving
+the letter set from the U+FE01 entries upstream already put on the `.alt` glyphs. Note
+that FontForge's `Glyph.transform` shifts the advance width along with the outline, so
+the local `translate()` helper restores it.
 
 For debugging, `fontforge -lang=py -script patches.py` (from inside the directory) writes
 the patched font back out as `NewCMMath-Book-patched.sfd` (gitignored). A FontForge
