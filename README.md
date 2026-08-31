@@ -119,6 +119,18 @@ Affected code points: U+222B–U+2233 (the integral signs, single through anticl
 
 U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved.
 
+## NewComputerModernMath-only changes
+
+### Calligraphic variation sequences
+
+`\mathcal` and `\mathscr` share the same Unicode code points, and the two shapes are told apart by a following variation selector: `<letter, U+FE00>` selects the chancery (`\mathcal`) form, `<letter, U+FE01>` the roundhand (`\mathscr`) one. The sequences are standardised for the 52 script and bold-script capitals (U+1D49C–U+1D4B5 and U+1D4D0–U+1D4E9, with the eight letterlike ones ℬ ℰ ℱ ℋ ℐ ℒ ℳ ℛ standing in for the holes in the first range).
+
+NewComputerModernMath draws chancery by default and ships the roundhand outlines as `.alt` glyphs, but upstream declares only the U+FE01 half of each pair: U+FE00 has no separate glyph to point at, and leaving it out may look harmless because the base glyph is already the shape being asked for. But it is not harmless: A sequence a font does not list is a sequence the font does not *support*, and browsers use that to pick a font — Firefox goes looking for one that does declare it, and 𝒜︀ comes back drawn in a fallback font rather than in NewCM.
+
+The fix costs no glyphs: the code points are given a second, U+FE00-tagged encoding on the glyph they already map to, which the `cmap` format 14 subtable records as a *default* UVS entry — "this sequence is supported; use the ordinary glyph". U+FE01 keeps pointing at the `.alt` outlines as before.
+
+The set of letters is read back out of the font's existing U+FE01 entries rather than listed in the patch, so the two halves cannot drift apart when upstream changes.
+
 ## Building
 
 Each font requires different tooling, but they all follow the same general pattern: a bash script produces an OpenType (`.otf`) file, which can then be compressed to `.woff2` for use in the browser.

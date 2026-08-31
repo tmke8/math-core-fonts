@@ -5,7 +5,8 @@ upstream lives here and is re-applied at build time by `build_otf.sh`. See the r
 `README.md` for why each patch is needed.
 
 No patch alters a curve: they copy an existing outline onto another code point,
-translate an outline within glyph space, or change an advance width.
+translate an outline within glyph space, change an advance width, or declare a
+variation sequence that resolves to a glyph the font already has.
 """
 
 # 1. Primes always big.
@@ -68,6 +69,26 @@ LOWERED = [
     "uni20DC",
 ]
 
+# 5. Calligraphic variation sequences.
+#
+# Unicode standardises two variation sequences on each of the 52 script and bold-script
+# capitals: <letter, U+FE00> asks for the chancery shape (`\mathcal`), <letter, U+FE01>
+# for the roundhand one (`\mathscr`). Upstream declares only the U+FE01 half, on the
+# `.alt` glyphs, presumably because this font's default shape is already the chancery
+# one and so U+FE00 has nothing to select.
+#
+# But a font that does not list a sequence does not *support* it, and browsers treat
+# that as a reason to go looking for a font that does: Firefox then draws the chancery
+# letter from whatever fallback font it lands on, in the wrong design. Declaring the
+# sequences with no glyph attached — a "default UVS" record, meaning "supported; use the
+# glyph the plain code point already maps to" — is the answer, and it is what FontForge
+# writes when the alternate encoding sits on the base glyph itself.
+#
+# The set is not spelled out here: it is read back off the `.alt` glyphs, so the U+FE00
+# half stays in step with whatever upstream declares for U+FE01.
+CHANCERY_SELECTOR = 0xFE00   # \mathcal
+ROUNDHAND_SELECTOR = 0xFE01  # \mathscr
+
 
 def copy_outline(font, dest, src, copy_width):
     """Replace `dest`'s outline and hints with `src`'s, optionally its advance width too."""
@@ -101,6 +122,23 @@ def lower_to_baseline(font, name):
     translate(glyph, 0, -ymin)
 
 
+def declare_default_variants(font, selector, alongside):
+    """Declare <base char, `selector`> for every char that already has <base, `alongside`>.
+
+    The alternate encoding goes on the glyph the plain code point maps to, which is what
+    makes it a *default* UVS record rather than a mapping to some other outline.
+    """
+    by_unicode = {glyph.unicode: glyph for glyph in font.glyphs() if glyph.unicode != -1}
+    for code_point in sorted(
+        uni
+        for glyph in font.glyphs()
+        for uni, variation_selector, _ in glyph.altuni or ()
+        if variation_selector == alongside
+    ):
+        glyph = by_unicode[code_point]
+        glyph.altuni = (glyph.altuni or ()) + ((code_point, selector, 0),)
+
+
 def apply_patches(font):
     for name in BIG_PRIMES:
         # The script-sized prime is narrower, so its width comes along.
@@ -119,6 +157,8 @@ def apply_patches(font):
     # The moved outlines carry upstream's hints, which are now at the wrong height.
     for name in LOWERED:
         font[name].autoHint()
+
+    declare_default_variants(font, CHANCERY_SELECTOR, alongside=ROUNDHAND_SELECTOR)
 
 
 if __name__ == "__main__":
