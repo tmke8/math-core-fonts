@@ -30,8 +30,8 @@ BIG_PRIMES = [
 # combining counterparts. Use the combining shapes so that an accent looks the same
 # whichever code point the browser picks.
 ACCENT_SOURCES = {
-    "breve": "brevecmb",
-    "caron": "caroncmb",
+    # "breve": "brevecmb",
+    # "caron": "caroncmb",
 }
 
 # 3. Accent centering (Chromium, WebKit).
@@ -39,11 +39,20 @@ ACCENT_SOURCES = {
 # These three have no non-combining code point, so browsers place them as standalone
 # accents and get the horizontal position wrong. Center the outline in the advance width.
 CENTERED = [
+    "uni0300",  # combining grave accent (\grave)
+    "uni0301",  # combining acute accent (\acute)
+    "circumflexcmb",  # combining circumflex accent (\hat)
+    "uni0304",  # combining macron (\bar)
+    "overlinecmb",  # combining overline (\overline)
+    "uni0307",  # combining dot above (\dot)
+    "uni0308",  # combining diaeresis (\ddot)
+    "uni030A",  # combining ring above (\mathring)
     "uni20D7",  # combining right arrow above (\vec)
     "uni20DB",  # combining three dots above (\dddot)
     "uni20DC",  # combining four dots above (\ddddot)
-    "breve",    # re-centered because its outline came from `brevecmb`
-    "caron",
+    "brevecmb", # combining breve
+    "caroncmb", # combining caron
+    "tildecomb", # combining tilde
 ]
 
 # 4. Accent lowering (WebKit).
@@ -54,19 +63,30 @@ CENTERED = [
 # of the font's first blue zone ([-22, 0]), so the bottom edge gets snapped to the pixel
 # grid consistently across accents and sizes.
 LOWERED = [
-    "grave",       # U+0060
-    "acute",       # U+00B4
-    "circumflex",  # U+02C6
-    "tilde",       # U+02DC
-    "macron",      # U+00AF
-    "breve",       # U+02D8
-    "dotaccent",   # U+02D9
-    "dieresis",    # U+00A8
-    "ring",        # U+02DA
-    "caron",       # U+02C7
+    # "grave",       # U+0060
+    # "acute",       # U+00B4
+    # "circumflex",  # U+02C6
+    # "tilde",       # U+02DC
+    # "macron",      # U+00AF
+    # "breve",       # U+02D8
+    # "dotaccent",   # U+02D9
+    # "dieresis",    # U+00A8
+    # "ring",        # U+02DA
+    # "caron",       # U+02C7
     "uni20D7",
     "uni20DB",
     "uni20DC",
+    "uni0300",
+    "uni0301",
+    "circumflexcmb",
+    "uni0304",
+    "overlinecmb",
+    "uni0307",
+    "uni0308",
+    "uni030A",
+    "brevecmb",
+    "caroncmb",
+    "tildecomb",
 ]
 
 # 5. Calligraphic variation sequences.
