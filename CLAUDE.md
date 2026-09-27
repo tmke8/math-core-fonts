@@ -65,7 +65,11 @@ verified to produce byte-identical CFF hint operators). A fifth step,
 sequences as `altuni` entries on the base glyphs — it takes no table either, deriving
 the letter set from the U+FE01 entries upstream already put on the `.alt` glyphs. Note
 that FontForge's `Glyph.transform` shifts the advance width along with the outline, so
-the local `translate()` helper restores it.
+the local `translate()` helper restores it. It also leaves the MATH
+`TopAccentHorizontal` behind, so `center_horizontally()` sets it to the new ink midpoint,
+which is where upstream keeps it (as in Libertinus). It is set rather than shifted by the
+same dx because `breve`/`caron` reach that step with `brevecmb`/`caroncmb`'s outline but
+their own attachment point.
 
 For debugging, `fontforge -lang=py -script patches.py` (from inside the directory) writes
 the patched font back out as `NewCMMath-Book-patched.sfd` (gitignored). A FontForge
