@@ -111,9 +111,18 @@ def translate(glyph, dx, dy):
 
 
 def center_horizontally(font, name):
+    """Center the outline in the advance width, taking its top-accent attachment with it.
+
+    `MATH`'s `TopAccentHorizontal` is the point a renderer lines up over the base glyph,
+    so it has to stay on the ink. Upstream keeps it at the midpoint of the outline;
+    `Glyph.transform` does not move it by itself. It is set rather than shifted because
+    `breve`/`caron` arrive here with a combining outline but their own attachment.
+    """
     glyph = font[name]
     xmin, _, xmax, _ = glyph.boundingBox()
-    translate(glyph, round(glyph.width / 2 - (xmin + xmax) / 2), 0)
+    dx = round(glyph.width / 2 - (xmin + xmax) / 2)
+    translate(glyph, dx, 0)
+    glyph.topaccent = round((xmin + xmax) / 2 + dx)
 
 
 def lower_to_baseline(font, name):
