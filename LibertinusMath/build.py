@@ -1,8 +1,8 @@
 """Build LibertinusMath-Regular.otf straight out of the FontForge source.
 
-Run under FontForge's own Python (see `build_otf.sh`):
+Run with a Python that can import FontForge's `fontforge` module (see `build_otf.sh`):
 
-    fontforge -lang=py -script build.py <input.sfd> <features.fea> <output.otf>
+    python build.py <input.sfd> <features.fea> <output.otf>
 
 `<input.sfd>` is a pristine upstream snapshot; `patches.py` applies this project's changes
 to the font in memory, first thing after it is opened.
@@ -16,10 +16,9 @@ copyright.
 
 `<features.fea>` is `features/gsub.fea` after `patches.py` has substituted the patched
 feature files and the C preprocessor has resolved its `#ifdef MATH` includes;
-`build_otf.sh` runs both steps first, because FontForge's embedded Python cannot import
-from the project venv. What actually gets merged is that file plus the generated
-over/underline feature, written out next to the output as `features.fea` so it can be
-inspected.
+`build_otf.sh` runs both steps first. What actually gets merged is that file plus the
+generated over/underline feature, written out next to the output as `features.fea` so it
+can be inspected.
 """
 
 import datetime
@@ -27,8 +26,6 @@ import os
 import sys
 
 import fontforge
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from patches import apply_patches
 
@@ -60,6 +57,37 @@ def contour_orientations(font, glyph, xform=(1, 0, 0, 1, 0, 0)):
         composed = (t[0] * a + t[1] * c, t[0] * b + t[1] * d,
                     t[2] * a + t[3] * c, t[2] * b + t[3] * d, 0, 0)
         yield from contour_orientations(font, font[name], composed)
+
+
+def refresh_references(font):
+    """Rebuild every reference's copy of the glyph it points at, components first.
+
+    A reference carries its own transformed copy of the referenced outline. It is what the
+    CFF writer emits for a reference that is more than a shift, what `unlinkRef()` turns
+    into contours, and what the composite's bounding box — so its `hmtx` left side bearing —
+    is measured on. FontForge's GUI build refreshes those copies whenever a glyph changes;
+    the GUI-less one behind the `fontforge` Python module (and Homebrew's `fontforge`) does
+    not, so without this, a composite keeps its components as they were before the patches
+    moved them and before `round()`.
+
+    Assigning `references` rebuilds them. It also drops `use_my_metrics` and
+    `round_translation_to_grid`, which only mean something in a TrueType `glyf` table.
+    """
+    done = set()
+
+    def refresh(glyph):
+        if glyph.glyphname in done:
+            return
+        done.add(glyph.glyphname)
+        references = glyph.references
+        for name, *_ in references:
+            refresh(font[name])
+        if references:
+            # The setter prepends, so hand it the list backwards to keep the order.
+            glyph.references = tuple(reversed(references))
+
+    for glyph in font.glyphs():
+        refresh(glyph)
 
 
 def fix_mirrored_windings(font):
@@ -129,6 +157,7 @@ def main():
 
     font = fontforge.open(sfd)
     apply_patches(font)
+    refresh_references(font)
     update_metadata(font)
 
     # One `mergeFeature()` call for everything: a feature file merged on its own would
@@ -147,6 +176,7 @@ def main():
     # will happily write fractional CFF coordinates. `round()` works on the selection.
     font.selection.all()
     font.round()
+    refresh_references(font)
 
     font.generate(output, flags=("opentype", "no-mac-names", "no-FFTM-table"))
 

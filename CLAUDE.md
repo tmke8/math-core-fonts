@@ -26,21 +26,34 @@ readable diffs instead of raw coordinates.
 
 | Directory | Source | Build tooling |
 |---|---|---|
-| `LibertinusMath/` | `LibertinusMath-Regular.sfd` + `features/*.fea` (both **pristine upstream**) + `patches.py` + `features/*.fea.new` | `fontforge` binary + gftools |
-| `NewComputerModernMath/` | `NewCMMath-Book.sfd` (FontForge, **pristine upstream**) + `patches.py` | `fontforge` binary only |
+| `LibertinusMath/` | `LibertinusMath-Regular.sfd` + `features/*.fea` (both **pristine upstream**) + `patches.py` + `features/*.fea.new` | `fontforge` Python module + gftools |
+| `NewComputerModernMath/` | `NewCMMath-Book.sfd` (FontForge, **pristine upstream**) + `patches.py` | `fontforge` Python module only |
 | `NotoSansMath/` | `NotoSansMath-Regular.ufo/` (**pristine upstream**) + `patches.py` | `fontmake` |
 
-Prerequisites: `uv`, FontForge (Libertinus and NewCM), `woff2` (for `woff2_compress`).
+Prerequisites: `uv`, FontForge's `fontforge` Python module (Libertinus and NewCM —
+`python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS), `woff2` (for
+`woff2_compress`).
 
 ```sh
-uv sync                                   # once, at repo root
+# once, at repo root: the venv must sit on the Python the fontforge module was built for
+uv venv --system-site-packages --python /usr/bin/python3   # macOS: Homebrew's python@3.14
+uv sync
 
-cd NotoSansMath && uv run bash build_otf.sh          # or LibertinusMath
+cd NotoSansMath && uv run bash build_otf.sh          # or LibertinusMath, NewComputerModernMath
 woff2_compress NotoSansMath-Regular.otf
-
-cd NewComputerModernMath && bash build_otf.sh        # no uv — uses system fontforge
-woff2_compress NewCMMath-Book.otf
 ```
+
+The scripts used to run under `fontforge -lang=py -script`, FontForge's embedded Python.
+They now `import fontforge` from an ordinary interpreter, so they can use the venv like
+everything else. `--system-site-packages` is how the venv sees the module, which is a
+compiled extension for one specific Python and is not on PyPI. NewCM's `build_otf.sh`
+needs nothing else from the venv and runs on any `python3` that can import `fontforge`;
+CI builds it with the system one.
+
+The module is GUI-less FontForge, which is not quite the same program as the `fontforge`
+binary Linux distributions ship: it does not refresh references when the glyph they point
+at changes. See `refresh_references()` under the Libertinus pipeline. Homebrew's binary is
+GUI-less too, so the old `-script` route already produced the module's output on macOS.
 
 `.otf` and `.woff2` outputs plus `LibertinusMath/build/` and `NotoSansMath/build/`
 are gitignored. There is no test
@@ -71,7 +84,7 @@ which is where upstream keeps it (as in Libertinus). It is set rather than shift
 same dx because `breve`/`caron` reach that step with `brevecmb`/`caroncmb`'s outline but
 their own attachment point.
 
-For debugging, `fontforge -lang=py -script patches.py` (from inside the directory) writes
+For debugging, `uv run python patches.py` (from inside the directory) writes
 the patched font back out as `NewCMMath-Book-patched.sfd` (gitignored). A FontForge
 open/save round-trip is byte-identical to the input, so `diff NewCMMath-Book.sfd
 NewCMMath-Book-patched.sfd` shows the patches and nothing else — apart from
@@ -115,7 +128,7 @@ coordinates appear. Things worth knowing:
 1. `patches.patch_features()` copies `features/` to `build/features/`, replacing
    `ssty.fea` with `ss09.fea.new` + `ssty.fea.new` (see below)
 2. `pcpp -D MATH -I build/features` resolves `gsub.fea`'s `#ifdef`s into `build/gsub.fea`
-3. `build.py` under `fontforge -lang=py -script` — opens the `.sfd`, runs
+3. `build.py` — opens the `.sfd`, runs
    `patches.apply_patches()` over it, generates the over/underline glyphs, appends their
    `mark` feature to `build/gsub.fea` (one combined `build/features.fea`, because a feature
    file merged on its own only reaches DFLT/dflt), merges it, and calls `font.generate()`
@@ -124,8 +137,7 @@ coordinates appear. Things worth knowing:
 
 `LibertinusMath-Regular.sfd` and `features/` are **unmodified upstream snapshots — never
 edit them**. Every deviation from upstream lives in `patches.py`, in two halves, because
-the feature files are consumed by `pcpp` (project venv) and the `.sfd` by FontForge (its
-own embedded Python, which cannot see the venv):
+the feature files are consumed by `pcpp` and the `.sfd` by FontForge:
 
 - `apply_patches(font)` runs inside `build.py`, first thing after `fontforge.open()`. It is
   declarative — five tables (`SLANTED_INTEGRALS`, `AXIS_CENTRED_INTEGRALS`,
@@ -135,8 +147,8 @@ own embedded Python, which cannot see the venv):
   if upstream redraws or repositions something. It must run before `mergeFeature()`,
   because `make_over_under_line()` buckets glyphs by advance width and the patches change
   several widths.
-- `patch_features(src, dst)` is plain Python (standard library only, so both interpreters
-  can import this module) and is called from `build_otf.sh` before `pcpp`.
+- `patch_features(src, dst)` is plain Python and is called from `build_otf.sh` before
+  `pcpp`.
 
 Things worth knowing when adding an operation:
 
@@ -165,7 +177,7 @@ The two GSUB changes that cannot sensibly be written as Python stay as feature f
 `ssty.fea` in `build/features/`, which is where `gsub.fea` `#include`s it under
 `#ifdef MATH`.
 
-For debugging, `fontforge -lang=py -script patches.py` (from inside the directory) writes
+For debugging, `uv run python patches.py` (from inside the directory) writes
 the patched font out as `LibertinusMath-Regular-patched.sfd` (gitignored). Unlike NewCM,
 a FontForge open/save round-trip of this `.sfd` is not byte-identical — upstream's file
 came out of an older FontForge — so `diff LibertinusMath-Regular.sfd
@@ -185,7 +197,21 @@ come out of `font.generate()` with no help. It replaced an inherited-from-upstre
 that went `.sfd` → `sfdLib` → `ufoLib2` → `ufo2ft` and hand-assembled `MATH` with
 `fontTools.otTables` — ~200 lines that are now one method call.
 
-Two things the FontForge route needs that the ufo2ft one got for free:
+Three things the FontForge route needs that the ufo2ft one got for free:
+
+- **`refresh_references()`.** Every reference carries its own transformed copy of the
+  glyph it points at. The CFF writer emits that copy for any reference that is more than a
+  shift, `unlinkRef()` turns it into contours, and the composite's bounding box (so its
+  `hmtx` left side bearing) is measured on it. FontForge's GUI build refreshes the copies in
+  all dependents whenever a glyph changes (`SCRegenDependents()` in `fontforgeexe/`); the
+  GUI-less build behind the Python module does not (`_SCChngNoUpdate()` in
+  `splinechar.c`), and nothing in the Python API calls it. Without the refresh, ∷ keeps the
+  side bearing it had before the RATIO patch moved ∶, and the composites whose reference
+  offsets `font.round()` rounds keep their components at the unrounded position.
+  Reassigning `glyph.references`, components first, rebuilds the copies. `build.py` does it
+  after `apply_patches()` and after `round()`. Run it again after any new step that changes
+  a glyph other glyphs reference. The reassignment drops `use_my_metrics` and
+  `round_translation_to_grid`, which only mean something in TrueType.
 
 - **`fix_mirrored_windings()`.** A `Refer:` line with a negative determinant (`0 1 1 0`,
   `-1 0 0 1`, …) reverses the contours it pulls in. Where a glyph mixes mirrored and
@@ -197,8 +223,8 @@ Two things the FontForge route needs that the ufo2ft one got for free:
   (it hollows out ⨁ if let loose on the whole font).
 - **`font.round()`.** Several `Refer:` offsets are fractional (`-88.5`, `382.46`), and
   FontForge happily writes fractional CFF coordinates where ufo2ft rounded. It does not
-  reach coordinates produced by decomposing a reference at generate time — ~250 glyphs
-  still leave `build/…-instance.otf` fractional — but `psautohint` rounds those, so the
+  reach coordinates produced by decomposing a reference at generate time — ~230 glyphs
+  still leave `build/…-instance.otf` fractional, from rotated or scaled references — but `psautohint` rounds those, so the
   shipped `.otf` has no fractional coordinates.
 
 Hinting is `psautohint`'s job, but FontForge still hints on the way there: 413 glyphs come
@@ -218,8 +244,9 @@ worse thing to own than the untidy intermediate.
 
 Overlaps are *not* removed (FontForge's `removeOverlap()` is riskier than pathops and this
 font has degenerate contours it errors on). The consequence is that `psautohint` reports
-duplicate-subpath/loop errors on 5 glyphs — `uni27F2`, `uni29F7`, `u1D62E`, `uniE3E8`,
-`uniE3EB`. All five are zero-area specks and retracing hairlines in upstream's own
+duplicate-subpath/loop errors on 2 glyphs, `uni29F7` and `u1D62E`. (It used to be 5:
+`prune.py` took out `uniE3E8` and `uniE3EB`, and `refresh_references()` took out `uni27F2`.)
+They are zero-area specks and retracing hairlines in upstream's own
 outlines that pathops used to delete; psautohint complains but still hints them, and the
 shipped font hints all 4434 glyphs that have an outline, exactly as before (the 27
 unhinted ones are `space` and the U+2000–U+202F blanks). Slightly different outlines do
@@ -263,10 +290,10 @@ subtables keep working if upstream starts using them.
 
 The `features/` directory is a partial copy of upstream Libertinus features (plus this
 repo's two `.fea.new` files); `gsub.fea` `#include`s siblings, and several upstream
-includes are skipped under `#ifdef MATH`. `build.py` does not preprocess it itself:
-FontForge's embedded Python cannot import `pcpp` from the project venv, so `build_otf.sh`
-runs `pcpp` as a separate step. For the same reason `build.py` and `patches.py` may only
-import the standard library and `fontforge`.
+includes are skipped under `#ifdef MATH`. `build_otf.sh` runs `pcpp` over it as a
+separate step, before `build.py`. That step predates the switch away from FontForge's
+embedded Python, which could not import `pcpp`. Now that `build.py` runs in the venv, it
+could call `pcpp` itself.
 
 ## Editing conventions
 

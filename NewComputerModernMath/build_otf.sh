@@ -1,11 +1,8 @@
 #!/bin/bash
 
-fontforge -lang=py -script - <<'EOF'
-import os
-import sys
+set -e
 
-sys.path.insert(0, os.getcwd())  # the script is read from stdin, so there is no __file__
-
+python3 - <<'EOF'
 import fontforge
 
 from patches import apply_patches

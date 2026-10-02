@@ -7,11 +7,10 @@ mkdir -p build
 # feature files substituted in, and let `pcpp` resolve the `#include`s out of the copy.
 python -c 'import patches; patches.patch_features("features", "build/features")'
 
-# FontForge's embedded Python cannot see the project venv, so resolve the feature file's
-# `#ifdef MATH` includes here instead.
+# Resolve the feature file's `#ifdef MATH` includes, for build.py to merge.
 pcpp --line-directive -D MATH -I build/features -o build/gsub.fea build/features/gsub.fea
 
-fontforge -lang=py -script build.py LibertinusMath-Regular.sfd build/gsub.fea build/LibertinusMath-Regular-instance.otf
+python build.py LibertinusMath-Regular.sfd build/gsub.fea build/LibertinusMath-Regular-instance.otf
 
 # Before hinting, so psautohint and cffsubr do not work on glyphs that get thrown away.
 python prune.py build/LibertinusMath-Regular-instance.otf build/LibertinusMath-Regular-pruned.otf

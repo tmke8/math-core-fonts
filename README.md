@@ -138,15 +138,22 @@ Each font requires different tooling, but they all follow the same general patte
 ### Prerequisites
 
 - [uv](https://docs.astral.sh/uv/) (Python package manager)
-- [FontForge](https://fontforge.org) (needed for LibertinusMath and NewComputerModernMath)
+- FontForge's `fontforge` Python module (needed for LibertinusMath and NewComputerModernMath):
+  `apt install python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS
 - [woff2](https://github.com/google/woff2) (for `woff2_compress`)
 
 ### Steps
 
-1. Install Python dependencies:
+1. Create the virtual environment and install the Python dependencies. The `fontforge` module
+   is compiled for one particular Python, so the environment has to be built on that
+   interpreter, with access to its site-packages:
    ```sh
+   uv venv --system-site-packages --python /usr/bin/python3                            # Debian/Ubuntu
+   uv venv --system-site-packages --python "$(brew --prefix python@3.14)/bin/python3.14"  # macOS
    uv sync
    ```
+   On macOS, use the `python@3.x` that `brew deps fontforge` lists. `uv run python -c 'import fontforge'`
+   checks the result.
 
 2. `cd` into the font directory, e.g.:
    ```sh
@@ -155,7 +162,7 @@ Each font requires different tooling, but they all follow the same general patte
 
 3. Run the build script:
    ```sh
-   bash build_otf.sh
+   uv run bash build_otf.sh
    ```
 
 4. Compress the resulting OTF to WOFF2:

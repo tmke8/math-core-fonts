@@ -10,10 +10,9 @@ outline within glyph space, or change an advance width.
 
 There are two halves:
 
-* `apply_patches(font)` runs inside FontForge over the opened `.sfd` (`build.py`).
-* `patch_features(src, dst)` is plain Python and rewrites the `.fea` sources into a build
-  directory before `pcpp` sees them (`build_otf.sh`). It only imports the standard library
-  so both interpreters can load this module.
+* `apply_patches(font)` runs over the `.sfd` once FontForge has opened it (`build.py`).
+* `patch_features(src, dst)` rewrites the `.fea` sources into a build directory before
+  `pcpp` sees them (`build_otf.sh`).
 
 Every operation is relative to the glyph's own bounding box or to another glyph's metrics,
 so the tables are just lists of glyph names: no coordinate is written down here, and
@@ -227,8 +226,8 @@ def patch_features(src, dst):
 
 
 if __name__ == "__main__":
-    # Debugging aid: `fontforge -lang=py -script patches.py` writes the patched font back
-    # out as an .sfd, so that
+    # Debugging aid: `uv run python patches.py` writes the patched font back out as an
+    # .sfd, so that
     #
     #     diff LibertinusMath-Regular.sfd LibertinusMath-Regular-patched.sfd
     #

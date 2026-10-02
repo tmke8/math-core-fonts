@@ -24,10 +24,13 @@ jobs:
       - uses: astral-sh/setup-uv@v7
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y fontforge woff2
+        run: sudo apt-get update && sudo apt-get install -y python3-fontforge woff2
 
+      # python3-fontforge is built for the system Python, so the venv has to be too.
       - name: Install Python dependencies
-        run: uv sync
+        run: |
+          uv venv --system-site-packages --python /usr/bin/python3
+          uv sync
 
       - name: Build LibertinusMath
         working-directory: LibertinusMath
@@ -51,7 +54,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y fontforge woff2
+        run: sudo apt-get update && sudo apt-get install -y python3-fontforge woff2
 
       - name: Build NewComputerModernMath
         working-directory: NewComputerModernMath
