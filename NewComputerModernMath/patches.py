@@ -1,7 +1,7 @@
 """Browser-compatibility patches applied to the pristine upstream NewCMMath-Book.sfd.
 
 The `.sfd` in this directory is an unmodified upstream snapshot; every deviation from
-upstream lives here and is re-applied at build time by `build_otf.sh`. See the repo
+upstream lives here and is re-applied at build time by `build.py`. See the repo
 `README.md` for why each patch is needed.
 
 No patch alters a curve: they copy an existing outline onto another code point,
@@ -171,7 +171,7 @@ def apply_patches(font):
 
 
 if __name__ == "__main__":
-    # Debugging aid: `fontforge -lang=py -script patches.py` writes the patched font back
+    # Debugging aid: `../.venv/bin/python patches.py` writes the patched font back
     # out as an .sfd. A FontForge open/save round-trip is byte-identical, so
     #
     #     diff NewCMMath-Book.sfd NewCMMath-Book-patched.sfd

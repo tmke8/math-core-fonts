@@ -117,7 +117,7 @@ Affected code points: U+222B–U+2233 (the integral signs, single through anticl
 
 ### Ratio spacing
 
-U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved.
+U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved, and neither is U+2237 Proportion, which is built from two copies of U+2236.
 
 ## NewComputerModernMath-only changes
 
@@ -133,34 +133,39 @@ The set of letters is read back out of the font's existing U+FE01 entries rather
 
 ## Building
 
-Each font requires different tooling, but they all follow the same general pattern: a bash script produces an OpenType (`.otf`) file, which can then be compressed to `.woff2` for use in the browser.
+Each font requires different tooling, but they all follow the same general pattern: a `build.py` script produces an OpenType (`.otf`) file, which can then be compressed to `.woff2` for use in the browser.
 
 ### Prerequisites
 
-- [uv](https://docs.astral.sh/uv/) (Python package manager)
-- [FontForge](https://fontforge.org) (needed for LibertinusMath and NewComputerModernMath)
+- Python 3.10 or newer, with `venv` (`apt install python3-venv` on Debian/Ubuntu)
+- FontForge's `fontforge` Python module (needed for LibertinusMath and NewComputerModernMath):
+  `apt install python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS
 - [woff2](https://github.com/google/woff2) (for `woff2_compress`)
 
 ### Steps
 
-1. Install Python dependencies:
+1. Create the virtual environment and install the Python dependencies. The `fontforge` module
+   is compiled for one particular Python, so the environment has to be built on that
+   interpreter, with access to its site-packages:
    ```sh
-   uv sync
+   /usr/bin/python3 -m venv --system-site-packages .venv                             # Debian/Ubuntu
+   "$(brew --prefix python@3.14)/bin/python3.14" -m venv --system-site-packages .venv  # macOS
+   .venv/bin/pip install 'pip>=26.1'
+   .venv/bin/pip install --ignore-installed -r pylock.toml
+   ```
+   On macOS, use the `python@3.x` that `brew deps fontforge` lists. `.venv/bin/python -c 'import fontforge'`
+   checks the result. pip reads the `pylock.toml` lock file from version 26.1 on, which is
+   newer than most system pips, hence the upgrade. `--ignore-installed` installs the locked
+   versions even where the system Python already has some version of a package.
+
+2. Run the font's build script, e.g.:
+   ```sh
+   .venv/bin/python NotoSansMath/build.py
    ```
 
-2. `cd` into the font directory, e.g.:
+3. Compress the resulting OTF, which is written next to the build script, to WOFF2:
    ```sh
-   cd NotoSansMath
-   ```
-
-3. Run the build script:
-   ```sh
-   bash build_otf.sh
-   ```
-
-4. Compress the resulting OTF to WOFF2:
-   ```sh
-   woff2_compress <FontName>.otf
+   woff2_compress NotoSansMath/NotoSansMath-Regular.otf
    ```
 
 ## License

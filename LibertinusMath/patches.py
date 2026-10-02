@@ -2,7 +2,7 @@
 
 `LibertinusMath-Regular.sfd` and `features/` in this directory are an unmodified upstream
 snapshot; every deviation from upstream lives here and is re-applied at build time (see
-`build_otf.sh`). Re-vendoring upstream is therefore a plain file replacement. See the repo
+`build.py`). Re-vendoring upstream is therefore a plain file replacement. See the repo
 `README.md` for why each patch is needed.
 
 No patch alters a curve: they copy an existing glyph onto another glyph, translate an
@@ -10,10 +10,9 @@ outline within glyph space, or change an advance width.
 
 There are two halves:
 
-* `apply_patches(font)` runs inside FontForge over the opened `.sfd` (`build.py`).
-* `patch_features(src, dst)` is plain Python and rewrites the `.fea` sources into a build
-  directory before `pcpp` sees them (`build_otf.sh`). It only imports the standard library
-  so both interpreters can load this module.
+* `apply_patches(font)` runs over the `.sfd` once FontForge has opened it (`to_otf.py`).
+* `patch_features(src, dst)` rewrites the `.fea` sources into a build directory before
+  `pcpp` sees them (`build.py`).
 
 Every operation is relative to the glyph's own bounding box or to another glyph's metrics,
 so the tables are just lists of glyph names: no coordinate is written down here, and
@@ -89,6 +88,8 @@ AXIS_CENTRED_INTEGRALS = [
 # U+2236 RATIO is two `period`s stacked, but upstream gives it a 527-unit advance — more
 # than twice `colon`'s — so `a ∶ b` comes out with a gap on either side. Give it `colon`'s
 # advance width and left side bearing; the vertical placement of the dots is untouched.
+# U+2237 PROPORTION is two references to RATIO, so its offsets are shifted back by the same
+# amount, or it would be dragged left along with it.
 RATIO_METRICS_FROM = {"uni2236": "colon"}
 
 # 4. Accent centering (Chromium, WebKit).
@@ -183,11 +184,24 @@ def lower_to_baseline(font, name):
     translate(glyph, 0, -ymin)
 
 
+def keep_references_in_place(font, name, dx, dy):
+    """Undo a move of `name` in every glyph that references it."""
+    for glyph in font.glyphs():
+        references = glyph.references
+        if any(ref == name for ref, *_ in references):
+            # The setter prepends, so hand it the list backwards to keep the order.
+            glyph.references = tuple(
+                (ref, t[:4] + (t[4] - dx, t[5] - dy) if ref == name else t, *rest)
+                for ref, t, *rest in reversed(references))
+
+
 def copy_metrics(font, dest, src):
-    """Give `dest` `src`'s advance width and left side bearing."""
+    """Give `dest` `src`'s advance width and left side bearing, leaving its users alone."""
     source, target = font[src], font[dest]
-    translate(target, source.boundingBox()[0] - target.boundingBox()[0], 0)
+    dx = source.boundingBox()[0] - target.boundingBox()[0]
+    translate(target, dx, 0)
     target.width = source.width
+    keep_references_in_place(font, dest, dx, 0)
 
 
 def apply_patches(font):
@@ -227,8 +241,8 @@ def patch_features(src, dst):
 
 
 if __name__ == "__main__":
-    # Debugging aid: `fontforge -lang=py -script patches.py` writes the patched font back
-    # out as an .sfd, so that
+    # Debugging aid: `../.venv/bin/python patches.py` writes the patched font back out as an
+    # .sfd, so that
     #
     #     diff LibertinusMath-Regular.sfd LibertinusMath-Regular-patched.sfd
     #

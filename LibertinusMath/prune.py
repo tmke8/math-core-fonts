@@ -6,20 +6,16 @@ plus alternates such as `Adieresis` and `A.alt` that were stranded when the math
 was pointed at their `.alt` forms instead. None of them has a code point, a GSUB rule
 producing it, or a place in the `MATH` table. Together they are ~7% of the file.
 
-Run over the FontForge output, before hinting:
+`build.py` runs `prune(source, output)` over the FontForge output, before hinting.
 
-    python prune.py <input.otf> <output.otf>
-
-This is the step `build.py` used to carry as a commented-out `_prune()`. Reinstating it
-verbatim would have been a bug: it seeded the subsetter with `unicodes=` only, and
+This step used to sit in the FontForge script as a commented-out `_prune()`. Reinstating
+that verbatim would have been a bug: it seeded the subsetter with `unicodes=` only, and
 fontTools prunes `MATH` against the glyphs it was *seeded* with rather than the layout
 closure. `integral.sl` and its nine siblings are reachable only through the `ss08`
 feature, so their vertical stretch constructions were silently dropped — the slanted
 integrals survived but could no longer grow to display size. Seeding with the closed-over
 glyph set instead keeps them.
 """
-
-import sys
 
 from fontTools import subset
 from fontTools.ttLib import TTFont
@@ -75,8 +71,7 @@ def reachable(path):
         keep = grown
 
 
-def main():
-    source, output = sys.argv[1:3]
+def prune(source, output):
     keep = reachable(source)
 
     font = TTFont(source)
@@ -86,7 +81,3 @@ def main():
     subsetter.subset(font)
     font.save(output)
     print(f"pruned {dropped} unreachable glyphs, {len(keep)} kept")
-
-
-if __name__ == "__main__":
-    main()
