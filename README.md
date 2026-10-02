@@ -117,7 +117,7 @@ Affected code points: U+222B–U+2233 (the integral signs, single through anticl
 
 ### Ratio spacing
 
-U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved.
+U+2236 Ratio is drawn as two stacked periods, but upstream gives it an advance width of 527 units — more than twice that of `:` — so `a ∶ b` comes out with a conspicuous gap on either side of the symbol. We give it the same advance width and left side bearing as `:`. The dots themselves are not moved, and neither is U+2237 Proportion, which is built from two copies of U+2236.
 
 ## NewComputerModernMath-only changes
 

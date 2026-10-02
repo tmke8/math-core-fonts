@@ -161,6 +161,11 @@ Things worth knowing when adding an operation:
 - `transform` also moves the offsets of the glyph's references, which is wrong when the
   referenced glyphs are being moved by the same amount — hence `translate()`'s
   `move_references` argument, used by the integral shift.
+- Moving a glyph moves every composite that references it. For the integrals that is the
+  point, since the family moves as one. For RATIO it is not: ∷ is two references to ∶, and
+  it shipped 146 units left of upstream (ink at −42) until `copy_metrics()` started
+  calling `keep_references_in_place()`. When patching a new glyph, check what references
+  it.
 - A bounding box read off a glyph in a family that references itself (the integrals) has to
   come from `glyph.foreground`, not `glyph.boundingBox()`, or a reference to an
   already-moved sibling drags the answer.
