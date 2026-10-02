@@ -30,18 +30,40 @@ readable diffs instead of raw coordinates.
 | `NewComputerModernMath/` | `NewCMMath-Book.sfd` (FontForge, **pristine upstream**) + `patches.py` | `fontforge` Python module only |
 | `NotoSansMath/` | `NotoSansMath-Regular.ufo/` (**pristine upstream**) + `patches.py` | `fontmake` |
 
-Prerequisites: `uv`, FontForge's `fontforge` Python module (Libertinus and NewCM —
-`python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS), `woff2` (for
-`woff2_compress`).
+Prerequisites: Python ≥ 3.10 with `venv`, FontForge's `fontforge` Python module
+(Libertinus and NewCM — `python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on
+macOS), `woff2` (for `woff2_compress`).
 
 ```sh
 # once, at repo root: the venv must sit on the Python the fontforge module was built for
-uv venv --system-site-packages --python /usr/bin/python3   # macOS: Homebrew's python@3.14
-uv sync
+/usr/bin/python3 -m venv --system-site-packages .venv   # macOS: Homebrew's python@3.14
+.venv/bin/pip install 'pip>=26.1'
+.venv/bin/pip install --ignore-installed -r pylock.toml
 
-uv run python NotoSansMath/build.py       # or LibertinusMath, NewComputerModernMath
+.venv/bin/python NotoSansMath/build.py    # or LibertinusMath, NewComputerModernMath
 woff2_compress NotoSansMath/NotoSansMath-Regular.otf
 ```
+
+Dependencies are declared in `pyproject.toml` and pinned in `pylock.toml` (PEP 751), which
+pip installs from with `-r` since 26.1. Note `--ignore-installed`: without it, pip counts
+any matching version in the distro's `dist-packages`, visible through
+`--system-site-packages`, as installed. On the machine this was set up on, ~25 of the
+locked packages (psautohint, ufoLib2, lxml, …) were also installed as Debian packages at
+the same versions, and the venv quietly ran Debian's builds of them. With the flag, the
+venv holds exactly the lock, and only `fontforge` comes from the system.
+
+To change or upgrade a dependency, edit `pyproject.toml` and regenerate the lock with the
+command in its header:
+
+```sh
+uv pip compile pyproject.toml --universal --python-version 3.10 --format pylock.toml -o pylock.toml
+```
+
+That is the one place uv is still needed: `pip lock` only locks for the running Python and
+platform, and the lock has to serve CI (Ubuntu 24.04, Python 3.12) and macOS (Homebrew's
+3.14) alike. `uv pip compile` keeps the pins already in `pylock.toml` unless told to
+`--upgrade`. `--python-version 3.10` matches `requires-python`; without it, the lock
+covers only the running Python and newer.
 
 Each font directory has a `build.py` that is the whole build. It works from any current
 directory, and the `.otf` lands next to it.
@@ -87,7 +109,7 @@ which is where upstream keeps it (as in Libertinus). It is set rather than shift
 same dx because `breve`/`caron` reach that step with `brevecmb`/`caroncmb`'s outline but
 their own attachment point.
 
-For debugging, `uv run python patches.py` (from inside the directory) writes
+For debugging, `../.venv/bin/python patches.py` (from inside the directory) writes
 the patched font back out as `NewCMMath-Book-patched.sfd` (gitignored). A FontForge
 open/save round-trip is byte-identical to the input, so `diff NewCMMath-Book.sfd
 NewCMMath-Book-patched.sfd` shows the patches and nothing else — apart from
@@ -187,7 +209,7 @@ The two GSUB changes that cannot sensibly be written as Python stay as feature f
 `ssty.fea` in `build/features/`, which is where `gsub.fea` `#include`s it under
 `#ifdef MATH`.
 
-For debugging, `uv run python patches.py` (from inside the directory) writes
+For debugging, `../.venv/bin/python patches.py` (from inside the directory) writes
 the patched font out as `LibertinusMath-Regular-patched.sfd` (gitignored). Unlike NewCM,
 a FontForge open/save round-trip of this `.sfd` is not byte-identical — upstream's file
 came out of an older FontForge — so `diff LibertinusMath-Regular.sfd

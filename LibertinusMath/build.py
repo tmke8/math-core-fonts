@@ -1,6 +1,6 @@
 """Build LibertinusMath-Regular.otf, leaving every intermediate in `build/`.
 
-    uv run python LibertinusMath/build.py
+    .venv/bin/python LibertinusMath/build.py
 
 The stages:
 

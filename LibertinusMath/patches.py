@@ -241,7 +241,7 @@ def patch_features(src, dst):
 
 
 if __name__ == "__main__":
-    # Debugging aid: `uv run python patches.py` writes the patched font back out as an
+    # Debugging aid: `../.venv/bin/python patches.py` writes the patched font back out as an
     # .sfd, so that
     #
     #     diff LibertinusMath-Regular.sfd LibertinusMath-Regular-patched.sfd

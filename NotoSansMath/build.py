@@ -1,6 +1,6 @@
 """Build NotoSansMath-Regular.otf.
 
-    uv run python NotoSansMath/build.py
+    .venv/bin/python NotoSansMath/build.py
 
 NotoSansMath-Regular.ufo is a pristine upstream snapshot; the browser-compatibility
 patches are applied to a copy of it, which is also what makes them inspectable:

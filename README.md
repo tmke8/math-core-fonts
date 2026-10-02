@@ -137,7 +137,7 @@ Each font requires different tooling, but they all follow the same general patte
 
 ### Prerequisites
 
-- [uv](https://docs.astral.sh/uv/) (Python package manager)
+- Python 3.10 or newer, with `venv` (`apt install python3-venv` on Debian/Ubuntu)
 - FontForge's `fontforge` Python module (needed for LibertinusMath and NewComputerModernMath):
   `apt install python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS
 - [woff2](https://github.com/google/woff2) (for `woff2_compress`)
@@ -148,16 +148,19 @@ Each font requires different tooling, but they all follow the same general patte
    is compiled for one particular Python, so the environment has to be built on that
    interpreter, with access to its site-packages:
    ```sh
-   uv venv --system-site-packages --python /usr/bin/python3                            # Debian/Ubuntu
-   uv venv --system-site-packages --python "$(brew --prefix python@3.14)/bin/python3.14"  # macOS
-   uv sync
+   /usr/bin/python3 -m venv --system-site-packages .venv                             # Debian/Ubuntu
+   "$(brew --prefix python@3.14)/bin/python3.14" -m venv --system-site-packages .venv  # macOS
+   .venv/bin/pip install 'pip>=26.1'
+   .venv/bin/pip install --ignore-installed -r pylock.toml
    ```
-   On macOS, use the `python@3.x` that `brew deps fontforge` lists. `uv run python -c 'import fontforge'`
-   checks the result.
+   On macOS, use the `python@3.x` that `brew deps fontforge` lists. `.venv/bin/python -c 'import fontforge'`
+   checks the result. pip reads the `pylock.toml` lock file from version 26.1 on, which is
+   newer than most system pips, hence the upgrade. `--ignore-installed` installs the locked
+   versions even where the system Python already has some version of a package.
 
 2. Run the font's build script, e.g.:
    ```sh
-   uv run python NotoSansMath/build.py
+   .venv/bin/python NotoSansMath/build.py
    ```
 
 3. Compress the resulting OTF, which is written next to the build script, to WOFF2:

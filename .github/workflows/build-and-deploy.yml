@@ -21,19 +21,20 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: astral-sh/setup-uv@v7
-
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y python3-fontforge woff2
+        run: sudo apt-get update && sudo apt-get install -y python3-fontforge python3-venv woff2
 
       # python3-fontforge is built for the system Python, so the venv has to be too.
+      # pip reads pylock.toml from 26.1 on; --ignore-installed keeps the distro's own
+      # Python packages, visible through --system-site-packages, from standing in for them.
       - name: Install Python dependencies
         run: |
-          uv venv --system-site-packages --python /usr/bin/python3
-          uv sync
+          /usr/bin/python3 -m venv --system-site-packages .venv
+          .venv/bin/pip install 'pip>=26.1'
+          .venv/bin/pip install --ignore-installed -r pylock.toml
 
       - name: Build LibertinusMath
-        run: uv run python LibertinusMath/build.py
+        run: .venv/bin/python LibertinusMath/build.py
 
       - name: Compress to WOFF2
         working-directory: LibertinusMath
@@ -75,16 +76,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: astral-sh/setup-uv@v7
-
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y woff2
+        run: sudo apt-get update && sudo apt-get install -y python3-venv woff2
 
       - name: Install Python dependencies
-        run: uv sync
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install 'pip>=26.1'
+          .venv/bin/pip install -r pylock.toml
 
       - name: Build NotoSansMath
-        run: uv run python NotoSansMath/build.py
+        run: .venv/bin/python NotoSansMath/build.py
 
       - name: Compress to WOFF2
         working-directory: NotoSansMath

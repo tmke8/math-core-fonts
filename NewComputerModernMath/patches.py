@@ -171,7 +171,7 @@ def apply_patches(font):
 
 
 if __name__ == "__main__":
-    # Debugging aid: `uv run python patches.py` writes the patched font back
+    # Debugging aid: `../.venv/bin/python patches.py` writes the patched font back
     # out as an .sfd. A FontForge open/save round-trip is byte-identical, so
     #
     #     diff NewCMMath-Book.sfd NewCMMath-Book-patched.sfd
