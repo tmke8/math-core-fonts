@@ -2,7 +2,7 @@
 
 `LibertinusMath-Regular.sfd` and `features/` in this directory are an unmodified upstream
 snapshot; every deviation from upstream lives here and is re-applied at build time (see
-`build_otf.sh`). Re-vendoring upstream is therefore a plain file replacement. See the repo
+`build.py`). Re-vendoring upstream is therefore a plain file replacement. See the repo
 `README.md` for why each patch is needed.
 
 No patch alters a curve: they copy an existing glyph onto another glyph, translate an
@@ -10,9 +10,9 @@ outline within glyph space, or change an advance width.
 
 There are two halves:
 
-* `apply_patches(font)` runs over the `.sfd` once FontForge has opened it (`build.py`).
+* `apply_patches(font)` runs over the `.sfd` once FontForge has opened it (`to_otf.py`).
 * `patch_features(src, dst)` rewrites the `.fea` sources into a build directory before
-  `pcpp` sees them (`build_otf.sh`).
+  `pcpp` sees them (`build.py`).
 
 Every operation is relative to the glyph's own bounding box or to another glyph's metrics,
 so the tables are just lists of glyph names: no coordinate is written down here, and

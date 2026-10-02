@@ -33,8 +33,7 @@ jobs:
           uv sync
 
       - name: Build LibertinusMath
-        working-directory: LibertinusMath
-        run: uv run bash build_otf.sh
+        run: uv run python LibertinusMath/build.py
 
       - name: Compress to WOFF2
         working-directory: LibertinusMath
@@ -57,8 +56,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y python3-fontforge woff2
 
       - name: Build NewComputerModernMath
-        working-directory: NewComputerModernMath
-        run: bash build_otf.sh
+        run: python3 NewComputerModernMath/build.py
 
       - name: Compress to WOFF2
         working-directory: NewComputerModernMath
@@ -86,8 +84,7 @@ jobs:
         run: uv sync
 
       - name: Build NotoSansMath
-        working-directory: NotoSansMath
-        run: uv run bash build_otf.sh
+        run: uv run python NotoSansMath/build.py
 
       - name: Compress to WOFF2
         working-directory: NotoSansMath

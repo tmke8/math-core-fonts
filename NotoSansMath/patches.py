@@ -1,11 +1,9 @@
 """Browser-compatibility patches applied to the pristine upstream NotoSansMath-Regular.ufo.
 
 The `.ufo` in this directory is an unmodified upstream snapshot; every deviation from
-upstream lives here and is re-applied at build time by `build_otf.sh`, which patches a
-copy under `build/` and hands that to fontmake. See the repo `README.md` for why each
-patch is needed.
-
-Usage: `python patches.py path/to/some.ufo` — patches the UFO in place.
+upstream lives here and is re-applied at build time by `build.py`, which patches a copy
+under `build/` and hands that to fontmake. See the repo `README.md` for why each patch is
+needed.
 
 No patch alters a curve: they copy an existing outline onto another glyph, scale a glyph
 by the factor its own `ssty1` variant already used, translate outlines within glyph
@@ -13,10 +11,8 @@ space, or change an advance width.
 """
 
 import re
-import sys
 
 from fontTools.misc.fixedTools import otRound
-from ufoLib2 import Font
 from ufoLib2.objects import Component
 
 # 1. Primes always big.
@@ -176,8 +172,3 @@ def apply_patches(font):
 
     trim_aalt(font)
 
-
-if __name__ == "__main__":
-    font = Font.open(sys.argv[1])
-    apply_patches(font)
-    font.save()

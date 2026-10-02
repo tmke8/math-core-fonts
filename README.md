@@ -133,7 +133,7 @@ The set of letters is read back out of the font's existing U+FE01 entries rather
 
 ## Building
 
-Each font requires different tooling, but they all follow the same general pattern: a bash script produces an OpenType (`.otf`) file, which can then be compressed to `.woff2` for use in the browser.
+Each font requires different tooling, but they all follow the same general pattern: a `build.py` script produces an OpenType (`.otf`) file, which can then be compressed to `.woff2` for use in the browser.
 
 ### Prerequisites
 
@@ -155,19 +155,14 @@ Each font requires different tooling, but they all follow the same general patte
    On macOS, use the `python@3.x` that `brew deps fontforge` lists. `uv run python -c 'import fontforge'`
    checks the result.
 
-2. `cd` into the font directory, e.g.:
+2. Run the font's build script, e.g.:
    ```sh
-   cd NotoSansMath
+   uv run python NotoSansMath/build.py
    ```
 
-3. Run the build script:
+3. Compress the resulting OTF, which is written next to the build script, to WOFF2:
    ```sh
-   uv run bash build_otf.sh
-   ```
-
-4. Compress the resulting OTF to WOFF2:
-   ```sh
-   woff2_compress <FontName>.otf
+   woff2_compress NotoSansMath/NotoSansMath-Regular.otf
    ```
 
 ## License
