@@ -146,24 +146,32 @@ Each font requires different tooling, but they all follow the same general patte
 
 1. Create the virtual environment and install the Python dependencies. The `fontforge` module
    is compiled for one particular Python, so the environment has to be built on that
-   interpreter, with access to its site-packages:
+   interpreter, with access to its site-packages. On Debian/Ubuntu:
    ```sh
-   /usr/bin/python3 -m venv --system-site-packages .venv                             # Debian/Ubuntu
-   "$(brew --prefix python@3.14)/bin/python3.14" -m venv --system-site-packages .venv  # macOS
-   .venv/bin/pip install 'pip>=26.1'
-   .venv/bin/pip install --ignore-installed -r pylock.toml
+   /usr/bin/python3 -m venv --system-site-packages .venv
    ```
-   On macOS, use the `python@3.x` that `brew deps fontforge` lists. `.venv/bin/python -c 'import fontforge'`
-   checks the result. pip reads the `pylock.toml` lock file from version 26.1 on, which is
+   On macOS, use the `python@3.x` that `brew deps fontforge` lists. Run `.venv/bin/python -c 'import fontforge'`
+   to verify whether it worked:
+   ```sh
+   ff_python=$(brew deps --direct fontforge | grep -E '^python@[0-9]+\.[0-9]+$')
+   "$(brew --prefix "$ff_python")/libexec/bin/python" -m venv --system-site-packages .venv
+   ```
+   Then
+   ```sh
+   source .venv/bin/activate
+   pip install 'pip>=26.1'
+   pip install --ignore-installed -r pylock.toml
+   ```
+    pip reads the `pylock.toml` lock file from version 26.1 on, which is
    newer than most system pips, hence the upgrade. `--ignore-installed` installs the locked
    versions even where the system Python already has some version of a package.
 
-2. Run the font's build script, e.g.:
+1. Run the font's build script, e.g.:
    ```sh
-   .venv/bin/python NotoSansMath/build.py
+   python NotoSansMath/build.py
    ```
 
-3. Compress the resulting OTF, which is written next to the build script, to WOFF2:
+2. Compress the resulting OTF, which is written next to the build script, to WOFF2:
    ```sh
    woff2_compress NotoSansMath/NotoSansMath-Regular.otf
    ```
