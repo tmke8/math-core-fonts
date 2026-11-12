@@ -137,7 +137,7 @@ Each font requires different tooling, but they all follow the same general patte
 
 ### Prerequisites
 
-- Python 3.10 or newer, with `venv` (`apt install python3-venv` on Debian/Ubuntu)
+- Python 3.11 or newer, with `venv` (`apt install python3-venv` on Debian/Ubuntu)
 - FontForge's `fontforge` Python module (needed for LibertinusMath and NewComputerModernMath):
   `apt install python3-fontforge` on Debian/Ubuntu, `brew install fontforge` on macOS
 - [woff2](https://github.com/google/woff2) (for `woff2_compress`)
